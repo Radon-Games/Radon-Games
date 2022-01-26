@@ -1,0 +1,2243 @@
+[
+  {
+    "title": "Achilles",
+    "route": "/achilles",
+    "source": "/proxy/swf/Achilles.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Age of War",
+    "route": "/age-of-war",
+    "source": "/proxy/swf/Age-of-War.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Avalanche",
+    "route": "/avalanche",
+    "source": "/proxy/swf/Avalanche.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Avatar Arena",
+    "route": "/avatar-arena",
+    "source": "/proxy/swf/AvatarArena.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Achievement Unlocked",
+    "route": "/achievement-unlocked",
+    "source": "/proxy/swf/achievement-unlocked.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Alien Hominid",
+    "route": "/alien-hominid",
+    "source": "/proxy/swf/alien-hominid.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Amberial",
+    "route": "/amberial",
+    "source": "/proxy/swf/amberial.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Animal Hunter",
+    "route": "/animal-hunter",
+    "source": "/proxy/swf/animal_hunter.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Animaljam Dressup",
+    "route": "/animaljam-dressup",
+    "source": "/proxy/swf/animaljam-dressup.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Ant Buster",
+    "route": "/ant-buster",
+    "source": "/proxy/swf/antbuster.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Apple Shooter",
+    "route": "/apple-shooter",
+    "source": "/proxy/swf/apple-shooter-2021.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Arkanoid",
+    "route": "/arkanoid",
+    "source": "/proxy/swf/arkanoid.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Asteroids",
+    "route": "/asteroids",
+    "source": "/proxy/swf/asteroids.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Axis Football League",
+    "route": "/axis-football-league",
+    "source": "/proxy/swf/axisfootballleague.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "2048",
+    "route": "/2048",
+    "source": "/proxy/src/2048/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Agario Minigame",
+    "route": "/agario-minigame",
+    "source": "/proxy/src/agario-minigame/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Astray",
+    "route": "/astray",
+    "source": "/proxy/src/astray/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Break Lock",
+    "route": "/break-lock",
+    "source": "/proxy/src/breaklock/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Chroma",
+    "route": "/chroma",
+    "source": "/proxy/src/chroma/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Cookie Clicker",
+    "route": "/cookie-clicker",
+    "source": "/proxy/src/cookie/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Cube Field",
+    "route": "/cube-field",
+    "source": "/proxy/src/cubefield/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Dinosaur",
+    "route": "/dinosaur",
+    "source": "/proxy/src/dinosaur/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Doodle Jump",
+    "route": "/doodle-jump",
+    "source": "/proxy/src/doodle-jump/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Drift (Broken Unity)",
+    "route": "/drift",
+    "source": "/proxy/src/drift/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Duck Life 1 (HTML)",
+    "route": "/ducklife-1-html",
+    "source": "/proxy/src/ducklife/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 2 (HTML) (Broken Unity)",
+    "route": "/duck-life-2-html",
+    "source": "/proxy/src/ducklife2/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Duck Life 3 (HTML)",
+    "route": "/duck-life-3-html",
+    "source": "/proxy/src/ducklife3/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 4 (HTML)",
+    "route": "/duck-life-4-html",
+    "source": "/proxy/src/ducklife4/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Fireboy and Watergirl Forest Temple",
+    "route": "/fireboy-and-watergirl-forest-temple",
+    "source": "/proxy/src/fireboy-and-watergirl-forest-temple/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flappy 2048",
+    "route": "/flappy-2048",
+    "source": "/proxy/src/flappy-2048/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flappy Bird (404 Not Found)",
+    "route": "/flappy-bird",
+    "source": "/proxy/src/flappybird/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Friendly Fire",
+    "route": "/friendly-fire",
+    "source": "/proxy/src/friendlyfire/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Geometry Dash",
+    "route": "/geometry-dash",
+    "source": "/proxy/src/geometry/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gopher Kart",
+    "route": "/gopher-kart",
+    "source": "/proxy/src/gopher-kart/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hexgl",
+    "route": "/hexgl",
+    "source": "/proxy/src/hexgl/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hextris",
+    "route": "/hextris",
+    "source": "/proxy/src/hextris/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Madalin Cars Multiplayer",
+    "route": "/madalin-cars-multiplayer",
+    "source": "/proxy/src/madalin-cars-multiplayer/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Minecraft",
+    "route": "/mc-classic",
+    "source": "/proxy/src/mc-classic/index.html",
+    "sourceType": "iframe",
+    "width": "1080px",
+    "height": "720px",
+    "listed": true
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "route": "/microsoft-flight-simulator",
+    "source": "/proxy/src/microsoft-flight-simulator/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Muffin Knight (Requires Chrome Experimental Features)",
+    "route": "/muffin-knight",
+    "source": "/proxy/src/muffin-knight/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Pacman (HTML)",
+    "route": "/pacman-html",
+    "source": "/proxy/src/pacman/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Radius Raid",
+    "route": "/radius-raid",
+    "source": "/proxy/src/radius-raid/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Retro Bowl",
+    "route": "/retro-bowl",
+    "source": "/proxy/src/retro-bowl/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Ritz",
+    "route": "/ritz",
+    "source": "/proxy/src/ritz/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Run 3 (HTML) (Unknown Error)",
+    "route": "/run-3-html",
+    "source": "/proxy/src/run3/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Slope",
+    "route": "/slope",
+    "source": "/proxy/src/slope/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Super Mario 64",
+    "route": "/sm64",
+    "source": "/proxy/src/sm64/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Space Invaders",
+    "route": "/space-invaders",
+    "source": "/proxy/src/spaceinvaders/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tank Trouble (No Ruffle to External URL)",
+    "route": "/tank-trouble",
+    "source": "/proxy/src/tanktrouble/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Vex 3",
+    "route": "/vex-3",
+    "source": "/proxy/src/vex3/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Vex 4",
+    "route": "/vex-4",
+    "source": "/proxy/src/vex4/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Vex 5",
+    "route": "/vex-5",
+    "source": "/proxy/src/vex5/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Rolling Sky",
+    "route": "/rolling-sky",
+    "source": "/proxy/src/webgl-rollingsky/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "13 Days in Hell",
+    "route": "/13-days-in-hell",
+    "source": "/proxy/swf/13-days-in-hell.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "360 Snake",
+    "route": "/360-snake",
+    "source": "/proxy/swf/360-snake.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "3D Car Driver",
+    "route": "/3d-car-driver",
+    "source": "/proxy/swf/3D-Car-Driver.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "3 Foot Ninja",
+    "route": "/3-foot-ninja",
+    "source": "/proxy/swf/3_foot_ninja.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "50 states",
+    "route": "/50-states",
+    "source": "/proxy/swf/50states.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "3 on 3 Hockey",
+    "route": "/3-on-3-hockey",
+    "source": "/proxy/swf/3_on_3_hockey.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "8 Ball Pool",
+    "route": "/8-ball-pool",
+    "source": "/proxy/swf/8BallPool.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bloons",
+    "route": "/bloons",
+    "source": "/proxy/swf/Bloons.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Falldown",
+    "route": "/falldown",
+    "source": "/proxy/swf/Falldown.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Henry Stick Breaking Into The Bank",
+    "route": "/henry-stick-breaking-the-bank",
+    "source": "/proxy/swf/HenryStick_BreakingTheBank.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Henry Stick Escaping The Prison",
+    "route": "/henry-stick-escaping-the-prison",
+    "source": "/proxy/swf/HenryStick_EscapingThePrison.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Henry Stick Infiltrating The Airship",
+    "route": "/henry-stick-infiltrating-the-airship",
+    "source": "/proxy/swf/HenryStick_InfiltratingTheAirship.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Henry Stick Stealing the Diamond",
+    "route": "/henry-stick-stealing-diamond",
+    "source": "/proxy/swf/HenryStick_StealingDiamond.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "The Impossible Quiz",
+    "route": "/the-impossible-quiz",
+    "source": "/proxy/swf/TheImpossibleQuiz.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Worlds Hardest Game",
+    "route": "/worlds-hardest-game",
+    "source": "/proxy/swf/WorldsHardestGame.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Acid Bunny 2",
+    "route": "/acid-bunny-2",
+    "source": "/proxy/swf/acid-bunny-2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Acid Bunny",
+    "route": "/acid-bunny",
+    "source": "/proxy/swf/acid-bunny.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Ball Breaker",
+    "route": "/ball-breaker",
+    "source": "/proxy/swf/ball-breaker.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bejeweled",
+    "route": "/Bejeweled",
+    "source": "/proxy/swf/bejeweled-unblocked.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bike Mania",
+    "route": "/bike-mania",
+    "source": "/proxy/swf/bikemania.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bike Mania 2",
+    "route": "/bike-mania-2",
+    "source": "/proxy/swf/bikemania2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Binding of Isaac",
+    "route": "/binding-of-isaac",
+    "source": "/proxy/swf/binding-of-isaac.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Blast O' Matic",
+    "route": "/blast-o-matic",
+    "source": "/proxy/swf/blastomatic.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Blobink 2",
+    "route": "/blobink-2",
+    "source": "/proxy/swf/blobink2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bloons Tower Defense 2",
+    "route": "/bloons-tower-defense-2",
+    "source": "/proxy/swf/bloons_tower_defense_2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bubble Trouble",
+    "route": "/bubble-trouble",
+    "source": "/proxy/swf/bubbletrouble.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 1 (Flash)",
+    "route": "/duck-life-1-flash",
+    "source": "/proxy/swf/ducklife1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 2 (Flash)",
+    "route": "/duck-life-2-flash",
+    "source": "/proxy/swf/ducklife2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 3 (Flash)",
+    "route": "/duck-life-3-flash",
+    "source": "/proxy/swf/ducklife3-evolution.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Life 4 (Flash)",
+    "route": "/duck-life-4-flash",
+    "source": "/proxy/swf/ducklife4.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Falldown 2",
+    "route": "/falldown-2",
+    "source": "/proxy/swf/falldown2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Fancy Pants Adventure",
+    "route": "/fancy-pants-adventure",
+    "source": "/proxy/swf/fancypantsadventure.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Fancy Pants Adventure 2",
+    "route": "/fancy-pants-adventure-2",
+    "source": "/proxy/swf/fancypantsworld2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gun Mayhem 2",
+    "route": "/gun-mayhem-2",
+    "source": "/proxy/swf/gun-mayhem-2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gun Mayhem",
+    "route": "/gun-mayhem",
+    "source": "/proxy/swf/gun-mayhem.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "The Impossible Quiz 2",
+    "route": "/impossible-quiz-2",
+    "source": "/proxy/swf/impossiblequiz2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Learn to Fly 1",
+    "route": "/learn-to-fly-1",
+    "source": "/proxy/swf/learntofly1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Learn to Fly 2",
+    "route": "/learn-to-fly-2",
+    "source": "/proxy/swf/learntofly2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Madness Project Nexus (Redirect)",
+    "route": "/madness-project-nexus",
+    "source": "/proxy/swf/madness-project-nexus.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Motherload",
+    "route": "/motherload",
+    "source": "/proxy/swf/motherload.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "PacMan",
+    "route": "/pacman",
+    "source": "/proxy/swf/pacman.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Snake",
+    "route": "/snake",
+    "source": "/proxy/swf/snake.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Super Mario Flash",
+    "route": "/super-mario-flash",
+    "source": "/proxy/swf/super-mario-flash.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Super Mario Flash 2",
+    "route": "/super-mario-flash-2",
+    "source": "/proxy/swf/supermarioflash2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tetris",
+    "route": "/tetris",
+    "source": "/proxy/swf/tetris.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "The Last Stand Union City",
+    "route": "/the-last-stand-union-city",
+    "source": "/proxy/swf/the-last-stand-union-city.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Worlds Hardest Game 2",
+    "route": "/worlds-hardest-game-2",
+    "source": "/proxy/swf/worldshardestgame2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Zombocalypse 2 (Pending Ruffle Issue)",
+    "route": "/zombocalypse-2",
+    "source": "/proxy/swf/zombocalypse-2.1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Zombocalypse",
+    "route": "/zombocalypse",
+    "source": "/proxy/swf/zombocalypse.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Canyon Defense",
+    "route": "/canyon-defense",
+    "source": "/proxy/swf/Canyon Defense.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Copter",
+    "route": "/copter",
+    "source": "/proxy/swf/Copter.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Desktop Tower Defence",
+    "route": "/desktop-tower-defence",
+    "source": "/proxy/swf/DesktopTowerDefence.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Donkey Kong",
+    "route": "/donkey-kong",
+    "source": "/proxy/swf/DonkeyKong.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Doodle Jump",
+    "route": "/doodle-jump",
+    "source": "/proxy/swf/Doodle Jump.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Draw Play",
+    "route": "/draw-play",
+    "source": "/proxy/swf/DrawPlay.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Draw Play 2",
+    "route": "/draw-play-2",
+    "source": "/proxy/swf/DrawPlay2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "The Beard",
+    "route": "/the-beard",
+    "source": "/proxy/swf/castlecrashingthebeard.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Choose Your Weapon 2",
+    "route": "/choose-your-weapon-2",
+    "source": "/proxy/swf/chooseyourweapon2_LB.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Clear Vision",
+    "route": "/clear-vision",
+    "source": "/proxy/swf/clear-vision.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Clear Vision Elite",
+    "route": "/clear-vision-elite",
+    "source": "/proxy/swf/clearvisionelite.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Crazy Taxi",
+    "route": "/crazy-taxi",
+    "source": "/proxy/swf/crazy-taxi.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Cube Field",
+    "route": "/cube-field",
+    "source": "/proxy/swf/cubefield.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Cursor 10",
+    "route": "/cursor-10",
+    "source": "/proxy/swf/cursor10.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Cut The Rope (File not found)",
+    "route": "/cut-the-rope",
+    "source": "/proxy/swf/cut-the-rope.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Dad N' Me",
+    "route": "/dad-n-me",
+    "source": "/proxy/swf/dadnme.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Dance of the Robots",
+    "route": "/dance-of-the-robots",
+    "source": "/proxy/swf/danceoftherobots.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Dancing Bush",
+    "route": "/dancing-bush",
+    "source": "/proxy/swf/dancingbushsmallicon.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Defend Your Castle (File not found)",
+    "route": "/defend-your-castle",
+    "source": "/proxy/swf/defend-your-castle.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Dental Adventure",
+    "route": "/dental-adventure",
+    "source": "/proxy/swf/dental-adventure.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Duck Hunt",
+    "route": "/duck-hunt",
+    "source": "/proxy/swf/duck-hunt.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "DX Hockey",
+    "route": "/dx-hockey",
+    "source": "/proxy/swf/dxhockey.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bloxors",
+    "route": "/bloxors",
+    "source": "/proxy/swf/Bloxors.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bullet Bill 2",
+    "route": "/bullet-bill-2",
+    "source": "/proxy/swf/Bullet Bill 2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bullet Bill 3",
+    "route": "/bullet-bill-3",
+    "source": "/proxy/swf/Bullet Bill 3.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bomb a Bomb",
+    "route": "/bomb-a-bomb",
+    "source": "/proxy/swf/bombabomb.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bow Man",
+    "route": "/bow-man",
+    "source": "/proxy/swf/bowman.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bow Man 2",
+    "route": "/bow-man-2",
+    "source": "/proxy/swf/bowman2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bowmaster",
+    "route": "/bowmaster",
+    "source": "/proxy/swf/bowmaster.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bowmaster Prelude",
+    "route": "/bowmaster-prelude",
+    "source": "/proxy/swf/bowmasterprelude.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bubble Shooter",
+    "route": "/bubble-shooter",
+    "source": "/proxy/swf/bubble shooter.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bubble Tanks 2",
+    "route": "/bubble-tanks-2",
+    "source": "/proxy/swf/bubble_tanks_2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bullet Bill",
+    "route": "/bullet-bill",
+    "source": "/proxy/swf/bullet-bill.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Burger Tycoon",
+    "route": "/burger-tycoon",
+    "source": "/proxy/swf/burgertycoon.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Bot Arena 3 (File not found)",
+    "route": "/bot-arena-3",
+    "source": "/proxy/swf/bot-arena-3.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Boxhead 2",
+    "route": "/boxhead-2",
+    "source": "/proxy/swf/dagobah_boxhead_2play.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Electric Man",
+    "route": "/electric-man",
+    "source": "/proxy/swf/ElectricMan.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Excite Bike",
+    "route": "/excite-bike",
+    "source": "/proxy/swf/ExciteBike.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Feudalism 2",
+    "route": "/feudalism-2",
+    "source": "/proxy/swf/Feudalism2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flood Runner 3",
+    "route": "/flood-runner-3",
+    "source": "/proxy/swf/Flood_Runner3.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flood Runner 4",
+    "route": "/",
+    "source": "/proxy/swf/",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flood Runner 2",
+    "route": "/flood-runner-2",
+    "source": "/proxy/swf/",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Earthbound",
+    "route": "/earthbound",
+    "source": "/proxy/swf/earthbound.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Effing Worms",
+    "route": "/effing-worms",
+    "source": "/proxy/swf/effingworms.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Falling Bush",
+    "route": "/falling-bush",
+    "source": "/proxy/swf/fallingbush.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Fat Ninja",
+    "route": "/fat-ninja",
+    "source": "/proxy/swf/fat-ninja.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Feudalism",
+    "route": "/feudalism",
+    "source": "/proxy/swf/feudalism.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flashcraft",
+    "route": "/flashcraft",
+    "source": "/proxy/swf/flashcraft.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flight",
+    "route": "/",
+    "source": "/proxy/swf/",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Free Rider 2",
+    "route": "/free-rider-2",
+    "source": "/proxy/swf/freerider2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Frogger",
+    "route": "/frogger",
+    "source": "/proxy/swf/frogger.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Grow RPG",
+    "route": "/grow-rpg",
+    "source": "/proxy/swf/growrpg.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gods Playing Field",
+    "route": "/gods-playing-field",
+    "source": "/proxy/swf/Gods Playing Field.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Grid Lock",
+    "route": "/grid-lock",
+    "source": "/proxy/swf/Gridlock.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo",
+    "route": "/hobo",
+    "source": "/proxy/swf/Hobo.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Indestructo Tank",
+    "route": "/indestructo-tank",
+    "source": "/proxy/swf/IndestructoTank.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Line Rider 2",
+    "route": "/line-rider-2",
+    "source": "/proxy/swf/Line Rider 2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Madness",
+    "route": "/madness",
+    "source": "/proxy/swf/Madness.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Mario Revived",
+    "route": "/mario-revived",
+    "source": "/proxy/swf/Mariorevived.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Max Dirt Bike 1",
+    "route": "/max-dirt-bike-1",
+    "source": "/proxy/swf/MaxDirtBike1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Monopoly",
+    "route": "/monopoly",
+    "source": "/proxy/swf/Monopoly.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "N",
+    "route": "/n",
+    "source": "/proxy/swf/N.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Parachute",
+    "route": "/parachute",
+    "source": "/proxy/swf/Parachute.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Portal",
+    "route": "/portal",
+    "source": "/proxy/swf/Portal.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Prince of War",
+    "route": "/prince-of-war",
+    "source": "/proxy/swf/PrinceofWar.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Prince of War 2",
+    "route": "/prince-of-war-2",
+    "source": "/proxy/swf/PrinceofWar2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Raft Wars",
+    "route": "/raft-wars",
+    "source": "/proxy/swf/RaftWars.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Shock 1",
+    "route": "/shock-1",
+    "source": "/proxy/swf/SHOCK1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Staggy the Boy Scout Slayer 2",
+    "route": "/staggy-the-boy-scout-slayer-2",
+    "source": "/proxy/swf/Staggy The Boy Scout Slayer II.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Stick War",
+    "route": "/stick-war",
+    "source": "/proxy/swf/Stick War.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Storm the House 2",
+    "route": "/storm-the-house-2",
+    "source": "/proxy/swf/StormtheHouse2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tactical Assassin",
+    "route": "/tactical-assassin",
+    "source": "/proxy/swf/TacticalAssassin.swff",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tactical Assassin 2",
+    "route": "/tactical-assassin-2",
+    "source": "/proxy/swf/TacticalAssassin2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "The Unfair Platformer",
+    "route": "/the-unfair-platformer",
+    "source": "/proxy/swf/The Unfair Platformer.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Toss the Turtle",
+    "route": "/toss-the-turtle.swf",
+    "source": "/proxy/swf/Toss The Turtle.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Zelda",
+    "route": "/zelda",
+    "source": "/proxy/swf/Zelda.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Zoeken",
+    "route": "/zoeken",
+    "source": "/proxy/swf/Zoeken.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Armor RPG Experiment",
+    "route": "/armor-rpg-experiment",
+    "source": "/proxy/swf/armorrpg_mod.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Galaga",
+    "route": "/galaga",
+    "source": "/proxy/swf/galaga.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Geo Land RPG",
+    "route": "/geo-land-rpg",
+    "source": "/proxy/swf/geolandrpg.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Grid 16",
+    "route": "/grid-16",
+    "source": "/proxy/swf/grid16.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Grow Island",
+    "route": "/grow-island",
+    "source": "/proxy/swf/growisland.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gun Blood",
+    "route": "/gun-blood",
+    "source": "/proxy/swf/gunblood.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hell Cops",
+    "route": "/hell-cops",
+    "source": "/proxy/swf/hell-cops.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hexxagon",
+    "route": "/hexxagon",
+    "source": "/proxy/swf/hexxagon.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo 4: Total War",
+    "route": "/hobo-4-total-war",
+    "source": "/proxy/swf/hobo-4-total-war-749179f9.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo 5: Space Brawls",
+    "route": "/hobo-5-space-brawls",
+    "source": "/proxy/swf/hobo-5-space-brawls--11410f2f2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo 6: Hell",
+    "route": "/hobo-6-hell",
+    "source": "/proxy/swf/hobo-6-hell-136403467.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo 7: Heaven",
+    "route": "/hobo-7-heaven",
+    "source": "/proxy/swf/hobo-7-heaven-14404_6.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo 3: Wanted",
+    "route": "/hobo-3-wanted",
+    "source": "/proxy/swf/hobo3-wanted-5673395b.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hobo Prison Brawl",
+    "route": "/hobo-prison-brawl",
+    "source": "/proxy/swf/hoboprisonbrawl.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hot Corn",
+    "route": "/hot-corn",
+    "source": "/proxy/swf/hotcorn.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Impossible Quiz Book",
+    "route": "/impossible-quiz-book",
+    "source": "/proxy/swf/impossiblequizbook.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Indestructo Tank 2",
+    "route": "/indestructo-tank-2",
+    "source": "/proxy/swf/indestructotank2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Interactive Buddy 2",
+    "route": "/interactive-buddy-2",
+    "source": "/proxy/swf/interactivebuddy2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Internet RPG",
+    "route": "/internet-rpg",
+    "source": "/proxy/swf/internet-rpg.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Jump",
+    "route": "/jump",
+    "source": "/proxy/swf/jump.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Kung Fu Remix 2",
+    "route": "/kung-fu-remix-2",
+    "source": "/proxy/swf/kungfuremix2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Line Game Orange",
+    "route": "/line-game-orange",
+    "source": "/proxy/swf/linegameorange.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Mario Combat",
+    "route": "/mario-combat",
+    "source": "/proxy/swf/mariocombat.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Mini Putt",
+    "route": "/mini-putt",
+    "source": "/proxy/swf/miniputt.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Only Level",
+    "route": "/only-level",
+    "source": "/proxy/swf/onlylevel.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "PacXon",
+    "route": "/pacxon",
+    "source": "/proxy/swf/pacxon.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Pandemic 1",
+    "route": "/pandemic-1",
+    "source": "/proxy/swf/pandemic-1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Pandemic 2",
+    "route": "/pandemic-2",
+    "source": "/proxy/swf/pandemic2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Parking Mania",
+    "route": "/parking-mania",
+    "source": "/proxy/swf/parkingmania.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Powerpuff Girls Zombgone",
+    "route": "/powerpuff-girls-zombgone",
+    "source": "/proxy/swf/powerpuff_girls_zombgone.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Raft Wars 2",
+    "route": "/raft-wars-2",
+    "source": "/proxy/swf/raft-wars-2_mochi_secure.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Real Estate Tycoon",
+    "route": "/real-estate-tycoon",
+    "source": "/proxy/swf/real-estate-tycoon-1350817f.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Red Shift",
+    "route": "/red-shift",
+    "source": "/proxy/swf/redshift.swf ",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Robot Unicorn Attack",
+    "route": "/robot-unicorn-attack",
+    "source": "/proxy/swf/robotunicornattack.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads 1",
+    "route": "/sift-heads-1",
+    "source": "/proxy/swf/sift-heads-1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads 2",
+    "route": "/sift-heads-2",
+    "source": "/proxy/swf/sift-heads-2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads 3",
+    "route": "/sift-heads-3",
+    "source": "/proxy/swf/sift-heads-3.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads 4",
+    "route": "/sift-heads-4",
+    "source": "/proxy/swf/sift-heads-4.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads 5",
+    "route": "/sift-heads-5",
+    "source": "/proxy/swf/sift-heads-5.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sift Heads World",
+    "route": "/sift-heads-world",
+    "source": "/proxy/swf/sift_heads_world.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sim Web 2.0 Company",
+    "route": "/sim-web-2-0-company",
+    "source": "/proxy/swf/simweb2.0company.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Skull Kid",
+    "route": "/skull-kid",
+    "source": "/proxy/swf/skull_kid.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sky Wire",
+    "route": "/sky-wire",
+    "source": "/proxy/swf/skywire.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Spank the Monkey",
+    "route": "/spank-the-monkey",
+    "source": "/proxy/swf/spankthemonkey.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Spider Man",
+    "route": "/spider-man",
+    "source": "/proxy/swf/spider-man.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Sprinter",
+    "route": "/sprinter",
+    "source": "/proxy/swf/sprinter",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Stick RPG",
+    "route": "/stick-rpg",
+    "source": "/proxy/swf/stickrpg.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Submachine 1",
+    "route": "/submachine-1",
+    "source": "/proxy/swf/submachine_1.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Submachine 2",
+    "route": "/submachine-2",
+    "source": "/proxy/swf/submachine_2.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Submachine 3",
+    "route": "/submachine-3",
+    "source": "/proxy/swf/submachine_3.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Super Smash Flash",
+    "route": "/super-smash-flash",
+    "source": "/proxy/swf/super_smash_flash.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Super Mario 63",
+    "route": "/super-mario-63",
+    "source": "/proxy/swf/supermario63.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Treasure Seas ",
+    "route": "/treasure-seas",
+    "source": "/proxy/swf/treasureseas.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tron",
+    "route": "/tron",
+    "source": "/proxy/swf/tron.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tsunami Fighter",
+    "route": "/tsunami-fighter",
+    "source": "/proxy/swf/tsunamifighter.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Use Boxmen",
+    "route": "/use-boxmen",
+    "source": "/proxy/swf/use-boxmen.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Warfare 1944",
+    "route": "/",
+    "source": "/proxy/swf/",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Kitten Cannon",
+    "route": "/kitten-cannon",
+    "source": "/proxy/swf/yetiGamesKitten Cannon.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Moto X3M",
+    "route": "/moto-x3m",
+    "source": "/proxy/src/moto-x3m/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Moto X3M Winter",
+    "route": "/moto-x3m-winter",
+    "source": "/proxy/src/moto-x3m-winter/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Moto X3M Spooky Land",
+    "route": "/moto-x3m-spooky-land",
+    "source": "/proxy/src/moto-x3m-spooky-land/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Moto X3M Pool Party",
+    "route": "/moto-x3m-pool-party",
+    "source": "/proxy/src/moto-x3m-pool-party/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Friday Night Funkin: Week 6",
+    "route": "/friday-night-funkin-week-6",
+    "source": "/proxy/src/friday-night-funkin--week-6/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Friday Night Funkin: Vs Ex",
+    "route": "/friday-night-funkin-vs-ex",
+    "source": "/proxy/src/friday-night-funkin--vs-ex/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Hill Racing",
+    "route": "/hill-racing",
+    "source": "/proxy/src/hill-racing/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Running Bot Xmas Gifts",
+    "route": "/running-bot-xmas-gifts",
+    "source": "/proxy/src/running-bot-xmas-gifts/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Russian Taz Magmes",
+    "route": "/russian-taz-magmes",
+    "source": "/proxy/src/russian-taz-magmes/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Slope 2",
+    "route": "/slope-2",
+    "source": "/proxy/src/slope-2/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Game Inside a Game",
+    "route": "/game-inside-a-game",
+    "source": "/proxy/src/game-inside-a-game/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Google Snake (Refused to Connect)",
+    "route": "/google-snake",
+    "source": "https://onebigstatic-tmm.tbt.mx/shortstatic/https://www.google.com/fbx?fbx=snake_arcade",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  }
+]
