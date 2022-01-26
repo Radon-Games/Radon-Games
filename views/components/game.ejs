@@ -1,0 +1,16 @@
+<% if(game.sourceType === "embed") { %>
+<embed
+  src="<%=game.source%>"
+  style="margin: 0 auto;display: block;"
+  width="<%=game.width%>" 
+  height="<%=game.height%>" 
+  quality="high"
+/>
+<% } else if(game.sourceType === "iframe") {%>
+<iframe 
+  src="<%=game.source%>"
+  style="margin: 0 auto;display: block;"
+  width="<%=game.width%>" 
+  height="<%=game.height%>"
+></iframe>
+<% } %>
