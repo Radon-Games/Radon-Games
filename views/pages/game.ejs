@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%-include("../components/head")%>
+    <script src="https://cdn.glitch.global/7a7ecda1-7fea-4235-b2da-81abaec6b102/ruffle.js"></script>
+  </head>
+  <body>
+    <%-include("../components/nav")%>
+
+    <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl mt-10 mb-4 text-center"><%=game.title%></h1>
+    <%-include("../components/game")%>
+    <p class="text-center mb-10"><a class="text-gray-600 dark:text-gray-400 text-center underline" href="/report?game=<%= game.route.split("/")[1] %>">Report Issue</a></p>
+    
+    <%-include("../components/footer")%>
+  </body>
+</html>

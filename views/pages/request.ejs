@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%-include("../components/head")%>
+  </head>
+  <body>
+    <%-include("../components/nav")%>
+
+
+    <section class="w-full max-w-2xl m-10 px-6 py-4 mx-auto bg-white dark:bg-gray-800">
+      <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Game Request</h2>
+      <form method="GET" action="/request">
+        <div class="items-center -mx-2 md:flex">
+          <div class="w-full mx-2">
+            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Name</label>
+            <input name="name" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="text"/>
+          </div>
+          
+          <div class="w-full mx-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">E-mail</label>
+            <input name="email" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="email"/>
+          </div>
+        </div><br/>
+        
+        <div class="items-center -mx-2 md:flex">
+          <div class="w-full mx-2">
+            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Game Name<span class="text-red-700">*</span></label>
+            <input name="gameName" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="text"/>
+          </div>
+          
+          <div class="w-full mx-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Game Type<span class="text-red-700">*</span></label>
+            <select name="gameType" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+              <option value="unknown">Unknown</option>
+              <option value="flash">Flash</option>
+              <option value="html">HTML</option>
+              <option value="webgl">WebGL</option>
+            </select>
+          </div>
+        </div><br/>
+        
+        <div class="w-full mx-2 mt-4 md:mt-0">
+          <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Game URL</label>
+          <input name="url" class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="email"/>
+        </div>
+        
+        <div class="flex justify-center mt-6">
+          <input type="submit" class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" value="Request"/>
+        </div>
+      </form>
+    </section>
+    
+    <%-include("../components/footer")%>
+  </body>
+</html>

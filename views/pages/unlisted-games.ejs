@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%-include("../components/head")%>
+  </head>
+  <body>
+    <%-include("../components/nav")%>
+    
+    <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl m-10 text-center">Unlisted Games</h1>
+    <p class="text-gray-600 dark:text-gray-400 text-center">
+      These games may be broken, blocked, or unpopular. We put them here to free up space on the main games page.<br/>
+      <a class="underline" href="/games">Go to main games page.</a>
+    </p>
+    
+    <!-- A-D -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">A-B:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.ab.length;i++) { %>
+          <a href="/game<%= games.ab[i].route %>"><%= games.ab[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">C-D:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.cd.length;i++) { %>
+          <a href="/game<%= games.cd[i].route %>"><%= games.cd[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- E-H -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">E-F:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.ef.length;i++) { %>
+          <a href="/game<%= games.ef[i].route %>"><%= games.ef[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">G-H:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.gh.length;i++) { %>
+          <a href="/game<%= games.gh[i].route %>"><%= games.gh[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- I-L -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">I-J:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.ij.length;i++) { %>
+          <a href="/game<%= games.ij[i].route %>"><%= games.ij[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">K-L:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.kl.length;i++) { %>
+          <a href="/game<%= games.kl[i].route %>"><%= games.kl[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- M-P -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">M-N:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.mn.length;i++) { %>
+          <a href="/game<%= games.mn[i].route %>"><%= games.mn[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">O-P:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.op.length;i++) { %>
+          <a href="/game<%= games.op[i].route %>"><%= games.op[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Q-T -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Q-R:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.qr.length;i++) { %>
+          <a href="/game<%= games.qr[i].route %>"><%= games.qr[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">S-T:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.st.length;i++) { %>
+          <a href="/game<%= games.st[i].route %>"><%= games.st[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- U-X -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">U-V:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.uv.length;i++) { %>
+          <a href="/game<%= games.uv[i].route %>"><%= games.uv[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">W-X:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.wx.length;i++) { %>
+          <a href="/game<%= games.wx[i].route %>"><%= games.wx[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Y-Other -->
+    <div class="flex text-center m-10">
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Y-Z:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.yz.length;i++) { %>
+          <a href="/game<%= games.yz[i].route %>"><%= games.yz[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Other:</h1>
+        <ul class="text-center">
+        <% for(var i=0;i<games.other.length;i++) { %>
+          <a href="/game<%= games.other[i].route %>"><%= games.other[i].title %></a><br/>
+        <% } %>
+        </ul>
+      </div>
+    </div>
+    
+    <%-include("../components/footer")%>
+  </body>
+</html>
