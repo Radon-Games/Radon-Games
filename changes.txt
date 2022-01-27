@@ -1,5 +1,9 @@
 1/27/22:
   - Added redirect from gamesalt
+  - Added tailwind builds
+  - Added replit support
+  - Adsense
+  - Search term highlighting
 
 1/26/22:
   - Added game requests

@@ -26,6 +26,10 @@
       items.forEach((item) => {
         if(item.children[0].innerText.toLowerCase().includes(searchbar.value.toLowerCase())) {
           item.classList.remove("hidden");
+          var str = searchbar.value.toLowerCase();
+          var itemStr = item.children[0].innerText.toLowerCase();
+          var output = itemStr.replace(str, '<span class="bg-yellow-400 rounded">'+str+'</span>');
+          item.children[0].innerHTML = output;
         } else {
           item.classList.add("hidden");
         }
