@@ -6,6 +6,9 @@ An open-source unblocked games website built with simplicity in mind.
 
 ## How to setup
 
+Clone on Replit:<br>
+[![](https://repl.it/badge/github/ericksoncohen/radon-games)](https://repl.it/github/ericksoncohen/radon-games)
+
 In shell:
 ```
 $ git clone https://github.com/ericksoncohen/radon-games
@@ -22,47 +25,41 @@ The default place for the website is `http://localhost:3000`, but this can be ch
 ## Structure
 
 
-`/views` - 
-> `/components` - 
->> `footer.ejs` - 
+`/views` - <br>
+> `/components` - <br>
+>> `footer.ejs` - <br>
+>> `game.ejs` - <br>
+>> `head.ejs` - <br>
+>> `nav.ejs` - <br>
+>> `search.ejs` - <br>
 
->> `game.ejs` - 
-
->> `head.ejs` - 
-
->> `nav.ejs` - 
-
->> `search.ejs` - 
-
-> `/pages` - 
->> `404.ejs` - 
-
->> `game.ejs` - 
-
->> `games.ejs` - 
-
->> `index.ejs` - 
-
->> `report.ejs` - 
-
->> `requst.ejs` - 
-
->> `unlisted-games.ejs` - 
-
- `/public` - 
-> `/css` - 
->> `style.css` - 
-
->> `build.css` - 
-
-> `/js` - 
->> `script.js` - 
-
-> `/img` - 
->> `logo-512.png` - 
+> `/pages` - <br>
+>> `404.ejs` - <br>
+>> `game.ejs` - <br>
+>> `games.ejs` - <br>
+>> `index.ejs` - <br>
+>> `report.ejs` - <br>
+>> `requst.ejs` - <br>
+>> `unlisted-games.ejs` - <br>
 
 
-`/server` - 
-> `proxy.js` - 
+`/public` - <br>
+> `/css` - <br>
+>> `style.css` - <br>
+>> `build.css` - <br>
+> `/js` - <br>
+>> `script.js` - <br>
+> `/img` - <br>
+>> `logo-512.png` - <br>
 
-> `routes.js` - 
+
+`/server` - <br>
+> `proxy.js` - <br>
+> `routes.js` - <br>
+
+`changes.txt` - <br>
+`config.json` - <br>
+`seo.json` - <br>
+`server.js` - <br>
+`TODO.md` - <br>
+`version.json` - <br>
