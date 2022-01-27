@@ -1,6 +1,6 @@
 // initialize variables
 const express = require("express")();
-const path = require('path')
+const path = require('path');
 
 // setup options
 express.use(require("express").static('public'));
@@ -10,6 +10,7 @@ express.use(require("express-rate-limit")({
 	max: 30
 }));
 express.use(require("express").json());
+express.use(require("express").urlencoded({ extended: true }));
 
 // register routes
 require("./server/routes.js")(express);

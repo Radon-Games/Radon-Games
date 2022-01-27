@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { post } = require("axios");
 
 module.exports = function(app) {
   // start proxy server 
@@ -76,26 +77,61 @@ module.exports = function(app) {
   
   // request and report routes
   app.get("/report", (req, res) => {
-    let reqData = req.query;
+    res.render("pages/report", { SEO: SEO, version: require("../version.json").version });
+  });
+  
+  app.post("/report", (req, res) => {
+    let reqData = req.body;
     if(!reqData.message) {
-      return res.render("pages/report", { SEO: SEO, version: require("../version.json").version });
+      return res.render("pages/report", { SEO: SEO, error: "Some feilds were not filled out properly.", version: require("../version.json").version });
     }
-    let reportsData = JSON.parse(fs.readFileSync("./reports.json", { encoding: "utf8" }));
-    reportsData.push(reqData);
-    fs.writeFileSync("./reports.json", JSON.stringify(reportsData, null, 2), { encoding: "utf8" });
-    res.redirect(202, "/report");
+    post("https://radon-api.cohenerickson.repl.co/report", reqData)
+    .then((r) => {
+      if(r.data.status !== 202) return res.render("pages/report", { SEO: SEO, error: "Some feilds were not filled out properly.", version: require("../version.json").version });
+      return res.render("pages/report", { SEO: SEO, message: "Success!", version: require("../version.json").version });
+    })
+    .catch((e) => {
+      console.error(e);
+      return res.render("pages/report", { SEO: SEO, error: "An unexpected error occurred, please try again later.", version: require("../version.json").version });
+    });
   });
   
   app.get("/request", (req, res) => {
-    let reqData = req.query;
-    if(!reqData.gameName || !reqData.gameType) {
-      return res.render("pages/request", { SEO: SEO });
-    }
-    let requestsData = JSON.parse(fs.readFileSync("./requests.json", { encoding: "utf8" }));
-    requestsData.push(reqData);
-    fs.writeFileSync("./requests.json", JSON.stringify(requestsData, null, 2), { encoding: "utf8" });
-    res.redirect(202, "/request");
+    res.render("pages/request", { SEO: SEO });
   });
+  
+  app.post("/request", (req, res) => {
+    let reqData = req.body;
+    if(!reqData.gameName || !reqData.gameType) {
+      return res.render("pages/request", { SEO: SEO, error: "Some feilds were not filled out properly." });
+    }
+    post("https://radon-api.cohenerickson.repl.co/request", reqData)
+    .then((r) => {
+      if(r.data.status !== 202) return res.render("pages/request", { SEO: SEO, error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { SEO: SEO, message: "Success!" });
+    })
+    .catch((e) => {
+      console.error(e);
+      return res.render("pages/request", { SEO: SEO, error: "An unexpected error occurred, please try again later." });
+    });
+  });
+  
+  
+  
+  
+  /*  TESTING  */
+  app.get("/test", (req, res) => {
+    res.render("pages/test");
+  });
+  
+  app.post("/test", (req, res) => {
+    console.log(req.body);
+    res.render("pages/test");
+  });
+  
+  
+  
+  
   
   // 404 route
   app.get("*", (req, res) => {
@@ -112,5 +148,6 @@ function sortGames(games) {
     let title = game.title;
     switch(game.title.split("")[0].toLowerCase()){case"a":case"b":output.ab.push(game);break;case"c":case"d":output.cd.push(game);break;case"e":case"f":output.ef.push(game);break;case"g":case"h":output.gh.push(game);break;case"i":case"j":output.ij.push(game);break;case"k":case"l":output.kl.push(game);break;case"m":case"n":output.mn.push(game);break;case"o":case"p":output.op.push(game);break;case"q":case"r":output.qr.push(game);break;case"s":case"t":output.st.push(game);break;case"u":case"v":output.uv.push(game);break;case"w":case"x":output.wx.push(game);break;case"y":case"z":output.yz.push(game);break;default:output.other.push(game)}
   });
+  output.all = games;
   return output;
 }
