@@ -43,10 +43,6 @@ module.exports = function(app) {
     res.render("pages/about", { SEO: SEO });
   });
 
-  app.get("/redirect", (req, res) => {
-    res.redirect(req.query.target);
-  });
-
   app.get("/game*", (req, res) => {
     // get game url
     let path = req.url.split("/game");
