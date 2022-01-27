@@ -71,10 +71,6 @@ module.exports = function(app) {
     res.sendFile("/app/changes.txt");
   });
   
-  app.get("/settings", (req, res) => {
-    res.render("pages/settings", { SEO: SEO });
-  });
-  
   // request and report routes
   app.get("/report", (req, res) => {
     res.render("pages/report", { SEO: SEO, version: require("../version.json").version });
@@ -114,24 +110,7 @@ module.exports = function(app) {
       console.error(e);
       return res.render("pages/request", { SEO: SEO, error: "An unexpected error occurred, please try again later." });
     });
-  });
-  
-  
-  
-  
-  /*  TESTING  */
-  app.get("/test", (req, res) => {
-    res.render("pages/test");
-  });
-  
-  app.post("/test", (req, res) => {
-    console.log(req.body);
-    res.render("pages/test");
-  });
-  
-  
-  
-  
+  });  
   
   // 404 route
   app.get("*", (req, res) => {
