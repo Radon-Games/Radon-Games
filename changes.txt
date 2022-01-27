@@ -1,8 +1,13 @@
+1/27/22:
+  - Added redirect from gamesalt
+
 1/26/22:
   - Added game requests
   - UI updates
   - Updated games and reports to POST and radon-api backend for them
   - Add email updates for bug reports and game requests
+  - Upgrade Ruffle Version
+    - Nightly 1/21/22 --> Nightly 1/26/22
 
 1/25/22:
   - Added bug reports
