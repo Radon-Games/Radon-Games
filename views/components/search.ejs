@@ -17,6 +17,12 @@
   let dropdown = document.getElementById("dropdown");
   let searchbar = document.getElementById("searchbar");
   let items = document.querySelectorAll("#dropdown ul li");
+  let settings = window.localStorage.getItem("settings") || {}
+
+  function charToColor(char, brightness){
+    let n = char.charCodeAt(0) - 65;
+    return 'hsl('+(n/25)*360+','+brightness+'%,70%)';
+  }
   
   searchbar.addEventListener("input", (e) => {
     if(!searchbar.value) {
@@ -26,9 +32,14 @@
       items.forEach((item) => {
         if(item.children[0].innerText.toLowerCase().includes(searchbar.value.toLowerCase())) {
           item.classList.remove("hidden");
-          var str = searchbar.value.toLowerCase();
-          var itemStr = item.children[0].innerText.toLowerCase();
-          var output = itemStr.replace(str, '<span class="bg-yellow-400 rounded">'+str+'</span>');
+          let str = searchbar.value.toLowerCase();
+          let itemStr = item.children[0].innerText.toLowerCase();
+          let output;
+          if(settings.searchColors) {
+            output = itemStr.replace(str, '<span style="background:'+charToColor(str[0], 100)+';" class="rounded">'+str+'</span>');
+          } else {
+            output = itemStr.replace(str, '<span class="bg-yellow-400 rounded">'+str+'</span>');
+          }
           item.children[0].innerHTML = output;
         } else {
           item.classList.add("hidden");

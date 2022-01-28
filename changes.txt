@@ -1,3 +1,10 @@
+1/28/22:
+  - Added Games (HTML):
+    - Zombotron
+    - Zombotron 2
+    - Zombotron 2 time machine
+  - Removed gamesalt banner
+
 1/27/22:
   - Added redirect from gamesalt
   - Added tailwind builds

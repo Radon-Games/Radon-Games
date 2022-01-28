@@ -648,13 +648,13 @@
     "listed": true
   },
   {
-    "title": "Bike Mania",
+    "title": "Bike Mania (Needs Review)",
     "route": "/bike-mania",
     "source": "/proxy/swf/bikemania.swf",
     "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
-    "listed": true
+    "listed": false
   },
   {
     "title": "Bike Mania 2",
@@ -2241,30 +2241,30 @@
     "listed": false
   },
   {
-    "title": "Zombotron (needs testing)",
+    "title": "Zombotron",
     "route": "/zombotron",
-    "source": "https://game.cohenerickson.repl.co",
+    "source": "/proxy/src/zombotron/index.html",
     "sourceType": "iframe",
     "width": "1000px",
     "height": "625px",
-    "listed": false
+    "listed": true
   },
   {
-    "title": "Zombotron 2 (needs testing)",
+    "title": "Zombotron 2",
     "route": "/zombotron-2",
     "source": "/proxy/src/zombotron-2/index.html",
     "sourceType": "iframe",
     "width": "1000px",
     "height": "625px",
-    "listed": false
+    "listed": true
   },
   {
-    "title": "Zombotron 2 (needs testing)",
-    "route": "/zombotron-2",
+    "title": "Zombotron 2 Time Machine",
+    "route": "/zombotron-2-time-machine",
     "source": "/proxy/src/zombotron-2-time-machine/index.html",
     "sourceType": "iframe",
     "width": "1000px",
     "height": "625px",
-    "listed": false
+    "listed": true
   }
 ]
