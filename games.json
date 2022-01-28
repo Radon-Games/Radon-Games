@@ -2239,5 +2239,32 @@
     "width": "1000px",
     "height": "625px",
     "listed": false
+  },
+  {
+    "title": "Zombotron (needs testing)",
+    "route": "/zombotron",
+    "source": "https://game.cohenerickson.repl.co",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Zombotron 2 (needs testing)",
+    "route": "/zombotron-2",
+    "source": "/proxy/src/zombotron-2/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
+  },
+  {
+    "title": "Zombotron 2 (needs testing)",
+    "route": "/zombotron-2",
+    "source": "/proxy/src/zombotron-2-time-machine/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": false
   }
 ]
