@@ -4,6 +4,7 @@
   - Added replit support
   - Adsense
   - Search term highlighting
+  - Scraped games
 
 1/26/22:
   - Added game requests
