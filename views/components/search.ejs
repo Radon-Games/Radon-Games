@@ -17,7 +17,7 @@
   let dropdown = document.getElementById("dropdown");
   let searchbar = document.getElementById("searchbar");
   let items = document.querySelectorAll("#dropdown ul li");
-  let settings = window.localStorage.getItem("settings") || {}
+  settings = window.localStorage.getItem("settings") || {}
 
   function charToColor(char, brightness){
     let n = char.charCodeAt(0) - 65;
