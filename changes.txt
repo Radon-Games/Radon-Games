@@ -4,6 +4,9 @@
     - Zombotron 2
     - Zombotron 2 time machine
   - Removed gamesalt banner
+  - Scraped games
+  - Updated README.md
+  - Added heroku support
 
 1/27/22:
   - Added redirect from gamesalt
