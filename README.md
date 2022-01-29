@@ -9,6 +9,8 @@ An open-source unblocked games website built with simplicity in mind.
 ### Automatic Deployment:<br>
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/ericksoncohen/radon-games)
 [![Run on Replit](https://repl.it/badge/github/ericksoncohen/radon-games)](https://repl.it/github/ericksoncohen/radon-games)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ericksoncohen/radon-games)
+
 
 ### In shell:
 ```
