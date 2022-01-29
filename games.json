@@ -2266,5 +2266,14 @@
     "width": "1000px",
     "height": "625px",
     "listed": true
+  },
+  {
+    "title": "Donut Boy",
+    "route": "/donut-boy",
+    "source": "/proxy/src/donut-boy/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]

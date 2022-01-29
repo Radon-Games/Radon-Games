@@ -7,6 +7,7 @@
   - Scraped games
   - Updated README.md
   - Added heroku support
+  - Removed express-rate-limit due to issues with game proxy
 
 1/27/22:
   - Added redirect from gamesalt
