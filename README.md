@@ -6,9 +6,9 @@ An open-source unblocked games website built with simplicity in mind.
 
 ## How to setup
 
-### Easy Deploy:<br>
-[![Clone on Replit](https://repl.it/badge/github/ericksoncohen/radon-games)](https://repl.it/github/ericksoncohen/radon-games)
+### Automatic Deployment:<br>
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/ericksoncohen/radon-games)
+[![Run on Replit](https://repl.it/badge/github/ericksoncohen/radon-games)](https://repl.it/github/ericksoncohen/radon-games)
 
 ### In shell:
 ```
@@ -36,3 +36,12 @@ The default place for the website is `http://localhost:3000`, but this can be ch
 > `/img` - Images<br>
 
 `/server` - Backend server<br>
+
+## Config
+```
+{
+  "port": 3000
+}
+```
+
+- `port` The port the website will run on.
