@@ -124,7 +124,11 @@ function sortGames(games) {
   games.forEach((game) => {
     if(!game.title) return;
     let title = game.title;
-    if(!config.gameProxy) {
+    if(config.gameProxy) {
+      if(!game.source.startsWith("/proxy")) {
+        game.source = `/proxy${game.source}`;
+      }
+    } else {
       if(!game.source.startsWith("https://ericksoncohen.github.io/radon-games-assets")) {
         game.source = `https://ericksoncohen.github.io/radon-games-assets${game.source}`;
       }
