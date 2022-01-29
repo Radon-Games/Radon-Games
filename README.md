@@ -1,5 +1,4 @@
-![Radon Games](public/img/logo-512.png)
-
+<img align="left" width="50px" src="https://raw.githubusercontent.com/ericksoncohen/radon-games/main/public/img/logo-512.png"></img>
 # Radon Games
 
 An open-source unblocked games website built with simplicity in mind.
@@ -7,22 +6,19 @@ An open-source unblocked games website built with simplicity in mind.
 ## How to setup
 
 ### Automatic Deployment:<br>
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/ericksoncohen/radon-games)
-[![Run on Replit](https://repl.it/badge/github/ericksoncohen/radon-games)](https://repl.it/github/ericksoncohen/radon-games)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ericksoncohen/radon-games)
+<a href="https://glitch.com/edit/#!/import/github/ericksoncohen/radon-games" title="Remix on Glitch"><img alt="Remix on Glitch" src="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" width="140" height="30"><img></a>&nbsp;
+<a href="https://repl.it/github/ericksoncohen/radon-games" title="Run on Replit"><img alt="Run on Replit" src="https://repl.it/badge/github/ericksoncohen/radon-games" width="140" height="30"><img></a>&nbsp;
+<a href="https://heroku.com/deploy?template=https://github.com/ericksoncohen/radon-games" title="Deploy to Heroku"><img alt="Deploy to Heroku" src="https://www.herokucdn.com/deploy/button.svg" width="140" height="30"><img></a>
 
 
-### In shell:
+### Command line:
 ```
-$ git clone https://github.com/ericksoncohen/radon-games
-$ cd radon-games
-$ npm install
+git clone https://github.com/ericksoncohen/radon-games
+cd radon-games
+npm install
+npm start
 ```
 
-Afterward, run:
-```
-$ npm start
-```
 The default place for the website is `http://localhost:3000`, but this can be changed in `config.json`.
 
 ## Structure
