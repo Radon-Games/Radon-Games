@@ -39,9 +39,9 @@ The default place for the website is `http://localhost:3000`, but this can be ch
 ```
 {
   "port": 3000,
-  "gameProxy": false
+  "gameProxy": true
 }
 ```
 
 - `port` The port the website will run on.
-- `gameProxy` (true/false) Whether to proxy the game requests. (Setting this to true may cause issues if your requests are limited by your hosting service.)
+- `gameProxy` (true/false) Whether to proxy the game requests. (Leaving this true may cause issues if your requests are limited by your hosting service.)
