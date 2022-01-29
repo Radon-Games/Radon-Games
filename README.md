@@ -1,4 +1,4 @@
-<img align="left" width="50px" src="https://raw.githubusercontent.com/ericksoncohen/radon-games/main/public/img/logo-512.png"></img>
+<img align="left" width="70px" src="https://raw.githubusercontent.com/ericksoncohen/radon-games/main/public/img/logo-512.png"></img>
 # Radon Games
 
 An open-source unblocked games website built with simplicity in mind.
