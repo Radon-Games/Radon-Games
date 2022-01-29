@@ -20,4 +20,4 @@ app.use(require("express").urlencoded({ extended: true }));
 require("./server/routes.js")(app);
 
 // listen for requests
-app.listen(config.port || 3000);
+app.listen(process.env.PORT || config.port || 3000);
