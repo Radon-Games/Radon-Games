@@ -124,10 +124,10 @@ function sortGames(games) {
   games.forEach((game) => {
     if(!game.title) return;
     let title = game.title;
-    if(config.gameProxy) {
-      game.source = `/proxy${game.source}`;
-    } else {
-      game.source = `https://ericksoncohen.github.io/radon-games-assets${game.source}`;
+    if(!config.gameProxy) {
+      if(!game.source.startsWith("https://ericksoncohen.github.io/radon-games-assets")) {
+        game.source = `https://ericksoncohen.github.io/radon-games-assets${game.source}`;
+      }
     }
     switch(game.title.split("")[0].toLowerCase()){case"a":case"b":output.ab.push(game);break;case"c":case"d":output.cd.push(game);break;case"e":case"f":output.ef.push(game);break;case"g":case"h":output.gh.push(game);break;case"i":case"j":output.ij.push(game);break;case"k":case"l":output.kl.push(game);break;case"m":case"n":output.mn.push(game);break;case"o":case"p":output.op.push(game);break;case"q":case"r":output.qr.push(game);break;case"s":case"t":output.st.push(game);break;case"u":case"v":output.uv.push(game);break;case"w":case"x":output.wx.push(game);break;case"y":case"z":output.yz.push(game);break;default:output.other.push(game)}
   });
