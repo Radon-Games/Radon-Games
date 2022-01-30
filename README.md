@@ -16,7 +16,6 @@ An open-source unblocked games website built with simplicity in mind.
 git clone https://github.com/ericksoncohen/radon-games
 cd radon-games
 npm install
-npm run buildTailwind
 npm run start
 ```
 
