@@ -1,14 +1,16 @@
-<h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl text-center mt-5">Search</h1>
+<h1 class="text-2xl font-semibold text-gray-200 lg:text-3xl text-center mt-5 mb-2">Search</h1>
 <div class="items-center flex">
-  <div style="display: block;margin: auto;">
-    <input id="searchbar" list="search" class="block px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"/>
-    <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
+  <div class="block m-auto">
+    <input id="searchbar" list="search" class="w-64 block px-4 py-2 text-gray-200 bg-gray-800 rounded-md border-blue-400 ring-blue-300 outline-none ring ring-opacity-40"/>
+    <div id="dropdown" class="hidden w-64 text-base list-none bg-gray-800 rounded divide-y divide-gray-100 shadow-md">
       <ul class="py-1">
-      <% for(var i = 0; i < games.all.length; i++) { %>
-        <li class="h-10 hidden">
-          <a href="/game<%= games.all[i].route %>" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-300"><%= games.all[i].title %></a><br/>
-        </li>
-      <% } %>
+      {games.map((game, index) => {
+        return(
+          <li key={index} class="hidden h-auto block py-2 px-4 text-sm text-gray-300 hover:bg-gray-300">
+            <a href={"/game"+game.route}>{game.title}</a><br/>
+          </li>
+        )
+      })}
       </ul>
     </div>
   </div>

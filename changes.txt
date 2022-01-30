@@ -1,4 +1,11 @@
-1/28/22:
+1/30/2022:
+  - Dark theme
+  - Option for rate limiting
+
+1/29/2022:
+  - UI updates
+
+1/28/2022:
   - Added Games (HTML):
     - Zombotron
     - Zombotron 2
@@ -9,7 +16,7 @@
   - Added heroku support
   - Removed express-rate-limit due to issues with game proxy
 
-1/27/22:
+1/27/2022:
   - Added redirect from gamesalt
   - Added tailwind builds
   - Added replit support
@@ -17,7 +24,7 @@
   - Search term highlighting
   - Scraped games
 
-1/26/22:
+1/26/2022:
   - Added game requests
   - UI updates
   - Updated games and reports to POST and radon-api backend for them
@@ -25,11 +32,11 @@
   - Upgrade Ruffle Version
     - Nightly 1/21/22 --> Nightly 1/26/22
 
-1/25/22:
+1/25/2022:
   - Added bug reports
   - UI updates
 
-1/24/22:
+1/24/2022:
   - UI updates
 
 1/21/2022:

@@ -105,3 +105,9 @@ dist
 
 # VS Code workspace file
 radon-games.code-workspace
+
+# Package Lock
+package-lock.json
+
+# CSS Build files
+public/css/build.css

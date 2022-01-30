@@ -1,11 +1,15 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./views/**/*.ejs']
-  },
+  content: ["./views/**/*.ejs"],
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: []
+  plugins: [],
+  darkMode: "class",
+  screens: {
+    'sm': '640px',
+    'md': '768px',
+    'lg': '1024px',
+    'xl': '1280px',
+    '2xl': '1536px'
+  }
 }

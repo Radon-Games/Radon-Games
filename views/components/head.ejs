@@ -2,22 +2,22 @@
 <link id="icon" rel="icon" href="<%=SEO.icon%>" type="image/png">
 <meta name="description" content="<%=SEO.description%>"/>
 <meta name="robots" content="index,follow"/>
-<meta property="og:title" content="<%=SEO.title%>"/>
-<meta property="og:type" content="article"/>
-<meta property="og:description:" content="<%=SEO.description%>"/>
-<meta property="og:image" content="<%=SEO.icon%>"/>
-<meta name="twitter:card" content="summary"/>
+<meta property="title" content="<%=SEO.title%>"/>
+<meta property="type" content="article"/>
+<meta property="description:" content="<%=SEO.description%>"/>
+<meta property="image" content="<%=SEO.icon%>"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link href="/css/build.css" rel="stylesheet">
 <script src="/js/script.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%=SEO.gtag%>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  gtag("js", new Date());
 
-  gtag('config', 'G-0GR0HN1RFL');
+  gtag("config", "<%=SEO.gtag%>");
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
      crossorigin="anonymous"></script>

@@ -2,13 +2,19 @@
 const express = require("express");
 const app = express();
 const config = require("./config.json");
+const rateLimit = require('express-rate-limit');
 
 // setup options
 app.use(require("express").static('public'));
 app.set('view engine', 'ejs');
-// The try block is here to allow node versons below 16x
 app.use(require("express").json());
 app.use(require("express").urlencoded({ extended: true }));
+if(config.rateLimit.enabled) {
+  app.use(rateLimit({
+    max: config.rateLimit.maxRequests,
+    windowMs: config.rateLimit.timeWindow * 60 * 1000,
+  }));
+}
 
 // register routes
 require("./server/routes.js")(app);
