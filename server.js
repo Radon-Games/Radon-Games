@@ -2,15 +2,14 @@
 const express = require("express");
 const app = express();
 const config = require("./config.json");
-const rateLimit = require('express-rate-limit');
 
 // setup options
-app.use(require("express").static('public'));
-app.set('view engine', 'ejs');
+app.use(require("express").static("public"));
+app.set("view engine", "ejs");
 app.use(require("express").json());
 app.use(require("express").urlencoded({ extended: true }));
 if(config.rateLimit.enabled) {
-  app.use(rateLimit({
+  app.use(require("express-rate-limit")({
     max: config.rateLimit.maxRequests,
     windowMs: config.rateLimit.timeWindow * 60 * 1000,
   }));

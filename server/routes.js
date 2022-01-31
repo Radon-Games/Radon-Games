@@ -31,19 +31,19 @@ module.exports = function(app) {
   
   // Routes
   app.get("/", (req, res) => {
-    res.render("pages/index", { SEO: SEO, games: gameCount });
+    res.render("pages/index", { games: gameCount });
   });
 
   app.get("/games", (req, res) => {
-    res.render("pages/games", { SEO: SEO, games: gamesListed });
+    res.render("pages/games", { games: gamesListed });
   });
   
   app.get("/unlisted-games", (req, res) => {
-    res.render("pages/unlisted-games", { SEO: SEO, games: gamesUnListed });
+    res.render("pages/unlisted-games", { games: gamesUnListed });
   });
 
   app.get("/about", (req, res) => {
-    res.render("pages/about", { SEO: SEO });
+    res.render("pages/about", {});
   });
 
   app.get("/game*", (req, res) => {
@@ -62,8 +62,8 @@ module.exports = function(app) {
       }
     }
     // send game back to client
-    if(game) res.render("pages/game", { SEO: SEO, game: game });
-    else res.render("pages/404", { SEO: SEO });
+    if(game) res.render("pages/game", { proxy: config.gameProxy, game: game });
+    else res.render("pages/404", {});
   });
   
   app.get("/changes", (req, res) => {
@@ -72,48 +72,48 @@ module.exports = function(app) {
   
   // request and report routes
   app.get("/report", (req, res) => {
-    res.render("pages/report", { SEO: SEO, version: require("../version.json").version });
+    res.render("pages/report", { version: require("../version.json").version });
   });
   
   app.post("/report", (req, res) => {
     let reqData = req.body;
     if(!reqData.message) {
-      return res.render("pages/report", { SEO: SEO, error: "Some feilds were not filled out properly.", version: require("../version.json").version });
+      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require("../version.json").version });
     }
     post("https://radon-api.cohenerickson.repl.co/report", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/report", { SEO: SEO, error: "Some feilds were not filled out properly.", version: require("../version.json").version });
-      return res.render("pages/report", { SEO: SEO, message: "Success!", version: require("../version.json").version });
+      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require("../version.json").version });
+      return res.render("pages/report", { message: "Success!", version: require("../version.json").version });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("pages/report", { SEO: SEO, error: "An unexpected error occurred, please try again later.", version: require("../version.json").version });
+      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: require("../version.json").version });
     });
   });
   
   app.get("/request", (req, res) => {
-    res.render("pages/request", { SEO: SEO });
+    res.render("pages/request", {});
   });
   
   app.post("/request", (req, res) => {
     let reqData = req.body;
     if(!reqData.gameName || !reqData.gameType) {
-      return res.render("pages/request", { SEO: SEO, error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { error: "Some feilds were not filled out properly." });
     }
     post("https://radon-api.cohenerickson.repl.co/request", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/request", { SEO: SEO, error: "Some feilds were not filled out properly." });
-      return res.render("pages/request", { SEO: SEO, message: "Success!" });
+      if(r.data.status !== 202) return res.render("pages/request", { error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { message: "Success!" });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("pages/request", { SEO: SEO, error: "An unexpected error occurred, please try again later." });
+      return res.render("pages/request", { error: "An unexpected error occurred, please try again later." });
     });
   });  
   
   // 404 route
   app.get("*", (req, res) => {
-    res.render("pages/404", { SEO: SEO });
+    res.render("pages/404", {});
   });
 }
 

@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
-    <%-include("../components/head")%>
-    <script src="https://cdn.glitch.global/7a7ecda1-7fea-4235-b2da-81abaec6b102/ruffle.js"></script>
+    <%- include("../components/head") %>
+    <% if(proxy) { %>
+      <script src="/proxy/ruffle/ruffle.js"></script>
+    <% } else { %> 
+      <script src="https://cdn.glitch.global/7a7ecda1-7fea-4235-b2da-81abaec6b102/ruffle.js"></script>
+    <% } %>
   </head>
   <body>
-    <%-include("../components/nav")%>
+    <%- include("../components/nav") %>
 
-    <%-include("../components/game")%>
+    <%- include("../components/game" )%>
     
-    <%-include("../components/footer")%>
+    <%- include("../components/footer") %>
   </body>
 </html>

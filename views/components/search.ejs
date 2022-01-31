@@ -4,13 +4,11 @@
     <input id="searchbar" list="search" class="w-64 block px-4 py-2 text-gray-200 bg-gray-800 rounded-md border-blue-400 ring-blue-300 outline-none ring ring-opacity-40"/>
     <div id="dropdown" class="hidden w-64 text-base list-none bg-gray-800 rounded divide-y divide-gray-100 shadow-md">
       <ul class="py-1">
-      {games.map((game, index) => {
-        return(
-          <li key={index} class="hidden h-auto block py-2 px-4 text-sm text-gray-300 hover:bg-gray-300">
-            <a href={"/game"+game.route}>{game.title}</a><br/>
-          </li>
-        )
-      })}
+      <% games.all.map((game, index) => { %>
+        <li key={index} class="hidden h-auto block py-2 px-4 text-sm text-gray-300 hover:bg-gray-300">
+          <a href="/game<%= game.route %>"><%= game.title %></a><br/>
+        </li>
+      <% }); %>
       </ul>
     </div>
   </div>
@@ -19,12 +17,6 @@
   let dropdown = document.getElementById("dropdown");
   let searchbar = document.getElementById("searchbar");
   let items = document.querySelectorAll("#dropdown ul li");
-  settings = window.localStorage.getItem("settings") || {}
-
-  function charToColor(char, brightness){
-    let n = char.charCodeAt(0) - 65;
-    return 'hsl('+(n/25)*360+','+brightness+'%,70%)';
-  }
   
   searchbar.addEventListener("input", (e) => {
     if(!searchbar.value) {
@@ -34,15 +26,6 @@
       items.forEach((item) => {
         if(item.children[0].innerText.toLowerCase().includes(searchbar.value.toLowerCase())) {
           item.classList.remove("hidden");
-          let str = searchbar.value.toLowerCase();
-          let itemStr = item.children[0].innerText.toLowerCase();
-          let output;
-          if(settings.searchColors) {
-            output = itemStr.replace(str, '<span style="background:'+charToColor(str[0], 100)+';" class="rounded">'+str+'</span>');
-          } else {
-            output = itemStr.replace(str, '<span class="bg-yellow-400 rounded">'+str+'</span>');
-          }
-          item.children[0].innerHTML = output;
         } else {
           item.classList.add("hidden");
         }
