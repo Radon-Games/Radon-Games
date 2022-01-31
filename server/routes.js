@@ -7,9 +7,6 @@ module.exports = function(app) {
   if(config.gameProxy) {
     require("./proxy.js")(app);
   }
-
-  // Search Engine Optimisation
-  const SEO = require("../seo.json");
   
   // Sort games
   let allGames = require("../games.json");
