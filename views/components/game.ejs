@@ -1,4 +1,5 @@
-<h1 class="text-2xl font-semibold text-gray-200 lg:text-3xl mt-10 mb-4 text-center"><%= game.title %></h1>
+<h1 class="text-2xl font-semibold text-gray-200 lg:text-3xl mt-10 text-center"><%= game.title %></h1>
+<p class="text-center mb-10 text-gray-300 w-3/5 m-4 block mx-auto"><%= game.description %></p>
 <% if(game.sourceType === "embed") { %>
 <embed
   src="<%= game.source %>"
@@ -15,4 +16,4 @@
   height="<%= game.height %>"
 ></iframe>
 <% } %>
-<p class="text-center mb-10 text-gray-400 underline"><Link href="/report">Report Issue</Link></p>
+<p class="text-center mb-10 text-gray-400 underline"><a href="/report">Report Issue</a></p>
