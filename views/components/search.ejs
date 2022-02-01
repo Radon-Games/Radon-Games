@@ -5,7 +5,7 @@
     <div id="dropdown" class="hidden w-64 text-base list-none bg-gray-800 rounded divide-y divide-gray-100 shadow-md">
       <ul class="py-1">
       <% games.all.map((game, index) => { %>
-        <li key={index} class="hidden h-auto block py-2 px-4 text-sm text-gray-300 hover:bg-gray-300">
+        <li key={index} class="hidden h-auto block py-2 px-4 text-sm text-gray-300 hover:bg-gray-600">
           <a href="/game<%= game.route %>"><%= game.title %></a><br/>
         </li>
       <% }); %>
