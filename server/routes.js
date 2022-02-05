@@ -7,8 +7,6 @@ module.exports = function(app) {
   if(config.gameProxy) {
     require("./proxy.js")(app);
   }
-
-  require("./analytics.js")(app);
   
   // Sort games
   let allGames = require("../games.json");
