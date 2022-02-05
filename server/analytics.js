@@ -17,7 +17,7 @@ module.exports = (app) => {
       headers[header] = req.headers[header];
     });
     headers["host"] = "analytics.google.com";
-    post("https://www.google-analytics.com/g" + req.url, {}, { headers: headers }).then((resp) => {
+    post("https://www.google-analytics.com/g" + req.url + "&uip=" + req.connection.remoteAddress, {}, { headers: headers }).then((resp) => {
       Object.keys(resp.headers).forEach((header) => {
         res.setHeader(header, resp.headers[header]);
       });
