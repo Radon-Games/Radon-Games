@@ -12,12 +12,13 @@ module.exports = (app) => {
   });
   
   app.post("/collect", (req, res) => {
+    let ip = req.headers['x-forwarded-for'].split(",")[0] || req.connection.remoteAddress;
     let headers = {};
     Object.keys(req.headers).forEach((header) => {
       headers[header] = req.headers[header];
     });
     headers["host"] = "analytics.google.com";
-    post("https://www.google-analytics.com/g" + req.url + "&uip=" + req.connection.remoteAddress, {}, { headers: headers }).then((resp) => {
+    post("https://www.google-analytics.com/g" + req.url + "&uip=" + ip, {}, { headers: headers }).then((resp) => {
       Object.keys(resp.headers).forEach((header) => {
         res.setHeader(header, resp.headers[header]);
       });
