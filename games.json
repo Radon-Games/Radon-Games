@@ -2,6 +2,7 @@
   {
     "title": "Achilles",
     "description": "Hack and slash your way through 15 stages of greek warriors.",
+    "tags": "",
     "route": "/achilles",
     "source": "/swf/Achilles.swf",
     "sourceType": "embed",
@@ -12,6 +13,7 @@
   {
     "title": "Age of War",
     "description": "Take control of 16 different units and 15 different turrets to defend your base and destroy your enemy. In this game, you start at the cavern men's age, then evolve! There is a total of 5 ages, each with its units and turrets. I hope you have fun with this game! Sooo many hours of hard work.",
+    "tags": "",
     "route": "/age-of-war",
     "source": "/swf/Age-of-War.swf",
     "sourceType": "embed",
@@ -22,6 +24,7 @@
   {
     "title": "Avalanche",
     "description": "Avalanche is a fun little game where try to avoid falling objects as you jump higher and higher! Are you a towelette, or maybe a marshmallow? Whatever the case, there are huge, square bolts to dodge. Can you avoid this avalanche?",
+    "tags": "",
     "route": "/avalanche",
     "source": "/swf/Avalanche.swf",
     "sourceType": "embed",
@@ -32,6 +35,7 @@
   {
     "title": "Avatar Arena",
     "description": "Your objective in this great fighting flash game is to create your own character, challenge the worlds best benders and defeat them",
+    "tags": "",
     "route": "/avatar-arena",
     "source": "/swf/AvatarArena.swf",
     "sourceType": "embed",
@@ -42,6 +46,7 @@
   {
     "title": "Achievement Unlocked",
     "description": "Who needs gameplay when you have ACHIEVEMENTS? Don’t worry about beating levels, finding ways t’ kill enemies, or beating the final boss… there are none. Focus solely on your ultimate destiny… doing random tasks that have nothing to do with anything. Metagame yourself with ease! Self-satisfaction never felt so… artificial!",
+    "tags": "",
     "route": "/achievement-unlocked",
     "source": "/swf/achievement-unlocked.swf",
     "sourceType": "embed",
@@ -52,6 +57,7 @@
   {
     "title": "Alien Hominid",
     "description": "Your aircraft has crash landed on planet Earth, and the FBI is out to get you! Time to take them out!",
+    "tags": "",
     "route": "/alien-hominid",
     "source": "/swf/alien-hominid.swf",
     "sourceType": "embed",
@@ -62,6 +68,7 @@
   {
     "title": "Amberial",
     "description": "Many puzzling levels of bouncing a ball around and trying to touch the end orb to progress.",
+    "tags": "",
     "route": "/amberial",
     "source": "/swf/amberial.swf",
     "sourceType": "embed",
@@ -72,6 +79,7 @@
   {
     "title": "Animal Hunter",
     "description": "Hunt animals in the forest to score points. Collect the power, speed, and time icons to help you. Have Fun!",
+    "tags": "",
     "route": "/animal-hunter",
     "source": "/swf/animal_hunter.swf",
     "sourceType": "embed",
@@ -82,6 +90,7 @@
   {
     "title": "Ant Buster",
     "description": "Tower defense game with ants.",
+    "tags": "",
     "route": "/ant-buster",
     "source": "/swf/antbuster.swf",
     "sourceType": "embed",
@@ -92,6 +101,7 @@
   {
     "title": "Apple Shooter",
     "description": "Apple Shooter Archery Game. Shoot the apple off your friends head using a bow and arrow. But be careful to not shoot his head off!",
+    "tags": "",
     "route": "/apple-shooter",
     "source": "/swf/apple-shooter-2021.swf",
     "sourceType": "embed",
@@ -102,6 +112,7 @@
   {
     "title": "Arkanoid",
     "description": "Arkanoid is a game similar to break out where you move the paddle to hit the ball.",
+    "tags": "",
     "route": "/arkanoid",
     "source": "/swf/arkanoid.swf",
     "sourceType": "embed",
@@ -112,6 +123,7 @@
   {
     "title": "Asteroids",
     "description": "Control the spaceship to destroy asteroids and flying saucers in this classic arcade multidirectional shooter video game by Atari®. Be careful not to collide with the asteroids that are all around you, and avoid counter-fire from the saucers.",
+    "tags": "",
     "route": "/asteroids",
     "source": "/swf/asteroids.swf",
     "sourceType": "embed",
@@ -122,6 +134,7 @@
   {
     "title": "Axis Football League",
     "description": "The first, great online football game. Choose from 14 teams and lead your team to victory.",
+    "tags": "",
     "route": "/axis-football-league",
     "source": "/swf/axisfootballleague.swf",
     "sourceType": "embed",
@@ -132,6 +145,7 @@
   {
     "title": "2048",
     "description": "Swipe to move the tiles, when two tiles with the same number touch, they merge into one. When a 2048 tile is created, the player wins.",
+    "tags": "",
     "route": "/2048",
     "source": "/src/2048/index.html",
     "sourceType": "iframe",
@@ -142,6 +156,7 @@
   {
     "title": "Agario Minigame",
     "description": "Agario is a fun addicting MMO game in which you have to eat or be eaten while you strive to dominate the World of colorful cells. The game has just 2 simple rules to follow: 1) you only can consume targets that are smaller than you and you should match their color to evolve yourself, 2) you must give larger objects a wide berth or you will die. Start moving through the grid and try to catch all the tiny blurs of color. Eat and grow, split and multiply and rule the world.",
+    "tags": "",
     "route": "/agario-minigame",
     "source": "/src/agario-minigame/index.html",
     "sourceType": "iframe",
@@ -152,6 +167,7 @@
   {
     "title": "Astray",
     "description": "Astray is a first-person horror/puzzle game set in an abandoned museum based on unusual cultures, legends, and supernatural themes; but something more sinister lurks beneath the surface..",
+    "tags": "",
     "route": "/astray",
     "source": "/src/astray/index.html",
     "sourceType": "iframe",
@@ -162,6 +178,7 @@
   {
     "title": "Break Lock",
     "description": "A hybrid of Mastermind and the Android pattern lock. A game you will love to hate. Empty circle means correct location but wrong order. Full circle means correct location in correct order. You are aiming for four full circles.",
+    "tags": "",
     "route": "/break-lock",
     "source": "/src/breaklock/index.html",
     "sourceType": "iframe",
@@ -172,6 +189,7 @@
   {
     "title": "Chroma",
     "description": "Mix colors with precision to match the target color. Not for the feint of heart. Or the color blind.",
+    "tags": "",
     "route": "/chroma",
     "source": "/src/chroma/index.html",
     "sourceType": "iframe",
@@ -182,6 +200,7 @@
   {
     "title": "Cookie Clicker",
     "description": "Cookie Clicker is an incremental game created by French programmer Julien Orteil Thiennot in 2013. The user initially clicks on a big cookie on the screen, earning a single cookie per click.",
+    "tags": "",
     "route": "/cookie-clicker",
     "source": "/src/cookie/index.html",
     "sourceType": "iframe",
@@ -192,6 +211,7 @@
   {
     "title": "Cube Field",
     "description": "Cubefield is a simple but addictive game, there are only two controls – left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes – if you hit one, it’s game over.",
+    "tags": "",
     "route": "/cube-field",
     "source": "/src/cubefield/index.html",
     "sourceType": "iframe",
@@ -202,6 +222,7 @@
   {
     "title": "Dinosaur",
     "description": "The Dinosaur Game is a browser game developed by Google and built into the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex across a side-scrolling landscape, avoiding obstacles to achieve a higher score.",
+    "tags": "",
     "route": "/dinosaur",
     "source": "/src/dinosaur/index.html",
     "sourceType": "iframe",
@@ -212,6 +233,7 @@
   {
     "title": "Doodle Jump",
     "description": "How high can you go? A fun and simple game about an alien with a jetpack trying to jump as high as possible",
+    "tags": "",
     "route": "/doodle-jump",
     "source": "/src/doodle-jump/index.html",
     "sourceType": "iframe",
@@ -222,6 +244,7 @@
   {
     "title": "Drift (Broken Unity)",
     "description": "",
+    "tags": "",
     "route": "/drift",
     "source": "/src/drift/index.html",
     "sourceType": "iframe",
@@ -232,6 +255,7 @@
   {
     "title": "Duck Life 1 (HTML)",
     "description": "A volcano eruption revealed an ancient cave with treasures inside. Explore the cave as a young energetic duck.  Gather coins and avoid danger as you fly through the cave. Customize your duck when you can afford it.",
+    "tags": "",
     "route": "/ducklife-1-html",
     "source": "/src/ducklife/index.html",
     "sourceType": "iframe",
@@ -242,6 +266,7 @@
   {
     "title": "Duck Life 2 (HTML) (Broken Unity)",
     "description": "Duck Life 2 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "tags": "",
     "route": "/duck-life-2-html",
     "source": "/src/ducklife2/index.html",
     "sourceType": "iframe",
@@ -252,6 +277,7 @@
   {
     "title": "Duck Life 3 (HTML)",
     "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you’ll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you’ll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
+    "tags": "",
     "route": "/duck-life-3-html",
     "source": "/src/ducklife3/index.html",
     "sourceType": "iframe",
@@ -262,6 +288,7 @@
   {
     "title": "Duck Life 4 (HTML)",
     "description": "Duck Life 4 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "tags": "",
     "route": "/duck-life-4-html",
     "source": "/src/ducklife4/index.html",
     "sourceType": "iframe",
@@ -272,6 +299,7 @@
   {
     "title": "Fireboy and Watergirl Forest Temple",
     "description": "Help Fireboy and Watergirl through the forest temple tunnels and reach the exit doors in this fun arcade platformer!",
+    "tags": "",
     "route": "/fireboy-and-watergirl-forest-temple",
     "source": "/src/fireboy-and-watergirl-forest-temple/index.html",
     "sourceType": "iframe",
@@ -282,6 +310,7 @@
   {
     "title": "Flappy 2048",
     "description": "Jump through the tiles and get to 2048!",
+    "tags": "",
     "route": "/flappy-2048",
     "source": "/src/flappy-2048/index.html",
     "sourceType": "iframe",
@@ -292,6 +321,7 @@
   {
     "title": "Flappy Bird (404 Not Found)",
     "description": "Flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
+    "tags": "",
     "route": "/flappy-bird",
     "source": "/src/flappybird/index.html",
     "sourceType": "iframe",
@@ -302,6 +332,7 @@
   {
     "title": "Friendly Fire",
     "description": "“Friendly Fire” is a 2d platform adventure game with handcrafted pixel art, an original soundtrack and lots of love put into the creation of the characters and dialogues.",
+    "tags": "",
     "route": "/friendly-fire",
     "source": "/src/friendlyfire/index.html",
     "sourceType": "iframe",
@@ -312,6 +343,7 @@
   {
     "title": "Geometry Dash",
     "description": "Geometry Dash is developed by Sweden-based developer Robert Topala. The game has 21 levels currently with different types of difficulty. Players can enjoy 3 levels of the game: Stereo Madness, Back on track, and Polargeist. Each one has its own difficulty and a list of best scores.",
+    "tags": "",
     "route": "/geometry-dash",
     "source": "/src/geometry/index.html",
     "sourceType": "iframe",
@@ -322,6 +354,7 @@
   {
     "title": "Gopher Kart",
     "description": "Created by Jamilet Zelaya with very little help from Erick Zelaya.",
+    "tags": "",
     "route": "/gopher-kart",
     "source": "/src/gopher-kart/index.html",
     "sourceType": "iframe",
@@ -332,6 +365,7 @@
   {
     "title": "Hexgl",
     "description": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
+    "tags": "",
     "route": "/hexgl",
     "source": "/src/hexgl/index.html",
     "sourceType": "iframe",
@@ -342,6 +376,7 @@
   {
     "title": "Hextris",
     "description": "An addictive puzzle game inspired by Tetris.",
+    "tags": "",
     "route": "/hextris",
     "source": "/src/hextris/index.html",
     "sourceType": "iframe",
@@ -352,6 +387,7 @@
   {
     "title": "Madalin Cars Multiplayer",
     "description": "Madalin Cars Multiplayer is an epic online car driving game in the hugely popular Madalin Cars series. Choose from a range of different sports cars and customize them to your liking. You can change the color and drive settings of your car to give yourself a truly personalized ride! Once you have chosen your vehicle, you can join the online game and enter the immense desert landscape!",
+    "tags": "",
     "route": "/madalin-cars-multiplayer",
     "source": "/src/madalin-cars-multiplayer/index.html",
     "sourceType": "iframe",
@@ -362,6 +398,7 @@
   {
     "title": "Minecraft",
     "description": "Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds. The game's two main modes are Survival and Creative. In Survival, players must find their own building supplies and food. They also interact with blocklike mobs, or moving creatures.",
+    "tags": "",
     "route": "/mc-classic",
     "source": "/src/mc-classic/index.html",
     "sourceType": "iframe",
@@ -372,6 +409,7 @@
   {
     "title": "Microsoft Flight Simulator",
     "description": "Microsoft Flight Simulator is a series of amateur flight simulator programs for Microsoft Windows operating systems, and earlier for MS-DOS and Classic Mac OS. It is one of the longest-running, best-known, and most comprehensive home flight simulator programs on the market.",
+    "tags": "",
     "route": "/microsoft-flight-simulator",
     "source": "/src/microsoft-flight-simulator/index.html",
     "sourceType": "iframe",
@@ -382,6 +420,7 @@
   {
     "title": "Muffin Knight (Requires Chrome Experimental Features)",
     "description": "Muffin Knight is an arena based action-packed platformer with stunning visuals and a myriad of fairytale characters, each with their own unique abilities, which gain strength as you advance. This is the story of a little boy, on his journey to return the old fairy's magical muffins.",
+    "tags": "",
     "route": "/muffin-knight",
     "source": "/src/muffin-knight/index.html",
     "sourceType": "iframe",
@@ -392,6 +431,7 @@
   {
     "title": "Pacman (HTML)",
     "description": "Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment. Entries have been developed by a wide array of other video game companies, including Midway Games, Atari and Mass Media, Inc..",
+    "tags": "",
     "route": "/pacman-html",
     "source": "/src/pacman/index.html",
     "sourceType": "iframe",
@@ -402,6 +442,7 @@
   {
     "title": "Radius Raid",
     "description": "Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you. The game features 13 enemy types, 5 powerups, parallax backgrounds, retro sound effects, and locally stored stats.",
+    "tags": "",
     "route": "/radius-raid",
     "source": "/src/radius-raid/index.html",
     "sourceType": "iframe",
@@ -412,6 +453,7 @@
   {
     "title": "Retro Bowl",
     "description": "Retro Bowl is an American football video game developed by New Star Games for the iOS and Android operating systems. A browser version is also available on some websites. The game was released in January 2020 and due to its exposure on the website TikTok it massively increased in popularity in late 2021.",
+    "tags": "",
     "route": "/retro-bowl",
     "source": "/src/retro-bowl/index.html",
     "sourceType": "iframe",
@@ -422,6 +464,7 @@
   {
     "title": "Ritz",
     "description": "Your cool ass boy Ritz the rat has just been RATTED out by the anti-rat crew. His cheese gone...His hunger rising....help this rat get his fukken cheese back in the lair of illusions.",
+    "tags": "",
     "route": "/ritz",
     "source": "/src/ritz/index.html",
     "sourceType": "iframe",
@@ -432,6 +475,7 @@
   {
     "title": "Run 3 (HTML) (Unknown Error)",
     "description": "Run 3 is an exciting running game where you run, jump through an endless tunnel in space. Pass all challenges of hundred levels without falling into space.",
+    "tags": "",
     "route": "/run-3-html",
     "source": "/src/run3/index.html",
     "sourceType": "iframe",
@@ -442,6 +486,7 @@
   {
     "title": "Slope",
     "description": "Slope game is a fantastic speed run game where you can drive a ball rolling on tons of slopes and obstacles. See how far you can go in this endless course.",
+    "tags": "",
     "route": "/slope",
     "source": "/src/slope/index.html",
     "sourceType": "iframe",
@@ -452,6 +497,7 @@
   {
     "title": "Super Mario 64",
     "description": "Super Mario 64 is a 1996 platform game for the Nintendo 64, developed by Nintendo EAD and published by Nintendo. The first Super Mario game to feature 3D gameplay, it features freedom of movement within a large open world based on polygons, combined with traditional Mario gameplay, visual style, and characters.",
+    "tags": "",
     "route": "/sm64",
     "source": "/src/sm64/index.html",
     "sourceType": "iframe",
@@ -462,6 +508,7 @@
   {
     "title": "Space Invaders",
     "description": "Space Invaders is a Japanese shooting video game released in 1978 by Taito. It was developed by Tomohiro Nishikado, who was inspired by other media: Breakout, The War of the Worlds, and Star Wars.",
+    "tags": "",
     "route": "/space-invaders",
     "source": "/src/spaceinvaders/index.html",
     "sourceType": "iframe",
@@ -472,6 +519,7 @@
   {
     "title": "Tank Trouble (No Ruffle to External URL)",
     "description": "Tank Trouble is an online tank game where you drive in a maze and shoot missiles at your enemies. Tank Trouble pits you against clever army generals in mazelike battlefields. In Solo mode, you will face Laika, a master of war. You can also challenge a friend or two in multiplayer warfare.",
+    "tags": "",
     "route": "/tank-trouble",
     "source": "/src/tanktrouble/index.html",
     "sourceType": "iframe",
@@ -482,6 +530,7 @@
   {
     "title": "Vex 3",
     "description": "Vex 3 is a fascinating game. Your task is to Take Vex through the levels by running, jumping, sliding and swimming while avoiding dangerous obstacles.",
+    "tags": "",
     "route": "/vex-3",
     "source": "/src/vex3/index.html",
     "sourceType": "iframe",
@@ -492,6 +541,7 @@
   {
     "title": "Vex 4",
     "description": "VEX 4 takes Vex to the next level! This fast paced stickman game puts your skills to the test. Run, jump, slide, swim and avoid obstacles, VEX 4 has it all.",
+    "tags": "",
     "route": "/vex-4",
     "source": "/src/vex4/index.html",
     "sourceType": "iframe",
@@ -502,6 +552,7 @@
   {
     "title": "Vex 5",
     "description": "Surely you are very familiar to the Vex game series. Now, you can meet cute Stickman again in Vex 5. Vex 5 is the 5th platform game in the Vex series. Each level is a labyrinth of deadly devices and traps. You have to make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! To win this game, you must overcome dangerous spikes, saw blades, and a variety of other challenges. If you've played the previous games in the series, you'll be familiar with what to expect in this thrilling new installment. The goal is to finish each level by reaching the endpoint. In this game, levels are referred to as acts, and there are numerous acts to finish.",
+    "tags": "",
     "route": "/vex-5",
     "source": "/src/vex5/index.html",
     "sourceType": "iframe",
@@ -512,6 +563,7 @@
   {
     "title": "Rolling Sky",
     "description": "Rolling Sky is the best musical skill game of all time. You are a ball rolling over a track with tons of hazards to make you fall. You have to be super fast, precise and accurate to dodge all the barriers, holes and laser beams that are shot in your direction. Use the music to keep your rhythm while swinging from left to right to get the power-ups you need to finish the levels. This is seriously the most challenging game you can find online.",
+    "tags": "",
     "route": "/rolling-sky",
     "source": "/src/webgl-rollingsky/index.html",
     "sourceType": "iframe",
@@ -522,6 +574,7 @@
   {
     "title": "13 Days in Hell",
     "description": "13 Days in Hell is an arcade shooter that gives you control over the chosen one, with the sole purpose of surviving an onslaught of souls in hell for 13 full days. You have to shoot and kill the souls coming at you with their axes, or they may chop you up.",
+    "tags": "",
     "route": "/13-days-in-hell",
     "source": "/swf/13-days-in-hell.swf",
     "sourceType": "embed",
@@ -532,6 +585,7 @@
   {
     "title": "360 Snake",
     "description": "The famous and beloved 360 Snake unblocked. Control the snake with a computer mouse, and collect white balls that will allow the snake to grow to incredible sizes. But it all depends on your skill in controlling. You can not stop for a second or make a mistake, otherwise, you have to start the game again. Just avoid barriers, and make sure that the snake does not stumble on its own tail. The old game in the new format will give you a lot of fun.",
+    "tags": "",
     "route": "/360-snake",
     "source": "/swf/360-snake.swf",
     "sourceType": "embed",
@@ -542,6 +596,7 @@
   {
     "title": "3D Car Driver",
     "description": ".",
+    "tags": "",
     "route": "/3d-car-driver",
     "source": "/swf/3D-Car-Driver.swf",
     "sourceType": "embed",
@@ -552,6 +607,7 @@
   {
     "title": "3 Foot Ninja",
     "description": "Show off your awesome ninja skills by helping the 3 Foot Ninja defeat his enemies, whilst collecting the ancient Lost Scrolls of the Elders to unlock the secrets of the Elder Masters.",
+    "tags": "",
     "route": "/3-foot-ninja",
     "source": "/swf/3_foot_ninja.swf",
     "sourceType": "embed",
@@ -562,6 +618,7 @@
   {
     "title": "50 states",
     "description": "Do you know your 50 states? Play this fun US states game to find out - just click the blank map to answer the questions!",
+    "tags": "",
     "route": "/50-states",
     "source": "/swf/50states.swf",
     "sourceType": "embed",
@@ -572,6 +629,7 @@
   {
     "title": "3 on 3 Hockey",
     "description": "3-on-3 Hockey is a fast-paced and exciting hockey experience for all ages.",
+    "tags": "",
     "route": "/3-on-3-hockey",
     "source": "/swf/3_on_3_hockey.swf",
     "sourceType": "embed",
@@ -582,6 +640,7 @@
   {
     "title": "8 Ball Pool",
     "description": "Eight-ball is a pool billiards played on a billiard table with six pockets, cue sticks, and sixteen billiard balls: a cue ball and fifteen object balls. The object balls include seven solid-colored balls numbered 1 through 7, seven striped balls numbered 9 through 15, and the black 8 ball.",
+    "tags": "",
     "route": "/8-ball-pool",
     "source": "/swf/8BallPool.swf",
     "sourceType": "embed",
@@ -592,6 +651,7 @@
   {
     "title": "Bloons",
     "description": "Bloons Tower Defense is a series of tower defense games under the Bloons series created and produced by Ninja Kiwi. The game was initially developed as a browser game, built upon the Adobe Flash platform and released in mid 2007.",
+    "tags": "",
     "route": "/bloons",
     "source": "/swf/Bloons.swf",
     "sourceType": "embed",
@@ -602,6 +662,7 @@
   {
     "title": "Falldown",
     "description": "A Sımple Game. You are trying to run away from the obstacles when you falling down.",
+    "tags": "",
     "route": "/falldown",
     "source": "/swf/Falldown.swf",
     "sourceType": "embed",
@@ -612,6 +673,7 @@
   {
     "title": "Henry Stick Breaking Into The Bank",
     "description": "Henry Stickmin attempts to break into a bank, built in the middle of a desert. He stands next to a wall and wonders how to break inside.",
+    "tags": "",
     "route": "/henry-stick-breaking-the-bank",
     "source": "/swf/HenryStick_BreakingTheBank.swf",
     "sourceType": "embed",
@@ -621,7 +683,8 @@
   },
   {
     "title": "Henry Stick Escaping The Prison",
-    "description": "",
+    "description": "Escaping the Prison is the second game in the Henry Stickmin series. It is the sequel to Breaking the Bank, and the prequel to Stealing the Diamond, and is named as Episode 1 of the Henry Stickmin story. It is one of the most popular of the series, with over 3 million plays on Newgrounds. It contains a total of 36 choices to make, which is 6 times the amount as the previous game.",
+    "tags": "",
     "route": "/henry-stick-escaping-the-prison",
     "source": "/swf/HenryStick_EscapingThePrison.swf",
     "sourceType": "embed",
@@ -631,7 +694,8 @@
   },
   {
     "title": "Henry Stick Infiltrating The Airship",
-    "description": "",
+    "description": "Infiltrating the Airship is the fourth game in the Henry Stickmin series. It is the sequel to Stealing the Diamond, and takes place before Fleeing the Complex, and is named as Episode 4 of the Henry Stickmin story. The game has four different endings and one fake ending.",
+    "tags": "",
     "route": "/henry-stick-infiltrating-the-airship",
     "source": "/swf/HenryStick_InfiltratingTheAirship.swf",
     "sourceType": "embed",
@@ -641,7 +705,8 @@
   },
   {
     "title": "Henry Stick Stealing the Diamond",
-    "description": "Escaping the Prison is the second game in the Henry Stickmin series. It is the sequel to Breaking the Bank, and the prequel to Stealing the Diamond, and is named as Episode 1 of the Henry Stickmin story. It is one of the most popular of the series, with over 3 million plays on Newgrounds. It contains a total of 36 choices to make, which is 6 times the amount as the previous game.",
+    "description": "Stealing the Diamond is the third game in the Henry Stickmin series. It takes place after Escaping the Prison and before Infiltrating The Airship, and is considered Episode 2 of the Henry Stickmin Collection.",
+    "tags": "",
     "route": "/henry-stick-stealing-diamond",
     "source": "/swf/HenryStick_StealingDiamond.swf",
     "sourceType": "embed",
@@ -652,6 +717,7 @@
   {
     "title": "The Impossible Quiz",
     "description": "The Impossible Quiz...It's not impossible! One of the most aggravating games ever created! This game has simple graphics, suitable for all ages, especially children and families. You can experience this game on your browser because it is a flash game.",
+    "tags": "",
     "route": "/the-impossible-quiz",
     "source": "/swf/TheImpossibleQuiz.swf",
     "sourceType": "embed",
@@ -662,6 +728,7 @@
   {
     "title": "Worlds Hardest Game",
     "description": "The World’s Hardest Game speaks for itself, when we say it is the hardest game we aren’t kidding! If you have played World’s Hardest Game before, you know how difficult the game can be. You will need to be quick and decisive with your movements, and have a strategy going into each level. Lucky for you, we have some helpful tips and tricks that will help you whether you are experienced or a complete beginner.",
+    "tags": "",
     "route": "/worlds-hardest-game",
     "source": "/swf/WorldsHardestGame.swf",
     "sourceType": "embed",
@@ -672,6 +739,7 @@
   {
     "title": "Acid Bunny 2",
     "description": "Acid Bunny is back! This time all the action takes place on the beach, the ocean and in the jungle as well as another Down Below level.",
+    "tags": "",
     "route": "/acid-bunny-2",
     "source": "/swf/acid-bunny-2.swf",
     "sourceType": "embed",
@@ -682,6 +750,7 @@
   {
     "title": "Acid Bunny",
     "description": "Ooh no! Acid Bunny had a flashback and accidentally killed one of his friends. Help him patch up the friendship finding all body parts, a needle, and lots of thread. Along the way wipe out acid spying opponents using carrots and other aids.",
+    "tags": "",
     "route": "/acid-bunny",
     "source": "/swf/acid-bunny.swf",
     "sourceType": "embed",
@@ -692,6 +761,7 @@
   {
     "title": "Ball Breaker",
     "description": "Showcase your Arkanoid skills in Brick Breaker! Move the paddle left and right to keep the ball in play. You must react quickly to hit the ball as it bounces on every wall. The goal is to clear every brick!",
+    "tags": "",
     "route": "/ball-breaker",
     "source": "/swf/ball-breaker.swf",
     "sourceType": "embed",
@@ -702,6 +772,7 @@
   {
     "title": "Bejeweled",
     "description": "Bejeweled is a series of tile-matching puzzle video games created by PopCap Games. Bejeweled was released initially for browsers in 2001",
+    "tags": "",
     "route": "/Bejeweled",
     "source": "/swf/bejeweled-unblocked.swf",
     "sourceType": "embed",
@@ -712,6 +783,7 @@
   {
     "title": "Bike Mania (Needs Review)",
     "description": "Ride your bike through the bumpy and challenging tracks. Do not hit the ground and show your skill! Release Date. April 2007 (Flash). January 2020 (HTML5).",
+    "tags": "",
     "route": "/bike-mania",
     "source": "/swf/bikemania.swf",
     "sourceType": "embed",
@@ -722,6 +794,7 @@
   {
     "title": "Bike Mania 2",
     "description": "Second Bike Mania is a great online game. You will again have to show how you can deal with difficult terrain. Just play online, no download.",
+    "tags": "",
     "route": "/bike-mania-2",
     "source": "/swf/bikemania2.swf",
     "sourceType": "embed",
@@ -732,6 +805,7 @@
   {
     "title": "Binding of Isaac",
     "description": "The Binding of Isaac is a roguelike video game designed by independent developers Edmund McMillen and Florian Himsl. It was released in 2011 for Microsoft Windows, then ported to OS X, and Linux. The game's title and plot are inspired by the Biblical story of the Binding of Isaac.",
+    "tags": "",
     "route": "/binding-of-isaac",
     "source": "/swf/binding-of-isaac.swf",
     "sourceType": "embed",
@@ -742,6 +816,7 @@
   {
     "title": "Blast O' Matic",
     "description": "You have to set many parameters which affect the way the cannon fires. Do your best and the result will be worth it.",
+    "tags": "",
     "route": "/blast-o-matic",
     "source": "/swf/blastomatic.swf",
     "sourceType": "embed",
@@ -752,6 +827,7 @@
   {
     "title": "Blobink 2",
     "description": "Someone has stolen all the colours. Give everything it's own colour back and beat the big boss.",
+    "tags": "",
     "route": "/blobink-2",
     "source": "/swf/blobink2.swf",
     "sourceType": "embed",
@@ -762,6 +838,7 @@
   {
     "title": "Bloons Tower Defense 2",
     "description": "Bloons Tower Defense 2 is a popular tower defense game originally released in Flash by Ninja Kiwi. Strategically place your defenses, upgrade your units, and stop all balloons from passing through.",
+    "tags": "",
     "route": "/bloons-tower-defense-2",
     "source": "/swf/bloons_tower_defense_2.swf",
     "sourceType": "embed",
@@ -772,6 +849,7 @@
   {
     "title": "Bubble Trouble",
     "description": "Clear all the bubbles and get yourself out of trouble! Destroy the bouncing bubbles by splitting them again and again with a line from your harpoon gun, but don’t let them touch you! Collect items dropped to gain advantages and score bonus points by eliminating all the bubbles before time runs out. Are you up the challenge?",
+    "tags": "",
     "route": "/bubble-trouble",
     "source": "/swf/bubbletrouble.swf",
     "sourceType": "embed",
@@ -782,6 +860,7 @@
   {
     "title": "Duck Life 1 (Flash)",
     "description": "Duck Life is the first game in the Duck Life series. A tornado has struck your farm and destroyed everything. All that remains is a single duck egg. Train this duckling to peak athletic form so you can earn money to rebuild the farm.",
+    "tags": "",
     "route": "/duck-life-1-flash",
     "source": "/swf/ducklife1.swf",
     "sourceType": "embed",
@@ -792,6 +871,7 @@
   {
     "title": "Duck Life 2 (Flash)",
     "description": "Duck Life 2 is a duck racing game with various training levels to improve your athletic abilities. When you’ve trained enough, you enter a duck ‘quadrathlon’’ that puts your running, climbing, swimming, and flying skills to the test. Just another day in the life of a duck!",
+    "tags": "",
     "route": "/duck-life-2-flash",
     "source": "/swf/ducklife2.swf",
     "sourceType": "embed",
@@ -802,6 +882,7 @@
   {
     "title": "Duck Life 3 (Flash)",
     "description": "Duck Life 3 is a duck racing game featuring genetically modified ducks that evolve as you progress. Choose from one of four duck breeds and evolve as you complete each league. Like the previous game, training is essential to level up and improve your abilities.",
+    "tags": "",
     "route": "/duck-life-3-flash",
     "source": "/swf/ducklife3-evolution.swf",
     "sourceType": "embed",
@@ -812,6 +893,7 @@
   {
     "title": "Duck Life 4 (Flash)",
     "description": "Duck Life 4 is a duck racing game set after the ban on genetically modified ducks. A year has passed since the ban on genetically modified ducks and now it’s up to you to defeat the world champion. Train your duck team to compete in six new locations around the world.",
+    "tags": "",
     "route": "/duck-life-4-flash",
     "source": "/swf/ducklife4.swf",
     "sourceType": "embed",
@@ -822,6 +904,7 @@
   {
     "title": "Falldown 2",
     "description": "Play Fall Down 2 flash game. Fall Down 2 is a Skill game to play free online. Controls: Use your mouse to play As a comment we let you know that Fall Down 2 game is one of the best skill games and a lot of fun is waiting for you playing Fall Down 2 online game, the game that many players have chosen it as their favorite, make your comparision and we hope you enjoy it. Remember that we offer you the best, funniest and the biggest collection of games in the world to play online.",
+    "tags": "",
     "route": "/falldown-2",
     "source": "/swf/falldown2.swf",
     "sourceType": "embed",
@@ -832,6 +915,7 @@
   {
     "title": "Fancy Pants Adventure",
     "description": "Fancy Pants Adventures is a series of free side-scrolling Flash games created by American developer Brad Borne. Four worlds have been released so far. World 1 was released on March 14, 2006 and World 2 was released on January 9, 2008.",
+    "tags": "",
     "route": "/fancy-pants-adventure",
     "source": "/swf/fancypantsadventure.swf",
     "sourceType": "embed",
@@ -842,6 +926,7 @@
   {
     "title": "Fancy Pants Adventure 2",
     "description": "The Fancy Pants Adventures: World 2 is an epic adventure platformer created by Brad Borne. In the first chapter of this legendary series, you will embark on a perilous journey to find your kidnapped sister. Run through dense forests, underwater caverns, and pirate ships while you stomp, kick and slash your enemies with 40 melee weapons. Explore the enchanting maps to find secrets, hidden levels, achievements, costumes, and much more! It's hard not to be amazed by the stunning hand-drawn artwork, satisfying animations, and the good sense of humor in Fancy Pants Adventures. Go ahead, put on your fancy pants and get to work!",
+    "tags": "",
     "route": "/fancy-pants-adventure-2",
     "source": "/swf/fancypantsworld2.swf",
     "sourceType": "embed",
@@ -852,6 +937,7 @@
   {
     "title": "Gun Mayhem 2",
     "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!",
+    "tags": "",
     "route": "/gun-mayhem-2",
     "source": "/swf/gun-mayhem-2.swf",
     "sourceType": "embed",
@@ -862,6 +948,7 @@
   {
     "title": "Gun Mayhem",
     "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!",
+    "tags": "",
     "route": "/gun-mayhem",
     "source": "/swf/gun-mayhem.swf",
     "sourceType": "embed",
@@ -872,6 +959,7 @@
   {
     "title": "The Impossible Quiz 2",
     "description": "The Impossible Quiz 2 is the second installment of the hardest trivia quiz on the word wide web. Questions even got more tricky than in the first quiz, which makes this game officially the hardest one available. The creator Splapp-me-do has done everything to make sure you won't succeed in completing this quiz.",
+    "tags": "",
     "route": "/impossible-quiz-2",
     "source": "/swf/impossiblequiz2.swf",
     "sourceType": "embed",
@@ -882,6 +970,7 @@
   {
     "title": "Learn to Fly 1",
     "description": "Launch the penguin as far as you can, can you get all the upgrades? If you like this game, make sure to also play Learn to Fly Idle and Learn to Fly 3, the most recent editions!",
+    "tags": "",
     "route": "/learn-to-fly-1",
     "source": "/swf/learntofly1.swf",
     "sourceType": "embed",
@@ -892,6 +981,7 @@
   {
     "title": "Learn to Fly 2",
     "description": "You're a penguin, you learned how to fly... but then icebergs stopped you and crushed your dreams. Now you're back for revenge!",
+    "tags": "",
     "route": "/learn-to-fly-2",
     "source": "/swf/learntofly2.swf",
     "sourceType": "embed",
@@ -902,6 +992,7 @@
   {
     "title": "Madness Project Nexus (Redirect)",
     "description": "Project Nexus is a third-person Run n' Gun / Beat'Em Up filled with arcade-style action and button-mashing brutality. Gun your way through droves of bad guys in the Story Campaign, or build your perfect killing machine in the neverending onslaught of Arena Mode.",
+    "tags": "",
     "route": "/madness-project-nexus",
     "source": "/swf/madness-project-nexus.swf",
     "sourceType": "embed",
@@ -912,6 +1003,7 @@
   {
     "title": "Motherload",
     "description": "Use your digger to excavate as much ore as possible. Use the money you earn to upgrade your digger and move deeper and deeper underground, to unearth the mysteries from below.",
+    "tags": "",
     "route": "/motherload",
     "source": "/swf/motherload.swf",
     "sourceType": "embed",
@@ -922,6 +1014,7 @@
   {
     "title": "PacMan",
     "description": "Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment. Entries have been developed by a wide array of other video game companies, including Midway Games, Atari and Mass Media, Inc..",
+    "tags": "",
     "route": "/pacman",
     "source": "/swf/pacman.swf",
     "sourceType": "embed",
@@ -932,6 +1025,7 @@
   {
     "title": "Snake",
     "description": "Snake is a video game genre where the player maneuvers a growing line that becomes a primary obstacle to itself. The concept originated in the 1976 two-player arcade game Blockade from Gremlin Industries, and the ease of implementation has led to hundreds of versions for many platforms.",
+    "tags": "",
     "route": "/snake",
     "source": "/swf/snake.swf",
     "sourceType": "embed",
@@ -942,6 +1036,7 @@
   {
     "title": "Super Mario Flash",
     "description": "Super Mario Flash 1 is waiting for your action! Explore all levels. This is the most beautiful and most complete Super Mario clone all Mario games we have on our site. You have the choice of Mario or Luigi and can explore all parts of the world thereafter. This game also has a 'Level Editor', wilt thou not always make your own Mario World before? Here you have chance! If you have done a world you can share it with other people. Luigi or his brother to go with the arrow keys and shoot with the spacebar.",
+    "tags": "",
     "route": "/super-mario-flash",
     "source": "/swf/super-mario-flash.swf",
     "sourceType": "embed",
@@ -951,7 +1046,8 @@
   },
   {
     "title": "Super Mario Flash 2",
-    "description": "",
+    "description": "The graphics have been improved in this sequel. Choose between Mario or Luigi, complete all the stages and head to the castle to save Princess Peach. Beware of your poweful enemies!",
+    "tags": "",
     "route": "/super-mario-flash-2",
     "source": "/swf/supermarioflash2.swf",
     "sourceType": "embed",
@@ -961,7 +1057,8 @@
   },
   {
     "title": "Tetris",
-    "description": "",
+    "description": "Tetris is a puzzle video game created by Soviet software engineer Alexey Pajitnov in 1984. It has been published by several companies for multiple platforms, most prominently during a dispute over the appropriation of the rights in the late 1980s.",
+    "tags": "",
     "route": "/tetris",
     "source": "/swf/tetris.swf",
     "sourceType": "embed",
@@ -971,7 +1068,8 @@
   },
   {
     "title": "The Last Stand Union City",
-    "description": "",
+    "description": "Union City, also known as The Dead Zone, is a fictional metropolitan city featured in The Last Stand 2, The Last Stand: Union City, and The Last Stand: Dead Zone. It is also briefly mentioned in The Last Stand. Pre-outbreak, it had a population of 350,148, [n 1] the largest in the state.",
+    "tags": "",
     "route": "/the-last-stand-union-city",
     "source": "/swf/the-last-stand-union-city.swf",
     "sourceType": "embed",
@@ -981,7 +1079,8 @@
   },
   {
     "title": "Worlds Hardest Game 2",
-    "description": "",
+    "description": "World's Hardest Game 2 is the second episode of the self-proclaimed world's hardest game series! Hone your reflexes and accuracy as you try to move your little block to the end of each stage without touching the obstacles. Doing so will bring you back to the start so you can try again. The difficulty goes up after every stage, so keep your focus and see how far you can get in the World's Hardest Game 2.",
+    "tags": "",
     "route": "/worlds-hardest-game-2",
     "source": "/swf/worldshardestgame2.swf",
     "sourceType": "embed",
@@ -991,7 +1090,8 @@
   },
   {
     "title": "Zombocalypse 2 (Pending Ruffle Issue)",
-    "description": "",
+    "description": "Zombocalypse 2 is the most recent edition of the popular zombie shooting game with a lot of interesting game modes and features. The mission of the player is to kill crowds of zombies and survive in this hell. At the beginning of the game, player finds himself in the center of the street and the waves of zombies are slowly coming to eat your brain. You have to fight for your life and unlock different achievements. During the game you will discover different power-ups and new weapons to increase your chances to survive in this hell. There are also some features that will help you to succeed in Zombocalypse 2. For example, if you comlete the combo kill of 25,50 or 100 zombies, you can all air strike to destroy hundreds of zombies at a time. You can also activate the special power-ups that fall from sky.",
+    "tags": "",
     "route": "/zombocalypse-2",
     "source": "/swf/zombocalypse-2.1.swf",
     "sourceType": "embed",
@@ -1001,7 +1101,8 @@
   },
   {
     "title": "Zombocalypse",
-    "description": "",
+    "description": "Zombocalypse is an awesome zombie blasting 2D game in which fight waves and waves of undead. You might have known this game for a long time and we saved it from perdition along with a flash player. Thanks to this extension, you can continue to play it as long as you like.",
+    "tags": "",
     "route": "/zombocalypse",
     "source": "/swf/zombocalypse.swf",
     "sourceType": "embed",
@@ -1011,7 +1112,8 @@
   },
   {
     "title": "Canyon Defense",
-    "description": "",
+    "description": "Canyon Defense is an epic tower defense game in which you must attempt to defend your own base in the middle of a desert canyon. You must line the walls of the canyon with defensive towers in order to repel the invading troops.",
+    "tags": "",
     "route": "/canyon-defense",
     "source": "/swf/Canyon Defense.swf",
     "sourceType": "embed",
@@ -1021,7 +1123,8 @@
   },
   {
     "title": "Copter",
-    "description": "",
+    "description": "Copter game is a flash game for one player where you fly a helicopter through a maze of obstacles. This version is the most popular of helicopter game, being very easy to operate and required almost no skills at all. ... Copter game is played using just one button, the left button of your mouse.",
+    "tags": "",
     "route": "/copter",
     "source": "/swf/Copter.swf",
     "sourceType": "embed",
@@ -1031,7 +1134,8 @@
   },
   {
     "title": "Desktop Tower Defence",
-    "description": "",
+    "description": "Desktop Tower Defense is a Flash-based tower defense browser game created by Paul Preece in March 2007. The game had been played over 15.7 million times as of July 2007, and was one of Webware 100's top ten entertainment web applications of 2007",
+    "tags": "",
     "route": "/desktop-tower-defence",
     "source": "/swf/DesktopTowerDefence.swf",
     "sourceType": "embed",
@@ -1041,7 +1145,8 @@
   },
   {
     "title": "Donkey Kong",
-    "description": "",
+    "description": "Donkey Kong is a video game series created by Shigeru Miyamoto. It follows the adventures of an ape named Donkey Kong and his clan of other apes and monkeys. The franchise primarily consists of platform games, originally single-screen action puzzle games and later side-scrolling platformers.",
+    "tags": "",
     "route": "/donkey-kong",
     "source": "/swf/DonkeyKong.swf",
     "sourceType": "embed",
@@ -1050,18 +1155,9 @@
     "listed": true
   },
   {
-    "title": "Doodle Jump",
-    "description": "",
-    "route": "/doodle-jump",
-    "source": "/swf/Doodle Jump.swf",
-    "sourceType": "embed",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Draw Play",
-    "description": "",
+    "description": "A draw play, or simply draw for short, is a type of American football play. The draw is a running play disguised as a passing play. It is the opposite of a play-action pass, which is a passing play disguised as a running play. The play is often used in long yardage situations.",
+    "tags": "",
     "route": "/draw-play",
     "source": "/swf/DrawPlay.swf",
     "sourceType": "embed",
@@ -1071,7 +1167,8 @@
   },
   {
     "title": "Draw Play 2",
-    "description": "",
+    "description": "Draw-Play 2 is the sequel to the hugely popular and fun Draw-Play. In this follow-up, the gameplay remains the same - you must help your character through a series of levels by drawing them a path to walk on! In this title, even more, challenges and levels await and you must once again test your drawing skills and logic.",
+    "tags": "",
     "route": "/draw-play-2",
     "source": "/swf/DrawPlay2.swf",
     "sourceType": "embed",
@@ -1081,7 +1178,8 @@
   },
   {
     "title": "The Beard",
-    "description": "",
+    "description": "This game is all about Tom Fulp's commitment to not shave his face until his next console game, Castle Crashers, is completed. It's a ridiculously over-the-top arcade boss battle that is well worth your time. We hope you enjoy it and discover the secret character!",
+    "tags": "",
     "route": "/the-beard",
     "source": "/swf/castlecrashingthebeard.swf",
     "sourceType": "embed",
@@ -1091,7 +1189,8 @@
   },
   {
     "title": "Choose Your Weapon 2",
-    "description": "",
+    "description": "Swing and jump in this platformer as you pick the right weapon to kill the enemies on each level.",
+    "tags": "",
     "route": "/choose-your-weapon-2",
     "source": "/swf/chooseyourweapon2_LB.swf",
     "sourceType": "embed",
@@ -1101,7 +1200,8 @@
   },
   {
     "title": "Clear Vision",
-    "description": "",
+    "description": "Clear Vision is a free sniper game. Between assassination jobs, learn the dark truth about this stick dude's past. It's not pretty. But he does have a nice apartment! This is a stick sniper masterpiece where you take on the role of an assassin who has lead a hard life full of cold blood and hot women. It's a dark world when you're an assassin for hire and even though he may be the best there is at what he does, that doesn't mean what he does is very nice! Use basic sniper mechanics to delve into the questionable past of this hitman as you rack up a kill count and blast your way through his story. This is a story based stick sniper shooter which brings the duo-tone world of hyper-violent stick games to life through its deep characterization, and complex storytelling. You'll be introduced to characters you might not like but you will definitely understand. You will be forced to question your own morals and ethics as you stare down the barrel of a gun and into the yawning chasm of imperfect humans. Stick games are a staple of the casual gaming industry. They have been around longer than any of us and will probably be around a lot longer than any of us. Clear Vision is a step above the rest. It is truly one of the greatest stick sniper games available.",
+    "tags": "",
     "route": "/clear-vision",
     "source": "/swf/clear-vision.swf",
     "sourceType": "embed",
@@ -1111,7 +1211,8 @@
   },
   {
     "title": "Clear Vision Elite",
-    "description": "",
+    "description": "Clear Vision Elite is a free stick-sniper game. Clear Vision is back! This time with a kitchen, a computer, an office, and all sorts of things that aren't sniping --which is the point of the game. But, don't be confused, this is a sniper game. You'll have to click through lists, and go through different rooms and get all wrapped up in a plot line but at the end of all that after you bought your ammo and checked a name off a list and cleaned your kitchen or whatever: You will finally get to do some sniping! And it is worth it. The physics, the puzzles, the stick men, the aiming. It all comes together with your choice of guns and ammo to create a truly immersive sniper experience. Is it revenge, are you trying to save the world? Are you doing it just for the money? Only those who read through the multiple screens at the beginning of the game will know for sure. This is an exciting sniper adventure where you take on the underground gangs of the world and dish out justice from behind the business end of a smoking gun. Ready, aim, fun!",
+    "tags": "",
     "route": "/clear-vision-elite",
     "source": "/swf/clearvisionelite.swf",
     "sourceType": "embed",
@@ -1121,7 +1222,8 @@
   },
   {
     "title": "Crazy Taxi",
-    "description": "",
+    "description": "Petrol heads unite in this crash and burn style of driving game. Crazy Taxi Game is an online crazy driving complete with the crazy cabbie, the colored cars, the long desert highways, and the freaky car jumping. If you love the car chases in Taxi 2, play taxi driver man and recreate the riveting speed runs as you rush to beat the time. Hurry up and pump in the adrenaline to switch to the open lanes at the perfect time before they cut you off. Pound those keyboard arrow keys to accelerate forward and pass the cars blocking you ahead and keeping you from crossing the crucial time lines. Your quick thinking will be the deciding factor to garner the top spots in the scoring list. Each checkpoint you make adds up an additional time which means more asphalt to run. Failing to reach a checkpoint when the time runs out will mean that your mission is over. That s why failure is not an option for the speed freaks. There s not much need to decelerate, instead you must accelerate all you can! What are you waiting for? Pay the fare, and do the run of your life with Crazy Taxi Game.",
+    "tags": "",
     "route": "/crazy-taxi",
     "source": "/swf/crazy-taxi.swf",
     "sourceType": "embed",
@@ -1131,7 +1233,8 @@
   },
   {
     "title": "Cursor 10",
-    "description": "",
+    "description": "Use your 10 cursors to reach the 16th floor. As your previous lives are replayed, try to cooperate with yourself to reach the goal.",
+    "tags": "",
     "route": "/cursor-10",
     "source": "/swf/cursor10.swf",
     "sourceType": "embed",
@@ -1141,7 +1244,8 @@
   },
   {
     "title": "Cut The Rope (File not found)",
-    "description": "",
+    "description": "Cut the Rope is a Russian series of physics-based puzzle video games developed by the Russian entertainment company ZeptoLab for several platforms and devices.",
+    "tags": "",
     "route": "/cut-the-rope",
     "source": "/swf/cut-the-rope.swf",
     "sourceType": "embed",
@@ -1151,7 +1255,8 @@
   },
   {
     "title": "Dad N' Me",
-    "description": "",
+    "description": "Dad n' Me is a brawler/ fighting game created by Tom Fulp and Dan Paladin, creators of Alien Hominid,in 2005. It is seen by many as the game which popularized flash games, as for its time it was unique as it was very advanced in a genre that was seen by some as primitive.",
+    "tags": "",
     "route": "/dad-n-me",
     "source": "/swf/dadnme.swf",
     "sourceType": "embed",
@@ -1161,7 +1266,8 @@
   },
   {
     "title": "Dance of the Robots",
-    "description": "",
+    "description": "Dodge the bombs that keep on dropping. Careful more and more drop as it gets crazier.",
+    "tags": "",
     "route": "/dance-of-the-robots",
     "source": "/swf/danceoftherobots.swf",
     "sourceType": "embed",
@@ -1170,18 +1276,9 @@
     "listed": true
   },
   {
-    "title": "Dancing Bush",
-    "description": "",
-    "route": "/dancing-bush",
-    "source": "/swf/dancingbushsmallicon.swf",
-    "sourceType": "embed",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Defend Your Castle (File not found)",
-    "description": "",
+    "description": "Defend Your Castle is a series of video games developed by XGen Studios. The original version of Defend Your Castle is a Macromedia Flash-based browser game. It requires the player to kill all enemy units before they destroy the player's castle.",
+    "tags": "",
     "route": "/defend-your-castle",
     "source": "/swf/defend-your-castle.swf",
     "sourceType": "embed",
@@ -1191,7 +1288,8 @@
   },
   {
     "title": "Dental Adventure",
-    "description": "",
+    "description": "Always wanted to be a dentist? Well, even if you have not, you’ll have lots of fun drilling teeth, filling cavities, and using your dental skills to solve lots of dental dilemmas. Hit the road with Glenn Martin, DDS and family and travel cross-country to 8 destinations, meeting new people and their mouths",
+    "tags": "",
     "route": "/dental-adventure",
     "source": "/swf/dental-adventure.swf",
     "sourceType": "embed",
@@ -1201,7 +1299,8 @@
   },
   {
     "title": "Duck Hunt",
-    "description": "",
+    "description": "Duck Hunt is a fantastic arcade game that takes inspiration from the original classic available on Nintendo game systems. You must shoot the moving ducks down with your mouse and see how many points you can score.",
+    "tags": "",
     "route": "/duck-hunt",
     "source": "/swf/duck-hunt.swf",
     "sourceType": "embed",
@@ -1211,7 +1310,8 @@
   },
   {
     "title": "DX Hockey",
-    "description": "",
+    "description": "What about a relaxed game of table hockey? DX Hockey is an air hockey game with different style, more bonus features and nice graphics. In this mouse driven air hockey game you have to beat your computer opponent, also collect those extra items! Use the mouse to move the puck in your area and try to accumulate seven points to proceed to the next level. Get all bonus items to have an advantage. Collect passwords and use them to continue to different game levels. There is total of 8 levels in this cool air hockey game called DX Hockey. Can you finish them all?",
+    "tags": "",
     "route": "/dx-hockey",
     "source": "/swf/dxhockey.swf",
     "sourceType": "embed",
@@ -1221,7 +1321,8 @@
   },
   {
     "title": "Bloxors",
-    "description": "",
+    "description": "Get the block to fall into the square hole to progress to the next level…",
+    "tags": "",
     "route": "/bloxors",
     "source": "/swf/Bloxors.swf",
     "sourceType": "embed",
@@ -1231,7 +1332,8 @@
   },
   {
     "title": "Bullet Bill 2",
-    "description": "",
+    "description": "Take a turn with the bullets of Super Mario Brothers. These bullets take flight and it’s your job to see them safely to the end. Can you kill the goombas on the way?",
+    "tags": "",
     "route": "/bullet-bill-2",
     "source": "/swf/Bullet Bill 2.swf",
     "sourceType": "embed",
@@ -1241,7 +1343,8 @@
   },
   {
     "title": "Bullet Bill 3",
-    "description": "",
+    "description": "Smash your way through 54 exciting levels, or make your own with new level creation tools!",
+    "tags": "",
     "route": "/bullet-bill-3",
     "source": "/swf/Bullet Bill 3.swf",
     "sourceType": "embed",
@@ -1251,7 +1354,8 @@
   },
   {
     "title": "Bomb a Bomb",
-    "description": "",
+    "description": "Bomb It 4 is the fourth version of this fantastic Bomberman style game in which you must test out your bomb dropping skills on a myriad of different levels. The gameplay remains the same as the previous versions - you control a single character and you must move around each level and deploy bombs to try and destroy your enemies without being killed yourself.",
+    "tags": "",
     "route": "/bomb-a-bomb",
     "source": "/swf/bombabomb.swf",
     "sourceType": "embed",
@@ -1261,7 +1365,8 @@
   },
   {
     "title": "Bow Man",
-    "description": "",
+    "description": "Bowman is an archery game where you and an opponent take shots at each other. You win when you’ve hit the opponent fatally. It can take a few arrows. Bowman can be played against the computer or via local multiplayer.",
+    "tags": "",
     "route": "/bow-man",
     "source": "/swf/bowman.swf",
     "sourceType": "embed",
@@ -1271,7 +1376,8 @@
   },
   {
     "title": "Bow Man 2",
-    "description": "",
+    "description": "Become a master of archery in Bowman 2! You need to define the shooting angle and aim carefully. Your mission is to eliminate the opponent by successfully hitting them. Have fun!",
+    "tags": "",
     "route": "/bow-man-2",
     "source": "/swf/bowman2.swf",
     "sourceType": "embed",
@@ -1281,7 +1387,8 @@
   },
   {
     "title": "Bowmaster",
-    "description": "",
+    "description": "A brand new version of the world-famous multiplayer game with bowmen — a hotsy-totsy aim and shoot game Bowmasters has in store for you: • 60+ INSANE CHARACTERS from all dimensions absolutely for free! • 60+ DIFFERENT WEAPONS for total mayhem, awesome fatalities with rag-doll physics!",
+    "tags": "",
     "route": "/bowmaster",
     "source": "/swf/bowmaster.swf",
     "sourceType": "embed",
@@ -1291,7 +1398,8 @@
   },
   {
     "title": "Bowmaster Prelude",
-    "description": "",
+    "description": "Bowmaster Prelude is one of the original browser games and was released over 10 years ago! ... You control a brave Bowmaster and you must manually fire arrows at the incoming knights and warriors. Take into consideration the angle and power of your bow shots and also the movement of the enemies.",
+    "tags": "",
     "route": "/bowmaster-prelude",
     "source": "/swf/bowmasterprelude.swf",
     "sourceType": "embed",
@@ -1301,7 +1409,8 @@
   },
   {
     "title": "Bubble Shooter",
-    "description": "",
+    "description": "Bubble Shooter is a clone of the Puzzle Bobble arcade game that was released by Taito in 1994. The Bubble Shooter game and IP are owned by Ilyon Dynamics, after they were acquired from Absolutist who released the original game in 2002. The game was ported to iOS in 2010, and was ported to Android in 2012.",
+    "tags": "",
     "route": "/bubble-shooter",
     "source": "/swf/bubble shooter.swf",
     "sourceType": "embed",
@@ -1311,7 +1420,8 @@
   },
   {
     "title": "Bubble Tanks 2",
-    "description": "",
+    "description": "Similar to BT1, you must travel through giant bubbles, destroying enemy tanks and taking their bubbles to fuel your growth. As you grow, you constantly evolve and get ever better weapons. Ultimately, you'll have to face the ultimate adversary and defeat it to win the game.",
+    "tags": "",
     "route": "/bubble-tanks-2",
     "source": "/swf/bubble_tanks_2.swf",
     "sourceType": "embed",
@@ -1321,7 +1431,8 @@
   },
   {
     "title": "Bullet Bill",
-    "description": "",
+    "description": "Use the arrow keys to move this bullet around the Mushroom Kingdom. Dodge the obstacles and get the highest score!",
+    "tags": "",
     "route": "/bullet-bill",
     "source": "/swf/bullet-bill.swf",
     "sourceType": "embed",
@@ -1331,7 +1442,8 @@
   },
   {
     "title": "Burger Tycoon",
-    "description": "",
+    "description": "Welcome back on the land where you always get to have the best time of your life, dearest friends, because on our site games-kids.com you will find nothing but the best and most exciting games, and we truly hope that you're willing to join us today within these great adventures as well as you did in all of them. Today's following game is called Burger Tycoon, and it's quite a thinking and management type of game, in which you'll have to run a very successful, yet hard business. We say that it's hard to keep a burger tycoon running, because you need to take care of so many things, such as your own crops you will use for the cows, the factory itself, the board of directors and other departments, and your restaurant of course. We know that you kids are going to do a wonderful job today, in Burger Tycoon, and we wish you guys good luck and we hope you'll have a blast!",
+    "tags": "",
     "route": "/burger-tycoon",
     "source": "/swf/burgertycoon.swf",
     "sourceType": "embed",
@@ -1341,7 +1453,8 @@
   },
   {
     "title": "Bot Arena 3 (File not found)",
-    "description": "",
+    "description": "Build a team of bots by following the instructions in the game. Each bot is composed of a chassis, plating, and weapon. After purchasing the items; first mount the plating to the chassis. Second mount the weapon to the plating. You can purchase more than one bot. Once you have built your team, click start battle to choose your tournament. Better chassis, plating, and weapon upgrades will be available as you advance through the tournament. During battle you can click and drag your bot to the desired location.",
+    "tags": "",
     "route": "/bot-arena-3",
     "source": "/swf/bot-arena-3.swf",
     "sourceType": "embed",
@@ -1351,7 +1464,8 @@
   },
   {
     "title": "Boxhead 2",
-    "description": "",
+    "description": "Boxhead 2 is ta free online combat games. Lock and load your favorite item, take on the whole world in slo mode or tag in a friend to blast away at the competition back to back like in your favorite action movie. The choice is yours! ... You'll be going toe to toe with other players from around the world.",
+    "tags": "",
     "route": "/boxhead-2",
     "source": "/swf/dagobah_boxhead_2play.swf",
     "sourceType": "embed",
@@ -1361,7 +1475,8 @@
   },
   {
     "title": "Electric Man",
-    "description": "",
+    "description": "Electric Man is an awesome stickman fighter Flash game in which you must fight against a range of opponents using a variety of different punch and kick combos. Before you enter the game, you can choose the name and color of your stickman, and also the difficulty level (easy, normal or pro). Once you have chosen your character you can then complete a tutorial that shows you the basic game mechanics and move sets.",
+    "tags": "",
     "route": "/electric-man",
     "source": "/swf/ElectricMan.swf",
     "sourceType": "embed",
@@ -1371,7 +1486,8 @@
   },
   {
     "title": "Excite Bike",
-    "description": "",
+    "description": "Excitebike is a motocross racing video game developed and published by Nintendo. In Japan, it was released for the Famicom in 1984 and then ported to arcades as Vs. Excitebike for the Nintendo Vs. System later the same year.",
+    "tags": "",
     "route": "/excite-bike",
     "source": "/swf/ExciteBike.swf",
     "sourceType": "embed",
@@ -1381,7 +1497,8 @@
   },
   {
     "title": "Feudalism 2",
-    "description": "",
+    "description": "Feudalism 2 is a free fighter game. As they say, the world isn't going to conquer itself. In Feudalism 2, that's your job. In this strategy game with a helping of RPG fixings, select a character, bolster your army with a little gold, and then start conquering. ... Prove just how effective a little bit of feudalism can be.",
+    "tags": "",
     "route": "/feudalism-2",
     "source": "/swf/Feudalism2.swf",
     "sourceType": "embed",
@@ -1391,7 +1508,8 @@
   },
   {
     "title": "Flood Runner 3",
-    "description": "",
+    "description": "Introducing the third instalment of Flood Runner! The aim is still to run and jump from one platform to the next to escape the wave that’s hot on your heels. Flood Runner 3 has improved graphics and the game itself is a little less tricky than the previous episodes. If you fall into the water or lava, perform a QTE to survive and rejoin the race.",
+    "tags": "",
     "route": "/flood-runner-3",
     "source": "/swf/Flood_Runner3.swf",
     "sourceType": "embed",
@@ -1401,9 +1519,10 @@
   },
   {
     "title": "Flood Runner 4",
-    "description": "",
-    "route": "/",
-    "source": "/swf/",
+    "description": "Flood Runner 4 is an endless runner game. Run from flood and giant monsters. Avoid challenging obstacles and try to survive as long as possible. Have Fun!",
+    "tags": "",
+    "route": "/flood-runner-4",
+    "source": "/swf/Flood_Runner4.swf",
     "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
@@ -1411,9 +1530,10 @@
   },
   {
     "title": "Flood Runner 2",
-    "description": "",
+    "description": "A huge wave is chasing you fast. Your goal is to beat the incoming flood by running fast and using the springs for big bounces and jump on the ramps for a boost. The surfboard will only save your life once. Run for your life and don't let the tsunami get you.",
+    "tags": "",
     "route": "/flood-runner-2",
-    "source": "/swf/",
+    "source": "/swf/Flood_Runner2.swf",
     "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
@@ -1421,7 +1541,8 @@
   },
   {
     "title": "Earthbound",
-    "description": "",
+    "description": "EarthBound, released in Japan as Mother 2: Gīgu no Gyakushū, is a role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it was first released in Japan in August 1994, and in North America in June 1995. As Ness and his party of four, Paula, Jeff and Poo, the player travels the world to collect melodies from eight Sanctuaries in order to defeat the universal cosmic destroyer Giygas.",
+    "tags": "",
     "route": "/earthbound",
     "source": "/swf/earthbound.swf",
     "sourceType": "embed",
@@ -1431,7 +1552,8 @@
   },
   {
     "title": "Effing Worms",
-    "description": "",
+    "description": "Effing Worms is a free stick game. Don't you wish you were a giant worm? Dig fast tunnels, and surprise hippies, cops, cows and pedestrians from below! Feed the beast, baby!",
+    "tags": "",
     "route": "/effing-worms",
     "source": "/swf/effingworms.swf",
     "sourceType": "embed",
@@ -1440,18 +1562,9 @@
     "listed": true
   },
   {
-    "title": "Falling Bush",
-    "description": "",
-    "route": "/falling-bush",
-    "source": "/swf/fallingbush.swf",
-    "sourceType": "embed",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Fat Ninja",
-    "description": "",
+    "description": "Who says a Fat Ninja can't be just as good as a skinny ninja? Well, many people are saying that, but you are here to play the role of one in a brand new action-adventure fighting game with ninjas offered to you free of charge on our website, where despite being overweight, you and your avatar will give it your best to kick ass and defeat all the enemies, just like any shinobi would honor their mission by doing!",
+    "tags": "",
     "route": "/fat-ninja",
     "source": "/swf/fat-ninja.swf",
     "sourceType": "embed",
@@ -1461,7 +1574,8 @@
   },
   {
     "title": "Feudalism",
-    "description": "",
+    "description": "Feudalism is an open world battle game in which you need to manage your soldiers and expand your power.",
+    "tags": "",
     "route": "/feudalism",
     "source": "/swf/feudalism.swf",
     "sourceType": "embed",
@@ -1471,7 +1585,8 @@
   },
   {
     "title": "Flashcraft",
-    "description": "",
+    "description": "If you are looking for exciting adventures and a lot of fun, then this game is for you! Flash Craft was created by a team of professionals, so that you fully enjoy the easy controls, impeccable interface and an exciting game. There are Survival and Creative modes, day and night, weather changes and seasons.",
+    "tags": "",
     "route": "/flashcraft",
     "source": "/swf/flashcraft.swf",
     "sourceType": "embed",
@@ -1480,18 +1595,9 @@
     "listed": true
   },
   {
-    "title": "Flight",
-    "description": "",
-    "route": "/",
-    "source": "/swf/",
-    "sourceType": "embed",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Free Rider 2",
-    "description": "",
+    "description": "Free Rider 2 is the second episode of Free Rider, a bike riding game with a DIY track-drawing feature.",
+    "tags": "",
     "route": "/free-rider-2",
     "source": "/swf/freerider2.swf",
     "sourceType": "embed",
@@ -1501,7 +1607,8 @@
   },
   {
     "title": "Frogger",
-    "description": "",
+    "description": "Frogger is a 1981 arcade action game developed by Konami and manufactured by Sega. In North America, it was released by Sega/Gremlin. The object of the game is to direct frogs to their homes one by one by crossing a busy road and navigating a river full of hazards.",
+    "tags": "",
     "route": "/frogger",
     "source": "/swf/frogger.swf",
     "sourceType": "embed",
@@ -1511,7 +1618,8 @@
   },
   {
     "title": "Grow RPG",
-    "description": "",
+    "description": "Grow RPG is a cool turn based RPG game in which you must build up your kingdom and fight against the evil demon who is trying to destroy your world. Each turn you must place an object in your world such as a tree, a house, some stone, a chest or water for example.",
+    "tags": "",
     "route": "/grow-rpg",
     "source": "/swf/growrpg.swf",
     "sourceType": "embed",
@@ -1521,7 +1629,8 @@
   },
   {
     "title": "Gods Playing Field",
-    "description": "",
+    "description": "God's Playing Field is a free strategy game. You decide who lives and dies. If you've ever wanted a chance to play God, this is it.",
+    "tags": "",
     "route": "/gods-playing-field",
     "source": "/swf/Gods Playing Field.swf",
     "sourceType": "embed",
@@ -1531,7 +1640,8 @@
   },
   {
     "title": "Grid Lock",
-    "description": "",
+    "description": "Locked up blocks on the grid. Is there anything more we can explain to you?",
+    "tags": "",
     "route": "/grid-lock",
     "source": "/swf/Gridlock.swf",
     "sourceType": "embed",
@@ -1541,7 +1651,8 @@
   },
   {
     "title": "Hobo",
-    "description": "",
+    "description": "Hobo is the first instalment of this fun fighting game. You take control of a hobo and must fight your way through the streets! Don't let anyone boss you around or mistreat you - if they try to then use your super strength to punch and kick them into oblivion! Your hobo has a range of different fighting moves so try to use them all to defeat your enemies.",
+    "tags": "",
     "route": "/hobo",
     "source": "/swf/Hobo.swf",
     "sourceType": "embed",
@@ -1551,7 +1662,8 @@
   },
   {
     "title": "Indestructo Tank",
-    "description": "",
+    "description": "As the pilot of an indestructable tank, you have certain responsibilities - Kicking Butt! Use the enemies weapons against them as you catapult yourself through the air and destroy the enemy air force!",
+    "tags": "",
     "route": "/indestructo-tank",
     "source": "/swf/IndestructoTank.swf",
     "sourceType": "embed",
@@ -1561,7 +1673,8 @@
   },
   {
     "title": "Line Rider 2",
-    "description": "",
+    "description": "Line Rider is an internet game, with versions available for Microsoft Silverlight, Javascript, Windows, and Flash. It was originally created in September 2006 by Boštjan Čadež, a Slovenian student. Soon after its initial appearance on DeviantArt, Line Rider became an internet phenomenon.",
+    "tags": "",
     "route": "/line-rider-2",
     "source": "/swf/Line Rider 2.swf",
     "sourceType": "embed",
@@ -1570,18 +1683,9 @@
     "listed": true
   },
   {
-    "title": "Madness",
-    "description": "",
-    "route": "/madness",
-    "source": "/swf/Madness.swf",
-    "sourceType": "embed",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Mario Revived",
-    "description": "",
+    "description": "Super Mario Revived is a upcoming exploration and 3-D platformer created by Nintendo for the Nintendo Spectrum, the Nintendo Switch, and the 3DS (in a non-HD style). It is a nostalgia game, with old enemies and obstacles and new features mixed in along with it.. It is said to be the longest platformer in history of Mario.",
+    "tags": "",
     "route": "/mario-revived",
     "source": "/swf/Mariorevived.swf",
     "sourceType": "embed",
@@ -1591,7 +1695,8 @@
   },
   {
     "title": "Max Dirt Bike 1",
-    "description": "",
+    "description": "Max Dirt Bike is the ultimate balance game. All you're going to need to remember if you wanna succeed in the fast-paced, highly competitive world of internet dirt biking is this: rev, charge, balance & brake. There isn't a hill you can't climb, a slope you can't overcome or a valley you won't dominate if you master the art of revving up, balancing on the brink, charging the hills and braking when the situation requires it. Max Dirt Bike is a smart physics action game that puts your dexterity and puzzle muscles to the test. If you want to end each level by fading into the darkness and disappearing to thee great leaderboard in the sky, then this is the. game you've been waiting for. The first, best, and most played dirt bike game with such a cool background!",
+    "tags": "",
     "route": "/max-dirt-bike-1",
     "source": "/swf/MaxDirtBike1.swf",
     "sourceType": "embed",
@@ -1601,7 +1706,8 @@
   },
   {
     "title": "Monopoly",
-    "description": "",
+    "description": "Monopoly is a real-estate board game for two to eight players. The player's goal is to remain financially solvent while forcing opponents into bankruptcy by buying and developing pieces of property. Bankruptcy results in elimination from the game. The last player remaining on the board is the winner.",
+    "tags": "",
     "route": "/monopoly",
     "source": "/swf/Monopoly.swf",
     "sourceType": "embed",
@@ -1611,7 +1717,8 @@
   },
   {
     "title": "N",
-    "description": "",
+    "description": "In N, the player controls a ninja who navigates tile-based levels while simultaneously avoiding hazards, collecting gold, and eventually opening an exit door which completes the level.",
+    "tags": "",
     "route": "/n",
     "source": "/swf/N.swf",
     "sourceType": "embed",
@@ -1621,7 +1728,8 @@
   },
   {
     "title": "Parachute",
-    "description": "",
+    "description": "Parachute is a video game released in 1983 by Homevision for the Atari 2600. The game puts the player in the role of parachutist who is falling gently from the sky. In order to land safely, the player must evade aeroplanes, helicopters, birds and hot-air balloons.",
+    "tags": "",
     "route": "/parachute",
     "source": "/swf/Parachute.swf",
     "sourceType": "embed",
@@ -1631,7 +1739,8 @@
   },
   {
     "title": "Portal",
-    "description": "",
+    "description": "Portal: The Flash Version includes over 40 challenging, portals thinking levels, which features almost every feature the real game does, in 2d - energy balls, cubes, turrets and even the famous crusher from the trailer. The game also includes a console to mess around with after finishing the game, or just being frustrated by thinking with portals!",
+    "tags": "",
     "route": "/portal",
     "source": "/swf/Portal.swf",
     "sourceType": "embed",
@@ -1641,7 +1750,8 @@
   },
   {
     "title": "Prince of War",
-    "description": "",
+    "description": "Prince of War is an action packed war game where you are tasked to defeat the orcs to keep your supply line running. Defeat all of the orcs they throw at you to improve your forces' morale. Your kingdom is yours to save!",
+    "tags": "",
     "route": "/prince-of-war",
     "source": "/swf/PrinceofWar.swf",
     "sourceType": "embed",
@@ -1652,6 +1762,7 @@
   {
     "title": "Prince of War 2",
     "description": "",
+    "tags": "",
     "route": "/prince-of-war-2",
     "source": "/swf/PrinceofWar2.swf",
     "sourceType": "embed",
@@ -1662,6 +1773,7 @@
   {
     "title": "Raft Wars",
     "description": "",
+    "tags": "",
     "route": "/raft-wars",
     "source": "/swf/RaftWars.swf",
     "sourceType": "embed",
@@ -1672,6 +1784,7 @@
   {
     "title": "Shock 1",
     "description": "",
+    "tags": "",
     "route": "/shock-1",
     "source": "/swf/SHOCK1.swf",
     "sourceType": "embed",
@@ -1682,6 +1795,7 @@
   {
     "title": "Staggy the Boy Scout Slayer 2",
     "description": "",
+    "tags": "",
     "route": "/staggy-the-boy-scout-slayer-2",
     "source": "/swf/Staggy The Boy Scout Slayer II.swf",
     "sourceType": "embed",
@@ -1692,6 +1806,7 @@
   {
     "title": "Stick War",
     "description": "",
+    "tags": "",
     "route": "/stick-war",
     "source": "/swf/Stick War.swf",
     "sourceType": "embed",
@@ -1702,6 +1817,7 @@
   {
     "title": "Storm the House 2",
     "description": "",
+    "tags": "",
     "route": "/storm-the-house-2",
     "source": "/swf/StormtheHouse2.swf",
     "sourceType": "embed",
@@ -1712,6 +1828,7 @@
   {
     "title": "Tactical Assassin",
     "description": "",
+    "tags": "",
     "route": "/tactical-assassin",
     "source": "/swf/TacticalAssassin.swff",
     "sourceType": "embed",
@@ -1722,6 +1839,7 @@
   {
     "title": "Tactical Assassin 2",
     "description": "",
+    "tags": "",
     "route": "/tactical-assassin-2",
     "source": "/swf/TacticalAssassin2.swf",
     "sourceType": "embed",
@@ -1732,6 +1850,7 @@
   {
     "title": "The Unfair Platformer",
     "description": "",
+    "tags": "",
     "route": "/the-unfair-platformer",
     "source": "/swf/The Unfair Platformer.swf",
     "sourceType": "embed",
@@ -1742,6 +1861,7 @@
   {
     "title": "Toss the Turtle",
     "description": "",
+    "tags": "",
     "route": "/toss-the-turtle.swf",
     "source": "/swf/Toss The Turtle.swf",
     "sourceType": "embed",
@@ -1752,6 +1872,7 @@
   {
     "title": "Zelda",
     "description": "",
+    "tags": "",
     "route": "/zelda",
     "source": "/swf/Zelda.swf",
     "sourceType": "embed",
@@ -1762,6 +1883,7 @@
   {
     "title": "Zoeken",
     "description": "",
+    "tags": "",
     "route": "/zoeken",
     "source": "/swf/Zoeken.swf",
     "sourceType": "embed",
@@ -1772,6 +1894,7 @@
   {
     "title": "Armor RPG Experiment",
     "description": "",
+    "tags": "",
     "route": "/armor-rpg-experiment",
     "source": "/swf/armorrpg_mod.swf",
     "sourceType": "embed",
@@ -1782,6 +1905,7 @@
   {
     "title": "Galaga",
     "description": "",
+    "tags": "",
     "route": "/galaga",
     "source": "/swf/galaga.swf",
     "sourceType": "embed",
@@ -1792,6 +1916,7 @@
   {
     "title": "Geo Land RPG",
     "description": "",
+    "tags": "",
     "route": "/geo-land-rpg",
     "source": "/swf/geolandrpg.swf",
     "sourceType": "embed",
@@ -1802,6 +1927,7 @@
   {
     "title": "Grid 16",
     "description": "",
+    "tags": "",
     "route": "/grid-16",
     "source": "/swf/grid16.swf",
     "sourceType": "embed",
@@ -1812,6 +1938,7 @@
   {
     "title": "Grow Island",
     "description": "",
+    "tags": "",
     "route": "/grow-island",
     "source": "/swf/growisland.swf",
     "sourceType": "embed",
@@ -1822,6 +1949,7 @@
   {
     "title": "Gun Blood",
     "description": "",
+    "tags": "",
     "route": "/gun-blood",
     "source": "/swf/gunblood.swf",
     "sourceType": "embed",
@@ -1832,6 +1960,7 @@
   {
     "title": "Hell Cops",
     "description": "",
+    "tags": "",
     "route": "/hell-cops",
     "source": "/swf/hell-cops.swf",
     "sourceType": "embed",
@@ -1842,6 +1971,7 @@
   {
     "title": "Hexxagon",
     "description": "",
+    "tags": "",
     "route": "/hexxagon",
     "source": "/swf/hexxagon.swf",
     "sourceType": "embed",
@@ -1852,6 +1982,7 @@
   {
     "title": "Hobo 4: Total War",
     "description": "",
+    "tags": "",
     "route": "/hobo-4-total-war",
     "source": "/swf/hobo-4-total-war-749179f9.swf",
     "sourceType": "embed",
@@ -1862,6 +1993,7 @@
   {
     "title": "Hobo 5: Space Brawls",
     "description": "",
+    "tags": "",
     "route": "/hobo-5-space-brawls",
     "source": "/swf/hobo-5-space-brawls--11410f2f2.swf",
     "sourceType": "embed",
@@ -1872,6 +2004,7 @@
   {
     "title": "Hobo 6: Hell",
     "description": "",
+    "tags": "",
     "route": "/hobo-6-hell",
     "source": "/swf/hobo-6-hell-136403467.swf",
     "sourceType": "embed",
@@ -1882,6 +2015,7 @@
   {
     "title": "Hobo 7: Heaven",
     "description": "",
+    "tags": "",
     "route": "/hobo-7-heaven",
     "source": "/swf/hobo-7-heaven-14404_6.swf",
     "sourceType": "embed",
@@ -1892,6 +2026,7 @@
   {
     "title": "Hobo 3: Wanted",
     "description": "",
+    "tags": "",
     "route": "/hobo-3-wanted",
     "source": "/swf/hobo3-wanted-5673395b.swf",
     "sourceType": "embed",
@@ -1902,6 +2037,7 @@
   {
     "title": "Hobo Prison Brawl",
     "description": "",
+    "tags": "",
     "route": "/hobo-prison-brawl",
     "source": "/swf/hoboprisonbrawl.swf",
     "sourceType": "embed",
@@ -1912,6 +2048,7 @@
   {
     "title": "Hot Corn",
     "description": "",
+    "tags": "",
     "route": "/hot-corn",
     "source": "/swf/hotcorn.swf",
     "sourceType": "embed",
@@ -1922,6 +2059,7 @@
   {
     "title": "Impossible Quiz Book",
     "description": "",
+    "tags": "",
     "route": "/impossible-quiz-book",
     "source": "/swf/impossiblequizbook.swf",
     "sourceType": "embed",
@@ -1932,6 +2070,7 @@
   {
     "title": "Indestructo Tank 2",
     "description": "",
+    "tags": "",
     "route": "/indestructo-tank-2",
     "source": "/swf/indestructotank2.swf",
     "sourceType": "embed",
@@ -1942,6 +2081,7 @@
   {
     "title": "Interactive Buddy 2",
     "description": "",
+    "tags": "",
     "route": "/interactive-buddy-2",
     "source": "/swf/interactivebuddy2.swf",
     "sourceType": "embed",
@@ -1952,6 +2092,7 @@
   {
     "title": "Internet RPG",
     "description": "",
+    "tags": "",
     "route": "/internet-rpg",
     "source": "/swf/internet-rpg.swf",
     "sourceType": "embed",
@@ -1962,6 +2103,7 @@
   {
     "title": "Jump",
     "description": "",
+    "tags": "",
     "route": "/jump",
     "source": "/swf/jump.swf",
     "sourceType": "embed",
@@ -1972,6 +2114,7 @@
   {
     "title": "Kung Fu Remix 2",
     "description": "",
+    "tags": "",
     "route": "/kung-fu-remix-2",
     "source": "/swf/kungfuremix2.swf",
     "sourceType": "embed",
@@ -1982,6 +2125,7 @@
   {
     "title": "Line Game Orange",
     "description": "",
+    "tags": "",
     "route": "/line-game-orange",
     "source": "/swf/linegameorange.swf",
     "sourceType": "embed",
@@ -1992,6 +2136,7 @@
   {
     "title": "Mario Combat",
     "description": "",
+    "tags": "",
     "route": "/mario-combat",
     "source": "/swf/mariocombat.swf",
     "sourceType": "embed",
@@ -2002,6 +2147,7 @@
   {
     "title": "Mini Putt",
     "description": "",
+    "tags": "",
     "route": "/mini-putt",
     "source": "/swf/miniputt.swf",
     "sourceType": "embed",
@@ -2012,6 +2158,7 @@
   {
     "title": "Only Level",
     "description": "",
+    "tags": "",
     "route": "/only-level",
     "source": "/swf/onlylevel.swf",
     "sourceType": "embed",
@@ -2022,6 +2169,7 @@
   {
     "title": "PacXon",
     "description": "",
+    "tags": "",
     "route": "/pacxon",
     "source": "/swf/pacxon.swf",
     "sourceType": "embed",
@@ -2032,6 +2180,7 @@
   {
     "title": "Pandemic 1",
     "description": "",
+    "tags": "",
     "route": "/pandemic-1",
     "source": "/swf/pandemic-1.swf",
     "sourceType": "embed",
@@ -2042,6 +2191,7 @@
   {
     "title": "Pandemic 2",
     "description": "",
+    "tags": "",
     "route": "/pandemic-2",
     "source": "/swf/pandemic2.swf",
     "sourceType": "embed",
@@ -2052,6 +2202,7 @@
   {
     "title": "Parking Mania",
     "description": "",
+    "tags": "",
     "route": "/parking-mania",
     "source": "/swf/parkingmania.swf",
     "sourceType": "embed",
@@ -2062,6 +2213,7 @@
   {
     "title": "Powerpuff Girls Zombgone",
     "description": "",
+    "tags": "",
     "route": "/powerpuff-girls-zombgone",
     "source": "/swf/powerpuff_girls_zombgone.swf",
     "sourceType": "embed",
@@ -2072,6 +2224,7 @@
   {
     "title": "Raft Wars 2",
     "description": "",
+    "tags": "",
     "route": "/raft-wars-2",
     "source": "/swf/raft-wars-2_mochi_secure.swf",
     "sourceType": "embed",
@@ -2082,6 +2235,7 @@
   {
     "title": "Real Estate Tycoon",
     "description": "",
+    "tags": "",
     "route": "/real-estate-tycoon",
     "source": "/swf/real-estate-tycoon-1350817f.swf",
     "sourceType": "embed",
@@ -2092,6 +2246,7 @@
   {
     "title": "Red Shift",
     "description": "",
+    "tags": "",
     "route": "/red-shift",
     "source": "/swf/redshift.swf ",
     "sourceType": "embed",
@@ -2102,6 +2257,7 @@
   {
     "title": "Robot Unicorn Attack",
     "description": "",
+    "tags": "",
     "route": "/robot-unicorn-attack",
     "source": "/swf/robotunicornattack.swf",
     "sourceType": "embed",
@@ -2112,6 +2268,7 @@
   {
     "title": "Sift Heads 1",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-1",
     "source": "/swf/sift-heads-1.swf",
     "sourceType": "embed",
@@ -2122,6 +2279,7 @@
   {
     "title": "Sift Heads 2",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-2",
     "source": "/swf/sift-heads-2.swf",
     "sourceType": "embed",
@@ -2132,6 +2290,7 @@
   {
     "title": "Sift Heads 3",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-3",
     "source": "/swf/sift-heads-3.swf",
     "sourceType": "embed",
@@ -2142,6 +2301,7 @@
   {
     "title": "Sift Heads 4",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-4",
     "source": "/swf/sift-heads-4.swf",
     "sourceType": "embed",
@@ -2152,6 +2312,7 @@
   {
     "title": "Sift Heads 5",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-5",
     "source": "/swf/sift-heads-5.swf",
     "sourceType": "embed",
@@ -2162,6 +2323,7 @@
   {
     "title": "Sift Heads World",
     "description": "",
+    "tags": "",
     "route": "/sift-heads-world",
     "source": "/swf/sift_heads_world.swf",
     "sourceType": "embed",
@@ -2172,6 +2334,7 @@
   {
     "title": "Sim Web 2.0 Company",
     "description": "",
+    "tags": "",
     "route": "/sim-web-2-0-company",
     "source": "/swf/simweb2.0company.swf",
     "sourceType": "embed",
@@ -2182,6 +2345,7 @@
   {
     "title": "Skull Kid",
     "description": "",
+    "tags": "",
     "route": "/skull-kid",
     "source": "/swf/skull_kid.swf",
     "sourceType": "embed",
@@ -2192,6 +2356,7 @@
   {
     "title": "Sky Wire",
     "description": "",
+    "tags": "",
     "route": "/sky-wire",
     "source": "/swf/skywire.swf",
     "sourceType": "embed",
@@ -2202,6 +2367,7 @@
   {
     "title": "Spank the Monkey",
     "description": "",
+    "tags": "",
     "route": "/spank-the-monkey",
     "source": "/swf/spankthemonkey.swf",
     "sourceType": "embed",
@@ -2212,6 +2378,7 @@
   {
     "title": "Spider Man",
     "description": "",
+    "tags": "",
     "route": "/spider-man",
     "source": "/swf/spider-man.swf",
     "sourceType": "embed",
@@ -2222,6 +2389,7 @@
   {
     "title": "Sprinter",
     "description": "",
+    "tags": "",
     "route": "/sprinter",
     "source": "/swf/sprinter",
     "sourceType": "embed",
@@ -2232,6 +2400,7 @@
   {
     "title": "Stick RPG",
     "description": "",
+    "tags": "",
     "route": "/stick-rpg",
     "source": "/swf/stickrpg.swf",
     "sourceType": "embed",
@@ -2242,6 +2411,7 @@
   {
     "title": "Submachine 1",
     "description": "",
+    "tags": "",
     "route": "/submachine-1",
     "source": "/swf/submachine_1.swf",
     "sourceType": "embed",
@@ -2252,6 +2422,7 @@
   {
     "title": "Submachine 2",
     "description": "",
+    "tags": "",
     "route": "/submachine-2",
     "source": "/swf/submachine_2.swf",
     "sourceType": "embed",
@@ -2262,6 +2433,7 @@
   {
     "title": "Submachine 3",
     "description": "",
+    "tags": "",
     "route": "/submachine-3",
     "source": "/swf/submachine_3.swf",
     "sourceType": "embed",
@@ -2272,6 +2444,7 @@
   {
     "title": "Super Smash Flash",
     "description": "",
+    "tags": "",
     "route": "/super-smash-flash",
     "source": "/swf/super_smash_flash.swf",
     "sourceType": "embed",
@@ -2282,6 +2455,7 @@
   {
     "title": "Super Mario 63",
     "description": "",
+    "tags": "",
     "route": "/super-mario-63",
     "source": "/swf/supermario63.swf",
     "sourceType": "embed",
@@ -2292,6 +2466,7 @@
   {
     "title": "Treasure Seas ",
     "description": "",
+    "tags": "",
     "route": "/treasure-seas",
     "source": "/swf/treasureseas.swf",
     "sourceType": "embed",
@@ -2302,6 +2477,7 @@
   {
     "title": "Tron",
     "description": "",
+    "tags": "",
     "route": "/tron",
     "source": "/swf/tron.swf",
     "sourceType": "embed",
@@ -2312,6 +2488,7 @@
   {
     "title": "Tsunami Fighter",
     "description": "",
+    "tags": "",
     "route": "/tsunami-fighter",
     "source": "/swf/tsunamifighter.swf",
     "sourceType": "embed",
@@ -2322,6 +2499,7 @@
   {
     "title": "Use Boxmen",
     "description": "",
+    "tags": "",
     "route": "/use-boxmen",
     "source": "/swf/use-boxmen.swf",
     "sourceType": "embed",
@@ -2332,7 +2510,8 @@
   {
     "title": "Warfare 1944",
     "description": "",
-    "route": "/",
+    "tags": "",
+    "route": "/warfare-1944",
     "source": "/swf/",
     "sourceType": "embed",
     "width": "1000px",
@@ -2342,6 +2521,7 @@
   {
     "title": "Kitten Cannon",
     "description": "",
+    "tags": "",
     "route": "/kitten-cannon",
     "source": "/swf/yetiGamesKitten Cannon.swf",
     "sourceType": "embed",
@@ -2352,6 +2532,7 @@
   {
     "title": "Moto X3M",
     "description": "",
+    "tags": "",
     "route": "/moto-x3m",
     "source": "/src/moto-x3m/index.html",
     "sourceType": "iframe",
@@ -2362,6 +2543,7 @@
   {
     "title": "Moto X3M Winter",
     "description": "",
+    "tags": "",
     "route": "/moto-x3m-winter",
     "source": "/src/moto-x3m-winter/index.html",
     "sourceType": "iframe",
@@ -2372,6 +2554,7 @@
   {
     "title": "Moto X3M Spooky Land",
     "description": "",
+    "tags": "",
     "route": "/moto-x3m-spooky-land",
     "source": "/src/moto-x3m-spooky-land/index.html",
     "sourceType": "iframe",
@@ -2382,6 +2565,7 @@
   {
     "title": "Moto X3M Pool Party",
     "description": "",
+    "tags": "",
     "route": "/moto-x3m-pool-party",
     "source": "/src/moto-x3m-pool-party/index.html",
     "sourceType": "iframe",
@@ -2392,6 +2576,7 @@
   {
     "title": "Friday Night Funkin: Week 6",
     "description": "",
+    "tags": "",
     "route": "/friday-night-funkin-week-6",
     "source": "/src/friday-night-funkin--week-6/index.html",
     "sourceType": "iframe",
@@ -2402,6 +2587,7 @@
   {
     "title": "Friday Night Funkin: Vs Ex",
     "description": "",
+    "tags": "",
     "route": "/friday-night-funkin-vs-ex",
     "source": "/src/friday-night-funkin--vs-ex/index.html",
     "sourceType": "iframe",
@@ -2412,6 +2598,7 @@
   {
     "title": "Hill Racing",
     "description": "",
+    "tags": "",
     "route": "/hill-racing",
     "source": "/src/hill-racing/index.html",
     "sourceType": "iframe",
@@ -2422,6 +2609,7 @@
   {
     "title": "Running Bot Xmas Gifts",
     "description": "",
+    "tags": "",
     "route": "/running-bot-xmas-gifts",
     "source": "/src/running-bot-xmas-gifts/index.html",
     "sourceType": "iframe",
@@ -2432,6 +2620,7 @@
   {
     "title": "Russian Taz Magmes",
     "description": "",
+    "tags": "",
     "route": "/russian-taz-magmes",
     "source": "/src/russian-taz-magmes/index.html",
     "sourceType": "iframe",
@@ -2442,6 +2631,7 @@
   {
     "title": "Slope 2",
     "description": "",
+    "tags": "",
     "route": "/slope-2",
     "source": "/src/slope-2/index.html",
     "sourceType": "iframe",
@@ -2452,6 +2642,7 @@
   {
     "title": "Game Inside a Game",
     "description": "",
+    "tags": "",
     "route": "/game-inside-a-game",
     "source": "/src/game-inside-a-game/index.html",
     "sourceType": "iframe",
@@ -2462,6 +2653,7 @@
   {
     "title": "Google Snake (Refused to Connect)",
     "description": "",
+    "tags": "",
     "route": "/google-snake",
     "source": "https://onebigstatic-tmm.tbt.mx/shortstatic/https://www.google.com/fbx?fbx=snake_arcade",
     "sourceType": "iframe",
@@ -2472,6 +2664,7 @@
   {
     "title": "Zombotron",
     "description": "",
+    "tags": "",
     "route": "/zombotron",
     "source": "/src/zombotron/index.html",
     "sourceType": "iframe",
@@ -2482,6 +2675,7 @@
   {
     "title": "Zombotron 2",
     "description": "",
+    "tags": "",
     "route": "/zombotron-2",
     "source": "/src/zombotron-2/index.html",
     "sourceType": "iframe",
@@ -2492,6 +2686,7 @@
   {
     "title": "Zombotron 2 Time Machine",
     "description": "",
+    "tags": "",
     "route": "/zombotron-2-time-machine",
     "source": "/src/zombotron-2-time-machine/index.html",
     "sourceType": "iframe",
@@ -2502,6 +2697,7 @@
   {
     "title": "Donut Boy",
     "description": "",
+    "tags": "",
     "route": "/donut-boy",
     "source": "/src/donut-boy/index.html",
     "sourceType": "iframe",

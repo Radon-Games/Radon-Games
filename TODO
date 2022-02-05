@@ -14,3 +14,16 @@ https://tailwind.spacet.me/
 
 
 https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html
+
+<h3 class="font-bold text-xs" >TAGS</h3>    
+<!-- This is the tags container -->       
+<div class='my-3 flex flex-wrap -m-1'>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer" >#winter</span>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#stark</span>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#gameofthrones</span>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#battle</span>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#jhonsnow</span>
+  <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#kinglandings</span>
+</div>
+
+Update flood runner and Warfare 1944 source files 

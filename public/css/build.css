@@ -608,6 +608,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -932,11 +936,6 @@ body {
 .hover\:border-amber-500:hover {
   --tw-border-opacity: 1;
   border-color: rgb(245 158 11 / var(--tw-border-opacity));
-}
-
-.hover\:bg-gray-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-600:hover {
