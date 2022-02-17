@@ -2,7 +2,7 @@ const { get, post } = require("axios");
 
 module.exports = (app) => {
   app.get("/gtag/*", (req, res) => {
-    console.log("GET");
+    // console.log("GET");
     get("https://www.googletagmanager.com" + req.url).then((resp) => {
       Object.keys(resp.headers).forEach((header) => {
         if(header === "transfer-encoding") return;
@@ -15,7 +15,7 @@ module.exports = (app) => {
   });
   
   app.post("/collect", (req, res) => {
-    console.log("POST")
+    // console.log("POST")
     //let ip = req.headers['x-forwarded-for'].split(",")[0] || req.connection.remoteAddress;
     let headers = {};
     Object.keys(req.headers).forEach((header) => {
