@@ -10,6 +10,9 @@ module.exports = function(app) {
 
   // google analytics proxy
   require("./analytics.js")(app);
+
+  // google adsense
+  require("./adsense.js")(app);
   
   // Sort games
   let allGames = require("../games.json");
