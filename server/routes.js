@@ -49,6 +49,10 @@ module.exports = function(app) {
     res.render("pages/about", {});
   });
 
+  app.get("/affiliates", (req, res) => {
+    res.render("pages/affiliates", {});
+  });
+
   app.get("/game*", (req, res) => {
     // get game url
     let path = req.url.split("/game");
