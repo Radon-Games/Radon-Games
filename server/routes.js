@@ -7,12 +7,6 @@ module.exports = function(app) {
   if(config.gameProxy) {
     require("./proxy.js")(app);
   }
-
-  // google analytics proxy
-  require("./analytics.js")(app);
-
-  // google adsense
-  require("./adsense.js")(app);
   
   // Sort games
   let allGames = require("../games.json");
