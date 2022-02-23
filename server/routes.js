@@ -49,8 +49,8 @@ module.exports = function(app) {
     res.render("pages/about", {});
   });
 
-  app.get("/affiliates", (req, res) => {
-    res.render("pages/affiliates", {});
+  app.get("/partners", (req, res) => {
+    res.render("pages/partners", {});
   });
 
   app.get("/game*", (req, res) => {
