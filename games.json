@@ -781,7 +781,7 @@
     "listed": true
   },
   {
-    "title": "Bike Mania (Needs Review)",
+    "title": "Bike Mania",
     "description": "Ride your bike through the bumpy and challenging tracks. Do not hit the ground and show your skill! Release Date. April 2007 (Flash). January 2020 (HTML5).",
     "tags": "",
     "route": "/bike-mania",
@@ -1119,7 +1119,7 @@
     "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
-    "listed": true
+    "listed": false
   },
   {
     "title": "Copter",
@@ -1141,7 +1141,7 @@
     "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
-    "listed": true
+    "listed": false
   },
   {
     "title": "Donkey Kong",
@@ -2701,6 +2701,105 @@
     "route": "/donut-boy",
     "source": "/src/donut-boy/index.html",
     "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Henry Stick Fleeing The Complex",
+    "description": "",
+    "tags": "",
+    "route": "/henry-stick-fleeing-the-complex",
+    "source": "/swf/HenryStick_FleeingTheComplex.swf",
+    "sourceType": "embed",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "A Dance of Fire and Ice",
+    "description": "",
+    "tags": "",
+    "route": "/a-dance-of-fire-and-ice",
+    "source": "/src/a-dance-of-fire-and-ice/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Superhot",
+    "description": "",
+    "tags": "",
+    "route": "/superhot",
+    "source": "/src/superhot/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Wordle",
+    "description": "",
+    "tags": "",
+    "route": "/wordle",
+    "source": "/src/wordle/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Getaway Shootout",
+    "description": "",
+    "tags": "",
+    "route": "/getaway-shootout",
+    "source": "/src/getaway-shootout/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Google Solitaire",
+    "description": "",
+    "tags": "",
+    "route": "/google-solitaire",
+    "source": "/src/google-solitaire/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Rooftop Snipers",
+    "description": "",
+    "tags": "",
+    "route": "/rooftop-snipers",
+    "source": "/src/rooftop-snipers/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tube Jumpers",
+    "description": "",
+    "tags": "",
+    "route": "/tube-jumpers",
+    "source": "/src/tube-jumpers/index.html",
+    "sourceType": "iframe",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "",
+    "description": "",
+    "tags": "",
+    "route": "/",
+    "source": "/",
+    "sourceType": "embed",
     "width": "1000px",
     "height": "625px",
     "listed": true

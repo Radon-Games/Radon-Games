@@ -5,7 +5,7 @@
   "repository": "https://github.com/cohenerickson/radon-games",
   "scripts": {
     "start": "node server.js",
-    "buildTailwind": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css"
+    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css"
   },
   "author": "Cohen Erickson",
   "license": "GNU",

@@ -7,7 +7,7 @@ if(!window.sessionStorage.getItem("discord")) {
 
   setTimeout(() => {
     document.getElementById("discord-popup").classList.add("hidden");
-  }, 10000);
+  }, 60000);
 
   window.sessionStorage.setItem("discord", "true");
 }

@@ -510,8 +510,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
+.right-5 {
+  right: 1.25rem;
 }
 
 .m-4 {
@@ -1071,10 +1071,6 @@ body {
     margin-right: 1.5rem;
   }
 
-  .sm\:inline-block {
-    display: inline-block;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -1087,6 +1083,10 @@ body {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
   }
 
   .md\:flex {
