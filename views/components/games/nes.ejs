@@ -1,0 +1,17 @@
+<div
+  id="game"
+  style="margin: 0 auto;display: block;"
+  width="<%= game.width %>"
+  height="<%= game.height %>"
+></div>
+<script>
+window.NepPlayer = "#game";
+window.NepEmu = "nes";
+window.NepLang = "en";
+window.gameUrl = "<%= game.source %>";
+</script>
+<% if(proxy) { %>
+  <script src="/proxy/neptun/njsLoader.js"></script>
+<% } else { %> 
+  <script src="https://cohenerickson.github.io/radon-games-assets/neptun/njsLoader.js"></script>
+<% } %>

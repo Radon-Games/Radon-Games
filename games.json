@@ -2651,17 +2651,6 @@
     "listed": true
   },
   {
-    "title": "Google Snake (Refused to Connect)",
-    "description": "",
-    "tags": "",
-    "route": "/google-snake",
-    "source": "https://onebigstatic-tmm.tbt.mx/shortstatic/https://www.google.com/fbx?fbx=snake_arcade",
-    "gameType": "html",
-    "width": "1000px",
-    "height": "625px",
-    "listed": false
-  },
-  {
     "title": "Zombotron",
     "description": "",
     "tags": "",
@@ -2794,12 +2783,12 @@
     "listed": true
   },
   {
-    "title": "",
+    "title": "Super Mario Bros",
     "description": "",
     "tags": "",
-    "route": "/",
-    "source": "/",
-    "gameType": "flash",
+    "route": "/super-mario-bros",
+    "source": "/retro/nintendo/nes/super-mario-bros.7z",
+    "gameType": "nes",
     "width": "1000px",
     "height": "625px",
     "listed": true
