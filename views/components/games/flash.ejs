@@ -1,0 +1,12 @@
+<% if(proxy) { %>
+  <script src="/proxy/ruffle/ruffle.js"></script>
+<% } else { %> 
+  <script src="https://cohenerickson.github.io/radon-games-assets/ruffle/ruffle.js"></script>
+<% } %>
+<embed
+  src="<%= game.source %>"
+  style="margin: 0 auto;display: block;"
+  width="<%= game.width %>" 
+  height="<%= game.height %>" 
+  quality="high"
+/>

@@ -1,19 +1,8 @@
 <h1 class="text-2xl font-semibold text-gray-200 lg:text-3xl mt-10 text-center"><%= game.title %></h1>
 <p class="text-center mb-10 text-gray-300 w-3/5 m-4 block mx-auto"><%= game.description %></p>
-<% if(game.sourceType === "embed") { %>
-<embed
-  src="<%= game.source %>"
-  style="margin: 0 auto;display: block;"
-  width="<%= game.width %>" 
-  height="<%= game.height %>" 
-  quality="high"
-/>
-<% } else if(game.sourceType === "iframe") { %>
-<iframe 
-  src="<%= game.source %>"
-  style="margin: 0 auto;display: block;"
-  width="<%= game.width %>" 
-  height="<%= game.height %>"
-></iframe>
+<% if(game.gameType === "flash") { %>
+  <%- include("./games/flash") %>
+<% } else if(game.gameType === "html") { %>
+  <%- include("./games/html") %>
 <% } %>
 <p class="text-center mb-10 text-gray-400 underline"><a href="/report">Report Issue</a></p>

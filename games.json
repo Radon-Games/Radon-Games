@@ -5,7 +5,7 @@
     "tags": "",
     "route": "/achilles",
     "source": "/swf/Achilles.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -16,7 +16,7 @@
     "tags": "",
     "route": "/age-of-war",
     "source": "/swf/Age-of-War.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -27,7 +27,7 @@
     "tags": "",
     "route": "/avalanche",
     "source": "/swf/Avalanche.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -38,7 +38,7 @@
     "tags": "",
     "route": "/avatar-arena",
     "source": "/swf/AvatarArena.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -49,7 +49,7 @@
     "tags": "",
     "route": "/achievement-unlocked",
     "source": "/swf/achievement-unlocked.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -60,7 +60,7 @@
     "tags": "",
     "route": "/alien-hominid",
     "source": "/swf/alien-hominid.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -71,7 +71,7 @@
     "tags": "",
     "route": "/amberial",
     "source": "/swf/amberial.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -82,7 +82,7 @@
     "tags": "",
     "route": "/animal-hunter",
     "source": "/swf/animal_hunter.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -93,7 +93,7 @@
     "tags": "",
     "route": "/ant-buster",
     "source": "/swf/antbuster.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -104,7 +104,7 @@
     "tags": "",
     "route": "/apple-shooter",
     "source": "/swf/apple-shooter-2021.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -115,7 +115,7 @@
     "tags": "",
     "route": "/arkanoid",
     "source": "/swf/arkanoid.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -126,7 +126,7 @@
     "tags": "",
     "route": "/asteroids",
     "source": "/swf/asteroids.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -137,7 +137,7 @@
     "tags": "",
     "route": "/axis-football-league",
     "source": "/swf/axisfootballleague.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -148,7 +148,7 @@
     "tags": "",
     "route": "/2048",
     "source": "/src/2048/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -159,7 +159,7 @@
     "tags": "",
     "route": "/agario-minigame",
     "source": "/src/agario-minigame/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -170,7 +170,7 @@
     "tags": "",
     "route": "/astray",
     "source": "/src/astray/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -181,7 +181,7 @@
     "tags": "",
     "route": "/break-lock",
     "source": "/src/breaklock/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -192,7 +192,7 @@
     "tags": "",
     "route": "/chroma",
     "source": "/src/chroma/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -203,7 +203,7 @@
     "tags": "",
     "route": "/cookie-clicker",
     "source": "/src/cookie/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -214,7 +214,7 @@
     "tags": "",
     "route": "/cube-field",
     "source": "/src/cubefield/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -225,7 +225,7 @@
     "tags": "",
     "route": "/dinosaur",
     "source": "/src/dinosaur/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -236,7 +236,7 @@
     "tags": "",
     "route": "/doodle-jump",
     "source": "/src/doodle-jump/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -247,7 +247,7 @@
     "tags": "",
     "route": "/drift",
     "source": "/src/drift/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -258,7 +258,7 @@
     "tags": "",
     "route": "/ducklife-1-html",
     "source": "/src/ducklife/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -269,7 +269,7 @@
     "tags": "",
     "route": "/duck-life-2-html",
     "source": "/src/ducklife2/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -280,7 +280,7 @@
     "tags": "",
     "route": "/duck-life-3-html",
     "source": "/src/ducklife3/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -291,7 +291,7 @@
     "tags": "",
     "route": "/duck-life-4-html",
     "source": "/src/ducklife4/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -302,7 +302,7 @@
     "tags": "",
     "route": "/fireboy-and-watergirl-forest-temple",
     "source": "/src/fireboy-and-watergirl-forest-temple/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -313,7 +313,7 @@
     "tags": "",
     "route": "/flappy-2048",
     "source": "/src/flappy-2048/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -324,7 +324,7 @@
     "tags": "",
     "route": "/flappy-bird",
     "source": "/src/flappybird/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -335,7 +335,7 @@
     "tags": "",
     "route": "/friendly-fire",
     "source": "/src/friendlyfire/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -346,7 +346,7 @@
     "tags": "",
     "route": "/geometry-dash",
     "source": "/src/geometry/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -357,7 +357,7 @@
     "tags": "",
     "route": "/gopher-kart",
     "source": "/src/gopher-kart/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -368,7 +368,7 @@
     "tags": "",
     "route": "/hexgl",
     "source": "/src/hexgl/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -379,7 +379,7 @@
     "tags": "",
     "route": "/hextris",
     "source": "/src/hextris/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -390,7 +390,7 @@
     "tags": "",
     "route": "/madalin-cars-multiplayer",
     "source": "/src/madalin-cars-multiplayer/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -401,7 +401,7 @@
     "tags": "",
     "route": "/mc-classic",
     "source": "/src/mc-classic/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1080px",
     "height": "720px",
     "listed": true
@@ -412,7 +412,7 @@
     "tags": "",
     "route": "/microsoft-flight-simulator",
     "source": "/src/microsoft-flight-simulator/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -423,7 +423,7 @@
     "tags": "",
     "route": "/muffin-knight",
     "source": "/src/muffin-knight/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -434,7 +434,7 @@
     "tags": "",
     "route": "/pacman-html",
     "source": "/src/pacman/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -445,7 +445,7 @@
     "tags": "",
     "route": "/radius-raid",
     "source": "/src/radius-raid/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -456,7 +456,7 @@
     "tags": "",
     "route": "/retro-bowl",
     "source": "/src/retro-bowl/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -467,7 +467,7 @@
     "tags": "",
     "route": "/ritz",
     "source": "/src/ritz/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -478,7 +478,7 @@
     "tags": "",
     "route": "/run-3-html",
     "source": "/src/run3/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -489,7 +489,7 @@
     "tags": "",
     "route": "/slope",
     "source": "/src/slope/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -500,7 +500,7 @@
     "tags": "",
     "route": "/sm64",
     "source": "/src/sm64/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -511,7 +511,7 @@
     "tags": "",
     "route": "/space-invaders",
     "source": "/src/spaceinvaders/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -522,7 +522,7 @@
     "tags": "",
     "route": "/tank-trouble",
     "source": "/src/tanktrouble/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -533,7 +533,7 @@
     "tags": "",
     "route": "/vex-3",
     "source": "/src/vex3/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -544,7 +544,7 @@
     "tags": "",
     "route": "/vex-4",
     "source": "/src/vex4/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -555,7 +555,7 @@
     "tags": "",
     "route": "/vex-5",
     "source": "/src/vex5/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -566,7 +566,7 @@
     "tags": "",
     "route": "/rolling-sky",
     "source": "/src/webgl-rollingsky/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -577,7 +577,7 @@
     "tags": "",
     "route": "/13-days-in-hell",
     "source": "/swf/13-days-in-hell.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -588,7 +588,7 @@
     "tags": "",
     "route": "/360-snake",
     "source": "/swf/360-snake.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -599,7 +599,7 @@
     "tags": "",
     "route": "/3d-car-driver",
     "source": "/swf/3D-Car-Driver.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -610,7 +610,7 @@
     "tags": "",
     "route": "/3-foot-ninja",
     "source": "/swf/3_foot_ninja.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -621,7 +621,7 @@
     "tags": "",
     "route": "/50-states",
     "source": "/swf/50states.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -632,7 +632,7 @@
     "tags": "",
     "route": "/3-on-3-hockey",
     "source": "/swf/3_on_3_hockey.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -643,7 +643,7 @@
     "tags": "",
     "route": "/8-ball-pool",
     "source": "/swf/8BallPool.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -654,7 +654,7 @@
     "tags": "",
     "route": "/bloons",
     "source": "/swf/Bloons.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -665,7 +665,7 @@
     "tags": "",
     "route": "/falldown",
     "source": "/swf/Falldown.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -676,7 +676,7 @@
     "tags": "",
     "route": "/henry-stick-breaking-the-bank",
     "source": "/swf/HenryStick_BreakingTheBank.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -687,7 +687,7 @@
     "tags": "",
     "route": "/henry-stick-escaping-the-prison",
     "source": "/swf/HenryStick_EscapingThePrison.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -698,7 +698,7 @@
     "tags": "",
     "route": "/henry-stick-infiltrating-the-airship",
     "source": "/swf/HenryStick_InfiltratingTheAirship.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -709,7 +709,7 @@
     "tags": "",
     "route": "/henry-stick-stealing-diamond",
     "source": "/swf/HenryStick_StealingDiamond.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -720,7 +720,7 @@
     "tags": "",
     "route": "/the-impossible-quiz",
     "source": "/swf/TheImpossibleQuiz.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -731,7 +731,7 @@
     "tags": "",
     "route": "/worlds-hardest-game",
     "source": "/swf/WorldsHardestGame.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -742,7 +742,7 @@
     "tags": "",
     "route": "/acid-bunny-2",
     "source": "/swf/acid-bunny-2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -753,7 +753,7 @@
     "tags": "",
     "route": "/acid-bunny",
     "source": "/swf/acid-bunny.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -764,7 +764,7 @@
     "tags": "",
     "route": "/ball-breaker",
     "source": "/swf/ball-breaker.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -775,7 +775,7 @@
     "tags": "",
     "route": "/Bejeweled",
     "source": "/swf/bejeweled-unblocked.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -786,7 +786,7 @@
     "tags": "",
     "route": "/bike-mania",
     "source": "/swf/bikemania.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -797,7 +797,7 @@
     "tags": "",
     "route": "/bike-mania-2",
     "source": "/swf/bikemania2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -808,7 +808,7 @@
     "tags": "",
     "route": "/binding-of-isaac",
     "source": "/swf/binding-of-isaac.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -819,7 +819,7 @@
     "tags": "",
     "route": "/blast-o-matic",
     "source": "/swf/blastomatic.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -830,7 +830,7 @@
     "tags": "",
     "route": "/blobink-2",
     "source": "/swf/blobink2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -841,7 +841,7 @@
     "tags": "",
     "route": "/bloons-tower-defense-2",
     "source": "/swf/bloons_tower_defense_2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -852,7 +852,7 @@
     "tags": "",
     "route": "/bubble-trouble",
     "source": "/swf/bubbletrouble.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -863,7 +863,7 @@
     "tags": "",
     "route": "/duck-life-1-flash",
     "source": "/swf/ducklife1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -874,7 +874,7 @@
     "tags": "",
     "route": "/duck-life-2-flash",
     "source": "/swf/ducklife2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -885,7 +885,7 @@
     "tags": "",
     "route": "/duck-life-3-flash",
     "source": "/swf/ducklife3-evolution.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -896,7 +896,7 @@
     "tags": "",
     "route": "/duck-life-4-flash",
     "source": "/swf/ducklife4.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -907,7 +907,7 @@
     "tags": "",
     "route": "/falldown-2",
     "source": "/swf/falldown2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -918,7 +918,7 @@
     "tags": "",
     "route": "/fancy-pants-adventure",
     "source": "/swf/fancypantsadventure.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -929,7 +929,7 @@
     "tags": "",
     "route": "/fancy-pants-adventure-2",
     "source": "/swf/fancypantsworld2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -940,7 +940,7 @@
     "tags": "",
     "route": "/gun-mayhem-2",
     "source": "/swf/gun-mayhem-2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -951,7 +951,7 @@
     "tags": "",
     "route": "/gun-mayhem",
     "source": "/swf/gun-mayhem.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -962,7 +962,7 @@
     "tags": "",
     "route": "/impossible-quiz-2",
     "source": "/swf/impossiblequiz2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -973,7 +973,7 @@
     "tags": "",
     "route": "/learn-to-fly-1",
     "source": "/swf/learntofly1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -984,7 +984,7 @@
     "tags": "",
     "route": "/learn-to-fly-2",
     "source": "/swf/learntofly2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -995,7 +995,7 @@
     "tags": "",
     "route": "/madness-project-nexus",
     "source": "/swf/madness-project-nexus.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1006,7 +1006,7 @@
     "tags": "",
     "route": "/motherload",
     "source": "/swf/motherload.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1017,7 +1017,7 @@
     "tags": "",
     "route": "/pacman",
     "source": "/swf/pacman.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1028,7 +1028,7 @@
     "tags": "",
     "route": "/snake",
     "source": "/swf/snake.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1039,7 +1039,7 @@
     "tags": "",
     "route": "/super-mario-flash",
     "source": "/swf/super-mario-flash.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1050,7 +1050,7 @@
     "tags": "",
     "route": "/super-mario-flash-2",
     "source": "/swf/supermarioflash2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1061,7 +1061,7 @@
     "tags": "",
     "route": "/tetris",
     "source": "/swf/tetris.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1072,7 +1072,7 @@
     "tags": "",
     "route": "/the-last-stand-union-city",
     "source": "/swf/the-last-stand-union-city.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1083,7 +1083,7 @@
     "tags": "",
     "route": "/worlds-hardest-game-2",
     "source": "/swf/worldshardestgame2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1094,7 +1094,7 @@
     "tags": "",
     "route": "/zombocalypse-2",
     "source": "/swf/zombocalypse-2.1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1105,7 +1105,7 @@
     "tags": "",
     "route": "/zombocalypse",
     "source": "/swf/zombocalypse.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1116,7 +1116,7 @@
     "tags": "",
     "route": "/canyon-defense",
     "source": "/swf/Canyon Defense.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1127,7 +1127,7 @@
     "tags": "",
     "route": "/copter",
     "source": "/swf/Copter.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1138,7 +1138,7 @@
     "tags": "",
     "route": "/desktop-tower-defence",
     "source": "/swf/DesktopTowerDefence.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1149,7 +1149,7 @@
     "tags": "",
     "route": "/donkey-kong",
     "source": "/swf/DonkeyKong.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1160,7 +1160,7 @@
     "tags": "",
     "route": "/draw-play",
     "source": "/swf/DrawPlay.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1171,7 +1171,7 @@
     "tags": "",
     "route": "/draw-play-2",
     "source": "/swf/DrawPlay2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1182,7 +1182,7 @@
     "tags": "",
     "route": "/the-beard",
     "source": "/swf/castlecrashingthebeard.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1193,7 +1193,7 @@
     "tags": "",
     "route": "/choose-your-weapon-2",
     "source": "/swf/chooseyourweapon2_LB.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1204,7 +1204,7 @@
     "tags": "",
     "route": "/clear-vision",
     "source": "/swf/clear-vision.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1215,7 +1215,7 @@
     "tags": "",
     "route": "/clear-vision-elite",
     "source": "/swf/clearvisionelite.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1226,7 +1226,7 @@
     "tags": "",
     "route": "/crazy-taxi",
     "source": "/swf/crazy-taxi.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1237,7 +1237,7 @@
     "tags": "",
     "route": "/cursor-10",
     "source": "/swf/cursor10.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1248,7 +1248,7 @@
     "tags": "",
     "route": "/cut-the-rope",
     "source": "/swf/cut-the-rope.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1259,7 +1259,7 @@
     "tags": "",
     "route": "/dad-n-me",
     "source": "/swf/dadnme.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1270,7 +1270,7 @@
     "tags": "",
     "route": "/dance-of-the-robots",
     "source": "/swf/danceoftherobots.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1281,7 +1281,7 @@
     "tags": "",
     "route": "/defend-your-castle",
     "source": "/swf/defend-your-castle.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1292,7 +1292,7 @@
     "tags": "",
     "route": "/dental-adventure",
     "source": "/swf/dental-adventure.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1303,7 +1303,7 @@
     "tags": "",
     "route": "/duck-hunt",
     "source": "/swf/duck-hunt.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1314,7 +1314,7 @@
     "tags": "",
     "route": "/dx-hockey",
     "source": "/swf/dxhockey.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1325,7 +1325,7 @@
     "tags": "",
     "route": "/bloxors",
     "source": "/swf/Bloxors.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1336,7 +1336,7 @@
     "tags": "",
     "route": "/bullet-bill-2",
     "source": "/swf/Bullet Bill 2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1347,7 +1347,7 @@
     "tags": "",
     "route": "/bullet-bill-3",
     "source": "/swf/Bullet Bill 3.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1358,7 +1358,7 @@
     "tags": "",
     "route": "/bomb-a-bomb",
     "source": "/swf/bombabomb.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1369,7 +1369,7 @@
     "tags": "",
     "route": "/bow-man",
     "source": "/swf/bowman.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1380,7 +1380,7 @@
     "tags": "",
     "route": "/bow-man-2",
     "source": "/swf/bowman2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1391,7 +1391,7 @@
     "tags": "",
     "route": "/bowmaster",
     "source": "/swf/bowmaster.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1402,7 +1402,7 @@
     "tags": "",
     "route": "/bowmaster-prelude",
     "source": "/swf/bowmasterprelude.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1413,7 +1413,7 @@
     "tags": "",
     "route": "/bubble-shooter",
     "source": "/swf/bubble shooter.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1424,7 +1424,7 @@
     "tags": "",
     "route": "/bubble-tanks-2",
     "source": "/swf/bubble_tanks_2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1435,7 +1435,7 @@
     "tags": "",
     "route": "/bullet-bill",
     "source": "/swf/bullet-bill.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1446,7 +1446,7 @@
     "tags": "",
     "route": "/burger-tycoon",
     "source": "/swf/burgertycoon.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1457,7 +1457,7 @@
     "tags": "",
     "route": "/bot-arena-3",
     "source": "/swf/bot-arena-3.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -1468,7 +1468,7 @@
     "tags": "",
     "route": "/boxhead-2",
     "source": "/swf/dagobah_boxhead_2play.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1479,7 +1479,7 @@
     "tags": "",
     "route": "/electric-man",
     "source": "/swf/ElectricMan.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1490,7 +1490,7 @@
     "tags": "",
     "route": "/excite-bike",
     "source": "/swf/ExciteBike.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1501,7 +1501,7 @@
     "tags": "",
     "route": "/feudalism-2",
     "source": "/swf/Feudalism2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1512,7 +1512,7 @@
     "tags": "",
     "route": "/flood-runner-3",
     "source": "/swf/Flood_Runner3.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1523,7 +1523,7 @@
     "tags": "",
     "route": "/flood-runner-4",
     "source": "/swf/Flood_Runner4.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1534,7 +1534,7 @@
     "tags": "",
     "route": "/flood-runner-2",
     "source": "/swf/Flood_Runner2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1545,7 +1545,7 @@
     "tags": "",
     "route": "/earthbound",
     "source": "/swf/earthbound.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1556,7 +1556,7 @@
     "tags": "",
     "route": "/effing-worms",
     "source": "/swf/effingworms.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1567,7 +1567,7 @@
     "tags": "",
     "route": "/fat-ninja",
     "source": "/swf/fat-ninja.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1578,7 +1578,7 @@
     "tags": "",
     "route": "/feudalism",
     "source": "/swf/feudalism.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1589,7 +1589,7 @@
     "tags": "",
     "route": "/flashcraft",
     "source": "/swf/flashcraft.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1600,7 +1600,7 @@
     "tags": "",
     "route": "/free-rider-2",
     "source": "/swf/freerider2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1611,7 +1611,7 @@
     "tags": "",
     "route": "/frogger",
     "source": "/swf/frogger.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1622,7 +1622,7 @@
     "tags": "",
     "route": "/grow-rpg",
     "source": "/swf/growrpg.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1633,7 +1633,7 @@
     "tags": "",
     "route": "/gods-playing-field",
     "source": "/swf/Gods Playing Field.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1644,7 +1644,7 @@
     "tags": "",
     "route": "/grid-lock",
     "source": "/swf/Gridlock.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1655,7 +1655,7 @@
     "tags": "",
     "route": "/hobo",
     "source": "/swf/Hobo.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1666,7 +1666,7 @@
     "tags": "",
     "route": "/indestructo-tank",
     "source": "/swf/IndestructoTank.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1677,7 +1677,7 @@
     "tags": "",
     "route": "/line-rider-2",
     "source": "/swf/Line Rider 2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1688,7 +1688,7 @@
     "tags": "",
     "route": "/mario-revived",
     "source": "/swf/Mariorevived.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1699,7 +1699,7 @@
     "tags": "",
     "route": "/max-dirt-bike-1",
     "source": "/swf/MaxDirtBike1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1710,7 +1710,7 @@
     "tags": "",
     "route": "/monopoly",
     "source": "/swf/Monopoly.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1721,7 +1721,7 @@
     "tags": "",
     "route": "/n",
     "source": "/swf/N.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1732,7 +1732,7 @@
     "tags": "",
     "route": "/parachute",
     "source": "/swf/Parachute.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1743,7 +1743,7 @@
     "tags": "",
     "route": "/portal",
     "source": "/swf/Portal.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1754,7 +1754,7 @@
     "tags": "",
     "route": "/prince-of-war",
     "source": "/swf/PrinceofWar.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1765,7 +1765,7 @@
     "tags": "",
     "route": "/prince-of-war-2",
     "source": "/swf/PrinceofWar2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1776,7 +1776,7 @@
     "tags": "",
     "route": "/raft-wars",
     "source": "/swf/RaftWars.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1787,7 +1787,7 @@
     "tags": "",
     "route": "/shock-1",
     "source": "/swf/SHOCK1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1798,7 +1798,7 @@
     "tags": "",
     "route": "/staggy-the-boy-scout-slayer-2",
     "source": "/swf/Staggy The Boy Scout Slayer II.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1809,7 +1809,7 @@
     "tags": "",
     "route": "/stick-war",
     "source": "/swf/Stick War.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1820,7 +1820,7 @@
     "tags": "",
     "route": "/storm-the-house-2",
     "source": "/swf/StormtheHouse2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1831,7 +1831,7 @@
     "tags": "",
     "route": "/tactical-assassin",
     "source": "/swf/TacticalAssassin.swff",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1842,7 +1842,7 @@
     "tags": "",
     "route": "/tactical-assassin-2",
     "source": "/swf/TacticalAssassin2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1853,7 +1853,7 @@
     "tags": "",
     "route": "/the-unfair-platformer",
     "source": "/swf/The Unfair Platformer.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1864,7 +1864,7 @@
     "tags": "",
     "route": "/toss-the-turtle.swf",
     "source": "/swf/Toss The Turtle.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1875,7 +1875,7 @@
     "tags": "",
     "route": "/zelda",
     "source": "/swf/Zelda.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1886,7 +1886,7 @@
     "tags": "",
     "route": "/zoeken",
     "source": "/swf/Zoeken.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1897,7 +1897,7 @@
     "tags": "",
     "route": "/armor-rpg-experiment",
     "source": "/swf/armorrpg_mod.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1908,7 +1908,7 @@
     "tags": "",
     "route": "/galaga",
     "source": "/swf/galaga.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1919,7 +1919,7 @@
     "tags": "",
     "route": "/geo-land-rpg",
     "source": "/swf/geolandrpg.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1930,7 +1930,7 @@
     "tags": "",
     "route": "/grid-16",
     "source": "/swf/grid16.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1941,7 +1941,7 @@
     "tags": "",
     "route": "/grow-island",
     "source": "/swf/growisland.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1952,7 +1952,7 @@
     "tags": "",
     "route": "/gun-blood",
     "source": "/swf/gunblood.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1963,7 +1963,7 @@
     "tags": "",
     "route": "/hell-cops",
     "source": "/swf/hell-cops.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1974,7 +1974,7 @@
     "tags": "",
     "route": "/hexxagon",
     "source": "/swf/hexxagon.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1985,7 +1985,7 @@
     "tags": "",
     "route": "/hobo-4-total-war",
     "source": "/swf/hobo-4-total-war-749179f9.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -1996,7 +1996,7 @@
     "tags": "",
     "route": "/hobo-5-space-brawls",
     "source": "/swf/hobo-5-space-brawls--11410f2f2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2007,7 +2007,7 @@
     "tags": "",
     "route": "/hobo-6-hell",
     "source": "/swf/hobo-6-hell-136403467.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2018,7 +2018,7 @@
     "tags": "",
     "route": "/hobo-7-heaven",
     "source": "/swf/hobo-7-heaven-14404_6.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2029,7 +2029,7 @@
     "tags": "",
     "route": "/hobo-3-wanted",
     "source": "/swf/hobo3-wanted-5673395b.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2040,7 +2040,7 @@
     "tags": "",
     "route": "/hobo-prison-brawl",
     "source": "/swf/hoboprisonbrawl.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2051,7 +2051,7 @@
     "tags": "",
     "route": "/hot-corn",
     "source": "/swf/hotcorn.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2062,7 +2062,7 @@
     "tags": "",
     "route": "/impossible-quiz-book",
     "source": "/swf/impossiblequizbook.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2073,7 +2073,7 @@
     "tags": "",
     "route": "/indestructo-tank-2",
     "source": "/swf/indestructotank2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2084,7 +2084,7 @@
     "tags": "",
     "route": "/interactive-buddy-2",
     "source": "/swf/interactivebuddy2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2095,7 +2095,7 @@
     "tags": "",
     "route": "/internet-rpg",
     "source": "/swf/internet-rpg.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2106,7 +2106,7 @@
     "tags": "",
     "route": "/jump",
     "source": "/swf/jump.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2117,7 +2117,7 @@
     "tags": "",
     "route": "/kung-fu-remix-2",
     "source": "/swf/kungfuremix2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2128,7 +2128,7 @@
     "tags": "",
     "route": "/line-game-orange",
     "source": "/swf/linegameorange.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2139,7 +2139,7 @@
     "tags": "",
     "route": "/mario-combat",
     "source": "/swf/mariocombat.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2150,7 +2150,7 @@
     "tags": "",
     "route": "/mini-putt",
     "source": "/swf/miniputt.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2161,7 +2161,7 @@
     "tags": "",
     "route": "/only-level",
     "source": "/swf/onlylevel.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2172,7 +2172,7 @@
     "tags": "",
     "route": "/pacxon",
     "source": "/swf/pacxon.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2183,7 +2183,7 @@
     "tags": "",
     "route": "/pandemic-1",
     "source": "/swf/pandemic-1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2194,7 +2194,7 @@
     "tags": "",
     "route": "/pandemic-2",
     "source": "/swf/pandemic2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2205,7 +2205,7 @@
     "tags": "",
     "route": "/parking-mania",
     "source": "/swf/parkingmania.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2216,7 +2216,7 @@
     "tags": "",
     "route": "/powerpuff-girls-zombgone",
     "source": "/swf/powerpuff_girls_zombgone.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2227,7 +2227,7 @@
     "tags": "",
     "route": "/raft-wars-2",
     "source": "/swf/raft-wars-2_mochi_secure.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2238,7 +2238,7 @@
     "tags": "",
     "route": "/real-estate-tycoon",
     "source": "/swf/real-estate-tycoon-1350817f.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2249,7 +2249,7 @@
     "tags": "",
     "route": "/red-shift",
     "source": "/swf/redshift.swf ",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2260,7 +2260,7 @@
     "tags": "",
     "route": "/robot-unicorn-attack",
     "source": "/swf/robotunicornattack.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2271,7 +2271,7 @@
     "tags": "",
     "route": "/sift-heads-1",
     "source": "/swf/sift-heads-1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2282,7 +2282,7 @@
     "tags": "",
     "route": "/sift-heads-2",
     "source": "/swf/sift-heads-2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2293,7 +2293,7 @@
     "tags": "",
     "route": "/sift-heads-3",
     "source": "/swf/sift-heads-3.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2304,7 +2304,7 @@
     "tags": "",
     "route": "/sift-heads-4",
     "source": "/swf/sift-heads-4.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2315,7 +2315,7 @@
     "tags": "",
     "route": "/sift-heads-5",
     "source": "/swf/sift-heads-5.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2326,7 +2326,7 @@
     "tags": "",
     "route": "/sift-heads-world",
     "source": "/swf/sift_heads_world.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2337,7 +2337,7 @@
     "tags": "",
     "route": "/sim-web-2-0-company",
     "source": "/swf/simweb2.0company.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2348,7 +2348,7 @@
     "tags": "",
     "route": "/skull-kid",
     "source": "/swf/skull_kid.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2359,7 +2359,7 @@
     "tags": "",
     "route": "/sky-wire",
     "source": "/swf/skywire.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2370,7 +2370,7 @@
     "tags": "",
     "route": "/spank-the-monkey",
     "source": "/swf/spankthemonkey.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2381,7 +2381,7 @@
     "tags": "",
     "route": "/spider-man",
     "source": "/swf/spider-man.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2392,7 +2392,7 @@
     "tags": "",
     "route": "/sprinter",
     "source": "/swf/sprinter",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2403,7 +2403,7 @@
     "tags": "",
     "route": "/stick-rpg",
     "source": "/swf/stickrpg.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2414,7 +2414,7 @@
     "tags": "",
     "route": "/submachine-1",
     "source": "/swf/submachine_1.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2425,7 +2425,7 @@
     "tags": "",
     "route": "/submachine-2",
     "source": "/swf/submachine_2.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2436,7 +2436,7 @@
     "tags": "",
     "route": "/submachine-3",
     "source": "/swf/submachine_3.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2447,7 +2447,7 @@
     "tags": "",
     "route": "/super-smash-flash",
     "source": "/swf/super_smash_flash.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2458,7 +2458,7 @@
     "tags": "",
     "route": "/super-mario-63",
     "source": "/swf/supermario63.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2469,7 +2469,7 @@
     "tags": "",
     "route": "/treasure-seas",
     "source": "/swf/treasureseas.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2480,7 +2480,7 @@
     "tags": "",
     "route": "/tron",
     "source": "/swf/tron.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2491,7 +2491,7 @@
     "tags": "",
     "route": "/tsunami-fighter",
     "source": "/swf/tsunamifighter.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2502,7 +2502,7 @@
     "tags": "",
     "route": "/use-boxmen",
     "source": "/swf/use-boxmen.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2513,7 +2513,7 @@
     "tags": "",
     "route": "/warfare-1944",
     "source": "/swf/",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2524,7 +2524,7 @@
     "tags": "",
     "route": "/kitten-cannon",
     "source": "/swf/yetiGamesKitten Cannon.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2535,7 +2535,7 @@
     "tags": "",
     "route": "/moto-x3m",
     "source": "/src/moto-x3m/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2546,7 +2546,7 @@
     "tags": "",
     "route": "/moto-x3m-winter",
     "source": "/src/moto-x3m-winter/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2557,7 +2557,7 @@
     "tags": "",
     "route": "/moto-x3m-spooky-land",
     "source": "/src/moto-x3m-spooky-land/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2568,7 +2568,7 @@
     "tags": "",
     "route": "/moto-x3m-pool-party",
     "source": "/src/moto-x3m-pool-party/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2579,7 +2579,7 @@
     "tags": "",
     "route": "/friday-night-funkin-week-6",
     "source": "/src/friday-night-funkin--week-6/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2590,7 +2590,7 @@
     "tags": "",
     "route": "/friday-night-funkin-vs-ex",
     "source": "/src/friday-night-funkin--vs-ex/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2601,7 +2601,7 @@
     "tags": "",
     "route": "/hill-racing",
     "source": "/src/hill-racing/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2612,7 +2612,7 @@
     "tags": "",
     "route": "/running-bot-xmas-gifts",
     "source": "/src/running-bot-xmas-gifts/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2623,7 +2623,7 @@
     "tags": "",
     "route": "/russian-taz-magmes",
     "source": "/src/russian-taz-magmes/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2634,7 +2634,7 @@
     "tags": "",
     "route": "/slope-2",
     "source": "/src/slope-2/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2645,7 +2645,7 @@
     "tags": "",
     "route": "/game-inside-a-game",
     "source": "/src/game-inside-a-game/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2656,7 +2656,7 @@
     "tags": "",
     "route": "/google-snake",
     "source": "https://onebigstatic-tmm.tbt.mx/shortstatic/https://www.google.com/fbx?fbx=snake_arcade",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": false
@@ -2667,7 +2667,7 @@
     "tags": "",
     "route": "/zombotron",
     "source": "/src/zombotron/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2678,7 +2678,7 @@
     "tags": "",
     "route": "/zombotron-2",
     "source": "/src/zombotron-2/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2689,7 +2689,7 @@
     "tags": "",
     "route": "/zombotron-2-time-machine",
     "source": "/src/zombotron-2-time-machine/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2700,7 +2700,7 @@
     "tags": "",
     "route": "/donut-boy",
     "source": "/src/donut-boy/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2711,7 +2711,7 @@
     "tags": "",
     "route": "/henry-stick-fleeing-the-complex",
     "source": "/swf/HenryStick_FleeingTheComplex.swf",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2722,7 +2722,7 @@
     "tags": "",
     "route": "/a-dance-of-fire-and-ice",
     "source": "/src/a-dance-of-fire-and-ice/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2733,7 +2733,7 @@
     "tags": "",
     "route": "/superhot",
     "source": "/src/superhot/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2744,7 +2744,7 @@
     "tags": "",
     "route": "/wordle",
     "source": "/src/wordle/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2755,7 +2755,7 @@
     "tags": "",
     "route": "/getaway-shootout",
     "source": "/src/getaway-shootout/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2766,7 +2766,7 @@
     "tags": "",
     "route": "/google-solitaire",
     "source": "/src/google-solitaire/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2777,7 +2777,7 @@
     "tags": "",
     "route": "/rooftop-snipers",
     "source": "/src/rooftop-snipers/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2788,7 +2788,7 @@
     "tags": "",
     "route": "/tube-jumpers",
     "source": "/src/tube-jumpers/index.html",
-    "sourceType": "iframe",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true
@@ -2799,7 +2799,7 @@
     "tags": "",
     "route": "/",
     "source": "/",
-    "sourceType": "embed",
+    "gameType": "flash",
     "width": "1000px",
     "height": "625px",
     "listed": true
