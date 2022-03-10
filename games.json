@@ -2902,5 +2902,27 @@
     "width": "1000px",
     "height": "625px",
     "listed": true
+  },
+  {
+    "title": "Tactical Assassin 3",
+    "description": "",
+    "tags": "",
+    "route": "/tactical-assassin-3",
+    "source": "/swf/tactical-assassin-3.swf",
+    "gameType": "flash",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Ultimate Flash Sonic",
+    "description": "",
+    "tags": "",
+    "route": "/ultimate-flash-sonic",
+    "source": "/swf/ultimate-flash-sonic.swf",
+    "gameType": "flash",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]
