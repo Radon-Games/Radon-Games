@@ -73,22 +73,22 @@ module.exports = function(app) {
   
   // request and report routes
   app.get("/report", (req, res) => {
-    res.render("pages/report", { version: require("../version.json").version });
+    res.render("pages/report", { version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
   });
   
   app.post("/report", (req, res) => {
     let reqData = req.body;
     if(!reqData.message) {
-      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require("../version.json").version });
+      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     }
     post("https://radon-api.cohenerickson.repl.co/report", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require("../version.json").version });
-      return res.render("pages/report", { message: "Success!", version: require("../version.json").version });
+      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { message: "Success!", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: require("../version.json").version });
+      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     });
   });
   
