@@ -2787,7 +2787,7 @@
     "description": "Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo. It was designed by Shigeru Miyamoto and Gunpei Yokoi, Nintendo's chief engineer. Italian plumber Mario and his twin brother Luigi exterminate creatures emerging from the sewers by knocking them upside-down and kicking them away.",
     "tags": "",
     "route": "/super-mario-bros",
-    "source": "/retro/nintendo/nes/super-mario-bros.7z",
+    "source": "/emulator/smb.nes",
     "gameType": "nes",
     "width": "1000px",
     "height": "625px",

@@ -3,11 +3,6 @@ const { post } = require("axios");
 const config = require("../config.json");
 
 module.exports = function(app) {
-  // start proxy server
-  if(config.gameProxy) {
-    require("./proxy.js")(app);
-  }
-  
   // Sort games
   let allGames = require("../games.json");
   allGames = allGames.filter(x => x.title);
@@ -111,6 +106,11 @@ module.exports = function(app) {
       return res.render("pages/request", { error: "An unexpected error occurred, please try again later." });
     });
   });  
+
+  // start proxy server
+  if(config.gameProxy) {
+    require("./proxy.js")(app);
+  }
   
   // 404 route
   app.get("*", (req, res) => {
@@ -125,11 +125,7 @@ function sortGames(games) {
   games.forEach((game) => {
     if(!game.title) return;
     let title = game.title;
-    if(config.gameProxy) {
-      if(!game.source.startsWith("/proxy")) {
-        game.source = `/proxy${game.source}`;
-      }
-    } else {
+    if(!config.gameProxy) {
       if(!game.source.startsWith("https://cohenerickson.github.io/radon-games-assets")) {
         game.source = `https://cohenerickson.github.io/radon-games-assets${game.source}`;
       }

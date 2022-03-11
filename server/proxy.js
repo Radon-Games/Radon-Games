@@ -2,7 +2,7 @@ var https = require("https");
 var http = require("http");
 
 module.exports = (app) => {
-  app.use("/proxy", function(clientRequest, clientResponse) {
+  app.use("/", function(clientRequest, clientResponse) {
     var url = "https://cohenerickson.github.io/";
     var parsedHost = url.split("/").splice(2).splice(0, 1).join("/")
     var parsedPort;

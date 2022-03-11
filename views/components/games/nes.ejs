@@ -1,17 +1,26 @@
-<div
-  id="game"
-  style="margin: 0 auto;display: block;"
-  width="<%= game.width %>"
-  height="<%= game.height %>"
-></div>
+<div 
+  style="margin: 0 auto;display: block;width: <%= game.width %>; height: <%= game.height %>;">
+  <div id="game"></div>
+</div>
 <script>
-window.NepPlayer = "#game";
-window.NepEmu = "nes";
-window.NepLang = "en";
-window.gameUrl = "<%= game.source %>";
+  var EJS_player = "#game";
+  var EJS_gameUrl = "<%= game.source %>";
+	var EJS_core = "nes";
+  var EJS_gameName = "<%= game.title %>";
+  <% if(proxy) { %>
+    var EJS_pathtodata = "/data/";
+  <% } else { %> 
+    var EJS_pathtodata = "https://cohenerickson.github.io/radon-games-assets/data/";
+  <% } %>
 </script>
 <% if(proxy) { %>
-  <script src="/proxy/neptun/njsLoader.js"></script>
+  <script src="/data/loader.js"></script>
 <% } else { %> 
-  <script src="https://cohenerickson.github.io/radon-games-assets/neptun/njsLoader.js"></script>
+  <script src="https://cohenerickson.github.io/radon-games-assets/data/loader.js"></script>
 <% } %>
+<style>
+  #game canvas {
+    margin: 0 auto;
+    display: block;
+  }
+</style>
