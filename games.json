@@ -2924,5 +2924,38 @@
     "width": "1000px",
     "height": "625px",
     "listed": true
+  },
+  {
+    "title": "Sniper Assassin 4",
+    "description": "This is a job that requires finesse and nerves of steel. Lives are at stake here, people! Just don't kill the innocent",
+    "tags": "",
+    "route": "/sniper-assassin-4",
+    "source": "/swf/sniper-assassin-4.swf",
+    "gameType": "flash",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Tunnel Rush",
+    "description": "Tunnel Rush Unblocked is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush to dodge barriers using just your wits and your keyboard. In the game, the ball will keep rolling forward, there will be unknown obstacles in front of us, we need to control the ball to get the tunnel! Just dodge the obstacles by dodging the diamonds in the middle. Now let's take the challenge together! Wanna test your reaction speed? Play Tunnel Rush online now and push your skills to the limit. There’s only one way to show those barriers who’s boss, so play Tunnel Rush on Poki to show off those ultra-sharp reactions.",
+    "tags": "",
+    "route": "/tunnel-rush",
+    "source": "/src/tunnelrush/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Basket Random",
+    "description": "The random series continues with Basket Random! Basketball is here with its most funny and random way. In Basket Random game, try to score a basket by using only one key with different variations from each other! Changing fields, changing players and changing balls do not surprise you! You can be the best of them all. You can play Basket Random game either against CPU or against a friend in 2 player gaming mode! The one who reaches 5 score first, wins the game. Have Fun!",
+    "tags": "",
+    "route": "/basket-random",
+    "source": "/src/basket-random/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]
