@@ -3084,7 +3084,7 @@
     "description": "",
     "tags": "",
     "route": "/",
-    "source": "/emulator/",
+    "source": "/",
     "gameType": "",
     "width": "1000px",
     "height": "625px",

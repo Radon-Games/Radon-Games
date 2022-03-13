@@ -4,10 +4,11 @@ const app = express();
 const config = require("./config.json");
 
 // setup options
-app.use(require("express").static("public"));
+app.use(require("express-minify-html-2")({override:true,exception_url:false,htmlMinifier:{removeComments:true,collapseWhitespace:true,collapseBooleanAttributes:true,removeAttributeQuotes:true,removeEmptyAttributes:true,minifyJS:true}}));
+app.use(express.static("public"));
 app.set("view engine", "ejs");
-app.use(require("express").json());
-app.use(require("express").urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 if(config.rateLimit.enabled) {
   app.use(require("express-rate-limit")({
     max: config.rateLimit.maxRequests,
