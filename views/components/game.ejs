@@ -4,7 +4,7 @@
   <%- include("./games/flash") %>
 <% } else if(game.gameType === "html") { %>
   <%- include("./games/html") %>
-<% } else if(game.gameType === "nes") { %>
-  <%- include("./games/nes") %>
+<% } else { %>
+  <%- include("./games/emulator") %>
 <% } %>
 <p class="text-center mb-10 text-gray-400 underline"><a href="/report">Report Issue</a></p>
