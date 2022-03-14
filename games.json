@@ -1544,8 +1544,8 @@
     "description": "EarthBound, released in Japan as Mother 2: Gīgu no Gyakushū, is a role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it was first released in Japan in August 1994, and in North America in June 1995. As Ness and his party of four, Paula, Jeff and Poo, the player travels the world to collect melodies from eight Sanctuaries in order to defeat the universal cosmic destroyer Giygas.",
     "tags": "",
     "route": "/earthbound",
-    "source": "/swf/earthbound.swf",
-    "gameType": "flash",
+    "source": "/emulator/snes/earthbound.smc",
+    "gameType": "snes",
     "width": "1000px",
     "height": "625px",
     "listed": true
