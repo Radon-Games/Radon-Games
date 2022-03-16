@@ -2831,7 +2831,7 @@
     "description": "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars. These points earn you money, that you can spend to upgrade your current car or buy a new one. The game stands out because of its realistic drifting physics and its various driving environments.",
     "tags": "",
     "route": "/drift-hunters",
-    "source": "/drift-hunters/index.html",
+    "source": "/src/drift-hunters/index.html",
     "gameType": "html",
     "width": "1000px",
     "height": "625px",
