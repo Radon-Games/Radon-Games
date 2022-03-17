@@ -13,23 +13,66 @@
     </div>
   </div>
 </div>
+        
 <script>
-  let dropdown = document.getElementById("dropdown");
-  let searchbar = document.getElementById("searchbar");
-  let items = document.querySelectorAll("#dropdown ul li");
-  
-  searchbar.addEventListener("input", (e) => {
-    if(!searchbar.value) {
-      dropdown.classList.add("hidden");
-    } else {
-      dropdown.classList.remove("hidden");
-      items.forEach((item) => {
-        if(item.children[0].innerText.toLowerCase().includes(searchbar.value.toLowerCase())) {
-          item.classList.remove("hidden");
-        } else {
-          item.classList.add("hidden");
-        }
-      });
+String.prototype.levenstein = function (string) {
+  var a = this,
+    b = string + "",
+    m = [],
+    i,
+    j,
+    min = Math.min;
+  if (!(a && b)) return (b || a).length;
+  for (i = 0; i <= b.length; m[i] = [i++]);
+  for (j = 0; j <= a.length; m[0][j] = j++);
+  for (i = 1; i <= b.length; i++) {
+    for (j = 1; j <= a.length; j++) {
+      m[i][j] = b.charAt(i - 1) == a.charAt(j - 1)
+        ? m[i - 1][j - 1]
+        : m[i][j] = min(
+          m[i - 1][j - 1] + 1, 
+          min(m[i][j - 1] + 1, m[i - 1 ][j] + 1));
     }
+  }
+  return m[b.length][a.length];
+}
+
+function sort (arr, string) {
+  let newArr = [];
+  let temp = [];
+  arr.forEach((item) => {
+    temp.push([
+      item,
+      item.innerText.toLowerCase().levenstein(string.toLowerCase())
+    ]);
   });
+  temp = temp.sort(function(a, b) {
+    return a[1] - b[1];
+  });
+  temp.forEach((item) => {
+    newArr.push(item[0]);
+  });
+  return newArr;
+}
+
+let items = document.querySelectorAll("#dropdown ul li");
+let input = document.getElementById("searchbar");
+let dropdown = document.getElementById("dropdown");
+input.addEventListener("input", (e) => {
+  if(!input.value) {
+    dropdown.classList.add("hidden");
+  } else {
+    dropdown.classList.remove("hidden");
+    let newArr = sort(items, input.value);
+    console.log(newArr);
+    for(let i = 0; i < newArr.length; i++) {
+      document.querySelector("#dropdown ul").appendChild(newArr[i]);
+      if (i <= 9) {
+        newArr[i].classList.remove("hidden");
+      } else {
+        newArr[i].classList.add("hidden");
+      }
+    }
+  }
+});
 </script>
