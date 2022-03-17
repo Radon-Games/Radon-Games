@@ -56,6 +56,7 @@ function sort (arr, string) {
 }
 
 let items = document.querySelectorAll("#dropdown ul li");
+let link;
 let input = document.getElementById("searchbar");
 let dropdown = document.getElementById("dropdown");
 input.addEventListener("input", (e) => {
@@ -64,14 +65,23 @@ input.addEventListener("input", (e) => {
   } else {
     dropdown.classList.remove("hidden");
     let newArr = sort(items, input.value);
-    console.log(newArr);
     for(let i = 0; i < newArr.length; i++) {
       document.querySelector("#dropdown ul").appendChild(newArr[i]);
+      if(i === 0) {
+        link = newArr[i].querySelector("a").href;
+      }
       if (i <= 9) {
         newArr[i].classList.remove("hidden");
       } else {
         newArr[i].classList.add("hidden");
       }
+    }
+  }
+});
+input.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    if (link) {
+      window.location.href = link;
     }
   }
 });
