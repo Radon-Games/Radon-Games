@@ -3287,5 +3287,49 @@
     "width": "1000px",
     "height": "625px",
     "listed": true
+  },
+  {
+    "title": "Soccer Random",
+    "description": "",
+    "tags": "",
+    "route": "/soccer-random",
+    "source": "/src/soccer-random/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Volley Random",
+    "description": "",
+    "tags": "",
+    "route": "/volley-random",
+    "source": "/src/volley-random/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Boxing Random",
+    "description": "",
+    "tags": "",
+    "route": "/boxing-random",
+    "source": "/src/boxing-random/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "",
+    "description": "",
+    "tags": "",
+    "route": "/",
+    "source": "/",
+    "gameType": "",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]
