@@ -3322,6 +3322,50 @@
     "listed": true
   },
   {
+    "title": "Madness Accelerant",
+    "description": "",
+    "tags": "",
+    "route": "/madness-accelerant",
+    "source": "/swf/madness-accelerant.swf",
+    "gameType": "flash",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Mind Games for 2 Player",
+    "description": "",
+    "tags": "",
+    "route": "/mind-games-for-2-player",
+    "source": "/src/mind-games-for-2-player/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Uno",
+    "description": "",
+    "tags": "",
+    "route": "/uno",
+    "source": "/src/uno/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Flakboy",
+    "description": "",
+    "tags": "",
+    "route": "/flakboy",
+    "source": "/src/flakboy/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "",
     "description": "",
     "tags": "",
