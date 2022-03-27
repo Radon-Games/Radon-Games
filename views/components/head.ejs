@@ -1,6 +1,6 @@
 <!-- Meta -->
-<title id="title">Radon Games</title>
-<link id="icon" rel="icon" href="/img/favicon.ico" type="image/png">
+<title>Radon Games</title>
+<link rel="icon" href="/favicon.ico">
 <meta name="description" content="An open-source unblocked games website built with simplicity in mind.">
 <meta name="keywords" content="radon,games,radon games,unblocked,unblocked games,html games,html5 games,flash games,flashplayer games">
 <meta name="robots" content="index, follow">
@@ -9,19 +9,20 @@
 <meta name="revisit-after" content="7 days">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- Scripts/CSS -->
-<script defer src="/js/script.js"></script>
+<!-- CSS -->
 <link href="/css/build.css" rel="stylesheet">
 
-<!-- Goat Counter -->
-<script data-goatcounter="https://radon-games.goatcounter.com/count"
-     async src="//gc.zgo.at/count.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"></script>
+<!-- Scripts -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
-  gtag("config", "G-0GR0HN1RFL");
+function getSettings () {
+  return localStorage.getItem("settings") ? JSON.parse(atob(localStorage.getItem("settings"))) : {
+    "tab-cloak": false,
+    "tab-cloak-text": "Google",
+    "tab-cloak-icon": "https://google.com/favicon.ico",
+    "analytics": true,
+  };
+}
 </script>
+<script defer src="/js/script.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
+     crossorigin="anonymous"></script>
