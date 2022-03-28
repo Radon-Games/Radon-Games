@@ -43,6 +43,6 @@ if(settings["analytics"]) {
   // goatcounter
   const gc = document.createElement("script");
   gc.src = "/js/count.v3.js";
-  gc["data-goatcounter"] = "https://radon-games.goatcounter.com/count";
+  gc.setAttribute("data-goatcounter", "https://radon-games.goatcounter.com/count");
   document.head.appendChild(gc);
 }
