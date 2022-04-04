@@ -34,12 +34,13 @@ if(settings["analytics"]) {
   // gtag
   const gtagScript = document.createElement("script");
   gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL";
+  gtagScript.onload = () => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0GR0HN1RFL');
+  };
   document.head.appendChild(gtagScript);
-  // google analytics
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
-  gtag("config", "G-0GR0HN1RFL");
   // goatcounter
   const gc = document.createElement("script");
   gc.src = "/js/count.v3.js";
