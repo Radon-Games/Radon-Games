@@ -23,27 +23,27 @@ module.exports = function(app) {
   
   // Routes
   app.get("/", (req, res) => {
-    res.render("views/pages/index", { games: gameCount });
+    res.render("pages/index", { games: gameCount });
   });
 
   app.get("/games", (req, res) => {
-    res.render("views/pages/games", { games: gamesListed });
+    res.render("pages/games", { games: gamesListed });
   });
   
   app.get("/unlisted-games", (req, res) => {
-    res.render("views/pages/unlisted-games", { games: gamesUnListed });
+    res.render("pages/unlisted-games", { games: gamesUnListed });
   });
 
   app.get("/about", (req, res) => {
-    res.render("views/pages/about", {});
+    res.render("pages/about", {});
   });
 
   app.get("/partners", (req, res) => {
-    res.render("views/pages/partners", {});
+    res.render("pages/partners", {});
   });
 
   app.get("/settings", (req, res) => {
-    res.render("views/pages/settings", {});
+    res.render("pages/settings", {});
   });
 
   app.get("/game*", (req, res) => {
@@ -62,8 +62,8 @@ module.exports = function(app) {
       }
     }
     // send game back to client
-    if(game) res.render("views/pages/game", { proxy: config.gameProxy, game: game });
-    else res.render("views/pages/404", {});
+    if(game) res.render("pages/game", { proxy: config.gameProxy, game: game });
+    else res.render("pages/404", {});
   });
   
   app.get("/changes", (req, res) => {
@@ -72,42 +72,42 @@ module.exports = function(app) {
   
   // request and report routes
   app.get("/report", (req, res) => {
-    res.render("views/pages/report", { version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+    res.render("pages/report", { version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
   });
   
   app.post("/report", (req, res) => {
     let reqData = req.body;
     if(!reqData.message) {
-      return res.render("views/pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     }
     post("https://radon-api.cohenerickson.repl.co/report", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("views/pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
-      return res.render("views/pages/report", { message: "Success!", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { message: "Success!", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("views/pages/report", { error: "An unexpected error occurred, please try again later.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
     });
   });
   
   app.get("/request", (req, res) => {
-    res.render("views/pages/request", {});
+    res.render("pages/request", {});
   });
   
   app.post("/request", (req, res) => {
     let reqData = req.body;
     if(!reqData.gameName || !reqData.gameType) {
-      return res.render("views/pages/request", { error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { error: "Some feilds were not filled out properly." });
     }
     post("https://radon-api.cohenerickson.repl.co/request", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("views/pages/request", { error: "Some feilds were not filled out properly." });
-      return res.render("views/pages/request", { message: "Success!" });
+      if(r.data.status !== 202) return res.render("pages/request", { error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { message: "Success!" });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("views/pages/request", { error: "An unexpected error occurred, please try again later." });
+      return res.render("pages/request", { error: "An unexpected error occurred, please try again later." });
     });
   });  
 
@@ -118,7 +118,7 @@ module.exports = function(app) {
   
   // 404 route
   app.get("*", (req, res) => {
-    res.render("views/pages/404", {});
+    res.render("pages/404", {});
   });
 }
 
