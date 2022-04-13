@@ -5,9 +5,9 @@ const config = require("./config.json");
 
 // setup options
 app.use(require("express-minify-html-2")({override:true,exception_url:false,htmlMinifier:{removeComments:true,collapseWhitespace:true,collapseBooleanAttributes:true,removeAttributeQuotes:true,removeEmptyAttributes:true,minifyJS:true}}));
-app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
+app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 if(config.rateLimit.enabled) {
