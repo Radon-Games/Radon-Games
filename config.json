@@ -1,6 +1,7 @@
 {
   "port": 3000,
-  "gameProxy": false,
+  "gameProxy": true,
+  "minify": true,
   "rateLimit": {
     "enabled": false,
     "maxRequests": 100,

@@ -4,7 +4,20 @@ const app = express();
 const config = require("./config.json");
 
 // setup options
-app.use(require("express-minify-html-2")({override:true,exception_url:false,htmlMinifier:{removeComments:true,collapseWhitespace:true,collapseBooleanAttributes:true,removeAttributeQuotes:true,removeEmptyAttributes:true,minifyJS:true}}));
+if (config.minify) {
+  app.use(require("express-minify-html-2")({
+    override: true,
+    exception_url: false,
+    htmlMinifier: {
+      removeComments: true,
+      collapseWhitespace: true,
+      collapseBooleanAttributes: true,
+      removeAttributeQuotes: true,
+      removeEmptyAttributes: true,
+      minifyJS: true
+    }
+  }));
+}
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
