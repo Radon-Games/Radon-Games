@@ -47,3 +47,30 @@ if(settings["analytics"]) {
   gc.setAttribute("data-goatcounter", "https://radon-games.goatcounter.com/count");
   document.head.appendChild(gc);
 }
+
+// fullscreen function
+function fullscreen(elm = document.getElementById('gameWindow'), child = 0) {
+  if (child > 2 || !elm.children[child]) {
+    elm.children[0].requestFullscreen();
+  } else {
+    if (elm.children[child].tagName === "IFRAME") {
+      if (elm.children[child].src.includes("/service/")) {
+        if (elm.children[child].contentWindow.handleIconClick) {
+          elm.children[child].contentWindow.handleIconClick("fullscreen");
+        } else {
+          elm.children[child].requestFullscreen();
+        }
+      } else {
+        try {
+          elm.children[child].contentDocument.querySelector("canvas").requestFullscreen();
+        } catch {
+          elm.children[child].requestFullscreen();
+        }
+      }
+    } else if (elm.children[child].tagName === "EMBED" || elm.children[child].tagName === "RUFFLE-EMBED") {
+      elm.children[child].requestFullscreen();
+    } else {
+      fullscreen(elm, child+1);
+    }
+  }
+}

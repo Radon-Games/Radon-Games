@@ -1,25 +1,40 @@
-<footer class="flex justify-center px-4 text-white bg-gray-800">
-  <div class="container py-6">
-    <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
-      <div class="flex items-center justify-center">
-      </div>
-      <div class="text-xl font-bold text-gray-100 hover:text-gray-300">
-        <a href="/">
-          <img class="h-5" src="/img/banner.svg"  alt="Radon Games"/>
-        </a>
-      </div>
-
-      <div class="flex mt-4 md:m-0">
-        <div class="-mx-4">
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="https://github.com/cohenerickson/radon-games" target="_blank">GitHub</a>
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="/report">Bug Report</a>
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="/request">Game Request</a>
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="/partners">Partners</a>
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="/settings">Settings</a>
-          <a class="block md:inline-block px-4 text-sm font-medium text-gray-200 hover:text-gray-400 text-center" href="https://discord.gg/C2fbK35Rhg" target="_blank">Discord</a>
+<footer class="mx-8 md:mx-32 py-8">
+  <div class="container py-4 mx-auto">
+    <div class="lg:flex">
+      <div class="w-full -mx-6 lg:w-2/5">
+        <div class="px-6">
+          <div>
+            <a href="#" class="text-xl font-bold text-white hover:text-gray-300">
+            <img src="/img/banner.svg" alt="Radon Games" class="h-5">
+            </a>
+          </div>
+          <p id="version" class="max-w-md mt-2 text-gray-200">v<%= version %></p>
+          <p class="max-w-md mt-2 text-gray-400">An open-source unblocked games website built with simplicity in mind.</p>
+          <p class="max-w-md mt-2 text-gray-300">All rights reserved to respective owners.</p>
         </div>
       </div>
-      <div class="flex items-center justify-center">
+      <div class="mt-6 lg:mt-0 lg:flex-1">
+        <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
+          <div><br>
+            <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Home</a>
+            <a href="/games" class="block mt-2 text-sm text-gray-400 hover:underline">Games</a>
+            <a href="/apps" class="block mt-2 text-sm text-gray-400 hover:underline">Apps</a>
+          </div>
+          <div><br>
+            <a href="/partners" class="block mt-2 text-sm text-gray-400 hover:underline">Partners</a>
+            <a href="/settings" class="block mt-2 text-sm text-gray-400 hover:underline">Settings</a>
+          </div>
+          <div><br>
+            <a href="/request" class="block mt-2 text-sm text-gray-400 hover:underline">Game Request</a>
+            <a href="/report" class="block mt-2 text-sm text-gray-400 hover:underline">Bug Report</a>
+            <a href="/terms-privacy" class="block mt-2 text-sm text-gray-400 hover:underline">Terms/Privacy</a>
+          </div>
+          <div><br>
+            <a href="https://discord.gg/C2fbK35Rhg" target="_blank" class="block mt-2 text-sm text-gray-400 hover:underline">Discord</a>
+            <a href="https://github.com/cohenerickson/radon-games" target="_blank" class="block mt-2 text-sm text-gray-400 hover:underline">GitHub</a>
+            <a href="mailto:contact@radon.games" target="_blank" class="block mt-2 text-sm text-gray-400 hover:underline">Contact</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

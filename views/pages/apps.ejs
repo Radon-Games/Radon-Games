@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("../components/head") %>
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+  </head>
+  <body>
+    <%- include("../components/nav") %>
+
+    <h1 class="text-2xl font-semibold text-gray-200 lg:text-3xl m-10 text-center">Apps</h1>
+
+    <p class="text-center mb-10 text-gray-300 w-3/5 m-4 block mx-auto">Note: Apps may be blocked by wifi.</p>
+
+    <span class="block mx-auto text-center">
+      <a class="text-gray-400 hover:text-amber-500 cursor-pointer" onclick="launch('https://google.com/')">Google</a><br/>
+    </span>
+
+    <span class="block mx-auto text-center">
+      <a class="text-gray-400 hover:text-amber-500 cursor-pointer" onclick="launch('https://play.geforcenow.com/')">Geforce Now</a><br/>
+    </span>
+
+    <span class="block mx-auto text-center">
+      <a class="text-gray-400 hover:text-amber-500 cursor-pointer" onclick="launch('https://discord.com/login/')">Discord</a><br/>
+    </span>
+
+    <span class="block mx-auto text-center">
+      <a class="text-gray-400 hover:text-amber-500 cursor-pointer" onclick="launch('https://youtube.com/')">YouTube</a><br/>
+    </span>
+    
+    <%- include("../components/footer") %>
+  </body>
+</html>
+<script>
+  function launch(url) {
+    window.navigator.serviceWorker.register("./sw.js", {
+      scope: __uv$config.prefix
+    }).then(() => {
+      url = location.protocol + "//" + location.host + __uv$config.prefix + __uv$config.encodeUrl(url);
+      let win = window.open("about:blank", "_blank");
+      win.document.body.style.margin = "0";
+      win.document.body.style.height = "100vh";
+      win.document.head.innerHTML = `<link rel="icon" href="/favicon.ico">`;
+      let iframe = win.document.createElement("iframe");
+      iframe.style.border = "none";
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+      iframe.style.margin = "0";
+      iframe.src = url;
+      win.document.body.appendChild(iframe);
+      let script = win.document.createElement("script");
+      script.innerHTML = `
+        let title = "";
+        let favicon = "";
+        let iframe = document.querySelector("iframe");
+        setInterval(() => {
+          try {
+            if (iframe.contentDocument.title !== title) {
+              title = iframe.contentDocument.title;
+              document.title = title;
+            }
+          } catch {}
+          try {
+            const icon = iframe.contentDocument.querySelector("link[rel='icon']").href ?? "";
+            if(icon !== favicon) {
+              favicon = icon;
+              document.querySelector("link[rel='icon']").href = icon;
+            }
+          } catch {}
+        }, 10);
+      `;
+      win.document.body.appendChild(script);
+    });
+  }
+</script>

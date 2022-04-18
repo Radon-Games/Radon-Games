@@ -26,3 +26,10 @@ function getSettings () {
 <script defer src="/js/script.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
      crossorigin="anonymous"></script>
+<script src="/uv/uv.bundle.js"></script>
+<script src="/uv/uv.config.js"></script>
+<script>
+  window.navigator.serviceWorker.register("/sw.js", {
+    scope: __uv$config.prefix
+  });
+</script>

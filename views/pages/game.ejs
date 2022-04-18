@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <%- include("../components/head") %>
+    <script>
+      // prevent arrow keys and space bar from scrolling page
+      window.addEventListener("keydown", (e) => {
+        if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code)>-1) {
+          e.preventDefault();
+        }
+      }, false);
+    </script>
   </head>
   <body>
     <%- include("../components/nav") %>

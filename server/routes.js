@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { post } = require("axios");
 const config = require("../config.json");
+const { version } = require("../package.json");
 
 module.exports = function(app) {
   // Sort games
@@ -23,27 +24,19 @@ module.exports = function(app) {
   
   // Routes
   app.get("/", (req, res) => {
-    res.render("pages/index", { games: gameCount });
-  });
-
-  app.get("/games", (req, res) => {
-    res.render("pages/games", { games: gamesListed });
-  });
-  
-  app.get("/unlisted-games", (req, res) => {
-    res.render("pages/unlisted-games", { games: gamesUnListed });
+    res.render("pages/index", { games: gameCount, version: version });
   });
 
   app.get("/about", (req, res) => {
-    res.render("pages/about", {});
+    res.render("pages/about", { version: version });
   });
 
-  app.get("/partners", (req, res) => {
-    res.render("pages/partners", {});
+  app.get("/apps", (req, res) => {
+    res.render("pages/apps", { version: version });
   });
 
-  app.get("/settings", (req, res) => {
-    res.render("pages/settings", {});
+  app.get("/games", (req, res) => {
+    res.render("pages/games", { games: gamesListed, version: version });
   });
 
   app.get("/game*", (req, res) => {
@@ -62,54 +55,65 @@ module.exports = function(app) {
       }
     }
     // send game back to client
-    if(game) res.render("pages/game", { proxy: config.gameProxy, game: game });
-    else res.render("pages/404", {});
+    if(game) res.render("pages/game", { proxy: config.gameProxy, game: game, version: version });
+    else res.render("pages/404", { version: version });
   });
-  
-  app.get("/changes", (req, res) => {
-    res.sendFile("/app/changes.txt");
+
+  app.get("/partners", (req, res) => {
+    res.render("pages/partners", { version: version });
   });
-  
-  // request and report routes
+
+  app.get("/terms-privacy", (req, res) => {
+    res.render("pages/terms-privacy", { version: version });
+  });
+
   app.get("/report", (req, res) => {
-    res.render("pages/report", { version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+    res.render("pages/report", { version: version });
   });
-  
+
   app.post("/report", (req, res) => {
     let reqData = req.body;
     if(!reqData.message) {
-      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: version });
     }
     post("https://radon-api.cohenerickson.repl.co/report", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
-      return res.render("pages/report", { message: "Success!", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: version });
+      return res.render("pages/report", { message: "Success!", version: version });
     })
     .catch((e) => {
       console.error(e);
-      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: require('child_process').execSync('git rev-parse HEAD').toString().trim() });
+      return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: version});
     });
   });
   
   app.get("/request", (req, res) => {
-    res.render("pages/request", {});
+    res.render("pages/request", { version: version });
   });
   
   app.post("/request", (req, res) => {
     let reqData = req.body;
     if(!reqData.gameName || !reqData.gameType) {
-      return res.render("pages/request", { error: "Some feilds were not filled out properly." });
+      return res.render("pages/request", { error: "Some feilds were not filled out properly.", version: version});
     }
     post("https://radon-api.cohenerickson.repl.co/request", reqData)
     .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/request", { error: "Some feilds were not filled out properly." });
-      return res.render("pages/request", { message: "Success!" });
+      if(r.data.status !== 202) return res.render("pages/request", { error: "Some feilds were not filled out properly.", version: version});
+      return res.render("pages/request", { message: "Success!", version: version});
     })
     .catch((e) => {
       console.error(e);
-      return res.render("pages/request", { error: "An unexpected error occurred, please try again later." });
+      return res.render("pages/request", { error: "An unexpected error occurred, please try again later.", version: version});
     });
-  });  
+  });
+
+  app.get("/settings", (req, res) => {
+    res.render("pages/settings", { version: version });
+  });
+  
+  app.get("/unlisted-games", (req, res) => {
+    res.render("pages/unlisted-games", { games: gamesUnListed, version: version });
+  });
 
   // start proxy server
   if(config.gameProxy) {
@@ -118,7 +122,7 @@ module.exports = function(app) {
   
   // 404 route
   app.get("*", (req, res) => {
-    res.render("pages/404", {});
+    res.render("pages/404", { version: version });
   });
 }
 
@@ -127,10 +131,12 @@ function sortGames(games) {
   const output = {ab:[],cd:[],ef:[],gh:[],ij:[],kl:[],mn:[],op:[],qr:[],st:[],uv:[],wx:[],yz:[],other:[]}
   games.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
   games.forEach((game) => {
-    if(!game.title) return;
+    if (!game.title) return;
     let title = game.title;
-    if(!config.gameProxy) {
-      if(!game.source.startsWith("https://cohenerickson.github.io/radon-games-assets")) {
+    if (!game.source.startsWith("https://cohenerickson.github.io/radon-games-assets") && !game.source.startsWith("/service/")) {
+      if (game.gameType === "proxy") {
+        game.source = "/service/" + xor.encode(game.source);
+      } else if (!config.gameProxy) {
         game.source = `https://cohenerickson.github.io/radon-games-assets${game.source}`;
       }
     }
@@ -139,3 +145,15 @@ function sortGames(games) {
   output.all = games;
   return output;
 }
+
+const xor = {
+  encode(str){
+    if (!str) return str;
+    return encodeURIComponent(str.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(''));
+  },
+  decode(str){
+    if (!str) return str;
+    let [ input, ...search ] = str.split('?');
+    return decodeURIComponent(input).split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt(0) ^ 2) : char).join('') + (search.length ? '?' + search.join('?') : '');
+  },
+};

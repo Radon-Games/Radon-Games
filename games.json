@@ -3366,6 +3366,105 @@
     "listed": true
   },
   {
+    "title": "Krunker.io",
+    "description": "Krunker.io is a free Multiplayer Online Game. No Download needed",
+    "tags": "",
+    "route": "/krunker-io",
+    "source": "https://krunker.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Agma.io",
+    "description": "Play Agma - An MMO game combining strategy to survive and eat other players in order to become the largest and strongest player, with a ton of new features such as powerups and shop. Chat and play against friends, find your team and destroy lobbies with your clan. Freeze and teleport other players to make them weak. Fight, and survive as many battles as you can in order to sustain your rank. Gain exp and level up. Mobile friendly",
+    "tags": "",
+    "route": "/agma-io",
+    "source": "https://agma.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Shell Shockers",
+    "description": "Alt URL: geometry.best. Shell Shockers, the world's most advanced egg-based multiplayer shooter! It's like your favorite battlefield game but... with eggs.",
+    "tags": "",
+    "route": "/shell-shockers",
+    "source": "https://shellshock.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Roblox",
+    "description": "Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
+    "tags": "",
+    "route": "/roblox",
+    "source": "https://now.gg/play/roblox-corporation/5349/roblox",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "1v1.lol",
+    "description": "Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!",
+    "tags": "",
+    "route": "/1v1-lol",
+    "source": "https://1v1.lol/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Dogeminer",
+    "description": "Dogeminer is an adventure, a journey, a mission, a rivalry and so much more. The best thing? It's playable right here for free! Hit START now to begin your adventure!",
+    "tags": "",
+    "route": "/dogeminer",
+    "source": "https://dogeminer2.com/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Territorial.io",
+    "description": "Territorial.io - The Art of Conquest",
+    "tags": "",
+    "route": "/territorial-io",
+    "source": "https://territorial.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "MooMoo.io",
+    "description": "MooMoo.io is a brand new Survival IO Game. Build and Survive with your friends",
+    "tags": "",
+    "route": "/moomoo-io",
+    "source": "https://moomoo.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Voxiom.io",
+    "description": "Play the best browser multiplayer voxel first person shooter inspired by minecraft, fortnite, counter-strike, and call of duty!",
+    "tags": "",
+    "route": "/voxiom",
+    "source": "https://voxiom.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "",
     "description": "",
     "tags": "",
