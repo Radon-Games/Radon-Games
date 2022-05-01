@@ -1,6 +1,7 @@
 // initialize variables
-const fs = require('fs');
-const https = require('https');
+const fs = require("fs");
+const http = require("http");
+const https = require("https");
 const express = require("express");
 const app = express();
 const config = require("./config.json");
@@ -36,11 +37,15 @@ if(config.rateLimit.enabled) {
 require("./server/routes.js")(app);
 
 // listen for requests
-const server = https.createServer({
-  key: fs.readFileSync(`${__dirname}/key.pem`, 'utf8'),
-  cert: fs.readFileSync(`${__dirname}/cert.pem`, 'utf8')
-}, app);
+let server;
+try {
+  server = https.createServer({
+    key: fs.readFileSync(`${__dirname}/key.pem`, "utf8"),
+    cert: fs.readFileSync(`${__dirname}/cert.pem`, "utf8")
+  }, app);
+} catch {
+  server = http.createServer(app);
+}
 
-server.listen(process.env.PORT || config.port || 3000).then(() => {
-  console.log(`Listening on port ${process.env.PORT || config.port || 3000}`);
-});
+
+server.listen(process.env.PORT || config.port || 443);
