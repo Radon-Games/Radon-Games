@@ -5,6 +5,7 @@ const https = require("https");
 const express = require("express");
 const app = express();
 const config = require("./config.json");
+const lsBlocker = require("lsblocker");
 
 // setup options
 if (config.minify) {
@@ -23,6 +24,7 @@ if (config.minify) {
 }
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
+app.use(lsBlocker());
 app.set("views", __dirname + "/views");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -40,12 +42,10 @@ require("./server/routes.js")(app);
 let server;
 try {
   server = https.createServer({
-    key: fs.readFileSync(`${__dirname}/key.pem`, "utf8"),
-    cert: fs.readFileSync(`${__dirname}/cert.pem`, "utf8")
+    key: fs.readFileSync(config.key || `${__dirname}/key.pem`, "utf8"),
+    cert: fs.readFileSync(config.cert || `${__dirname}/cert.pem`, "utf8")
   }, app);
 } catch {
   server = http.createServer(app);
 }
-
-
 server.listen(process.env.PORT || config.port || 443);
