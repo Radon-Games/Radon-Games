@@ -62,6 +62,10 @@ fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
     });
   }
 
-  if (s) server.listen(443);
-  else server.listen(process.env.PORT || config.port || 3000);
+  if (s) server.listen(443, () => {
+    console.log("PORT:", 443);
+  });
+  else server.listen(process.env.PORT || config.port || 3000, () => {
+    console.log("PORT:", process.env.PORT || config.port || 3000);
+  });
 });
