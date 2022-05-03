@@ -2,28 +2,28 @@
 
 An open-source unblocked games website built with simplicity in mind.
 
-## How to setup
-
-### Automatic Deployment:<br>
-<a href="https://glitch.com/edit/#!/import/github/cohenerickson/radon-games" title="Remix on Glitch"><img alt="Remix on Glitch" src="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" width="140" height="30"><img></a>&nbsp;
-<a href="https://repl.it/github/cohenerickson/radon-games" title="Run on Replit"><img alt="Run on Replit" src="https://repl.it/badge/github/cohenerickson/radon-games" width="140" height="30"><img></a>&nbsp;
-<a href="https://heroku.com/deploy?template=https://github.com/cohenerickson/radon-games" title="Deploy to Heroku"><img alt="Deploy to Heroku" src="https://www.herokucdn.com/deploy/button.svg" width="140" height="30"><img></a>
-
-
-### Command line:
+## Setup
 ```
 git clone https://github.com/cohenerickson/radon-games
 cd radon-games
-npm install
-npm run start
+npm i
+pm2 start server.js -n Radon
 ```
 
-The default place for the website is `http://localhost:443`, but this can be changed in `config.json`.
+The website listens on both port `443` and `80`, the reason it listens on both is to fix some issues resolving while using cloudflare.
 
-## Config
+
+### Configuring Domains
+Configure your DNS settings to point to your webserver then run the following command for each of your domains. The server will automatically configure each of them with ssl.
+```
+certbot certonly --standalone --preferred-challenges http -d <REPLACE WITH YOUR DOMAIN>
+```
+
+
+### config.json
+There are a few configuration options for the website, you can view them below.
 ```
 {
-  "port": 443, // The port the website will run on.
   "gameProxy": true, // If true, the website will proxy games to the backend server.
   "minify": true,
   "rateLimit": {

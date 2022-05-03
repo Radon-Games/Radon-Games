@@ -38,14 +38,28 @@ if(config.rateLimit.enabled) {
 // register routes
 require("./server/routes.js")(app);
 
+
 // listen for requests
-let server;
-try {
-  server = https.createServer({
-    key: fs.readFileSync(config.key || `${__dirname}/key.pem`, "utf8"),
-    cert: fs.readFileSync(config.cert || `${__dirname}/cert.pem`, "utf8")
-  }, app);
-} catch {
-  server = http.createServer(app);
-}
-server.listen(process.env.PORT || config.port || 443);
+const HTTPSserver = https.createServer({}, app);
+const HTTPserver = http.createServer(app);
+fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
+  if (err) {
+    console.log(err);
+  } else {
+    // Configure ssl
+    const dirs = files
+      .filter(d => d.isDirectory())
+      .map(d => d.name);
+
+    dirs.forEach((dir) => {
+      console.log(dir);
+      HTTPSserver.addContext(dir.split("-")[0], {
+        key: fs.readFileSync(`/etc/letsencrypt/live/${dir}/privkey.pem`),
+        cert: fs.readFileSync(`/etc/letsencrypt/live/${dir}/fullchain.pem`)
+      });
+    });
+  }
+
+  HTTPSserver.listen(443);
+  HTTPserver.listen(80);
+});

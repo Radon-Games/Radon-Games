@@ -1,5 +1,4 @@
 {
-  "port": 443,
   "gameProxy": true,
   "minify": true,
   "rateLimit": {
