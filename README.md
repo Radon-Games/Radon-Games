@@ -14,7 +14,7 @@ The website listens on both port `443` and `80`, the reason it listens on both i
 
 
 ### Configuring Domains
-Configure your DNS settings to point to your webserver then run the following command for each of your domains. The server will automatically configure each of them with ssl.
+Configure your DNS settings to point to your webserver then run the following command for each of your domains. The server will automatically configure each of them with ssl. This step is unnecessary if you are proxied through cloudflare.
 ```
 certbot certonly --standalone --preferred-challenges http -d <REPLACE WITH YOUR DOMAIN>
 ```
