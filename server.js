@@ -25,10 +25,6 @@ if (config.minify) {
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.use(lsBlocker());
-app.use((req, res, next) => {
-  console.log("REQUEST:", req.url);
-  next();
-});
 app.set("views", __dirname + "/views");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -50,6 +46,7 @@ fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
   if (err) {
     console.log(err);
   } else {
+    // Configure ssl
     const dirs = files
       .filter(d => d.isDirectory())
       .map(d => d.name);
@@ -63,10 +60,6 @@ fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
     });
   }
 
-  HTTPSserver.listen(443, () => {
-    console.log("PORT:", 443);
-  });
-  HTTPserver.listen(80, () => {
-    console.log("PORT:", 80);
-  });
+  HTTPSserver.listen(443);
+  HTTPserver.listen(80);
 });
