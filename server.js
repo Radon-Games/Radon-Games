@@ -25,6 +25,10 @@ if (config.minify) {
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.use(lsBlocker());
+app.use((req, res, next) => {
+  console.log("REQUEST:", req.url);
+  next();
+});
 app.set("views", __dirname + "/views");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
