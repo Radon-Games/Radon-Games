@@ -44,6 +44,7 @@ let server;
 fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
   let s;
   if (err) {
+    console.log(err);
     server = http.createServer(app);
   } else {
     s = true;
@@ -53,6 +54,7 @@ fs.readdir("/etc/letsencrypt/live", { withFileTypes: true }, (err, files) => {
 
     server = https.createServer({}, app);
     dirs.forEach((dir) => {
+      console.log(dir);
       server.addContext(dir.split("-")[0], {
         key: fs.readFileSync(`/etc/letsencrypt/live/${dir}/privkey.pem`),
         cert: fs.readFileSync(`/etc/letsencrypt/live/${dir}/fullchain.pem`)
