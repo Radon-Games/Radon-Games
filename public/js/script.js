@@ -61,11 +61,7 @@ function fullscreen(elm = document.getElementById('gameWindow'), child = 0) {
           elm.children[child].requestFullscreen();
         }
       } else {
-        try {
-          elm.children[child].contentDocument.querySelector("canvas").requestFullscreen();
-        } catch {
-          elm.children[child].requestFullscreen();
-        }
+        elm.children[child].requestFullscreen();
       }
     } else if (elm.children[child].tagName === "EMBED" || elm.children[child].tagName === "RUFFLE-EMBED") {
       elm.children[child].requestFullscreen();
