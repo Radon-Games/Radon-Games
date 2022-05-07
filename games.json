@@ -45,7 +45,7 @@
   },
   {
     "title": "Achievement Unlocked",
-    "description": "Who needs gameplay when you have ACHIEVEMENTS? Don’t worry about beating levels, finding ways t’ kill enemies, or beating the final boss… there are none. Focus solely on your ultimate destiny… doing random tasks that have nothing to do with anything. Metagame yourself with ease! Self-satisfaction never felt so… artificial!",
+    "description": "Who needs gameplay when you have ACHIEVEMENTS? Don't worry about beating levels, finding ways t' kill enemies, or beating the final boss… there are none. Focus solely on your ultimate destiny… doing random tasks that have nothing to do with anything. Metagame yourself with ease! Self-satisfaction never felt so… artificial!",
     "tags": "",
     "route": "/achievement-unlocked",
     "source": "/swf/achievement-unlocked.swf",
@@ -210,7 +210,7 @@
   },
   {
     "title": "Cube Field",
-    "description": "Cubefield is a simple but addictive game, there are only two controls – left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes – if you hit one, it’s game over.",
+    "description": "Cubefield is a simple but addictive game, there are only two controls – left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes – if you hit one, it's game over.",
     "tags": "",
     "route": "/cube-field",
     "source": "/src/cubefield/index.html",
@@ -276,7 +276,7 @@
   },
   {
     "title": "Duck Life 3 (HTML)",
-    "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you’ll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you’ll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
+    "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you'll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you'll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
     "tags": "",
     "route": "/duck-life-3-html",
     "source": "/src/ducklife3/index.html",
@@ -661,7 +661,7 @@
   },
   {
     "title": "Falldown",
-    "description": "A Sımple Game. You are trying to run away from the obstacles when you falling down.",
+    "description": "A Simple Game. You are trying to run away from the obstacles when you falling down.",
     "tags": "",
     "route": "/falldown",
     "source": "/swf/Falldown.swf",
@@ -727,7 +727,7 @@
   },
   {
     "title": "Worlds Hardest Game",
-    "description": "The World’s Hardest Game speaks for itself, when we say it is the hardest game we aren’t kidding! If you have played World’s Hardest Game before, you know how difficult the game can be. You will need to be quick and decisive with your movements, and have a strategy going into each level. Lucky for you, we have some helpful tips and tricks that will help you whether you are experienced or a complete beginner.",
+    "description": "The World's Hardest Game speaks for itself, when we say it is the hardest game we aren't kidding! If you have played World's Hardest Game before, you know how difficult the game can be. You will need to be quick and decisive with your movements, and have a strategy going into each level. Lucky for you, we have some helpful tips and tricks that will help you whether you are experienced or a complete beginner.",
     "tags": "",
     "route": "/worlds-hardest-game",
     "source": "/swf/WorldsHardestGame.swf",
@@ -848,7 +848,7 @@
   },
   {
     "title": "Bubble Trouble",
-    "description": "Clear all the bubbles and get yourself out of trouble! Destroy the bouncing bubbles by splitting them again and again with a line from your harpoon gun, but don’t let them touch you! Collect items dropped to gain advantages and score bonus points by eliminating all the bubbles before time runs out. Are you up the challenge?",
+    "description": "Clear all the bubbles and get yourself out of trouble! Destroy the bouncing bubbles by splitting them again and again with a line from your harpoon gun, but don't let them touch you! Collect items dropped to gain advantages and score bonus points by eliminating all the bubbles before time runs out. Are you up the challenge?",
     "tags": "",
     "route": "/bubble-trouble",
     "source": "/swf/bubbletrouble.swf",
@@ -870,7 +870,7 @@
   },
   {
     "title": "Duck Life 2 (Flash)",
-    "description": "Duck Life 2 is a duck racing game with various training levels to improve your athletic abilities. When you’ve trained enough, you enter a duck ‘quadrathlon’’ that puts your running, climbing, swimming, and flying skills to the test. Just another day in the life of a duck!",
+    "description": "Duck Life 2 is a duck racing game with various training levels to improve your athletic abilities. When you've trained enough, you enter a duck ‘quadrathlon'' that puts your running, climbing, swimming, and flying skills to the test. Just another day in the life of a duck!",
     "tags": "",
     "route": "/duck-life-2-flash",
     "source": "/swf/ducklife2.swf",
@@ -892,7 +892,7 @@
   },
   {
     "title": "Duck Life 4 (Flash)",
-    "description": "Duck Life 4 is a duck racing game set after the ban on genetically modified ducks. A year has passed since the ban on genetically modified ducks and now it’s up to you to defeat the world champion. Train your duck team to compete in six new locations around the world.",
+    "description": "Duck Life 4 is a duck racing game set after the ban on genetically modified ducks. A year has passed since the ban on genetically modified ducks and now it's up to you to defeat the world champion. Train your duck team to compete in six new locations around the world.",
     "tags": "",
     "route": "/duck-life-4-flash",
     "source": "/swf/ducklife4.swf",
@@ -1288,7 +1288,7 @@
   },
   {
     "title": "Dental Adventure",
-    "description": "Always wanted to be a dentist? Well, even if you have not, you’ll have lots of fun drilling teeth, filling cavities, and using your dental skills to solve lots of dental dilemmas. Hit the road with Glenn Martin, DDS and family and travel cross-country to 8 destinations, meeting new people and their mouths",
+    "description": "Always wanted to be a dentist? Well, even if you have not, you'll have lots of fun drilling teeth, filling cavities, and using your dental skills to solve lots of dental dilemmas. Hit the road with Glenn Martin, DDS and family and travel cross-country to 8 destinations, meeting new people and their mouths",
     "tags": "",
     "route": "/dental-adventure",
     "source": "/swf/dental-adventure.swf",
@@ -1332,7 +1332,7 @@
   },
   {
     "title": "Bullet Bill 2",
-    "description": "Take a turn with the bullets of Super Mario Brothers. These bullets take flight and it’s your job to see them safely to the end. Can you kill the goombas on the way?",
+    "description": "Take a turn with the bullets of Super Mario Brothers. These bullets take flight and it's your job to see them safely to the end. Can you kill the goombas on the way?",
     "tags": "",
     "route": "/bullet-bill-2",
     "source": "/swf/Bullet Bill 2.swf",
@@ -1365,7 +1365,7 @@
   },
   {
     "title": "Bow Man",
-    "description": "Bowman is an archery game where you and an opponent take shots at each other. You win when you’ve hit the opponent fatally. It can take a few arrows. Bowman can be played against the computer or via local multiplayer.",
+    "description": "Bowman is an archery game where you and an opponent take shots at each other. You win when you've hit the opponent fatally. It can take a few arrows. Bowman can be played against the computer or via local multiplayer.",
     "tags": "",
     "route": "/bow-man",
     "source": "/swf/bowman.swf",
@@ -1508,7 +1508,7 @@
   },
   {
     "title": "Flood Runner 3",
-    "description": "Introducing the third instalment of Flood Runner! The aim is still to run and jump from one platform to the next to escape the wave that’s hot on your heels. Flood Runner 3 has improved graphics and the game itself is a little less tricky than the previous episodes. If you fall into the water or lava, perform a QTE to survive and rejoin the race.",
+    "description": "Introducing the third instalment of Flood Runner! The aim is still to run and jump from one platform to the next to escape the wave that's hot on your heels. Flood Runner 3 has improved graphics and the game itself is a little less tricky than the previous episodes. If you fall into the water or lava, perform a QTE to survive and rejoin the race.",
     "tags": "",
     "route": "/flood-runner-3",
     "source": "/swf/Flood_Runner3.swf",
@@ -1948,7 +1948,7 @@
   },
   {
     "title": "Gun Blood",
-    "description": "This town isn’t big enough for the two of us, so draw! If you have ever wanted to be a part of a western duel, then look no further than Gunblood! Choose from one of ten wild west characters and attempt to outshoot your opponents! Nine rounds of intense, reaction based duels await you in this visceral game! After every successful duel, you are met with another, more challenging opponent and your odds of survival greatly decrease! Can you win every duel and prove that you are the best shot in town?",
+    "description": "This town isn't big enough for the two of us, so draw! If you have ever wanted to be a part of a western duel, then look no further than Gunblood! Choose from one of ten wild west characters and attempt to outshoot your opponents! Nine rounds of intense, reaction based duels await you in this visceral game! After every successful duel, you are met with another, more challenging opponent and your odds of survival greatly decrease! Can you win every duel and prove that you are the best shot in town?",
     "tags": "",
     "route": "/gun-blood",
     "source": "/swf/gunblood.swf",
@@ -2080,7 +2080,7 @@
   },
   {
     "title": "Interactive Buddy 2",
-    "description": "",
+    "description": "The sequel to Interactive Buddy! Interact with the buddy using many new items and weapons!",
     "tags": "",
     "route": "/interactive-buddy-2",
     "source": "/swf/interactivebuddy2.swf",
@@ -2113,7 +2113,7 @@
   },
   {
     "title": "Kung Fu Remix 2",
-    "description": "",
+    "description": "Kung Fu Remix classic game. A remake of the NES classic.",
     "tags": "",
     "route": "/kung-fu-remix-2",
     "source": "/swf/kungfuremix2.swf",
@@ -2124,7 +2124,7 @@
   },
   {
     "title": "Line Game Orange",
-    "description": "",
+    "description": "In this game, you have to guide this orange line. It needs to reach its destination which is a green spot. There are many obstacles on the way. Make sure that you help it from the start to the end. This orange line is very sensitive so you have to take care of it. It is time to have some fun!",
     "tags": "",
     "route": "/line-game-orange",
     "source": "/swf/linegameorange.swf",
@@ -2135,7 +2135,7 @@
   },
   {
     "title": "Mario Combat",
-    "description": "",
+    "description": "Your Super Mario! What does that mean? It means you gotta go kick Bowsers butt! And that's exactly what your going to do!",
     "tags": "",
     "route": "/mario-combat",
     "source": "/swf/mariocombat.swf",
@@ -2146,7 +2146,7 @@
   },
   {
     "title": "Mini Putt",
-    "description": "",
+    "description": "Place the golf balls and hit them skillfully in various tricky golf courses.",
     "tags": "",
     "route": "/mini-putt",
     "source": "/swf/miniputt.swf",
@@ -2157,7 +2157,7 @@
   },
   {
     "title": "Only Level",
-    "description": "",
+    "description": "This Is The Only Level is a simple fun game where you must find a way to go to the finish point with a different twist in each level.",
     "tags": "",
     "route": "/only-level",
     "source": "/swf/onlylevel.swf",
@@ -2168,7 +2168,7 @@
   },
   {
     "title": "PacXon",
-    "description": "",
+    "description": "Pacxon is an addicting arcade game, based on the classic Pacman game, Pac xon will keep you challenged for hours.",
     "tags": "",
     "route": "/pacxon",
     "source": "/swf/pacxon.swf",
@@ -2179,7 +2179,7 @@
   },
   {
     "title": "Pandemic 1",
-    "description": "",
+    "description": "Evolve, Infect, Kill! Pandemic is a game where you get to evolve you own biological virus and wipe out mankind!",
     "tags": "",
     "route": "/pandemic-1",
     "source": "/swf/pandemic-1.swf",
@@ -2190,7 +2190,7 @@
   },
   {
     "title": "Pandemic 2",
-    "description": "",
+    "description": "Pandemic 2 is a free game about the spread of a dangerous pandemic in the modern age. This is a strategy game about the danger and threat of an aggressive virus as it slowly spreads its way across the globe. By playing as the virus instead of as medics, researchers, or other members of the medical and scientific communities you will see the mechanisms by which a virus may spread. This is a casual game with simple mechanics that allow for deep meaningful choices on behalf of the player. As the game continues your objective will be to spread your virus as far, as wide, and as fat as you possibly can. As your virus evolves you'll gain experience points. With these experience points, you will be able to purchases upgrades. You can choose from a lit of different symptoms which all have their own ways of helping the virus spread. This is a casual time-management game so you'll have to upgrade and then wait and see if your disease is progressing before your time limit. As time passes, you'll gain evolution points which is what you can use to purchase upgrades.",
     "tags": "",
     "route": "/pandemic-2",
     "source": "/swf/pandemic2.swf",
@@ -2201,7 +2201,7 @@
   },
   {
     "title": "Parking Mania",
-    "description": "",
+    "description": "Use the arrow keys to steer and drive the car forward and backward. The goal is to park the car in the parking space. Just don't crash into anything!",
     "tags": "",
     "route": "/parking-mania",
     "source": "/swf/parkingmania.swf",
@@ -2212,7 +2212,7 @@
   },
   {
     "title": "Powerpuff Girls Zombgone",
-    "description": "",
+    "description": "Help remove barriers standing in the way of these girls.",
     "tags": "",
     "route": "/powerpuff-girls-zombgone",
     "source": "/swf/powerpuff_girls_zombgone.swf",
@@ -2223,7 +2223,7 @@
   },
   {
     "title": "Raft Wars 2",
-    "description": "",
+    "description": "Raft Wars 2 is an action-packed shooting game created by Martijn Kunst as the sequel to the hit game Raft Wars. Simon and his brother return from a well-deserved holiday only to find a water park on top of where they've hidden their buried treasure.",
     "tags": "",
     "route": "/raft-wars-2",
     "source": "/swf/raft-wars-2_mochi_secure.swf",
@@ -2234,7 +2234,7 @@
   },
   {
     "title": "Real Estate Tycoon",
-    "description": "",
+    "description": "Real Estate Tycoon is playable online as an HTML5 game.",
     "tags": "",
     "route": "/real-estate-tycoon",
     "source": "/swf/real-estate-tycoon-1350817f.swf",
@@ -2245,7 +2245,7 @@
   },
   {
     "title": "Red Shift",
-    "description": "",
+    "description": "Level up your ship and take on the enemy!",
     "tags": "",
     "route": "/red-shift",
     "source": "/swf/redshift.swf ",
@@ -2938,7 +2938,7 @@
   },
   {
     "title": "Tunnel Rush",
-    "description": "Tunnel Rush Unblocked is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush to dodge barriers using just your wits and your keyboard. In the game, the ball will keep rolling forward, there will be unknown obstacles in front of us, we need to control the ball to get the tunnel! Just dodge the obstacles by dodging the diamonds in the middle. Now let's take the challenge together! Wanna test your reaction speed? Play Tunnel Rush online now and push your skills to the limit. There’s only one way to show those barriers who’s boss, so play Tunnel Rush on Poki to show off those ultra-sharp reactions.",
+    "description": "Tunnel Rush Unblocked is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush to dodge barriers using just your wits and your keyboard. In the game, the ball will keep rolling forward, there will be unknown obstacles in front of us, we need to control the ball to get the tunnel! Just dodge the obstacles by dodging the diamonds in the middle. Now let's take the challenge together! Wanna test your reaction speed? Play Tunnel Rush online now and push your skills to the limit. There's only one way to show those barriers who's boss, so play Tunnel Rush on Poki to show off those ultra-sharp reactions.",
     "tags": "",
     "route": "/tunnel-rush",
     "source": "/src/tunnelrush/index.html",
@@ -2960,7 +2960,7 @@
   },
   {
     "title": "Mario Kart 64",
-    "description": "",
+    "description": "Mario Kart 64 is a 1996 kart racing video game developed and published by Nintendo for the Nintendo 64. The game is the second entry in the Mario Kart series and is the successor to Super Mario Kart for the Super Nintendo Entertainment System.",
     "tags": "",
     "route": "/mario-cart-64",
     "source": "/emulator/n64/mariokart64.z64",
@@ -2971,7 +2971,7 @@
   },
   {
     "title": "Pokemon Blue",
-    "description": "",
+    "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
     "tags": "",
     "route": "/pokemon-blue",
     "source": "/emulator/gb/pokemon-blue.gb",
@@ -2982,7 +2982,7 @@
   },
   {
     "title": "Pokemon Crystal",
-    "description": "",
+    "description": "Originally released for the Game Boy™ Color system in 2000, the Pokémon™ Crystal game added several new features to the Pokémon franchise. For the first time, players could choose a female or male character, Pokémon battles featured animation, and more. And now, this Virtual Console release invites you to explore the Johto region again—or for the first time.",
     "tags": "",
     "route": "/pokemon-crystal",
     "source": "/emulator/gb/pokemon-crystal.gbc",
@@ -2993,7 +2993,7 @@
   },
   {
     "title": "Pokemon Gold",
-    "description": "",
+    "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
     "tags": "",
     "route": "/pokemon-gold",
     "source": "/emulator/gb/pokemon-gold.gbc",
@@ -3004,7 +3004,7 @@
   },
   {
     "title": "Pokemon Red",
-    "description": "",
+    "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
     "tags": "",
     "route": "/pokemon-red",
     "source": "/emulator/gb/pokemon-red.gb",
@@ -3015,7 +3015,7 @@
   },
   {
     "title": "Pokemon Silver",
-    "description": "",
+    "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
     "tags": "",
     "route": "/pokemon-silver",
     "source": "/emulator/gb/pokemon-silver.gbc",
@@ -3026,7 +3026,7 @@
   },
   {
     "title": "Pokemon Emerald",
-    "description": "",
+    "description": "Pokémon Emerald Version takes Trainers back to the land of Hoenn for an expanded adventure, this time against both Team Magma and Team Aqua! Pokémon Emerald also features an even more exciting storyline featuring the Legendary Rayquaza.",
     "tags": "",
     "route": "/pokemon-emerald",
     "source": "/emulator/gba/pokemon-emerald.gba",
@@ -3037,7 +3037,7 @@
   },
   {
     "title": "Pokemon Fire Red",
-    "description": "",
+    "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
     "tags": "",
     "route": "/pokemon-fire-red",
     "source": "/emulator/gba/pokemon-firered.gba",
@@ -3048,7 +3048,7 @@
   },
   {
     "title": "Pokemon Leaf Green",
-    "description": "",
+    "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
     "tags": "",
     "route": "/pokemon-leaf-green",
     "source": "/emulator/gba/pokemon-leafgreen.gba",
@@ -3059,7 +3059,7 @@
   },
   {
     "title": "Pokemon Ruby",
-    "description": "",
+    "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
     "tags": "",
     "route": "/pokemon-ruby",
     "source": "/emulator/gba/pokemon-ruby.gba",
@@ -3070,7 +3070,7 @@
   },
   {
     "title": "Pokemon Sapphire",
-    "description": "",
+    "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
     "tags": "",
     "route": "/pokemon-sapphire",
     "source": "/emulator/gba/pokemon-sapphire.gba",
@@ -3081,7 +3081,7 @@
   },
   {
     "title": "Basketball Stars",
-    "description": "",
+    "description": "Basketball Stars is a 2-player basketball game created by Madpuffers. You can play solo or with a friend as a variety of legendary basketball players. Shoot basketball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars!",
     "tags": "",
     "route": "/basketball-stars",
     "source": "/src/basketball-stars/index.html",
@@ -3092,7 +3092,7 @@
   },
   {
     "title": "Minesweeper",
-    "description": "",
+    "description": "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field.",
     "tags": "",
     "route": "/minesweeper",
     "source": "/src/minesweeper/index.html",
@@ -3103,7 +3103,7 @@
   },
   {
     "title": "Sans Fight",
-    "description": "",
+    "description": "Undertale Sans Fight Clone; 'do you wanna have a bad time? 'cause if you visit this page... you are REALLY not going to like what happens next.'",
     "tags": "",
     "route": "/sans-fight",
     "source": "/src/sans-fight/index.html",
@@ -3114,7 +3114,7 @@
   },
   {
     "title": "There is no Game",
-    "description": "",
+    "description": "There is no game. There is nothing to do. Do not click or tap anywhere. Really. DO NOT CLICK OR TAP ANYWHERE. Do not laugh as there is nothing to laugh about.",
     "tags": "",
     "route": "/there-is-no-game",
     "source": "/src/there-is-no-game/index.html",
@@ -3125,7 +3125,7 @@
   },
   {
     "title": "Unfair Dyne",
-    "description": "",
+    "description": "Break the word in half and add 'UN' to each part. Undyne fight, but harder.",
     "tags": "",
     "route": "/unfair-dyne",
     "source": "/src/unfair-dyne/index.html",
@@ -3136,7 +3136,7 @@
   },
   {
     "title": "Volley Gosh",
-    "description": "",
+    "description": "Volley Gosh is a bright and happy ball game where you must try keep your 'volley gosh ball' in the air for as long as possible. Watch out for the increasing challenge and surprises that abound on the joyful beach while you get your next high score!",
     "tags": "",
     "route": "/volley-gosh",
     "source": "/src/volleygosh/index.html",
@@ -3147,7 +3147,7 @@
   },
   {
     "title": "NBA Jam",
-    "description": "",
+    "description": "NBA Jam is a classic arcade basketball game developed and published back in 1993 and is the first entry to the NBA Jam series. The game features 2 on 2 basketball match off and is one of the first sports games to feature real and digitized NBA-licensed teams and players!",
     "tags": "",
     "route": "/nb-jam",
     "source": "/emulator/snes/nbajam.sfc",
@@ -3158,7 +3158,7 @@
   },
   {
     "title": "NBA Jam Tournament Edition",
-    "description": "",
+    "description": "NBA Jam Tournament Edition is the second game in the basketball arcade series created by Midway. The game features two-on-two fast paced matches with real life NBA players from the 1993-1994 seasons. The game has over 120 NBA athletes plus more than 40 hidden characters to unlock.",
     "tags": "",
     "route": "/nba-jam-tournament-edition",
     "source": "/emulator/snes/nbajamtournamentedition.smc",
@@ -3169,7 +3169,7 @@
   },
   {
     "title": "NBA Jam 2K20",
-    "description": "",
+    "description": "NBA Jam 2K20: Tournament Edition is a ROM hack of the game NBA Jam: Tournament Edition for the Super Nintendo Entertainment System (SNES). This hack did not change the core aspects, as well as most game mechanics, of the game, and instead worked on updating its player and team roster to match the 2019-2020 NBA season.",
     "tags": "",
     "route": "/nba-jam-2k20",
     "source": "/emulator/snes/nbajam2k20.smc",
@@ -3180,7 +3180,7 @@
   },
   {
     "title": "Donkey Kong Country",
-    "description": "",
+    "description": "Donkey Kong Country is a side-scrolling platform game in which the player must complete 40 levels to recover the Kongs' banana hoard, which has been stolen by the crocodilian Kremlings.",
     "tags": "",
     "route": "/donkey-kong-country",
     "source": "/emulator/snes/dkc.sfc",
@@ -3191,7 +3191,7 @@
   },
   {
     "title": "Super Mario Allstars + Super Mario World",
-    "description": "",
+    "description": "Super Mario All-Stars + Super Mario World is a compilation title for the Super Nintendo Entertainment System. It includes all the games from Super Mario All-Stars, as well as Super Mario World. It was released in December 1994 in North America, 1995 in Europe, and was never released in Japan.",
     "tags": "",
     "route": "/super-mario-allstars--super-mario-world",
     "source": "/emulator/snes/smasmw.smc",
@@ -3202,7 +3202,7 @@
   },
   {
     "title": "Street Fighter 2",
-    "description": "",
+    "description": "Street Fighter II: The World Warrior is a competitive fighting game originally released for the arcades in 1991. It is the second entry in the Street Fighter series and the arcade sequel to the original Street Fighter released in 1987. It was Capcom's fourteenth title that ran on the CP System arcade hardware. Street Fighter II improved upon the many concepts introduced in the first game, including the use of command-based special moves and a six-button configuration, while offering players a selection of multiple playable characters, each with their own unique fighting style.",
     "tags": "",
     "route": "/street-fighter-2",
     "source": "/emulator/snes/sf2.sfc",
@@ -3213,7 +3213,7 @@
   },
   {
     "title": "Sonic 1",
-    "description": "",
+    "description": "Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.",
     "tags": "",
     "route": "/sonic-1",
     "source": "/emulator/segaMD/sonic1.smd",
@@ -3224,7 +3224,7 @@
   },
   {
     "title": "Sonic 2",
-    "description": "",
+    "description": "Sonic the Hedgehog 2 is a 1992 platform game developed and published by Sega for the Sega Genesis. It follows Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg.",
     "tags": "",
     "route": "/sonic-2",
     "source": "/emulator/segaMD/sonic2.smd",
@@ -3235,7 +3235,7 @@
   },
   {
     "title": "Sonic 3 & Knuckles",
-    "description": "",
+    "description": "Dr. Eggman's (AKA Dr. Robotnik's) Death Egg was once again blasted by Sonic, crash-landing on the peak of a volcano on the Floating Island. Dr. Eggman is still at large, and Sonic can't allow him to get his hands on the Master Emerald and repair the Death Egg.",
     "tags": "",
     "route": "/sonic-3--knuckles",
     "source": "/emulator/segaMD/sonic3knuckles.smd",
@@ -3246,7 +3246,7 @@
   },
   {
     "title": "Meat Boy",
-    "description": "",
+    "description": "This is NOT Super Meat Boy! Its simply the flash prototype that Super Meat Boy was based off of. SMB, will play very differently and is 100% new.. what im saying is if you even slightly enjoy the prototype, you will LOVE SMB! For more info on Super Meat Boy check out supermeatboy.com",
     "tags": "",
     "route": "/meat-boy",
     "source": "/swf/meat-boy.swf",
@@ -3257,7 +3257,7 @@
   },
   {
     "title": "Shift",
-    "description": "",
+    "description": "Is the floor the roof? Is the roof the floor? And whats with that in game timer? Find the answers to all the above questions and more in this original puzzle platformer!",
     "tags": "",
     "route": "/shift",
     "source": "/swf/shift.swf",
@@ -3268,7 +3268,7 @@
   },
   {
     "title": "Shift 2",
-    "description": "",
+    "description": "The sequel to The Shift! Is the floor the roof? Is the roof the floor? And whats with that in game timer? Find the answers to all the above questions and more in this original puzzle platformer, part 2!",
     "tags": "",
     "route": "/shift-2",
     "source": "/swf/shift-2.swf",
@@ -3279,7 +3279,7 @@
   },
   {
     "title": "Unfair Mario",
-    "description": "",
+    "description": "It is Super Mario, again. Our beloved little fellow is inviting you to travel alongside him throughout the Unfair Mario game. You will find yourself in the classic arcade game, but this time, with a little twist. Some traps will be trickier, and some obstacles harder to overcome. But you will survive it, will you not?",
     "tags": "",
     "route": "/unfair-mario",
     "source": "/swf/unfairmario.swf",
@@ -3290,7 +3290,7 @@
   },
   {
     "title": "Soccer Random",
-    "description": "",
+    "description": "Soccer Random is one of the most fun sports games. The game's objective is to score a goal using only one key with different variations!",
     "tags": "",
     "route": "/soccer-random",
     "source": "/src/soccer-random/index.html",
@@ -3301,7 +3301,7 @@
   },
   {
     "title": "Volley Random",
-    "description": "",
+    "description": "The fun random game series continues with Volley Random. There is a Volleyball experience unlike any before. With fun ragdoll physics and a variety of variations, each match will be different. The playing court, ball and players may change. The important thing is to be able to get score under all conditions. ",
     "tags": "",
     "route": "/volley-random",
     "source": "/src/volley-random/index.html",
@@ -3312,7 +3312,7 @@
   },
   {
     "title": "Boxing Random",
-    "description": "",
+    "description": "The new version of the random game series that you love to play continues with Boxing Random. Again, changing conditions occur in every round. Sometimes the boxing field changes and sometimes the boxers. Adapt to every random feature and hit accurately. When you get the rocket punch, balance and send it to the opponent's head. This way you can knock out the opponent without getting close! The one who reaches 5 score first, wins the game!",
     "tags": "",
     "route": "/boxing-random",
     "source": "/src/boxing-random/index.html",
@@ -3323,7 +3323,7 @@
   },
   {
     "title": "Madness Accelerant",
-    "description": "",
+    "description": "Madness Accelerant is a fast-paced action game to beat the enemies and escape the beast monster. This game is a playable remake of Krinkel's Madness Consternation.",
     "tags": "",
     "route": "/madness-accelerant",
     "source": "/swf/madness-accelerant.swf",
@@ -3334,7 +3334,7 @@
   },
   {
     "title": "Mind Games for 2 Player",
-    "description": "",
+    "description": "We collected some brain and board games that you can play as two player in a single game. We are presenting you eight brain / table game which are played by everyone fondly. You can play Chess, Tic Tac Toe, Checkers, Ludo, Connect 4, Snake and Ladders, Mancala and Math games in game box for free! If you cannot decide on which game you want to play, you can give a chance to spin the “Spin” to let it pick a game for you.",
     "tags": "",
     "route": "/mind-games-for-2-player",
     "source": "/src/mind-games-for-2-player/index.html",
@@ -3345,7 +3345,7 @@
   },
   {
     "title": "Uno",
-    "description": "",
+    "description": "The classic popular game UNO can be played online in the browser. You can play the game locally or online multiplayer. You can enter the lobbies in the online section. Face up to 3 CPU-controlled opponents. Match cards by color or number, play action cards to mix the game up and be the first to get rid of all cards. Also, do not forget to press the 1 button when you have only one card left!",
     "tags": "",
     "route": "/uno",
     "source": "/src/uno/index.html",
@@ -3356,7 +3356,7 @@
   },
   {
     "title": "Flakboy",
-    "description": "",
+    "description": "Wanna try out some awesome new weapons? Of course you do. Get blastin'!",
     "tags": "",
     "route": "/flakboy",
     "source": "/src/flakboy/index.html",
