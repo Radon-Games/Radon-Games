@@ -9,7 +9,7 @@
     <section class="w-full max-w-2xl m-10 px-6 py-4 mx-auto">
       <h2 class="text-3xl font-semibold text-center text-gray-200">Bug Report</h2>
       <span class="text-red-500"><% if(locals.error) { %><%= error %><% } %></span>
-      <span class="text-green-700"><% if(locals.message) { %><%= message %><% } %></span>
+      <span class="text-green-500"><% if(locals.message) { %><%= message %><% } %></span>
       <form class="mt-6" method="POST" action="/report">
 
         <div class="w-full mt-4">
@@ -26,19 +26,3 @@
     <%- include("../components/footer") %>
   </body>
 </html>
-<script>
-  let textarea = document.getElementById("textarea");
-  textarea.innerHTML = `URL/Game: ${ decodeURIComponent((window.location.search ?? "").slice(3)) }
-Version: ${ document.getElementById("version").innerText ?? "" }
-Priority: (High/Medium/Low)
-Date: ${ (new Date().getMonth()+1) + "/" + new Date().getDate() + "/" + new Date().getFullYear() }
-
-Description:
-
-
-Steps to Reproduce:
-
-
-Expected Result:
-`
-</script>

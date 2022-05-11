@@ -22,14 +22,23 @@ certbot certonly --standalone --preferred-challenges http -d <REPLACE WITH YOUR 
 
 ### config.json
 There are a few configuration options for the website, you can view them below.
-```
+```json
 {
   "gameProxy": true, // If true, the website will proxy games to the backend server.
-  "minify": true,
+  "minify": true, // If true, the website will minify the html.
+  "ip": "127.0.0.1", // The ip address of the server.
   "rateLimit": {
     "enabled": false, // If true the server will limit requests to the specified rate.
     "maxRequests": 100, // The maximum number of requests allowed per 'timeWindow'.
     "timeWindow": 60 // The time window in seconds.
+  },
+  "mailjet": {
+    "id": "c5bed272ede42c7b59569c8d51ed5485", // The mailjet API key.
+    "key": "de8716cad3d4412fe3522973379a3a27" // The mailjet API secret.
+  },
+  "emails": {
+    "request": "request@example.com", // Email to send game requests to.
+    "report": "report@example.com" // Email to send bug reports to.
   }
 }
 ```

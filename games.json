@@ -3377,17 +3377,6 @@
     "listed": true
   },
   {
-    "title": "Agma.io",
-    "description": "Play Agma - An MMO game combining strategy to survive and eat other players in order to become the largest and strongest player, with a ton of new features such as powerups and shop. Chat and play against friends, find your team and destroy lobbies with your clan. Freeze and teleport other players to make them weak. Fight, and survive as many battles as you can in order to sustain your rank. Gain exp and level up. Mobile friendly",
-    "tags": "",
-    "route": "/agma-io",
-    "source": "https://agma.io/",
-    "gameType": "proxy",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
     "title": "Shell Shockers",
     "description": "Alt URL: geometry.best. Shell Shockers, the world's most advanced egg-based multiplayer shooter! It's like your favorite battlefield game but... with eggs.",
     "tags": "",
@@ -3457,7 +3446,7 @@
     "title": "Voxiom.io",
     "description": "Play the best browser multiplayer voxel first person shooter inspired by minecraft, fortnite, counter-strike, and call of duty!",
     "tags": "",
-    "route": "/voxiom",
+    "route": "/voxiom-io",
     "source": "https://voxiom.io/",
     "gameType": "proxy",
     "width": "1000px",
@@ -3465,12 +3454,56 @@
     "listed": true
   },
   {
-    "title": "",
-    "description": "",
+    "title": "Deeeep.io",
+    "description": "Deeeep.io is a multiplayer online browser game that takes place in the depths of the ocean. Eat food and other players, hide in underwater terrain and evolve your animals to earn points and reach the top of the food chain.",
     "tags": "",
-    "route": "/",
-    "source": "/",
-    "gameType": "",
+    "route": "/deeeep-io",
+    "source": "https://deeeep.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Agma.io",
+    "description": "Play Agma - An MMO game combining strategy to survive and eat other players in order to become the largest and strongest player, with a ton of new features such as powerups and shop. Chat and play against friends, find your team and destroy lobbies with your clan. Freeze and teleport other players to make them weak. Fight, and survive as many battles as you can in order to sustain your rank. Gain exp and level up. Mobile friendly",
+    "tags": "",
+    "route": "/agma-io",
+    "source": "https://agma.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Warbrokers.io",
+    "description": "War Brokers is a browser-based first-person shooter with a wide variety of game modes, weaponry, maps, and skins. War Brokers is available to play for free online at Warbrokers.io and can also be purchased on Steam too. Currently, the game has four game modes: Battle Royale, Classic (8v8), 4v4 (Speed), and Survival.",
+    "tags": "",
+    "route": "/warbrokers-io",
+    "source": "https://warbrokers.io/",
+    "gameType": "proxy",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Gun Knight",
+    "description": "A roguelike heavily inspired by Gungeon and Binding of Isaac, you play a Knight whose quest is to venture into a nearby dungeon.",
+    "tags": "",
+    "route": "/gun-knight",
+    "source": "/src/gun-knight/index.html",
+    "gameType": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Ludo Online",
+    "description": "Ludo King is an Indian free-to-play mobile game application developed by Indian studio Gametion Technologies Pvt Ltd, based in Mumbai, India. Gametion is owned by Vikash Jaiswal. It is developed on the Unity game engine and is available on Android, iOS, Kindle, Windows Phone and Microsoft Windows platforms.",
+    "tags": "",
+    "route": "/ludo-online",
+    "source": "/src/ludo-online/index.html",
+    "gameType": "html",
     "width": "1000px",
     "height": "625px",
     "listed": true

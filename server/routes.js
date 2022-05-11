@@ -2,6 +2,8 @@ const fs = require("fs");
 const { post } = require("axios");
 const config = require("../config.json");
 const { version } = require("../package.json");
+const mailjet = require ("node-mailjet").connect(config.mailjet.id, config.mailjet.key);
+
 
 module.exports = function(app) {
   // Sort games
@@ -76,12 +78,13 @@ module.exports = function(app) {
     if(!reqData.message) {
       return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: version });
     }
-    post("https://radon-api.cohenerickson.repl.co/report", reqData)
-    .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/report", { error: "Some feilds were not filled out properly.", version: version });
-      return res.render("pages/report", { message: "Success!", version: version });
-    })
-    .catch((e) => {
+    mail(
+      "report@radon.games",
+      "Bug Report",
+      `Details:\n${reqData.message}`,
+    ).then(() => {
+      return res.render("pages/report", { message: "Success!", version: version});
+    }).catch((e) => {
       console.error(e);
       return res.render("pages/report", { error: "An unexpected error occurred, please try again later.", version: version});
     });
@@ -96,12 +99,13 @@ module.exports = function(app) {
     if(!reqData.gameName || !reqData.gameType) {
       return res.render("pages/request", { error: "Some feilds were not filled out properly.", version: version});
     }
-    post("https://radon-api.cohenerickson.repl.co/request", reqData)
-    .then((r) => {
-      if(r.data.status !== 202) return res.render("pages/request", { error: "Some feilds were not filled out properly.", version: version});
+    mail(
+      "request@radon.games",
+      "Game Request",
+      `Game Name:\n${reqData.gameName}\n\nGame Type:\n${reqData.gameType}\n\nGame URL:\n${reqData.url}`
+    ).then(() => {
       return res.render("pages/request", { message: "Success!", version: version});
-    })
-    .catch((e) => {
+    }).catch((e) => {
       console.error(e);
       return res.render("pages/request", { error: "An unexpected error occurred, please try again later.", version: version});
     });
@@ -157,3 +161,22 @@ const xor = {
     return decodeURIComponent(input).split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt(0) ^ 2) : char).join('') + (search.length ? '?' + search.join('?') : '');
   },
 };
+
+function mail (email, subject, text) {
+  return mailjet.post("send", {'version': 'v3.1'}).request({
+    "Messages":[
+      {
+        "From": {
+          "Email": email,
+          "Name": "Radon Games"
+        },
+        "To": [{
+          "Email": email,
+          "Name": email.split("@")[0]
+        }],
+        "Subject": subject,
+        "TextPart": text
+      }
+    ]
+  });
+}

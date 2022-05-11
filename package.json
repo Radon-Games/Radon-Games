@@ -1,11 +1,12 @@
 {
   "name": "radon-games",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "An open-source unblocked games website built with simplicity in mind.",
   "repository": "https://github.com/cohenerickson/radon-games",
   "scripts": {
     "start": "node server.js",
-    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --minify"
+    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --minify",
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --watch"
   },
   "author": "Cohen Erickson",
   "license": "GNU",
@@ -16,6 +17,7 @@
     "express-minify-html-2": "^1.0.1",
     "express-rate-limit": "^6.2.0",
     "lsblocker": "^1.0.2",
+    "node-mailjet": "^3.4.1",
     "postcss": "^8.4.8",
     "tailwindcss": "^3.0.18"
   },

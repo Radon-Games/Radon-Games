@@ -22,6 +22,9 @@ if (config.minify) {
     }
   }));
 }
+app.use((req, res, next) => {
+  if (req.get("host") !== config.ip) next();
+});
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.use(lsBlocker());
