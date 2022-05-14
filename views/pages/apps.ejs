@@ -33,7 +33,7 @@
 </html>
 <script>
   function launch(url) {
-    window.navigator.serviceWorker.register("./sw.js", {
+    window.navigator.serviceWorker.register("./uv.sw.js", {
       scope: __uv$config.prefix
     }).then(() => {
       url = location.protocol + "//" + location.host + __uv$config.prefix + __uv$config.encodeUrl(url);
