@@ -114,6 +114,10 @@ module.exports = function(app) {
   app.get("/settings", (req, res) => {
     res.render("pages/settings", { version: version });
   });
+
+  app.get("/support", (req, res) => {
+    res.render("pages/support", { version: version });
+  });
   
   app.get("/unlisted-games", (req, res) => {
     res.render("pages/unlisted-games", { games: gamesUnListed, version: version });

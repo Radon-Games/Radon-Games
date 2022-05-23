@@ -2,9 +2,9 @@ var https = require("https");
 var http = require("http");
 
 module.exports = (app) => {
-  app.use("/", function(clientRequest, clientResponse) {
+  app.use("/", function(clientRequest, clientResponse, next) {
     var url = "https://cohenerickson.github.io/";
-    var parsedHost = url.split("/").splice(2).splice(0, 1).join("/")
+    var parsedHost = url.split("/").splice(2).splice(0, 1).join("/");
     var parsedPort;
     var parsedSSL;
     
@@ -24,27 +24,28 @@ module.exports = (app) => {
       headers: {
         "User-Agent": clientRequest.headers["user-agent"]
       }
-    };  
+    };
   
-    var serverRequest = parsedSSL.request(options, function(serverResponse) { 
-      var body = "";   
+    var serverRequest = parsedSSL.request(options, function(serverResponse) {
+      if (serverResponse.statusCode === 404) return next();
+      var body = "";
       if (String(serverResponse.headers["content-type"]).indexOf("text/html") !== -1) {
         serverResponse.on("data", function(chunk) {
           body += chunk;
-        }); 
+        });
   
-        serverResponse.on("end", function() {  
+        serverResponse.on("end", function() {
           clientResponse.writeHead(serverResponse.statusCode, serverResponse.headers);
           clientResponse.end(body);
-        }); 
-      }   
+        });
+      }
       else {
         serverResponse.pipe(clientResponse, {
           end: true
-        }); 
+        });
         clientResponse.contentType(serverResponse.headers["content-type"])
-      }   
-    }); 
+      }
+    });
   
     serverRequest.end();
   });
