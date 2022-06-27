@@ -19,7 +19,6 @@ Configure your DNS settings to point to your webserver then run the following co
 certbot certonly --standalone --preferred-challenges http -d <REPLACE WITH YOUR DOMAIN>
 ```
 
-
 ### config.json
 There are a few configuration options for the website, you can view them below.
 ```json
