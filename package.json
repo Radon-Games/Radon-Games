@@ -2,7 +2,7 @@
   "name": "radon-games",
   "version": "1.6.1",
   "description": "An open-source unblocked games website built with simplicity in mind.",
-  "repository": "https://github.com/cohenerickson/radon-games",
+  "repository": "https://github.com/Radon-Games/Radon-Games",
   "scripts": {
     "start": "node server.js",
     "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --minify",

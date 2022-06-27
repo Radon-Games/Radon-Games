@@ -40,7 +40,7 @@
       let win = window.open("about:blank", "_blank");
       win.document.body.style.margin = "0";
       win.document.body.style.height = "100vh";
-      win.document.head.innerHTML = `<link rel="icon" href="/favicon.ico">`;
+      win.document.head.innerHTML = `<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjYGBkZAAAAAoAAx9k7/gAAAAASUVORK5CYIIA">`;
       let iframe = win.document.createElement("iframe");
       iframe.style.border = "none";
       iframe.style.width = "100%";
@@ -55,18 +55,13 @@
         let iframe = document.querySelector("iframe");
         setInterval(() => {
           try {
-            if (iframe.contentDocument.title !== title) {
-              title = iframe.contentDocument.title;
-              document.title = title;
-            }
+            title = iframe.contentDocument.title;
           } catch {}
           try {
-            const icon = iframe.contentDocument.querySelector("link[rel='icon']").href ?? "";
-            if(icon !== favicon) {
-              favicon = icon;
-              document.querySelector("link[rel='icon']").href = icon;
-            }
+            favicon = iframe.contentDocument.querySelector("link[rel='icon']").href ?? "/favicon.ico";
           } catch {}
+          document.title = title;
+          document.querySelector("link[rel='icon']").href = favicon;
         }, 10);
       `;
       win.document.body.appendChild(script);
