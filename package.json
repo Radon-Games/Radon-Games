@@ -1,27 +1,26 @@
 {
   "name": "radon-games",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "description": "An open-source unblocked games website built with simplicity in mind.",
-  "repository": "https://github.com/Radon-Games/Radon-Games",
   "scripts": {
-    "start": "node server.js",
-    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --minify",
-    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --watch"
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "node server/index.mjs"
   },
-  "author": "Cohen Erickson",
-  "license": "GNU",
-  "dependencies": {
-    "axios": "^0.25.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.2",
-    "express-minify-html-2": "^1.0.1",
-    "express-rate-limit": "^6.2.0",
-    "lsblocker": "^1.0.2",
-    "node-mailjet": "^3.4.1",
-    "postcss": "^8.4.8",
-    "tailwindcss": "^3.0.18"
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "solid-app-router": "^0.4.1",
+    "solid-js": "^1.4.0",
+    "solid-meta": "^0.27.3",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "tailwindcss": "^3.0.18",
+    "typescript": "^4.6.2",
+    "vite": "^2.7.13"
   },
   "engines": {
-    "node": "16.x"
+    "node": ">=14"
   }
 }
