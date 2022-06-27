@@ -1,33 +1,45 @@
-// TODO: Fix Bare
-import fs from "node:fs";
 import http from "node:http";
 import https from "node:https";
-import nodeStatic from "node-static";
-import Server from "bare-server-node";
-import lsIps from "./lsips.js";
+import express from "express";
+import lsblocker from "lsblocker";
+import createBareServer from "@tomphttp/bare-server-node";
+import path from "node:path";
 
-const Bare = new Server("/bare/", "");
+const __dirname = path.resolve();
 
-const Static = new nodeStatic.Server("../dist");
+const app = express();
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer({}, app);
+const bareServer = createBareServer("/bare/", {
+  logErrors: false,
+  localAddress: undefined,
+  maintainer: {
+    email: "tomphttp@sys32.dev",
+    website: "https://github.com/tomphttp/",
+  }
+});
 
-const httpServer = http.createServer();
-const httpsServer = https.createServer();
+app.use(lsblocker());
 
-httpServer.on("request", request);
-httpsServer.on("request", request);
+app.use(express.static("dist"));
+
+app.use((req, res, next) => {
+  if (bareServer.shouldRoute(req)) bareServer.routeRequest(req, res);
+  else next();
+});
+
+app.use((req, res) => {
+  res.sendFile(__dirname + "/dist/index.html");
+});
+
 httpServer.on("upgrade", upgrade);
 httpsServer.on("upgrade", upgrade);
-
-function request (request, response) { 
-  if (bare.route_request(request, response)) return true;
-  Static.serve(request, response);
-}
-
 function upgrade (req, socket, head) {
-  if (bare.route_upgrade(req, socket, head))
-    return;
-
-  socket.end();
+  if (bareServer.shouldRoute(req)) {
+    bareServer.routeUpgrade(req, socket, head);
+  } else {
+    socket.end();
+  }
 }
 
 httpServer.listen(80);
