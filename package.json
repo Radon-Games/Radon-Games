@@ -4,7 +4,7 @@
   "description": "An open-source unblocked games website built with simplicity in mind.",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npx tailwindcss build -i src/index.css -o src/build.css && vite build",
     "start": "node server/index.mjs"
   },
   "type": "module",
