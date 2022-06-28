@@ -7,7 +7,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "jsxImportSource": "solid-js",
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "types": ["vite/client"],
     "baseUrl": "./",
     "paths": {

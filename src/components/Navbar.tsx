@@ -2,7 +2,7 @@ import NavbarButton from "./NavbarButton";
 
 export default function Navbar () {
   return (
-    <nav class="flex justify-center shadow-lg h-14">
+    <nav class="bg-gray-900 text-gray-100 flex justify-center shadow-lg h-14 z-10 relative">
       <NavbarButton href="/" icon="home">
         Home
       </NavbarButton>

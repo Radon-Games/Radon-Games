@@ -1,8 +1,7 @@
 import { For } from 'solid-js';
-import { Link } from "solid-app-router";
-
-import { listedGames, Game } from "../../Games";
-
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { listedGames } from "../../Games";
 import "../build.css";
 
 export default function Games () {
@@ -11,7 +10,8 @@ export default function Games () {
   document.title = "Games - Radon Games";
 
   return (
-    <>
+    <div class="bg-gray-900 text-gray-100">
+      <Navbar />
       <h1 class="text-2xl text-center py-10">Games</h1>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center mx-0 md:mx-32 py-5">
         <For each={ keys }>{(key, i) => {
@@ -21,16 +21,17 @@ export default function Games () {
           return (
             <div>
               <h1 class="text-2xl">{ title }</h1>
-              <For each={ games }>{(game: Game, i) =>
+              <For each={ games }>{(game, i) =>
                 <>
-                  <Link class="hover:underline" href={ `/game/${ game.route }` }>{ game.title }</Link><br/>
+                  <a class="hover:underline" href={ `/game/${ game.route }` }>{ game.title }</a><br/>
                 </>
               }</For>
             </div>
           );
         }}</For>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 

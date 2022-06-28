@@ -1,28 +1,29 @@
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import NotFound from "../[...404]";
+import { allGames } from "../../../Games";
+import "../../build.css";
 import { useLocation } from "solid-app-router";
 
-import NotFound from "../[...404]";
+// FIXME: storybook breaks typescript syntax
+// declare global {
+//   interface Window {
+//     EJS_player: string;
+//     EJS_gameUrl: string;
+//     EJS_core: string;
+//     EJS_gameName: string;
+//     EJS_pathtodata: string;
+//   }
+// }
 
-import { allGames } from "../../../Games";
-
-import "../../build.css";
-
-
-declare global {
-  interface Window {
-    EJS_player: string;
-    EJS_gameUrl: string;
-    EJS_core: string;
-    EJS_gameName: string;
-    EJS_pathtodata: string;
+export default function Game (props) {
+  let game;
+  if (props.game) {
+    game = allGames.find(game => game.route === props.game);
+  } else {
+    const location = useLocation();
+    game = allGames.find(game => game.route === location.pathname.split("/").at(-1));
   }
-}
-
-export default function Game () {
-  const location = useLocation();
-
-  const route = location.pathname.split("/").at(-1);
-
-  const game = allGames.find(game => game.route === route);
 
   if (!game) {
     return <NotFound />;
@@ -31,7 +32,8 @@ export default function Game () {
   document.title = `${ game.title } - Radon Games`;
 
   return (
-    <>
+    <div class="bg-gray-900 text-gray-100">
+      <Navbar />
       <h1 class="text-2xl text-center py-10">{ game.title }</h1>
       <div class="bg-gray-800 block mx-auto mb-10" style={ `width:${ game.width };` }>
         <div style={ `height:${ game.height };` }>
@@ -40,7 +42,8 @@ export default function Game () {
         <h1 class="text-xl p-3 pb-0">Description</h1>
         <p class="p-3">{ game.description }</p>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 

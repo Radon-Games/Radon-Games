@@ -1,33 +1,35 @@
-import { Link } from "solid-app-router";
-
 import Icon from "./Icon";
+
+import Banner from "../assets/banner.svg";
+
+import "../build.css";
 
 import { version } from "../../package.json";
 
 export default function Footer () {
   return (
-    <footer class="bg-gray-900 py-4 text-center mt-16">
-      <Link href="/">
-        <img src="/img/banner.svg" class="h-4 block mx-auto" />
-      </Link>
+    <footer class="bg-gray-900 py-4 text-center mt-16 text-gray-100">
+      <a href="/">
+        <img src={ Banner } class="h-4 block mx-auto" />
+      </a>
       <p class="py-2">An open-source unblocked games website built with simplicity in mind.</p>
       <div class="py-5 px-5 sm:px-30 md:px-64 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <Link class="hover:underline" href="/">Home</Link><br/>
-          <Link class="hover:underline" href="/games">Games</Link><br/>
-          <Link class="hover:underline" href="/apps">Apps</Link><br/>
-          <Link class="hover:underline" href="/services">Services</Link>
+          <a class="hover:underline" href="/">Home</a><br/>
+          <a class="hover:underline" href="/games">Games</a><br/>
+          <a class="hover:underline" href="/apps">Apps</a><br/>
+          <a class="hover:underline" href="/services">Services</a>
         </div>
         <div>
-          <Link class="hover:underline" href="/partners">Partners</Link><br/>
-          <Link class="hover:underline" href="/supporters">Supporters</Link><br/>
-          <Link class="hover:underline" href="/settings">Settings</Link>
+          <a class="hover:underline" href="/partners">Partners</a><br/>
+          <a class="hover:underline" href="/supporters">Supporters</a><br/>
+          <a class="hover:underline" href="/settings">Settings</a>
         </div>
         <div>
-          <a class="hover:underline" target="_blank" href="https://github.com/ruffle-rs/ruffle/issues/new?assignees=&labels=game%20request&template=game_request.md">Game Request</a><br/>
-          <a class="hover:underline" target="_blank" href="https://github.com/ruffle-rs/ruffle/issues/new?assignees=&labels=bug&template=bug_report.md">Bug Report</a><br/>
-          <Link class="hover:underline" href="/changelog">Changelog</Link><br/>
-          <Link class="hover:underline" href="/privacy">Privacy</Link>
+          <a class="hover:underline" target="_blank" href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=game%20request&template=game_request.md">Game Request</a><br/>
+          <a class="hover:underline" target="_blank" href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=bug&template=bug_report.md">Bug Report</a><br/>
+          <a class="hover:underline" href="/changelog">Changelog</a><br/>
+          <a class="hover:underline" href="/privacy">Privacy</a>
         </div>
         <div>
           <a target="_blank" class="hover:underline" href="https://github.com/Radon-Games/Radon-Games">GitHub</a><br/>
@@ -36,9 +38,9 @@ export default function Footer () {
           <a target="_blank" class="hover:underline" href="mailto:contact@radon.games">Contact</a>
         </div>
       </div>
-      <Link href={ `/changelog/${version}` }>
+      <a href={ `/changelog/${version}` }>
         <span class="text-gray-500 hover:underline"><Icon style="display:inline-block;" name="code-branch"/>v{ version }</span>
-      </Link>
+      </a>
     </footer>
   );
 }

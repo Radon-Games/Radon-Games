@@ -5,3 +5,5 @@ src/build.css
 .DS_Store
 Thumbs.db
 package-lock.json
+.env
+storybook-static

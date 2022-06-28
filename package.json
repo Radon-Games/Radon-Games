@@ -2,15 +2,29 @@
   "name": "radon-games",
   "version": "2.0.0",
   "description": "An open-source unblocked games website built with simplicity in mind.",
+  "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "solid-start dev",
     "build": "npx tailwindcss build -i src/index.css -o src/build.css && vite build",
     "start": "node server/index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test-storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "type": "module",
   "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/html": "^6.5.9",
+    "@storybook/test-runner": "^0.3.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
     "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.2",
+    "babel-preset-solid": "^0.24.12",
+    "core-js": "^3.9.1",
+    "jest": "^27.5.1",
     "postcss": "^8.4.6",
     "solid-app-router": "^0.4.1",
     "solid-js": "^1.4.0",
@@ -29,8 +43,6 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "lsblocker": "^1.0.2",
-    "node-fetch": "^3.2.6",
-    "node-static": "^0.7.11",
     "vite-plugin-pwa": "^0.12.0"
   }
 }
