@@ -24,8 +24,8 @@ export default function Footer () {
           <Link class="hover:underline" href="/settings">Settings</Link>
         </div>
         <div>
-          <Link class="hover:underline" href="/request">Game Request</Link><br/>
-          <Link class="hover:underline" href="/report">Game Report</Link><br/>
+          <a class="hover:underline" target="_blank" href="https://github.com/ruffle-rs/ruffle/issues/new?assignees=&labels=game%20request&template=game_request.md">Game Request</a><br/>
+          <a class="hover:underline" target="_blank" href="https://github.com/ruffle-rs/ruffle/issues/new?assignees=&labels=bug&template=bug_report.md">Bug Report</a><br/>
           <Link class="hover:underline" href="/changelog">Changelog</Link><br/>
           <Link class="hover:underline" href="/privacy">Privacy</Link>
         </div>
