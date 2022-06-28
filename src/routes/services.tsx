@@ -1,6 +1,6 @@
 import { Link } from "solid-app-router";
 
-import "../../build.css";
+import "../build.css";
 
 export default function Services () {
   document.title = "Services - Radon Games";
@@ -9,11 +9,9 @@ export default function Services () {
     <>
       <h1 class="text-2xl text-center py-10">Services</h1>
       <div class="text-center">
-        <Link href="dns" class="hover:underline">Radon DNS (Non-Blocking DNS Resolver)</Link>
+        <Link target="_blank" href="https://github.com/Radon-Games/DNS" class="hover:underline">Radon DNS</Link><br/>
+        <Link target="_blank" href="https://github.com/Radon-Games/Link-Bot" class="hover:underline">Link Bot</Link>
       </div>
-      {/* <div class="text-center">
-        <Link href="linkbot" class="hover:underline">Link Bot (Discord Link Bot)</Link>
-      </div> */}
     </>
   );
 }
