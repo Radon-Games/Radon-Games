@@ -1,5 +1,4 @@
 import http from "node:http";
-import https from "node:https";
 import path from "node:path";
 import express from "express";
 import lsblocker from "lsblocker";
@@ -8,10 +7,8 @@ import config from "../config.mjs";
 import gameProxy from "./gameProxy.mjs";
 
 const __dirname = path.resolve();
-
 const app = express();
-const httpServer = http.createServer(app);
-const httpsServer = https.createServer({}, app);
+const server = http.createServer(app);
 const bareServer = createBareServer("/bare/", {
   logErrors: false,
   localAddress: undefined,
@@ -21,30 +18,31 @@ const bareServer = createBareServer("/bare/", {
   }
 });
 
-app.use((req, res, next) => {
-  if (req.get("host") === config.ip) res.send("radon games");
-  else next();
-});
+app.use((req, res, next) => { if (req.get("host") !== config.ip) return next(); });
+
 app.use(lsblocker());
+
 app.use(express.static("dist"));
+
 app.use(gameProxy);
+
 app.use((req, res, next) => {
   if (bareServer.shouldRoute(req)) bareServer.routeRequest(req, res);
   else next();
 });
+
 app.use((req, res) => {
   res.sendFile(__dirname + "/dist/index.html");
 });
 
-httpServer.on("upgrade", upgrade);
-httpsServer.on("upgrade", upgrade);
-function upgrade (req, socket, head) {
+server.on("upgrade", (req, socket, head) => {
   if (bareServer.shouldRoute(req)) {
     bareServer.routeUpgrade(req, socket, head);
   } else {
     socket.end();
   }
-}
+});
 
-httpServer.listen(80);
-httpsServer.listen(443);
+server.listen(config.port, "127.0.0.1", () => {
+  console.log(`Server listening on 127.0.0.1:${config.port}`);
+});

@@ -11,11 +11,8 @@ export default function Services () {
       <div class="text-center">
         <Link href="dns" class="hover:underline">Radon DNS (Non-Blocking DNS Resolver)</Link>
       </div>
-      <div class="text-center">
-        <Link href="linkbot" class="hover:underline">Link Bot (Discord Link Bot)</Link>
-      </div>
       {/* <div class="text-center">
-        <Link href="appeal" class="hover:underline">Appeal (Disocrd Moderation Bot)</Link>
+        <Link href="linkbot" class="hover:underline">Link Bot (Discord Link Bot)</Link>
       </div> */}
     </>
   );
