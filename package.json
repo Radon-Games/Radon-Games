@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "npx tailwindcss build -i src/index.css -o src/build.css && vite build",
-    "start": "node server/index.mjs"
+    "start": "node server/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
   "devDependencies": {
