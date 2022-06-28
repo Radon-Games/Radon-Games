@@ -29,10 +29,10 @@ export default function Footer () {
           <Link class="hover:underline" href="/changelog">Changelog</Link>
         </div>
         <div>
-          <Link target="_blank" class="hover:underline" href="https://github.com/Radon-Games/Radon-Games">GitHub</Link><br />
-          <Link target="_blank" class="hover:underline" href="https://discord.gg/C2fbK35Rhg">Discord</Link><br />
-          <Link target="_blank" class="hover:underline" href="https://www.patreon.com/Radon_Games">Patreon</Link><br />
-          <Link target="_blank" class="hover:underline" href="mailto://contact@radon.games">Contact</Link>
+          <a target="_blank" class="hover:underline" href="https://github.com/Radon-Games/Radon-Games">GitHub</a><br />
+          <a target="_blank" class="hover:underline" href="https://discord.gg/C2fbK35Rhg">Discord</a><br />
+          <a target="_blank" class="hover:underline" href="https://www.patreon.com/Radon_Games">Patreon</a><br />
+          <a target="_blank" class="hover:underline" href="mailto:contact@radon.games">Contact</a>
         </div>
       </div>
       <Link href={ `/changelog/${version}` }>
