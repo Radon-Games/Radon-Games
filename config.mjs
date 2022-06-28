@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 export default {
   token: process.env.TOKEN, // Discord bot token
   ip: process.env.IP, // IP of the server

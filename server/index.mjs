@@ -1,9 +1,11 @@
 import http from "node:http";
 import https from "node:https";
+import path from "node:path";
 import express from "express";
 import lsblocker from "lsblocker";
 import createBareServer from "@tomphttp/bare-server-node";
-import path from "node:path";
+import config from "../config.mjs";
+import gameProxy from "./gameProxy.mjs";
 
 const __dirname = path.resolve();
 
@@ -19,15 +21,17 @@ const bareServer = createBareServer("/bare/", {
   }
 });
 
+app.use((req, res, next) => {
+  if (req.get("host") === config.ip) res.send("radon games");
+  else next();
+});
 app.use(lsblocker());
-
 app.use(express.static("dist"));
-
+app.use(gameProxy);
 app.use((req, res, next) => {
   if (bareServer.shouldRoute(req)) bareServer.routeRequest(req, res);
   else next();
 });
-
 app.use((req, res) => {
   res.sendFile(__dirname + "/dist/index.html");
 });

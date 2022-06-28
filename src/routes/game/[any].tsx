@@ -44,24 +44,36 @@ export default function Game () {
   );
 }
 
+const xor = {
+  encode(str){
+    if (!str) return str;
+    return encodeURIComponent(str.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(''));
+  },
+  decode(str){
+    if (!str) return str;
+    let [ input, ...search ] = str.split('?');
+    return decodeURIComponent(input).split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt(0) ^ 2) : char).join('') + (search.length ? '?' + search.join('?') : '');
+  },
+};
+
 function GameElement (props) {
   const { game } = props;
 
   if (game.gameType === "flash") {
-    return <embed src={ `https://Radon-Games.github.io/Radon-Games-Assets${ game.source }` }  width={ game.width } height={ game.height }></embed>
+    return <embed src={ `${ game.source }` }  width={ game.width } height={ game.height }></embed>
   } else if (game.gameType === "html") {
-    return <iframe src={ `https://Radon-Games.github.io/Radon-Games-Assets${game.source}` } width={ game.width } height={ game.height }></iframe>
+    return <iframe src={ `${game.source}` } width={ game.width } height={ game.height }></iframe>
   } else if (game.gameType === "proxy") {
-    return <iframe src={ game.source } width={ game.width } height={ game.height }></iframe>
+    return <iframe src={ "/service/" + xor.encode(game.source) } width={ game.width } height={ game.height }></iframe>
   } else {
     window.EJS_player = "#game";
-    window.EJS_gameUrl = `https://Radon-Games.github.io/Radon-Games-Assets${ game.source }`;
+    window.EJS_gameUrl = `${ game.source }`;
     window.EJS_core = game.gameType;
     window.EJS_gameName = game.title;
-    window.EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs/data/";
+    window.EJS_pathtodata = "/data/";
 
     const script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs/data/loader.js";
+    script.src = "/data/loader.js";
     script.defer = true;
     document.body.appendChild(script);
 
