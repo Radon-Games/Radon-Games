@@ -1,27 +1,48 @@
 {
   "name": "radon-games",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "description": "An open-source unblocked games website built with simplicity in mind.",
-  "repository": "https://github.com/Radon-Games/Radon-Games",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --minify",
-    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/build.css --watch"
+    "dev": "solid-start dev",
+    "build": "npx tailwindcss build -i src/index.css -o src/build.css && vite build",
+    "start": "node server/index.mjs",
+    "test": "test-storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "author": "Cohen Erickson",
-  "license": "GNU",
-  "dependencies": {
-    "axios": "^0.25.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.2",
-    "express-minify-html-2": "^1.0.1",
-    "express-rate-limit": "^6.2.0",
-    "lsblocker": "^1.0.2",
-    "node-mailjet": "^3.4.1",
-    "postcss": "^8.4.8",
-    "tailwindcss": "^3.0.18"
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/html": "^6.5.9",
+    "@storybook/test-runner": "^0.3.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.2",
+    "babel-preset-solid": "^0.24.12",
+    "core-js": "^3.9.1",
+    "jest": "^27.5.1",
+    "postcss": "^8.4.6",
+    "solid-app-router": "^0.4.1",
+    "solid-js": "^1.4.0",
+    "solid-meta": "^0.27.3",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "tailwindcss": "^3.0.18",
+    "typescript": "^4.6.2",
+    "vite": "^2.7.13"
   },
   "engines": {
-    "node": "16.x"
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.0.2-beta-readme2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lsblocker": "^1.0.2",
+    "vite-plugin-pwa": "^0.12.0"
   }
 }
