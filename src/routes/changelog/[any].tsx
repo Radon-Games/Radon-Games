@@ -21,6 +21,12 @@ export default function Version (props) {
     return <NotFound />;
   }
 
+  let settings = getSettings();
+  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+    window.title = `v${path} - Radon Games`;
+    document.title = window.title;
+  }
+
   return (
     <div class="bg-gray-900 text-gray-100">
       <Navbar />

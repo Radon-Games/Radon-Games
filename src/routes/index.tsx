@@ -6,7 +6,11 @@ import { listedGamesCount } from "../../Games";
 import "../build.css";
 
 export default function Index () {
-  document.title = "Home - Radon Games";
+  let settings = getSettings();
+  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+    window.title = "Home - Radon Games";
+    document.title = window.title;
+  }
 
   return (
     <div class="bg-gray-900 text-gray-100">
@@ -14,7 +18,7 @@ export default function Index () {
       <main class="py-40 dots w-full">
         <div class="block mx-auto bg-gray-900 max-w-2xl">
           <div class="flex justify-center p-5">
-            <img src={ Banner } class="h-10" />
+            <img src={ Banner } alt="Radon Games" class="h-10" />
           </div>
           <p class="text-center p-5">An open-source unblocked games website built with simplicity in mind.</p>
         </div>

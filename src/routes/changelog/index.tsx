@@ -6,6 +6,12 @@ import { version as currentVersion } from "../../../package.json";
 import "../../build.css";
 
 export default function Changelog () {
+  let settings = getSettings();
+  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+    window.title = "Changelog - Radon Games";
+    document.title = window.title;
+  }
+
   return (
     <div class="bg-gray-900 text-gray-100">
       <Navbar />
@@ -13,7 +19,7 @@ export default function Changelog () {
       <For each={ Object.keys(versions) }>{(version) =>
         <Show when={ version }>
           <div class="text-center py-5">
-            <a class="text-xl hover:underline" href={ version }>
+            <a class="text-xl hover:underline" href={ `/changelog/version` }>
               { currentVersion !== version ? version : `Current (v${ version })` }
             </a>
             <p class="italic">{ versions[version].date }</p>

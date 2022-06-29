@@ -7,7 +7,11 @@ import "../build.css";
 export default function Games () {
   let keys = Object.keys(sortGames(listedGames));
 
-  document.title = "Games - Radon Games";
+  let settings = getSettings();
+  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+    window.title = "Games - Radon Games";
+    document.title = window.title;
+  }
 
   return (
     <div class="bg-gray-900 text-gray-100">
