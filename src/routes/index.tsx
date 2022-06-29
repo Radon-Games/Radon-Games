@@ -6,10 +6,12 @@ import { listedGamesCount } from "../../Games";
 import "../build.css";
 
 export default function Index () {
-  let settings = getSettings();
-  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-    window.title = "Home - Radon Games";
-    document.title = window.title;
+  if ("getSettings" in window) {
+    let settings = getSettings();
+    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+      window.title = "Home - Radon Games";
+      document.title = window.title;
+    }
   }
 
   return (

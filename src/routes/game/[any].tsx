@@ -29,10 +29,12 @@ export default function Game (props) {
     return <NotFound />;
   }
 
-  let settings = getSettings();
-  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-    window.title = `${ game.title } - Radon Games`;
-    document.title = window.title;
+  if ("getSettings" in window) {
+    let settings = getSettings();
+    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+      window.title = `${ game.title } - Radon Games`;
+      document.title = window.title;
+    }
   }
 
   return (

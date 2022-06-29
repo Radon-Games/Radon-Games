@@ -7,10 +7,12 @@ import "../build.css";
 export default function Games () {
   let keys = Object.keys(sortGames(listedGames));
 
-  let settings = getSettings();
-  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-    window.title = "Games - Radon Games";
-    document.title = window.title;
+  if ("getSettings" in window) {
+    let settings = getSettings();
+    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+      window.title = "Games - Radon Games";
+      document.title = window.title;
+    }
   }
 
   return (

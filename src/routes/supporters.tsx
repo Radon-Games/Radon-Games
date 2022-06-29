@@ -3,11 +3,14 @@ import Footer from "../components/Footer";
 import "../build.css";
 
 export default function Supporters () {
-  let settings = getSettings();
-  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-    window.title = "Supporters - Radon Games";
-    document.title = window.title;
+  if ("getSettings" in window) {
+    let settings = getSettings();
+    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+      window.title = "Supporters - Radon Games";
+      document.title = window.title;
+    }
   }
+  
 
   return (
     <div class="bg-gray-900 text-gray-100">

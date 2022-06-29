@@ -3,10 +3,12 @@ import Footer from "../components/Footer";
 import "../build.css";
 
 export default function Report () {
-  let settings = getSettings();
-  if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-    window.title = "Privacy Policy - Radon Games";
-    document.title = window.title;
+  if ("getSettings" in window) {
+    let settings = getSettings();
+    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
+      window.title = "Privacy Policy - Radon Games";
+      document.title = window.title;
+    }
   }
 
   return (
