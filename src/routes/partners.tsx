@@ -1,3 +1,10 @@
+import Nebula from "../assets/nebula.png";
+import UBG100 from "../assets/ubg100.png";
+import GameHub from "../assets/gamehub.png";
+import Astral from "../assets/astral.png";
+import Things from "../assets/things.png";
+import Delta from "../assets/delta.png";
+import MathStudy from "../assets/mathstudy.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../build.css";
@@ -12,7 +19,7 @@ export default function Partners () {
       <div class="grid grid-cols-1 sm:grid-cols-2 mx-0 md:mx-32 py-5 text-center">
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/nebula.png" alt="Nebula Services" />
+            <img class="h-8" src={ Nebula } alt="Nebula Services" />
             <span class="text-xl px-2">Nebula Services</span>
           </div>
           <p class="px-20">
@@ -26,7 +33,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/ubg100.png" alt="UBG100" />
+            <img class="h-8" src={ UBG100 } alt="UBG100" />
             <span class="text-xl px-2">UBG100</span>
           </div>
           <p class="px-20">
@@ -40,7 +47,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/gamehub.png" alt="Game Hub" />
+            <img class="h-8" src={ GameHub } alt="Game Hub" />
             <span class="text-xl px-2">Game Hub</span>
           </div>
           <p class="px-20">
@@ -54,7 +61,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/astral.png" alt="Astral Network" />
+            <img class="h-8" src={ Astral } alt="Astral Network" />
             <span class="text-xl px-2">Astral Network</span>
           </div>
           <p class="px-20">
@@ -68,7 +75,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/things-proxy.png" alt="Things Proxy" />
+            <img class="h-8" src={ Things } alt="Things Proxy" />
             <span class="text-xl px-2">Things Proxy</span>
           </div>
           <p class="px-20">
@@ -82,7 +89,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/delta.png" alt="Delta Network" />
+            <img class="h-8" src={ Delta } alt="Delta Network" />
             <span class="text-xl px-2">Delta Network</span>
           </div>
           <p class="px-20">
@@ -96,7 +103,7 @@ export default function Partners () {
 
         <div class="my-10">
           <div class="flex justify-center">
-            <img class="h-8" src="/img/mathstudy.png" alt="Math Study" />
+            <img class="h-8" src={ MathStudy } alt="Math Study" />
             <span class="text-xl px-2">Math Study</span>
           </div>
           <p class="px-20">
