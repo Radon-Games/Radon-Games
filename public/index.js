@@ -1,6 +1,8 @@
 if ("serviceWorker" in window.navigator) {
-  window.navigator.serviceWorker.register("/sw.js", {
-    scope: "/"
+  navigator.serviceWorker.getRegistrations().then(function(registrations) {
+    for (let registration of registrations) {
+      registration.unregister();
+    }
   });
 
   window.navigator.serviceWorker.register("/uv.sw.js", {
