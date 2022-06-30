@@ -1,7 +1,7 @@
 import Icon from "../components/Icon";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Banner from "../assets/banner.svg";
+import Banner from "../assets/banner";
 import { listedGamesCount } from "../../Games";
 import "../build.css";
 

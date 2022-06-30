@@ -1,4 +1,8 @@
 if ("serviceWorker" in window.navigator) {
+  window.navigator.serviceWorker.register("/sw.js", {
+    scope: "/"
+  });
+
   window.navigator.serviceWorker.register("/uv.sw.js", {
     scope: __uv$config.prefix
   });
