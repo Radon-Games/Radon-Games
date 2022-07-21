@@ -1,6 +1,6 @@
 {
   "name": "radon-games",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "An open-source unblocked games website built with simplicity in mind.",
   "type": "module",
   "scripts": {
