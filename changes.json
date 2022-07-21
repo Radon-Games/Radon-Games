@@ -1,9 +1,31 @@
 {
-  "": {
-    "date": "",
+  "2.0.3": {
+    "date": "July 21, 2022",
+    "description": "",
+    "additions": [
+      "Added versioning for 2.0.1, 2.0.2, and 2.0.3"
+    ],
+    "fixes": [],
+    "updates": [],
+    "deductions": []
+  },
+  "2.0.2": {
+    "date": "July 21, 2022",
     "description": "",
     "additions": [],
-    "fixes": [],
+    "fixes": [
+      "Fix banner on README.md"
+    ],
+    "updates": [],
+    "deductions": []
+  },
+  "2.0.1": {
+    "date": "July 21, 2022",
+    "description": "",
+    "additions": [],
+    "fixes": [
+      "Fix issue with 404 page causing some games to not load."
+    ],
     "updates": [],
     "deductions": []
   },
