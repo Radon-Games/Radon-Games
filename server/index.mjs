@@ -32,6 +32,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res) => {
+  if (/\/service\//.test(req.url)) return;
   res.sendFile(__dirname + "/dist/index.html");
 });
 

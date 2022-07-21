@@ -1,10 +1,4 @@
 if ("serviceWorker" in window.navigator) {
-  navigator.serviceWorker.getRegistrations().then(function(registrations) {
-    for (let registration of registrations) {
-      registration.unregister();
-    }
-  });
-
   window.navigator.serviceWorker.register("/uv.sw.js", {
     scope: __uv$config.prefix
   });
