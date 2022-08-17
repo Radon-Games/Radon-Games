@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [
     solid({ ssr: false }),
     VitePWA()
-  ]
+  ],
+  build: {
+    assetsDir: ""
+  }
 });
