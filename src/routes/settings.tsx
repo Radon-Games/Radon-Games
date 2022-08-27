@@ -87,7 +87,6 @@ export default function Settings () {
           </select>
         </div>
       </div>
-      <script src="/settings.js"></script>
     </div>
   );
 }
