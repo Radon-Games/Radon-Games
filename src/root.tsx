@@ -49,13 +49,13 @@ export default function Root() {
       </Head>
       <Body class="bg-gray-900">
         <Suspense>
-          <ErrorBoundary>
+          {/* <ErrorBoundary> */}
             <Navbar />
             <Routes>
               <FileRoutes />
             </Routes>
             <Footer />
-          </ErrorBoundary>
+          {/* </ErrorBoundary> */}
         </Suspense>
         <Scripts />
       </Body>
