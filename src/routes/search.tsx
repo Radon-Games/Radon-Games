@@ -1,6 +1,6 @@
 import fuzzysort from "fuzzysort";
 import { useLocation } from "solid-start";
-import { allGames } from "../../games";
+import { allGames } from "../../Games";
 
 export default function Search () {
   const location = useLocation();
