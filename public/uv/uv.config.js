@@ -12,8 +12,8 @@ const xor = {
 };
 
 self.__uv$config = {
-  prefix: "/service/",
-  bare: "/bare/",
+  prefix: "/~/",
+  bare: `https://client.incog.dev/`,
   encodeUrl: xor.encode,
   decodeUrl: xor.decode,
   handler: "/uv/uv.handler.js",

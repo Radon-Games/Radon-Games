@@ -1,26 +1,22 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import "../build.css";
+import Icon from "../components/Icon";
+import UpdateTab from "../Tab";
+import { onMount } from "solid-js";
 
 export default function NotFound() {
-  if ("getSettings" in window) {
-    let settings = getSettings();
-    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-      window.title = "404 - Radon Games";
-      document.title = window.title;
-    }
-  }
+  onMount(() => {
+    UpdateTab();
+  });
 
   return (
-    <div class="bg-gray-900 text-gray-100">
-      <Navbar />
-      <main class="py-40 dots w-full">
-        <div class="block mx-auto bg-gray-900 max-w-2xl p-5">
+    <div class="bg-gray-900 text-gray-100 flex flex-col justify-center items-center">
+      <main class="py-40 w-full flex flex-col justify-center items-center">
+        <div class="bg-gray-900 max-w-2xl p-5 flex flex-col justify-center items-center">
           <h1 class="text-center text-4xl">404 - Page Not Found</h1>
-          <p class="text-center p-5">Return <a class="underline" href="/">home</a>.</p>
+          <a href="/" class="m-5 w-max flex text-center text-gray-100 bg-sky-500 p-4 hover:bg-sky-400 rounded-full transition-colors shadow-lg">
+            <Icon name="home" style="margin-top: 0.3em;" />&nbsp; Return Home!
+          </a>
         </div>
       </main>
-      <Footer />
     </div>
   );
 }

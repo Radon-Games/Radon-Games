@@ -4,36 +4,31 @@ if ("serviceWorker" in window.navigator) {
   });
 }
 
-// settings
-window.settings = getSettings();
+// https://stackoverflow.com/a/4585031/14635947
+(function(history){
+  var pushState = history.pushState;
+  history.pushState = function(state) {
+    if (typeof history.onpushstate == "function") {
+      history.onpushstate(arguments);
+    }
+    return pushState.apply(history, arguments);
+  };
+})(window.history);
 
-function save () {
-  settings["tab-cloak"] = (document.getElementById("tab-cloak").value.toLowerCase() === "true");
-  settings["analytics"] = (document.getElementById("analytics").value.toLowerCase() === "true");
-  settings["tab-cloak-text"] = document.getElementById("tab-cloak-text").value;
-  settings["tab-cloak-icon"] = document.getElementById("tab-cloak-icon").value;
-  settings["tab-cloak-mode"] = document.getElementById("tab-cloak-mode").value;
-  settings["url-cloak"] = document.getElementById("url-cloak").value;
-  localStorage.setItem("settings", btoa(JSON.stringify(settings)));
-  location.reload();
-}
+let defaultSettings = {
+  "tab-cloak": false,
+  "tab-cloak-text": "Google",
+  "tab-cloak-icon": "https://google.com/favicon.ico",
+  "analytics": true,
+  "tab-cloak-mode": "hidden",
+  "url-cloak": "disabled",
+};
 
-// tab cloak
-if (settings["tab-cloak"]) {
-  if (settings["tab-cloak-mode"] === "hidden") {
-    document.addEventListener("visibilitychange", ()  => {
-      if (document.hidden) {
-        document.title = settings["tab-cloak-text"];
-        document.querySelector("link[rel='icon']").href = settings["tab-cloak-icon"];
-      } else {
-        document.title = window.title || "Radon Games";
-        document.querySelector("link[rel='icon']").href = "/favicon.ico";
-      }
-    });
-  } else if (settings["tab-cloak-mode"] === "always") {
-    document.title = settings["tab-cloak-text"];
-    document.querySelector("link[rel='icon']").href = settings["tab-cloak-icon"];
-  }
+let settings;
+try {
+  settings = JSON.parse(localStorage.getItem("settings")) || defaultSettings;
+} catch {
+  settings = defaultSettings;
 }
 
 // analytics
@@ -44,8 +39,8 @@ if(settings["analytics"]) {
   gtagScript.onload = () => {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-0GR0HN1RFL');
+    gtag("js", new Date());
+    gtag("config", "G-0GR0HN1RFL");
   };
   document.head.appendChild(gtagScript);
   // goatcounter
@@ -53,6 +48,14 @@ if(settings["analytics"]) {
   gc.src = "/count.v3.js";
   gc.setAttribute("data-goatcounter", "https://radon-games.goatcounter.com/count");
   document.head.appendChild(gc);
+
+  // Manage page changes
+  history.onpushstate = () => {
+    setTimeout(() => {
+      console.log(location.pathname);
+      goatcounter.count();
+    }, 1);
+  }
 }
 
 // url cloak
@@ -172,28 +175,4 @@ function openBlob () {
 
   // Don't close the page because the link will break if you do
   // window.close();
-}
-
-
-// fullscreen function
-function fullscreen(elm = document.getElementById('gameWindow'), child = 0) {
-  if (child > 2 || !elm.children[child]) {
-    elm.children[0].requestFullscreen();
-  } else {
-    if (elm.children[child].tagName === "IFRAME") {
-      if (elm.children[child].src.includes("/service/")) {
-        if (elm.children[child].contentWindow.handleIconClick) {
-          elm.children[child].contentWindow.handleIconClick("fullscreen");
-        } else {
-          elm.children[child].requestFullscreen();
-        }
-      } else {
-        elm.children[child].requestFullscreen();
-      }
-    } else if (elm.children[child].tagName === "EMBED" || elm.children[child].tagName === "RUFFLE-EMBED") {
-      elm.children[child].requestFullscreen();
-    } else {
-      fullscreen(elm, child+1);
-    }
-  }
 }

@@ -1,11 +1,15 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import { For, Show } from "solid-js";
 import NotFound from "../[...404]";
 import { versions } from "../../../Changes";
-import { useLocation } from "solid-app-router";
+import { useLocation } from "@solidjs/router";
+import UpdateTab from "../../Tab";
+import { onMount } from "solid-js";
 
 export default function Version (props) {
+  onMount(() => {
+    UpdateTab();
+  });
+
   let path;
   if (props.version) {
     path = props.version;
@@ -21,17 +25,8 @@ export default function Version (props) {
     return <NotFound />;
   }
 
-  if ("getSettings" in window) {
-    let settings = getSettings();
-    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-      window.title = `v${path} - Radon Games`;
-      document.title = window.title;
-    }
-  }
-
   return (
     <div class="bg-gray-900 text-gray-100">
-      <Navbar />
       <div class="text-center mb-10">
         <h1 class="text-2xl pt-10">{ `v${path}` }</h1>
         <p class="italic pb-10">{ version.date }</p>
@@ -44,7 +39,7 @@ export default function Version (props) {
           <div class="py-5">
             <h2 class="text-xl">Additions</h2>
             <ul class="list-disc">
-              <For each={ version.additions }>{(change) =>
+              <For each={ version.additions }>{(change: any) =>
                 <li class="list-disc">&bull; { change }</li>
               }</For>
             </ul>
@@ -55,7 +50,7 @@ export default function Version (props) {
           <div class="py-5">
             <h2 class="text-xl">Fixes</h2>
             <ul class="list-disc">
-              <For each={ version.fixes }>{(change) =>
+              <For each={ version.fixes }>{(change: any) =>
                 <li class="list-disc">&bull; { change }</li>
               }</For>
             </ul>
@@ -66,7 +61,7 @@ export default function Version (props) {
           <div class="py-5">
             <h2 class="text-xl">Updates</h2>
             <ul class="list-disc">
-              <For each={ version.updates }>{(change) =>
+              <For each={ version.updates }>{(change: any) =>
                 <li class="list-disc">&bull; { change }</li>
               }</For>
             </ul>
@@ -77,14 +72,13 @@ export default function Version (props) {
           <div class="py-5">
             <h2 class="text-xl">Deductions</h2>
             <ul class="list-disc">
-              <For each={ version.deductions }>{(change) =>
+              <For each={ version.deductions }>{(change: any) =>
                 <li class="list-disc">&bull; { change }</li>
               }</For>
             </ul>
           </div>
         </Show>
       </div>
-      <Footer />
     </div>
   );
 }

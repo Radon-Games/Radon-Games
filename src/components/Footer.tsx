@@ -1,6 +1,5 @@
 import Icon from "./Icon";
-import Banner from "../assets/banner";
-import "../build.css";
+import Banner from "../assets/banner.svg";
 
 import { version } from "../../package.json";
 

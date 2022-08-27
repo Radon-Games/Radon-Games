@@ -1,0 +1,3 @@
+[submodule "public/cdn"]
+	path = public/cdn
+	url = https://github.com/Radon-Games/Radon-Games-Assets

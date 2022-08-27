@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Disable user drag */
+html, body {
+  min-height: 100vh;
+}
+
 * {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -11,14 +14,6 @@
   user-drag: none;
 }
 
-/* Dotted background*/
-.dots {
-  background-image: radial-gradient(white 1px, transparent 0);
-  background-size: 30px 30px;
-  background-position: -19px -19px;
-}
-
-/* Used for emulator games */
 #game canvas {
   margin: 0 auto;
   display: block;

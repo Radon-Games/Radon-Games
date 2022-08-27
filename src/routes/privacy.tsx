@@ -1,19 +1,13 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import "../build.css";
+import UpdateTab from "../Tab";
+import { onMount } from "solid-js";
 
 export default function Report () {
-  if ("getSettings" in window) {
-    let settings = getSettings();
-    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-      window.title = "Privacy Policy - Radon Games";
-      document.title = window.title;
-    }
-  }
-
+  onMount(() => {
+    UpdateTab();
+  });
+  
   return (
     <div class="bg-gray-900 text-gray-100">
-      <Navbar />
       <div class="pt-10 px-5 sm:px-30 md:px-64">
         <h1 class="text-2xl">Privacy Policy</h1>
         <br/>
@@ -57,7 +51,6 @@ export default function Report () {
         <br/>
         <p>If you have any questions about this policy, please contact us at <a class="hover:underline" target="_blank" href="mailto:legal@radon.games">legal@radon.games</a></p>
       </div>
-      <Footer />
     </div>
   );
 }

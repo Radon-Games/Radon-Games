@@ -1,13 +1,14 @@
+/** @type {import('vite').UserConfig} */
+
+import solid from "solid-start/vite";
 import { defineConfig } from "vite";
-import solid from "solid-start";
-import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  plugins: [
-    solid({ ssr: false }),
-    VitePWA()
-  ],
+  plugins: [solid()],
   build: {
     assetsDir: ""
+  },
+  ssr: {
+    noExternal: ['solid-slider'],
   }
 });

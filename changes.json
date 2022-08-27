@@ -1,4 +1,19 @@
 {
+  "2.1.0": {
+    "date": "UNRELEASED",
+    "description": "",
+    "additions": [
+      "Favorite button",
+      "Favorite section on the home page",
+      "Featured games section on the home page",
+      "Game Search"
+    ],
+    "fixes": [
+      "Fix issue on some proxies."
+    ],
+    "updates": [],
+    "deductions": []
+  },
   "2.0.3": {
     "date": "July 21, 2022",
     "description": "",

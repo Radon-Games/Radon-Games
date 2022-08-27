@@ -1,24 +1,21 @@
 import { For } from 'solid-js';
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { listedGames } from "../../Games";
-import "../build.css";
+import UpdateTab from "../Tab";
+import { onMount } from "solid-js";
 
 export default function Games () {
+  onMount(() => {
+    UpdateTab();
+  });
+  
   let keys = Object.keys(sortGames(listedGames));
-
-  if ("getSettings" in window) {
-    let settings = getSettings();
-    if (!settings["tab-cloak"] || settings["tab-cloak-mode"] !== "always") {
-      window.title = "Games - Radon Games";
-      document.title = window.title;
-    }
-  }
 
   return (
     <div class="bg-gray-900 text-gray-100">
-      <Navbar />
       <h1 class="text-2xl text-center py-10">Games</h1>
+      <form action="/search" class="flex justify-center pb-5">
+        <input name="q" placeholder="Search" class="bg-gray-900 w-96 p-2 rounded-md border-solid border-2 border-gray-800 focus:outline-none"></input>
+      </form>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center mx-0 md:mx-32 py-5">
         <For each={ keys }>{(key, i) => {
           let games = sortGames(listedGames)[key];
@@ -27,7 +24,7 @@ export default function Games () {
           return (
             <div>
               <h1 class="text-2xl">{ title }</h1>
-              <For each={ games }>{(game, i) =>
+              <For each={ games }>{(game: any, i) =>
                 <>
                   <a class="hover:underline" href={ `/game/${ game.route }` }>{ game.title }</a><br/>
                 </>
@@ -36,7 +33,6 @@ export default function Games () {
           );
         }}</For>
       </div>
-      <Footer />
     </div>
   );
 }
