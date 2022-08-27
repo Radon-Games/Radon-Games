@@ -1,6 +1,6 @@
 import { useLocation } from "@solidjs/router";
 import { allGames } from "../Games";
-import { defaultSettings } from "./routes/Settings";
+import { defaultSettings } from "./routes/settings";
 
 const titles = {
   "/": () => "Radon Games",
