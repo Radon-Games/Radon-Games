@@ -10,7 +10,6 @@ export default function Index () {
 
   onMount(() => {
     UpdateTab();
-
     let favorites;
     try {
       favorites = JSON.parse(localStorage.getItem("favorites")) || [];
