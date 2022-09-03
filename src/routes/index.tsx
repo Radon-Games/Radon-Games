@@ -28,7 +28,7 @@ export default function Index () {
             <img src={ Banner } alt="Radon Games" class="h-10" />
           </div>
           <p class="text-center p-5">An open-source unblocked games website built with simplicity in mind.</p>
-
+ 
           <div class="flex justify-center p-5">
             <a href="/games" class="flex text-center text-gray-100 bg-sky-500 p-4 hover:bg-sky-400 rounded-full transition-colors shadow-lg">
               <Icon name="gamepad" style="margin-top: 0.3em;" />&nbsp; Start playing!
