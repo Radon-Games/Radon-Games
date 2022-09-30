@@ -19,6 +19,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.4.3",
+    "fuzzysort": "^2.0.1",
     "solid-js": "^1.5.4",
     "solid-slider": "^1.3.3",
     "solid-start": "^0.1.0",

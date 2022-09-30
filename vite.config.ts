@@ -5,10 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [solid({ ssr: false })],
-  // build: {
-  //   assetsDir: ""
-  // },
-  ssr: {
-    noExternal: ['solid-slider'],
+  build: {
+    assetsDir: ""
   }
 });
