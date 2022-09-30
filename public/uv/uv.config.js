@@ -13,7 +13,7 @@ const xor = {
 
 self.__uv$config = {
   prefix: "/~/",
-  bare: `https://client.incog.dev/`,
+  bare: `/bare/`,
   encodeUrl: xor.encode,
   decodeUrl: xor.decode,
   handler: "/uv/uv.handler.js",
