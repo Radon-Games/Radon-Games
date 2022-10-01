@@ -1,6 +1,9 @@
 if ("serviceWorker" in window.navigator) {
-  window.navigator.serviceWorker.register("/uv.sw.js", {
-    scope: __uv$config.prefix
+  navigator.serviceWorker.getRegistrations().then((registrations) => {
+    for (const registration of registrations) registration.unregister();
+    window.navigator.serviceWorker.register("/uv.sw.js", {
+      scope: __uv$config.prefix
+    });
   });
 }
 
