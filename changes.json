@@ -1,6 +1,18 @@
 {
+  "2.2.0": {
+    "date": "August 27, 2022",
+    "description": "",
+    "additions": [],
+    "fixes": [
+      "Fix proxied games and apps not loading if Bare server is blocked"
+    ],
+    "updates": [
+      "Major server infastructure updates"
+    ],
+    "deductions": []
+  },
   "2.1.0": {
-    "date": "UNRELEASED",
+    "date": "August 27, 2022",
     "description": "",
     "additions": [
       "Favorite button",
