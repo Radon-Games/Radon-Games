@@ -43,7 +43,7 @@ export default function Root() {
         <script src="/uv/uv.config.js" defer></script>
         <script src="/index.js" defer></script>
         <script src="/pro.fontawesome.js" defer></script>
-        <script src="https://unpkg.com/@ruffle-rs/ruffle" defer></script>
+        <script src="/ruffle/ruffle.js" defer></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
          crossorigin="anonymous"></script>
       </Head>
