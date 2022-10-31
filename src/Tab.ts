@@ -40,15 +40,15 @@ export default function () {
       document.addEventListener("visibilitychange", ()  => {
         if (document.hidden) {
           document.title = settings["tab-cloak-text"];
-          (document.querySelector("link[rel='icon']") as HTMLLinkElement).href = settings["tab-cloak-icon"];
+          document.querySelector<HTMLLinkElement>("link[rel='icon']").href = settings["tab-cloak-icon"];
         } else {
           document.title = title;
-          (document.querySelector("link[rel='icon']") as HTMLLinkElement).href = "/favicon.ico";
+          document.querySelector<HTMLLinkElement>("link[rel='icon']").href = "/favicon.ico";
         }
       });
     } else if (settings["tab-cloak-mode"] === "always") {
       document.title = settings["tab-cloak-text"];
-      (document.querySelector("link[rel='icon']") as HTMLLinkElement).href = settings["tab-cloak-icon"];
+      document.querySelector<HTMLLinkElement>("link[rel='icon']").href = settings["tab-cloak-icon"];
     }
   }
 }
