@@ -2,11 +2,12 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "strict": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
     "jsxImportSource": "solid-js",
+    "resolveJsonModule": true,
     "jsx": "preserve",
     "types": ["vite/client"],
     "baseUrl": "./",

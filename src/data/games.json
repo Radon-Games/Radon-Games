@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Achilles",
+    "author": "Ben Olding",
+    "description": "Hack and slash your way through 15 stages of greek warriors.",
+    "id": "achilles",
+    "tags": [],
+    "type": "flash",
+    "source": "/swf/Achilles.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  }
+]
