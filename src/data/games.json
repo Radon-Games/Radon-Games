@@ -4,9 +4,243 @@
     "author": "Ben Olding",
     "description": "Hack and slash your way through 15 stages of greek warriors.",
     "id": "achilles",
-    "tags": [],
+    "tags": ["action", "battle"],
     "type": "flash",
     "source": "/swf/Achilles.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Age of War",
+    "author": "Louissi",
+    "description": "Take control of 16 different units and 15 different turrets to defend your base and destroy your enemy. In this game, you start at the cavern men's age, then evolve! There is a total of 5 ages, each with its units and turrets. I hope you have fun with this game! Sooo many hours of hard work.",
+    "id": "age-of-war",
+    "tags": ["action", "battle", "war"],
+    "type": "flash",
+    "source": "/swf/Age-of-War.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Avalanche",
+    "author": "The Game Homepage",
+    "description": "Avalanche is a fun little game where try to avoid falling objects as you jump higher and higher! Are you a towelette, or maybe a marshmallow? Whatever the case, there are huge, square bolts to dodge. Can you avoid this avalanche?",
+    "id": "avalanche",
+    "tags": ["action", "platform", "obstacle"],
+    "type": "flash",
+    "source": "/swf/Avalanche.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Avatar Arena",
+    "author": "Nickelodeon",
+    "description": "Your objective in this great fighting flash game is to create your own character, challenge the worlds best benders and defeat them.",
+    "id": "avatar-arena",
+    "tags": ["action", "arena", "avatar", "fighting"],
+    "type": "flash",
+    "source": "/swf/AvatarArena.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Achievement Unlocked",
+    "author": "Jmtb02",
+    "description": "Who needs gameplay when you have ACHIEVEMENTS? Don't worry about beating levels, finding ways t' kill enemies, or beating the final boss… there are none. Focus solely on your ultimate destiny… doing random tasks that have nothing to do with anything. Metagame yourself with ease! Self-satisfaction never felt so… artificial!",
+    "id": "achievement-unlocked",
+    "tags": ["action", "arcade", "platform"],
+    "type": "flash",
+    "source": "/swf/achievement-unlocked.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Alien Hominid",
+    "author": "Tom Fulp and Dan Paladin",
+    "description": "Your aircraft has crash landed on planet Earth, and the FBI is out to get you! Time to take them out!",
+    "id": "alien-hominid",
+    "tags": ["casual", "alien"],
+    "type": "",
+    "source": "/swf/alien-hominid.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Amberial",
+    "author": "Oddgoo",
+    "description": "Many puzzling levels of bouncing a ball around and trying to touch the end orb to progress.",
+    "id": "amberial",
+    "tags": ["platform", "action", "physics"],
+    "type": "flash",
+    "source": "/swf/amberial.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Animal Hunter",
+    "author": "Wonpwn",
+    "description": "Hunt animals in the forest to score points. Collect the power, speed, and time icons to help you. Have Fun!",
+    "id": "animal-hunter",
+    "tags": ["hunting", "shooting"],
+    "type": "flash",
+    "source": "/swf/animal_hunter.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Ant Buster",
+    "author": "MarcelStein",
+    "description": "Tower defense game with ants.",
+    "id": "ant-buster",
+    "tags": ["defense", "tower", "classic"],
+    "type": "flash",
+    "source": "/swf/antbuster.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Apple Shooter",
+    "author": "",
+    "description": "Apple Shooter Archery Game. Shoot the apple off your friends head using a bow and arrow. But be careful to not shoot his head off!",
+    "id": "apple-shooter",
+    "tags": ["shooting", "archery"],
+    "type": "flash",
+    "source": "/swf/apple-shooter-2021.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Arkanoid",
+    "author": "Taito Games",
+    "description": "Arkanoid is a game similar to break out where you move the paddle to hit the ball.",
+    "id": "arkanoid",
+    "tags": ["casual", "sports", "ball"],
+    "type": "flash",
+    "source": "/swf/arkanoid.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Asteroids",
+    "author": "Atari",
+    "description": "Control the spaceship to destroy asteroids and flying saucers in this classic arcade multidirectional shooter video game by Atari®. Be careful not to collide with the asteroids that are all around you, and avoid counter-fire from the saucers.",
+    "id": "asteroids",
+    "tags": ["casual"],
+    "type": "flash",
+    "source": "/swf/asteroids.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Axis Football League",
+    "author": "Axis Games, Inc.",
+    "description": "The first, great online football game. Choose from 14 teams and lead your team to victory.",
+    "id": "axis-football-league",
+    "tags": ["sports", "football", "soccer"],
+    "type": "flash",
+    "source": "/swf/axisfootballleague.swf",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "2048",
+    "author": "Gabriele Cirulli",
+    "description": "Swipe to move the tiles, when two tiles with the same number touch, they merge into one. When a 2048 tile is created, the player wins.",
+    "id": "2048",
+    "tags": ["puzzle"],
+    "type": "html",
+    "source": "/src/2048/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Agario Minigame",
+    "author": "Matheus Valadares",
+    "description": "Agario is a fun addicting MMO game in which you have to eat or be eaten while you strive to dominate the World of colorful cells. The game has just 2 simple rules to follow: 1) you only can consume targets that are smaller than you and you should match their color to evolve yourself, 2) you must give larger objects a wide berth or you will die. Start moving through the grid and try to catch all the tiny blurs of color. Eat and grow, split and multiply and rule the world.",
+    "id": "agario-minigame",
+    "tags": ["grow"],
+    "type": "html",
+    "source": "/src/agario-minigame/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Astray",
+    "author": "Aegon Games Ltd",
+    "description": "Astray is a first-person horror/puzzle game set in an abandoned museum based on unusual cultures, legends, and supernatural themes; but something more sinister lurks beneath the surface.",
+    "id": "astray",
+    "tags": ["adventure", "horror", "puzzle"],
+    "type": "html",
+    "source": "/src/astray/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Break Lock",
+    "author": "maxwellito",
+    "description": "A hybrid of Mastermind and the Android pattern lock. A game you will love to hate. Empty circle means correct location but wrong order. Full circle means correct location in correct order. You are aiming for four full circles.",
+    "id": "break-lock",
+    "tags": ["puzzle"],
+    "type": "html",
+    "source": "/src/breaklock/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Chroma",
+    "author": "kbaum",
+    "description": "Mix colors with precision to match the target color. Not for the feint of heart. Or the color blind.",
+    "id": "chroma",
+    "tags": ["art", "color", "mix", "paint", "puzzle"],
+    "type": "html",
+    "source": "/src/chroma/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "",
+    "author": "",
+    "description": "",
+    "id": "",
+    "tags": [],
+    "type": "",
+    "source": "",
     "size": {
       "width": "1000px",
       "height": "625px"

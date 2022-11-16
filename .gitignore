@@ -17,6 +17,7 @@ worker
 
 # Temp
 gitignore
+src/data/old-games.json
 
 # System Files
 .DS_Store
