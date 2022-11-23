@@ -1,3 +1,4 @@
+import TN from "../assets/tn.webp";
 import Nebula from "../assets/nebula.png";
 import UBG100 from "../assets/ubg100.png";
 import GameHub from "../assets/gamehub.png";
@@ -16,6 +17,18 @@ export default function Partners () {
       <div class="grid grid-cols-1 sm:grid-cols-2 mx-0 md:mx-32 py-5 text-center">
         <div class="my-10">
           <div class="flex justify-center">
+            <img class="h-8" src={ TN } alt="TitaniumNetwork" />
+            <span class="text-xl px-2">TitaniumNetwork</span>
+          </div>
+          <p class="px-20">
+            <b>Titanium Network</b> is the hub organization dedicated to providing services related to bypassing internet censorship. Our projects expect to provide users, and itself, with a less restrictive browsing experience. For this TN prioritizes the production and improvement of web proxy technologies.
+            <br/><br/>
+            Discord: <a class="text-blue-500 hover:underline" target="_blank" href="https://discord.gg/unblock">https://discord.gg/unblock</a>
+          </p>
+        </div>
+
+        <div class="my-10">
+          <div class="flex justify-center">
             <img class="h-8" src={ Nebula } alt="Nebula Services" />
             <span class="text-xl px-2">Nebula Services</span>
           </div>
@@ -24,7 +37,7 @@ export default function Partners () {
             <br/><br/>
             Website: <a class="text-blue-500 hover:underline" target="_blank" href="https://tutorialread.beauty/">https://tutorialread.beauty/</a>
             <br/>
-            Discord: <a class="text-blue-500 hover:underline" target="_blank" href="https://discord.gg/Nvuf6zDdWy">https://discord.gg/Nvuf6zDdWy</a>
+            Discord: <a class="text-blue-500 hover:underline" target="_blank" href="https://discord.gg/unblocker">https://discord.gg/unblocker</a>
           </p>
         </div>
 
