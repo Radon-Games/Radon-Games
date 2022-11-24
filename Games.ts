@@ -8,12 +8,6 @@ const listedGamesCount = listedGames.length;
 const unlistedGamesCount = unlistedGames.length;
 const featured = [
   {
-    title: "Roblox",
-    description: "Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
-    image: "/features/roblox.png",
-    url: "/game/roblox"
-  },
-  {
     title: "Slope",
     description: "Slope game is a fantastic speed run game where you can drive a ball rolling on tons of slopes and obstacles. See how far you can go in this endless course.",
     image: "/features/slope.png",
