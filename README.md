@@ -11,3 +11,5 @@ git submodule update --init --recursive
 npm run build
 npm start
 ```
+
+You cannot be on NodeJS 19!
