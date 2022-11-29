@@ -1,17 +1,25 @@
-# Radon Games
+<p align="center">
+  <img width="150px" src="https://avatars.githubusercontent.com/u/107269758">
+</p>
 
-An open-source unblocked games website built with simplicity in mind.
+<h1 align="center">
+  Radon Games
+</h1>
 
-## Features
+<p align="center">
+  An open-source unblocked games website built with simplicity in mind.
+</p>
+
+# Features
 
 - Clean and Easy to use UI
 - 300+ Games
 - Tab Cloaking / Disguise
 -
 
-## Development
+# Development
 
-### Cloning
+## Cloning
 
 ```bash
 git clone --branch v3 https://github.com/Radon-Games/Radon-Games.git
@@ -19,7 +27,7 @@ cd Radon-Games
 npm ci
 ```
 
-### Starting Development Server
+## Starting Development Server
 
 The development server has hot module replacement for ease of development. THIS SHOULD NOT BE USED FOR PRODUCTION.
 
@@ -27,24 +35,23 @@ The development server has hot module replacement for ease of development. THIS 
 npm run dev
 ```
 
-### Building For Production
+## Building For Production
 
-The build assets will appear in the `/dist/public` directory. You can run the production version with `npm start` although it is reccomended to process these files statically through Caddy [`file_server`]() API (see more information below).
+The build assets will appear in the `/dist/public` directory. You can run the production version with `npm start` although it is reccomended to process these files statically through Caddy [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server) API (see more information below).
 
 ```bash
 npm run build
 ```
 
-## Configuring Production
+# Configuring Production
 
 The recommended way to configure Radon is through Caddy. Caddy provides an easy to use and understand API for handling HTTP requests. [This repository](https://github.com/Radon-Games/Radon-Games) doesn't contain any game files due to the large file sizes. All the games are hosted on a separate repository found [here](https://github.com/Radon-Games/Radon-Games-Assets).
 
-
 In order to properly serve these files you need to use a reverse proxy to handle the different routes. Radon also hosts its own [TOMP Bare server](https://github.com/tomphttp/bare-server-node) that needs to be proxied.
 
-### Base Caddy Configuration
+## Base Caddy Configuration
 
-Radon uses Caddy [`file_server`]() API to serve the static files.
+Radon uses Caddy [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server) API to serve the static files.
 
 ```caddy
 (radon) {
@@ -61,7 +68,7 @@ Radon uses Caddy [`file_server`]() API to serve the static files.
 }
 ```
 
-### Handling Game Files
+## Handling Game Files
 
 In order to handle game files you will first have to clone the [assets](https://github.com/Radon-Games/Radon-Games-Assets) repository into your base directory.
 
@@ -85,20 +92,27 @@ Once the files have been cloned you have to handle the `/cdn/*` route used by Ra
 }
 ```
 
-### Handling the Bare Server
+## Handling the Bare Server
 
 Radon also hosts its own [Bare Server](https://github.com/tomphttp/bare-server-node) in order for proxies to request content.
 
-#### Starting Bare Server with pm2
+### Starting Bare Server with pm2
 
-Before we configure Caddy to handle proxied requests we need to set up a Bare Server.
+Before we configure Caddy to handle proxied requests we need to set up a Bare Server. We run the bare server using a node process manager called [pm2](https://www.npmjs.com/package/pm2) although it is not required.
 
 ```bash
 npm i -g pm2 @tomphttp/bare-server-node
 pm2 start "bare-server-node --host=127.0.0.1 --port=8080" -n Bare
 ```
 
-#### Handling Bare requests with Caddy
+This will start the Bare server in the background but if the server restarts it will not be restarted. In order to fix this we must save the pm2 configuration and tell it to run on startup.
+
+```bash
+pm2 save
+pm2 startup
+```
+
+### Handling Bare requests with Caddy
 
 ```caddy
 (radon) {
@@ -113,7 +127,8 @@ pm2 start "bare-server-node --host=127.0.0.1 --port=8080" -n Bare
 }
 ```
 
-### The full Caddy snippet
+## The full Caddy snippet
+
 ```caddy
 (radon) {
   tls internal
@@ -138,13 +153,13 @@ pm2 start "bare-server-node --host=127.0.0.1 --port=8080" -n Bare
 }
 ```
 
-### Configuring Domains
+## Configuring Domains
 
 We recommend proxying your domains through [Cloudflare](https://cloudflare.com/) in order to help prevent against DDoS attacks and to simplify the number of steps on the server. If you don't know how to setup your domain through Cloudflare please check out the [Cloudflare Docs](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/).
 
 Once your domain has been added to Cloudflare you should create [`A`](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/) records pointing to the IP address of your server.
 
-#### Connecting your domain to Caddy
+### Connecting your domain to Caddy
 
 Caddy allows for multiple different domains to be handled separately by the same server. This means that by default Caddy isn't going to reply with any information because we haven't told it what domains we want to use.
 
@@ -162,13 +177,19 @@ If you are configuring multiple domains you may want to have Caddy reply to all 
 }
 ```
 
+Doing this also requires you to change your SSL/TLS encryption mode to `Flexible` from within Cloudflare as your server is no longer serving content through HTTPS.
+
+<img src=".github/cloudflare.png">
+
 ## Tech Stack
+
 - [SolidJS](https://www.solidjs.com/)
 - [Solid Start](https://start.solidjs.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Typescript](https://www.typescriptlang.org/)
 
 ### Other Libraries Used
+
 - [fuzzysort](https://www.npmjs.com/package/fuzzysort)
 - [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) (proxy)
 - [STOMP](https://github.com/sysce/tomp) (proxy)
