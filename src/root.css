@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* cubic-bezier */
+.cubic-bezier {
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* expanding border effect */
+.border-expand {
+  position: relative;
+}
+
+.border-expand::after {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  content: "";
+  display: block;
+  width: 0%;
+  border-bottom: 3px solid #f59e0b;
+  transition: width 0.3s;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+.border-expand:hover::after {
+  width: 100%;
+}
+
