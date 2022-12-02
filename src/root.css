@@ -28,3 +28,4 @@
   width: 100%;
 }
 
+input:focus { outline: none; }

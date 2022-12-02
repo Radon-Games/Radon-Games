@@ -1,0 +1,25 @@
+(radon) {
+  tls internal
+  encode gzip
+
+  handle /bare/* {
+    uri strip_prefix /bare
+    reverse_proxy 127.0.0.1:8080
+  }
+
+  handle /cdn/* {
+    uri strip_prefix /cdn
+    root * Radon-Games-Assets
+    file_server
+  }
+
+  handle {
+    root * Radon-Games/dist/public
+    try_files {path} /index.html
+    file_server
+  }
+}
+
+:80 {
+	import radon
+}

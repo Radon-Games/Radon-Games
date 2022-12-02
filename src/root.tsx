@@ -14,15 +14,13 @@ import {
 import "./root.css";
 
 import Navbar from "~/components/Navbar";
+import SEO from "~/components/SEO";
 
 export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>Radon Games</Title>
-        <Meta charset="utf-8" />
-        <Meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="/pro.fontawesome.js" defer></script>
+        <SEO />
       </Head>
       <Body class="bg-gray-900 text-gray-100 scroll-smooth">
         <Navbar />
