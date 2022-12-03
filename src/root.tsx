@@ -14,6 +14,7 @@ import {
 import "./root.css";
 
 import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
 import SEO from "~/components/SEO";
 
 export default function Root() {
@@ -45,6 +46,7 @@ export default function Root() {
             </Routes>
           </ErrorBoundary>
         </Suspense>
+        <Footer />
         <Scripts />
       </Body>
     </Html>

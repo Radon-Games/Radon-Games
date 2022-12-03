@@ -1,7 +1,7 @@
 import { JSX } from "solid-js";
 
 export default function NavSearchbar(): JSX.Element {
-  function onSubmit (event: SubmitEvent): void {
+  function onSubmit(event: SubmitEvent): void {
     const form = event.target as HTMLFormElement;
     const input = form.querySelector("input") as HTMLInputElement;
     if (!input.value) event.preventDefault();

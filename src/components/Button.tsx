@@ -25,13 +25,13 @@ export default function Button(props: ButtonProps): JSX.Element {
       target={
         /^https?:\/\//.test((props as HrefButtonProps).href)
           ? "_blank"
-          : "_this"
+          : "_self"
       }
     >
       <i
         class={`${props.type ?? "fa-regular"} ${
           props.icon
-        } mr-2 group-hover:text-amber-500 transition-all duration-500`}
+        } mr-2 group-hover:text-amber-500 transition-all`}
       ></i>
       {props.text}
     </a>

@@ -1,6 +1,7 @@
 import { JSX } from "solid-js";
 import banner from "~/assets/banner.svg";
 import Slider from "~/components/Slider";
+import Button from "~/components/Button";
 import VanillaTilt from "vanilla-tilt";
 
 import featured, { Feature } from "~/data/featured";
@@ -12,18 +13,12 @@ export default function Index(): JSX.Element {
 
   return (
     <main>
-      <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center">
-        <img src={banner} class=""></img>
-        <p>
+      <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center px-8 sm:px-16 md:px-20 lg:px-32">
+        <img src={banner} alt="Radon Games" />
+        <p class="text-center">
           An open-source unblocked games website built with simplicity in mind.
         </p>
-        <a
-          class="bg-sky-600 rounded-full px-5 py-4 group shadow-lg"
-          href="/games"
-        >
-          <i class="fa-regular fa-gamepad-modern mr-2 group-hover:text-amber-500 transition-all duration-500"></i>
-          Start Playing!
-        </a>
+        <Button text="Start Playing!" href="/games" icon="fa-gamepad-modern" />
       </section>
 
       <section>
@@ -37,13 +32,11 @@ export default function Index(): JSX.Element {
                   <div class="flex justify-center flex-col text-base h-full">
                     <h1 class="text-4xl">{feature.title}</h1>
                     <p class="my-5">{feature.description}</p>
-                    <a
-                      class="w-max bg-sky-600 rounded-full px-5 py-4 group shadow-lg"
+                    <Button
+                      text="Play Now!"
                       href={feature.link}
-                    >
-                      <i class="fa-regular fa-gamepad-modern mr-2 group-hover:text-amber-500 transition-all duration-500"></i>
-                      Play Now!
-                    </a>
+                      icon="fa-gamepad-modern"
+                    />
                   </div>
                   <div class="flex justify-center flex-col text-base h-full">
                     <div ref={initTilt} data-tilt data-tilt-scale="1.05">

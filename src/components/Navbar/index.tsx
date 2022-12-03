@@ -1,6 +1,6 @@
 import { JSX } from "solid-js";
 import NavbarButton from "./Button";
-import IconButton from "./Icon";
+import IconButton from "~/components/IconButton";
 import NavSearchbar from "./Searchbar";
 
 export default function Navbar(): JSX.Element {
@@ -28,7 +28,6 @@ export default function Navbar(): JSX.Element {
             icon="fa-discord"
           />
           <IconButton href="/settings" text="Settings" icon="fa-gear" />
-          <IconButton href="/account" text="Profile" icon="fa-user" />
         </div>
       </div>
     </nav>
