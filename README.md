@@ -191,6 +191,7 @@ Doing this also requires you to change your SSL/TLS encryption mode to `Flexible
 ### Other Libraries Used
 
 - [fuzzysort](https://www.npmjs.com/package/fuzzysort)
+- [vanilla-tilt](https://www.npmjs.com/package/vanilla-tilt)
 - [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) (proxy)
 - [STOMP](https://github.com/sysce/tomp) (proxy)
 - [DIP](https://github.com/Dynamic-Interception-Proxy/DIP) (proxy)

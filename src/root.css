@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* cubic-bezier */
-.cubic-bezier {
-  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+/* vanilla-tilt paralax effect */
+[data-tilt] {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+[data-tilt] * {
+  transform: translateZ(20px);
 }
 
 /* expanding border effect */
@@ -29,3 +34,19 @@
 }
 
 input:focus { outline: none; }
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f59e0b;
+  border-radius: 20px;
+  border: 5px solid #111827;
+}
+::-webkit-scrollbar-thumb:hover {
+  border: 4px solid #111827;
+}
