@@ -8,6 +8,13 @@ export default function Navbar(): JSX.Element {
     <nav>
       <div class="flex items-center justify-center md:justify-between w-full sm:px-16 md:px-20 lg:px-32 shadow-2xl">
         <div class="flex gap-5 p-5">
+          <a href="/" title="Radon Games">
+            <img
+              src="/icons/transparent.png"
+              alt="Radon Games"
+              class="h-6"
+            ></img>
+          </a>
           <NavbarButton href="/" text="Home" icon="fa-home" />
           <NavbarButton href="/games" text="Games" icon="fa-gamepad-modern" />
           <NavbarButton href="/apps" text="Apps" icon="fa-command" />

@@ -12,8 +12,8 @@ export default function SEO(): JSX.Element {
       <Meta property="og:title" content="Radon Games" />
 
       <link rel="icon" href="/favicon.ico" />
-      <Meta property="og:image" content="/128.png" />
-      <link rel="apple-touch-icon" href="/128.png" />
+      <Meta property="og:image" content="/icons/128.png" />
+      <link rel="apple-touch-icon" href="/icons/128.png" />
 
       <Meta name="robots" content="index, follow" />
       <Meta name="revisit-after" content="7 days" />
@@ -30,17 +30,6 @@ export default function SEO(): JSX.Element {
         name="keywords"
         content="radon,games,radon games,unblocked,unblocked games,html games,html5 games,flash games,flashplayer games,proxy,io"
       />
-
-      <script src="/uv/uv.bundle.js" defer></script>
-      <script src="/uv/uv.config.js" defer></script>
-      <script src="/index.js" defer></script>
-      <script src="/pro.fontawesome.js" defer></script>
-      <script src="/ruffle/ruffle.js" defer></script>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4519303437636969"
-        crossorigin="anonymous"
-      ></script>
     </>
   );
 }

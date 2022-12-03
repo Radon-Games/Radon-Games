@@ -26,15 +26,15 @@ export default function Index(): JSX.Element {
         </a>
       </section>
 
-      <section class="px-8 sm:px-16 md:px-20 lg:px-32">
+      <section>
         <h1 class="text-3xl text-center">Featured</h1>
 
         <Slider>
           {...featured.map((feature: Feature): JSX.Element => {
             return (
-              <div class="p-5">
-                <div class="p-10 grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-800 rounded-lg shadow-lg">
-                  <div class="flex justify-center flex-col text-base">
+              <div class="py-5 px-8 sm:px-16 md:px-20 lg:px-32">
+                <div class="p-10 grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-800 rounded-lg shadow-lg h-full">
+                  <div class="flex justify-center flex-col text-base h-full">
                     <h1 class="text-4xl">{feature.title}</h1>
                     <p class="my-5">{feature.description}</p>
                     <a
@@ -45,12 +45,14 @@ export default function Index(): JSX.Element {
                       Play Now!
                     </a>
                   </div>
-                  <div ref={initTilt} data-tilt>
-                    <img
-                      src={feature.image}
-                      alt={feature.title}
-                      class="rounded-xl shadow-2xl"
-                    />
+                  <div class="flex justify-center flex-col text-base h-full">
+                    <div ref={initTilt} data-tilt data-tilt-scale="1.05">
+                      <img
+                        src={feature.image}
+                        alt={feature.title}
+                        class="rounded-xl shadow-2xl"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
