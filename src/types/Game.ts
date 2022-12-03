@@ -3,7 +3,7 @@ export default interface Game {
   author: string;
   description: string;
   id: string;
-  tags: never[];
+  tags: string[];
   type: string;
   source: string;
   size: {

@@ -234,6 +234,149 @@
     }
   },
   {
+    "title": "Cookie Clicker",
+    "author": "Julien Orteil",
+    "description": "Cookie Clicker is an incremental game created by French programmer Julien Orteil Thiennot in 2013. The user initially clicks on a big cookie on the screen, earning a single cookie per click.",
+    "id": "cookie-clicker",
+    "tags": ["idle", "clicker"],
+    "type": "html",
+    "source": "/src/cookie/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Cube Field",
+    "author": "YoArcade",
+    "description": "Cubefield is a simple but addictive game, there are only two controls – left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes – if you hit one, it's game over.",
+    "id": "cube-feild",
+    "tags": ["casual", "arcade", "running"],
+    "type": "html",
+    "source": "/src/cubefield/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Dinosaur",
+    "author": "Chrome UX Team",
+    "description": "The Dinosaur Game is a browser game developed by Google and built into the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex across a side-scrolling landscape, avoiding obstacles to achieve a higher score.",
+    "id": "dinosaur",
+    "tags": ["running"],
+    "type": "html",
+    "source": "/src/dinosaur/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Doodle Jump",
+    "author": "Croatian studio",
+    "description": "How high can you go? A fun and simple game about an alien with a jetpack trying to jump as high as possible",
+    "id": "doodle-jump",
+    "tags": ["", ""],
+    "type": "html",
+    "source": "/src/doodle-jump/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Duck Life 1",
+    "author": "Wix Games",
+    "description": "A volcano eruption revealed an ancient cave with treasures inside. Explore the cave as a young energetic duck.  Gather coins and avoid danger as you fly through the cave. Customize your duck when you can afford it.",
+    "id": "duck-life-1-html",
+    "tags": ["action", "arcade", "running"],
+    "type": "html",
+    "source": "/src/ducklife/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Duck Life 2",
+    "author": "Wix Games",
+    "description": "Duck Life 2 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "id": "duck-life-2-html",
+    "tags": ["action", "arcade", "running"],
+    "type": "html",
+    "source": "/src/ducklife2/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Duck Life 3",
+    "author": "Wix Games",
+    "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you'll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you'll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
+    "id": "duck-life-3-html",
+    "tags": ["action", "arcade", "running"],
+    "type": "html",
+    "source": "/src/ducklife3/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Duck Life 4",
+    "author": "Wix Games",
+    "description": "Duck Life 4 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "id": "duck-life-4-html",
+    "tags": ["action", "arcade", "running"],
+    "type": "html",
+    "source": "/src/ducklife4/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Fireboy and Watergirl Forest Temple",
+    "author": "Oslo Albet",
+    "description": "Help Fireboy and Watergirl through the forest temple tunnels and reach the exit doors in this fun arcade platformer!",
+    "id": "fireboy-and-watergirl-forest-temple",
+    "tags": ["casual", "multiplayer", "fireboy and watergirl"],
+    "type": "",
+    "source": "",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Flappy 2048",
+    "author": "Abbasinasab",
+    "description": "Jump through the tiles and get to 2048!",
+    "id": "flappy-2048",
+    "tags": ["puzzle"],
+    "type": "",
+    "source": "",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Flappy Bird",
+    "author": "Dong Nguyen",
+    "description": "Flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
+    "id": "flappy-bird",
+    "tags": ["arcade"],
+    "type": "html",
+    "source": "/src/flappybird/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
     "title": "",
     "author": "",
     "description": "",
