@@ -6,16 +6,16 @@ import games from "~/data/games.json";
 
 const SPLIT_CHAR = "›";
 
+export function onSubmit(event: SubmitEvent): void {
+  const form = event.target as HTMLFormElement;
+  const input = form.querySelector("input") as HTMLInputElement;
+  if (!input.value) event.preventDefault();
+}
+
 export default function Search(): JSX.Element {
   const solidLocation = useLocation();
   const query = new URLSearchParams(solidLocation.search).get("q")!;
   const results = fuzzysort.go<Game>(query, games as Game[], { key: "title" });
-
-  function onSubmit(event: SubmitEvent): void {
-    const form = event.target as HTMLFormElement;
-    const input = form.querySelector("input") as HTMLInputElement;
-    if (!input.value) event.preventDefault();
-  }
 
   return (
     <main>
