@@ -35,24 +35,38 @@ export default function Search(): JSX.Element {
       {results.map((result) => {
         let game = result.obj;
         return (
-          <div class="block mx-auto w-full p-10 max-w-[48rem]">
-            <div class="flex items-center gap-5">
-              <img
-                src={`/cdn${game.cover}`}
-                alt={game.title}
-                class="h-auto w-32 rounded shadow-md"
-              />
+          <div class="flex mx-auto w-full p-10 max-w-[48rem] items-center">
+            <div class="flex-shrink-0 mr-5 relative w-48 h-32 rounded overflow-hidden shadow-md">
+              <div class="absolute bg-gray-800 animate-pulse w-full h-full"></div>
+              <div
+                class="absolute h-full w-full bg-center bg-cover animate-none"
+                style={`background-image: url('/cdn${game.cover}')`}
+              ></div>
+            </div>
+            <div>
               <div>
-                <p class="text-gray-500">
+                <p class="text-gray-500 mt-[-4px]">
                   {SPLIT_CHAR} game {SPLIT_CHAR}{" "}
                   {game.id.replace(/\//g, ` ${SPLIT_CHAR}`)}
                 </p>
                 <a
-                  class="text-2xl hover:underline hover:text-amber-500 transition-all"
+                  class="text-2xl font-semibold hover:underline hover:text-amber-500 transition-all"
                   href={`/game/${game.id}`}
                 >
                   {game.title}
                 </a>
+                <div class="flex gap-2 my-1">
+                  {game.tags
+                    .filter((tag: string): boolean => tag.length < 10)
+                    .slice(0, 3)
+                    .map((tag: string): JSX.Element => {
+                      return (
+                        <span class="font-semibold py-1 px-2 bg-amber-500 text-xs shadow-md uppercase rounded">
+                          {tag}
+                        </span>
+                      );
+                    })}
+                </div>
                 <p class="text-gray-300">
                   {game.description === game.description.substring(0, 100)
                     ? game.description

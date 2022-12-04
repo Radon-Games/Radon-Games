@@ -28,7 +28,10 @@ export default function Games(): JSX.Element {
         {sortedGames.map((game: Game): JSX.Element => {
           if (!game.title) return <></>;
           return (
-            <div class="relative h-48 w-full overflow-hidden rounded-lg shadow-lg hover:scale-[1.05] transition-all">
+            <a
+              href={`/game/${game.id}`}
+              class="relative h-48 w-full overflow-hidden rounded-lg shadow-lg hover:scale-[1.05] transition-all"
+            >
               <div class="absolute bg-gray-800 animate-pulse w-full h-full"></div>
               <div
                 class="absolute h-full w-full bg-center bg-cover animate-none"
@@ -52,7 +55,7 @@ export default function Games(): JSX.Element {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>
