@@ -159,7 +159,7 @@
     "description": "Control the spaceship to destroy asteroids and flying saucers in this classic arcade multidirectional shooter video game by Atari®. Be careful not to collide with the asteroids that are all around you, and avoid counter-fire from the saucers.",
     "cover": "/images/asteroids.png",
     "id": "asteroids",
-    "tags": ["casual"],
+    "tags": ["casual", "arcade"],
     "type": "flash",
     "source": "/swf/asteroids.swf",
     "size": {
@@ -238,12 +238,12 @@
     }
   },
   {
-    "title": "Chroma",
-    "author": "kbaum",
-    "description": "Mix colors with precision to match the target color. Not for the feint of heart. Or the color blind.",
-    "cover": "/images/chroma.png",
-    "id": "chroma",
-    "tags": ["art", "color", "mix", "paint", "puzzle"],
+    "title": "The Chroma Incident",
+    "author": "Rybar",
+    "description": "The Achromats have taken the worlds color offline! Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse. Huge thanks to Herebefrogs for naming the game!",
+    "cover": "/images/the-chroma-incident.png",
+    "id": "the-chroma-incident",
+    "tags": ["shooting", "action"],
     "type": "html",
     "source": "/src/chroma/index.html",
     "size": {
@@ -268,9 +268,9 @@
   {
     "title": "Cube Field",
     "author": "YoArcade",
-    "description": "Cubefield is a simple but addictive game, there are only two controls – left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes – if you hit one, it's game over.",
-    "cover": "/images/cube-feild.png",
-    "id": "cube-feild",
+    "description": "Cubefield is a simple but addictive game, there are only two controls - left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes - if you hit one, it's game over.",
+    "cover": "/images/cube-field.png",
+    "id": "cube-field",
     "tags": ["casual", "arcade", "running"],
     "type": "html",
     "source": "/src/cubefield/index.html",
