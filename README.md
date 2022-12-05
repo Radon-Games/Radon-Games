@@ -75,7 +75,7 @@ In order to handle game files you will first have to clone the [assets](https://
 git clone https://github.com/Radon-Games/Radon-Games-Assets.git
 ```
 
-Once the files have been cloned you have to handle the `/cdn/*` route used by Radon in your Caddy configuration file. The easiest way to do this is by directly serving the files through [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server). However, radon uses query string parameters when requesting images to lower loading times and bandwidth usage.
+Once the files have been cloned you have to handle the `/cdn/*` route used by Radon in your Caddy configuration file. The easiest way to do this is by directly serving the files through [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server). However, Radon uses query string parameters when requesting images to lower loading times and bandwidth usage. In order to handle these requests, you can optionally choose to use [caddy-imagefilter](https://github.com/ueffel/caddy-imagefilter) as seen in the advanced implementation.
 
 ### Simple Implementation
 
