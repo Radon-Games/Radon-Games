@@ -42,7 +42,7 @@ export default function Games(): JSX.Element {
                     <h1 class="text-xl">{game.title}</h1>
                     <div class="flex gap-2 mt-1 text-gray-200">
                       {game.tags
-                        .filter((tag: string): boolean => tag.length < 10)
+                        .filter((tag: string): boolean => tag.length < 12)
                         .slice(0, 3)
                         .map((tag: string): JSX.Element => {
                           return (

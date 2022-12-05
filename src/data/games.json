@@ -299,7 +299,7 @@
     "description": "How high can you go? A fun and simple game about an alien with a jetpack trying to jump as high as possible",
     "cover": "/images/doodle-jump.png",
     "id": "doodle-jump",
-    "tags": ["", ""],
+    "tags": ["platformer"],
     "type": "html",
     "source": "/src/doodle-jump/index.html",
     "size": {
@@ -400,6 +400,104 @@
     "tags": ["arcade"],
     "type": "html",
     "source": "/src/flappybird/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Friendly Fire",
+    "author": "Eduard But, Benjamin Jung, Markus Over, Matthias Wetter, Nico Hülscher, Nils Kreutzer, Ranjit Mevius, and Klaus Reimer",
+    "description": "Friendly Fire is a 2d platform adventure game with handcrafted pixel art, an original soundtrack and lots of love put into the creation of the characters and dialogues.",
+    "cover": "/images/friendly-fire.png",
+    "id": "friendly-fire",
+    "tags": ["platformer", "indie", "casual", "adventure"],
+    "type": "html",
+    "source": "/src/friendlyfire/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Geometry Dash",
+    "author": "griffpatch",
+    "description": "Geometry Dash is developed by Sweden-based developer Robert Topala. The game has 21 levels currently with different types of difficulty. Players can enjoy 3 levels of the game: Stereo Madness, Back on track, and Polargeist. Each one has its own difficulty and a list of best scores.",
+    "cover": "/images/.png",
+    "id": "geometry-dash",
+    "tags": ["rhythm", "platformer", "arcade", "music", "casual"],
+    "type": "html",
+    "source": "/src/geometry/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Gopher Kart",
+    "author": "Jamilet Zelaya",
+    "description": "Created by Jamilet Zelaya with very little help from Erick Zelaya.",
+    "cover": "/images/gopher-kart.png",
+    "id": "gopher-kart",
+    "tags": ["driving"],
+    "type": "html",
+    "source": "/src/gopher-kart/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "HexGL",
+    "author": "Thibaut Despoulain",
+    "description": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
+    "cover": "/images/hexgl.png",
+    "id": "hexgl",
+    "tags": ["racing"],
+    "type": "html",
+    "source": "/src/hexgl/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Hextris",
+    "author": "Logan Engstrom",
+    "description": "An addictive puzzle game inspired by Tetris.",
+    "cover": "/images/hextris.png",
+    "id": "hextris",
+    "tags": ["puzzle"],
+    "type": "html",
+    "source": "/src/hextris/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Madalin Cars Multiplayer",
+    "author": "Madalin Stanciu",
+    "description": "Madalin Cars Multiplayer is an epic online car driving game in the hugely popular Madalin Cars series. Choose from a range of different sports cars and customize them to your liking. You can change the color and drive settings of your car to give yourself a truly personalized ride! Once you have chosen your vehicle, you can join the online game and enter the immense desert landscape!",
+    "cover": "/images/madalin-cars-multiplayer.png",
+    "id": "madalin-cars-multiplayer",
+    "tags": ["driving", "car"],
+    "type": "html",
+    "source": "/src/madalin-cars-multiplayer/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Minecraft",
+    "author": "Markus Persson",
+    "description": "Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds. The game's two main modes are Survival and Creative. In Survival, players must find their own building supplies and food. They also interact with blocklike mobs, or moving creatures.",
+    "cover": "/images/mc-classic.png",
+    "id": "mc-classic",
+    "tags": ["sandbox", "casual"],
+    "type": "html",
+    "source": "/src/mc-classic/index.html",
     "size": {
       "width": "1000px",
       "height": "625px"
