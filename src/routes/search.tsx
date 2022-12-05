@@ -40,7 +40,7 @@ export default function Search(): JSX.Element {
               <div class="absolute bg-gray-800 animate-pulse w-full h-full"></div>
               <div
                 class="absolute h-full w-full bg-center bg-cover animate-none"
-                style={`background-image: url('/cdn${game.cover}')`}
+                style={`background-image: url('/cdn${game.cover}?h=128')`}
               ></div>
             </div>
             <div>
