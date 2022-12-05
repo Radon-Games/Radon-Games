@@ -15,7 +15,6 @@
 - Clean and Easy to use UI
 - 300+ Games
 - Tab Cloaking / Disguise
--
 
 # Development
 
@@ -76,7 +75,9 @@ In order to handle game files you will first have to clone the [assets](https://
 git clone https://github.com/Radon-Games/Radon-Games-Assets.git
 ```
 
-Once the files have been cloned you have to handle the `/cdn/*` route used by Radon in your Caddy configuration file.
+Once the files have been cloned you have to handle the `/cdn/*` route used by Radon in your Caddy configuration file. The easiest way to do this is by directly serving the files through [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server). However, radon uses query string paramaters when requesting images to lower loading times and bandwidth usage.
+
+### Simple Implementation
 
 ```caddy
 (radon) {
@@ -86,6 +87,47 @@ Once the files have been cloned you have to handle the `/cdn/*` route used by Ra
     uri strip_prefix /cdn
     root * Radon-Games-Assets
     file_server
+  }
+
+  ...
+}
+```
+
+### Advanced Implementation
+
+#### Requirements
+- [go](https://go.dev/doc/install)
+- [xcaddy](https://github.com/caddyserver/xcaddy)
+- [caddy-imagefilter](https://github.com/ueffel/caddy-imagefilter)
+
+```caddy
+{
+  order image_filter before file_server
+}
+
+# CDN Snippet
+(cdn) {
+  uri strip_prefix /cdn
+  root * Radon-Games-Assets
+  file_server
+
+  @thumbnail {
+    path_regexp thumb /.+\.(jpg|jpeg|png|gif|bmp|tif|tiff|webp)$
+    query w=*
+    query h=*
+  }
+
+  image_filter @thumbnail {
+    resize {query.w} {query.h}
+  }
+}
+
+# Website Snippet
+(radon) {
+  ...
+
+  handle /cdn/* {
+    import cdn
   }
 
   ...
@@ -127,9 +169,11 @@ pm2 startup
 }
 ```
 
-## The full Caddy snippet
+## The full Caddyfile
 
+### Basic Implementation
 ```caddy
+# Website Snippet
 (radon) {
   tls internal
   encode gzip
@@ -143,6 +187,52 @@ pm2 startup
     uri strip_prefix /cdn
     root * Radon-Games-Assets
     file_server
+  }
+
+  handle {
+    root * Radon-Games/dist/public
+    try_files {path} /index.html
+    file_server
+  }
+}
+```
+
+### Advanced Implementation
+
+```caddy
+{
+  order image_filter before file_server
+}
+
+# CDN Snippet
+(cdn) {
+  uri strip_prefix /cdn
+  root * Radon-Games-Assets
+  file_server
+
+  @thumbnail {
+    path_regexp thumb /.+\.(jpg|jpeg|png|gif|bmp|tif|tiff|webp)$
+    query w=*
+    query h=*
+  }
+
+  image_filter @thumbnail {
+    resize {query.w} {query.h}
+  }
+}
+
+# Website Snippet
+(radon) {
+  tls internal
+  encode gzip
+
+  handle /bare/* {
+    uri strip_prefix /bare
+    reverse_proxy 127.0.0.1:8080
+  }
+
+  handle /cdn/* {
+    import cdn
   }
 
   handle {
