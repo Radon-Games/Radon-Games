@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Suspense, onMount } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -18,16 +18,22 @@ import Footer from "~/components/Footer";
 import SEO from "~/components/SEO";
 
 export default function Root() {
+  onMount(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js", {
+        scope: "/~uv/"
+      });
+    }
+  });
+
   return (
     <Html lang="en">
       <Head>
         <SEO />
 
-        <script src="/uv/uv.bundle.js" defer></script>
-        <script src="/uv/uv.config.js" defer></script>
-        <script src="/index.js" defer></script>
-        <script src="/pro.fontawesome.js" defer></script>
-        <script src="/ruffle/ruffle.js" defer></script>
+        <script src="/cdn/js/uv/bundle.js" defer></script>
+        <script src="/cdn/js/uv/config.js" defer></script>
+        <script src="/cdn/js/pro.fontawesome.js" defer></script>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4519303437636969"
