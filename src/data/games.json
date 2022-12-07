@@ -504,14 +504,98 @@
     }
   },
   {
-    "title": "",
-    "author": "",
-    "description": "",
-    "cover": "/images/.png",
-    "id": "",
-    "tags": [],
-    "type": "",
-    "source": "",
+    "title": "Microsoft Flight Simulator",
+    "author": "Microsoft",
+    "description": "Microsoft Flight Simulator is a series of amateur flight simulator programs for Microsoft Windows operating systems, and earlier for MS-DOS and Classic Mac OS. It is one of the longest-running, best-known, and most comprehensive home flight simulator programs on the market.",
+    "cover": "/images/microsoft-flight-simulator.png",
+    "id": "microsoft-flight-simulator",
+    "tags": ["flight"],
+    "type": "html",
+    "source": "/src/microsoft-flight-simulator/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Pacman",
+    "author": "Bandai Namco Entertainment",
+    "description": "Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment. Entries have been developed by a wide array of other video game companies, including Midway Games, Atari and Mass Media, Inc..",
+    "cover": "/images/pacman-html.png",
+    "id": "pacman-html",
+    "tags": ["arcade", "action"],
+    "type": "html",
+    "source": "/src/pacman/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Radius Raid",
+    "author": "Jack Rugile",
+    "description": "Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you. The game features 13 enemy types, 5 powerups, parallax backgrounds, retro sound effects, and locally stored stats.",
+    "cover": "/images/radius-raid.png",
+    "id": "radius-raid",
+    "tags": ["shooting"],
+    "type": "html",
+    "source": "/src/radius-raid/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Retro Bowl",
+    "author": "New Star Games",
+    "description": "Retro Bowl is an American football video game developed by New Star Games for the iOS and Android operating systems. A browser version is also available on some websites. The game was released in January 2020 and due to its exposure on the website TikTok it massively increased in popularity in late 2021.",
+    "cover": "/images/retro-bowl.png",
+    "id": "retro-bowl",
+    "tags": ["sports"],
+    "type": "html",
+    "source": "/src/retro-bowl/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Ritz",
+    "author": "ninjamuffin99",
+    "description": "Your cool ass boy Ritz the rat has just been RATTED out by the anti-rat crew. His cheese gone...His hunger rising....help this rat get his fukken cheese back in the lair of illusions.",
+    "cover": "/images/ritz.png",
+    "id": "ritz",
+    "tags": ["platformer"],
+    "type": "html",
+    "source": "/src/ritz/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Run 3",
+    "author": "Joseph Cloutier",
+    "description": "Run 3 is an exciting running game where you run, jump through an endless tunnel in space. Pass all challenges of hundred levels without falling into space.",
+    "cover": "/images/run-3.png",
+    "id": "run-3",
+    "tags": ["running"],
+    "type": "html",
+    "source": "/src/run3/index.html",
+    "size": {
+      "width": "1000px",
+      "height": "625px"
+    }
+  },
+  {
+    "title": "Slope",
+    "author": "Rob Kay",
+    "description": "Slope game is a fantastic speed run game where you can drive a ball rolling on tons of slopes and obstacles. See how far you can go in this endless course.",
+    "cover": "/images/slope.png",
+    "id": "slope",
+    "tags": ["rolling", "ball"],
+    "type": "html",
+    "source": "/src/slope/index.html",
     "size": {
       "width": "1000px",
       "height": "625px"
