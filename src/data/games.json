@@ -7,11 +7,7 @@
     "id": "achilles",
     "tags": ["action", "battle"],
     "type": "flash",
-    "source": "/swf/Achilles.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/Achilles.swf"
   },
   {
     "title": "Age of War",
@@ -21,11 +17,7 @@
     "id": "age-of-war",
     "tags": ["action", "battle", "war"],
     "type": "flash",
-    "source": "/swf/Age-of-War.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/Age-of-War.swf"
   },
   {
     "title": "Avalanche",
@@ -35,11 +27,7 @@
     "id": "avalanche",
     "tags": ["action", "platform", "obstacle"],
     "type": "flash",
-    "source": "/swf/Avalanche.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/Avalanche.swf"
   },
   {
     "title": "Avatar Arena",
@@ -49,11 +37,7 @@
     "id": "avatar-arena",
     "tags": ["action", "arena", "avatar", "fighting"],
     "type": "flash",
-    "source": "/swf/AvatarArena.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/AvatarArena.swf"
   },
   {
     "title": "Achievement Unlocked",
@@ -63,11 +47,7 @@
     "id": "achievement-unlocked",
     "tags": ["action", "arcade", "platform"],
     "type": "flash",
-    "source": "/swf/achievement-unlocked.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/achievement-unlocked.swf"
   },
   {
     "title": "Alien Hominid",
@@ -77,11 +57,7 @@
     "id": "alien-hominid",
     "tags": ["casual", "alien"],
     "type": "",
-    "source": "/swf/alien-hominid.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/alien-hominid.swf"
   },
   {
     "title": "Amberial",
@@ -91,11 +67,7 @@
     "id": "amberial",
     "tags": ["platform", "action", "physics"],
     "type": "flash",
-    "source": "/swf/amberial.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/amberial.swf"
   },
   {
     "title": "Animal Hunter",
@@ -105,11 +77,7 @@
     "id": "animal-hunter",
     "tags": ["hunting", "shooting"],
     "type": "flash",
-    "source": "/swf/animal_hunter.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/animal_hunter.swf"
   },
   {
     "title": "Ant Buster",
@@ -119,11 +87,7 @@
     "id": "ant-buster",
     "tags": ["defense", "tower", "classic"],
     "type": "flash",
-    "source": "/swf/antbuster.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/antbuster.swf"
   },
   {
     "title": "Apple Shooter",
@@ -133,11 +97,7 @@
     "id": "apple-shooter",
     "tags": ["shooting", "archery"],
     "type": "flash",
-    "source": "/swf/apple-shooter-2021.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/apple-shooter-2021.swf"
   },
   {
     "title": "Arkanoid",
@@ -147,11 +107,7 @@
     "id": "arkanoid",
     "tags": ["casual", "sports", "ball"],
     "type": "flash",
-    "source": "/swf/arkanoid.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/arkanoid.swf"
   },
   {
     "title": "Asteroids",
@@ -161,11 +117,7 @@
     "id": "asteroids",
     "tags": ["casual", "arcade"],
     "type": "flash",
-    "source": "/swf/asteroids.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/asteroids.swf"
   },
   {
     "title": "Axis Football League",
@@ -175,11 +127,7 @@
     "id": "axis-football-league",
     "tags": ["sports", "football", "soccer"],
     "type": "flash",
-    "source": "/swf/axisfootballleague.swf",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/swf/axisfootballleague.swf"
   },
   {
     "title": "2048",
@@ -189,11 +137,7 @@
     "id": "2048",
     "tags": ["puzzle"],
     "type": "html",
-    "source": "/src/2048/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/2048/index.html"
   },
   {
     "title": "Agario Minigame",
@@ -203,11 +147,7 @@
     "id": "agario-minigame",
     "tags": ["grow"],
     "type": "html",
-    "source": "/src/agario-minigame/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/agario-minigame/index.html"
   },
   {
     "title": "Astray",
@@ -217,11 +157,7 @@
     "id": "astray",
     "tags": ["adventure", "horror", "puzzle"],
     "type": "html",
-    "source": "/src/astray/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/astray/index.html"
   },
   {
     "title": "Break Lock",
@@ -231,11 +167,7 @@
     "id": "break-lock",
     "tags": ["puzzle"],
     "type": "html",
-    "source": "/src/breaklock/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/breaklock/index.html"
   },
   {
     "title": "The Chroma Incident",
@@ -245,11 +177,7 @@
     "id": "the-chroma-incident",
     "tags": ["shooting", "action"],
     "type": "html",
-    "source": "/src/chroma/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/chroma/index.html"
   },
   {
     "title": "Cookie Clicker",
@@ -259,11 +187,7 @@
     "id": "cookie-clicker",
     "tags": ["idle", "clicker"],
     "type": "html",
-    "source": "/src/cookie/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/cookie/index.html"
   },
   {
     "title": "Cube Field",
@@ -273,11 +197,7 @@
     "id": "cube-field",
     "tags": ["casual", "arcade", "running"],
     "type": "html",
-    "source": "/src/cubefield/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/cubefield/index.html"
   },
   {
     "title": "Dinosaur",
@@ -287,11 +207,7 @@
     "id": "dinosaur",
     "tags": ["running"],
     "type": "html",
-    "source": "/src/dinosaur/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/dinosaur/index.html"
   },
   {
     "title": "Doodle Jump",
@@ -301,11 +217,7 @@
     "id": "doodle-jump",
     "tags": ["platformer"],
     "type": "html",
-    "source": "/src/doodle-jump/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/doodle-jump/index.html"
   },
   {
     "title": "Duck Life 1",
@@ -315,11 +227,7 @@
     "id": "duck-life-1-html",
     "tags": ["action", "arcade", "running"],
     "type": "html",
-    "source": "/src/ducklife/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/ducklife/index.html"
   },
   {
     "title": "Duck Life 2",
@@ -329,11 +237,7 @@
     "id": "duck-life-2-html",
     "tags": ["action", "arcade", "running"],
     "type": "html",
-    "source": "/src/ducklife2/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/ducklife2/index.html"
   },
   {
     "title": "Duck Life 3",
@@ -343,11 +247,7 @@
     "id": "duck-life-3-html",
     "tags": ["action", "arcade", "running"],
     "type": "html",
-    "source": "/src/ducklife3/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/ducklife3/index.html"
   },
   {
     "title": "Duck Life 4",
@@ -357,11 +257,7 @@
     "id": "duck-life-4-html",
     "tags": ["action", "arcade", "running"],
     "type": "html",
-    "source": "/src/ducklife4/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/ducklife4/index.html"
   },
   {
     "title": "Fireboy and Watergirl Forest Temple",
@@ -371,11 +267,7 @@
     "id": "fireboy-and-watergirl-forest-temple",
     "tags": ["casual", "multiplayer", "fireboy and watergirl"],
     "type": "",
-    "source": "",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": ""
   },
   {
     "title": "Flappy 2048",
@@ -385,11 +277,7 @@
     "id": "flappy-2048",
     "tags": ["puzzle"],
     "type": "",
-    "source": "",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": ""
   },
   {
     "title": "Flappy Bird",
@@ -399,11 +287,7 @@
     "id": "flappy-bird",
     "tags": ["arcade"],
     "type": "html",
-    "source": "/src/flappybird/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/flappybird/index.html"
   },
   {
     "title": "Friendly Fire",
@@ -413,11 +297,7 @@
     "id": "friendly-fire",
     "tags": ["platformer", "indie", "casual", "adventure"],
     "type": "html",
-    "source": "/src/friendlyfire/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/friendlyfire/index.html"
   },
   {
     "title": "Geometry Dash",
@@ -427,11 +307,7 @@
     "id": "geometry-dash",
     "tags": ["rhythm", "platformer", "arcade", "music", "casual"],
     "type": "html",
-    "source": "/src/geometry/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/geometry/index.html"
   },
   {
     "title": "Gopher Kart",
@@ -441,11 +317,7 @@
     "id": "gopher-kart",
     "tags": ["driving"],
     "type": "html",
-    "source": "/src/gopher-kart/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/gopher-kart/index.html"
   },
   {
     "title": "HexGL",
@@ -455,11 +327,7 @@
     "id": "hexgl",
     "tags": ["racing"],
     "type": "html",
-    "source": "/src/hexgl/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/hexgl/index.html"
   },
   {
     "title": "Hextris",
@@ -469,11 +337,7 @@
     "id": "hextris",
     "tags": ["puzzle"],
     "type": "html",
-    "source": "/src/hextris/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/hextris/index.html"
   },
   {
     "title": "Madalin Cars Multiplayer",
@@ -483,11 +347,7 @@
     "id": "madalin-cars-multiplayer",
     "tags": ["driving", "car"],
     "type": "html",
-    "source": "/src/madalin-cars-multiplayer/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/madalin-cars-multiplayer/index.html"
   },
   {
     "title": "Minecraft",
@@ -497,11 +357,7 @@
     "id": "mc-classic",
     "tags": ["sandbox", "casual"],
     "type": "html",
-    "source": "/src/mc-classic/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/mc-classic/index.html"
   },
   {
     "title": "Microsoft Flight Simulator",
@@ -511,11 +367,7 @@
     "id": "microsoft-flight-simulator",
     "tags": ["flight"],
     "type": "html",
-    "source": "/src/microsoft-flight-simulator/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/microsoft-flight-simulator/index.html"
   },
   {
     "title": "Pacman",
@@ -525,11 +377,7 @@
     "id": "pacman-html",
     "tags": ["arcade", "action"],
     "type": "html",
-    "source": "/src/pacman/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/pacman/index.html"
   },
   {
     "title": "Radius Raid",
@@ -539,11 +387,7 @@
     "id": "radius-raid",
     "tags": ["shooting"],
     "type": "html",
-    "source": "/src/radius-raid/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/radius-raid/index.html"
   },
   {
     "title": "Retro Bowl",
@@ -553,11 +397,7 @@
     "id": "retro-bowl",
     "tags": ["sports"],
     "type": "html",
-    "source": "/src/retro-bowl/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/retro-bowl/index.html"
   },
   {
     "title": "Ritz",
@@ -567,11 +407,7 @@
     "id": "ritz",
     "tags": ["platformer"],
     "type": "html",
-    "source": "/src/ritz/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/ritz/index.html"
   },
   {
     "title": "Run 3",
@@ -581,11 +417,7 @@
     "id": "run-3",
     "tags": ["running"],
     "type": "html",
-    "source": "/src/run3/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/run3/index.html"
   },
   {
     "title": "Slope",
@@ -595,10 +427,16 @@
     "id": "slope",
     "tags": ["rolling", "ball"],
     "type": "html",
-    "source": "/src/slope/index.html",
-    "size": {
-      "width": "1000px",
-      "height": "625px"
-    }
+    "source": "/src/slope/index.html"
+  },
+  {
+    "title": "",
+    "author": "",
+    "description": "",
+    "cover": "/images/.png",
+    "id": "",
+    "tags": [],
+    "type": "",
+    "source": ""
   }
 ]

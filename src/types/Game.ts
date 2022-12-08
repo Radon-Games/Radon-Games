@@ -7,8 +7,4 @@ export default interface Game {
   tags: string[];
   type: string;
   source: string;
-  size: {
-    width: string;
-    height: string;
-  };
 }
