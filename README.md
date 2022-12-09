@@ -34,6 +34,10 @@ The development server has hot module replacement for ease of development. THIS 
 npm run dev
 ```
 
+## Adding Games
+
+In order to add games to Radon, you will first need to download the game files using some form of a website scraper. Once you have the game files, you will have to upload them to the [Radon-Games-Assets](https://github.com/Radon-Games/Radon-Games-Assets) in the corresponding folder. Once the games have been uploaded to the repository, you will need to edit the [`src/data/games.json`](src/data/games.json) add add an entry for the game.
+
 ## Building For Production
 
 The build assets will appear in the `/dist/public` directory. You can run the production version with `npm start` although it is reccomended to process these files statically through Caddy [`file_server`](https://caddyserver.com/docs/caddyfile/directives/file_server) API (see more information below).
@@ -96,6 +100,7 @@ Once the files have been cloned you have to handle the `/cdn/*` route used by Ra
 ### Advanced Implementation
 
 #### Requirements
+
 - [go](https://go.dev/doc/install)
 - [xcaddy](https://github.com/caddyserver/xcaddy)
 - [caddy-imagefilter](https://github.com/ueffel/caddy-imagefilter)
@@ -172,6 +177,7 @@ pm2 startup
 ## The full Caddyfile
 
 ### Basic Implementation
+
 ```caddy
 # Website Snippet
 (radon) {
