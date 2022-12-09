@@ -215,7 +215,7 @@
     "description": "How high can you go? A fun and simple game about an alien with a jetpack trying to jump as high as possible",
     "cover": "/images/doodle-jump.png",
     "id": "doodle-jump",
-    "tags": ["platformer"],
+    "tags": ["platform"],
     "type": "html",
     "source": "/src/doodle-jump/index.html"
   },
@@ -262,7 +262,7 @@
   {
     "title": "Fireboy and Watergirl Forest Temple",
     "author": "Oslo Albet",
-    "description": "Help Fireboy and Watergirl through the forest temple tunnels and reach the exit doors in this fun arcade platformer!",
+    "description": "Help Fireboy and Watergirl through the forest temple tunnels and reach the exit doors in this fun arcade platform!",
     "cover": "/images/fireboy-and-watergirl-forest-temple.png",
     "id": "fireboy-and-watergirl-forest-temple",
     "tags": ["casual", "multiplayer", "fireboy and watergirl"],
@@ -295,7 +295,7 @@
     "description": "Friendly Fire is a 2d platform adventure game with handcrafted pixel art, an original soundtrack and lots of love put into the creation of the characters and dialogues.",
     "cover": "/images/friendly-fire.png",
     "id": "friendly-fire",
-    "tags": ["platformer", "indie", "casual", "adventure"],
+    "tags": ["platform", "indie", "casual", "adventure"],
     "type": "html",
     "source": "/src/friendlyfire/index.html"
   },
@@ -305,7 +305,7 @@
     "description": "Geometry Dash is developed by Sweden-based developer Robert Topala. The game has 21 levels currently with different types of difficulty. Players can enjoy 3 levels of the game: Stereo Madness, Back on track, and Polargeist. Each one has its own difficulty and a list of best scores.",
     "cover": "/images/.png",
     "id": "geometry-dash",
-    "tags": ["rhythm", "platformer", "arcade", "music", "casual"],
+    "tags": ["rhythm", "platform", "arcade", "music", "casual"],
     "type": "html",
     "source": "/src/geometry/index.html"
   },
@@ -405,7 +405,7 @@
     "description": "Your cool ass boy Ritz the rat has just been RATTED out by the anti-rat crew. His cheese gone...His hunger rising....help this rat get his fukken cheese back in the lair of illusions.",
     "cover": "/images/ritz.png",
     "id": "ritz",
-    "tags": ["platformer"],
+    "tags": ["platform"],
     "type": "html",
     "source": "/src/ritz/index.html"
   },
@@ -428,6 +428,116 @@
     "tags": ["rolling", "ball"],
     "type": "html",
     "source": "/src/slope/index.html"
+  },
+  {
+    "title": "Super Mario 64",
+    "author": "Nintendo",
+    "description": "Super Mario 64 is a 1996 platform game for the Nintendo 64, developed by Nintendo EAD and published by Nintendo. The first Super Mario game to feature 3D gameplay, it features freedom of movement within a large open world based on polygons, combined with traditional Mario gameplay, visual style, and characters.",
+    "cover": "/images/sm64.png",
+    "id": "sm64",
+    "tags": ["platform", "fighting", "adventure"],
+    "type": "html",
+    "source": "/src/sm64/index.html"
+  },
+  {
+    "title": "Space Invaders",
+    "author": "Taito",
+    "description": "Space Invaders is a Japanese shooting video game released in 1978 by Taito. It was developed by Tomohiro Nishikado, who was inspired by other media: Breakout, The War of the Worlds, and Star Wars.",
+    "cover": "/images/space-invaders.png",
+    "id": "space-invaders",
+    "tags": ["arcade", "shoot 'em up"],
+    "type": "html",
+    "source": "/src/spaceinvaders/index.html"
+  },
+  {
+    "title": "Tank Trouble",
+    "author": "Mads Purup",
+    "description": "Tank Trouble is an online tank game where you drive in a maze and shoot missiles at your enemies. Tank Trouble pits you against clever army generals in mazelike battlefields. In Solo mode, you will face Laika, a master of war. You can also challenge a friend or two in multiplayer warfare.",
+    "cover": "/images/tank-trouble.png",
+    "id": "tank-trouble",
+    "tags": ["action"],
+    "type": "html",
+    "source": "/src/tanktrouble/index.html"
+  },
+  {
+    "title": "Vex 3",
+    "author": "Amazing Adam",
+    "description": "Vex 3 is a fascinating game. Your task is to Take Vex through the levels by running, jumping, sliding and swimming while avoiding dangerous obstacles.",
+    "cover": "/images/vex-3.png",
+    "id": "vex-3",
+    "tags": ["action", "arcade", "platform"],
+    "type": "html",
+    "source": "/src/vex3/index.html"
+  },
+  {
+    "title": "Vex 4",
+    "author": "Amazing Adam",
+    "description": "VEX 4 takes Vex to the next level! This fast paced stickman game puts your skills to the test. Run, jump, slide, swim and avoid obstacles, VEX 4 has it all.",
+    "cover": "/images/vex-4.png",
+    "id": "vex-4",
+    "tags": ["action", "arcade", "platform"],
+    "type": "html",
+    "source": "/src/vex4/index.html"
+  },
+  {
+    "title": "Vex 5",
+    "author": "Amazing Adam",
+    "description": "",
+    "cover": "/images/vex-5.png",
+    "id": "vex-5",
+    "tags": ["action", "arcade", "platform"],
+    "type": "html",
+    "source": "/src/vex5/index.html"
+  },
+  {
+    "title": "Rolling Sky",
+    "author": "Cheetah Games",
+    "description": "Rolling Sky is the best musical skill game of all time. You are a ball rolling over a track with tons of hazards to make you fall. You have to be super fast, precise and accurate to dodge all the barriers, holes and laser beams that are shot in your direction. Use the music to keep your rhythm while swinging from left to right to get the power-ups you need to finish the levels. This is seriously the most challenging game you can find online.",
+    "cover": "/images/rolling-sky.png",
+    "id": "rolling-sky",
+    "tags": ["casual", "platform", "racing"],
+    "type": "html",
+    "source": "/src/webgl-rollingsky/index.html"
+  },
+  {
+    "title": "13 Days in Hell",
+    "author": "",
+    "description": "13 Days in Hell is an arcade shooter that gives you control over the chosen one, with the sole purpose of surviving an onslaught of souls in hell for 13 full days. You have to shoot and kill the souls coming at you with their axes, or they may chop you up.",
+    "cover": "/images/13-days-in-hell.png",
+    "id": "13-days-in-hell",
+    "tags": ["arcade", "shooter"],
+    "type": "flash",
+    "source": "/swf/13-days-in-hell.swf"
+  },
+  {
+    "title": "360 Snake",
+    "author": "Jacob Lee",
+    "description": "The famous and beloved 360 Snake unblocked. Control the snake with a computer mouse, and collect white balls that will allow the snake to grow to incredible sizes. But it all depends on your skill in controlling. You can not stop for a second or make a mistake, otherwise, you have to start the game again. Just avoid barriers, and make sure that the snake does not stumble on its own tail. The old game in the new format will give you a lot of fun.",
+    "cover": "/images/360-snake.png",
+    "id": "360-snake",
+    "tags": ["puzzle"],
+    "type": "flash",
+    "source": "/swf/360-snake.swf"
+  },
+  {
+    "title": "3D Car Driver",
+    "author": "Flash Game Studio",
+    "description": "A semi-3D racing game that goes faaast, avoid some things, collect some things, same old...",
+    "cover": "/images/3d-car-driver.png",
+    "id": "3d-car-driver",
+    "tags": ["driving"],
+    "type": "flash",
+    "source": "/swf/3D-Car-Driver.swf"
+  },
+  {
+    "title": "3 Foot Ninja",
+    "author": "Denni Ames",
+    "description": "Show off your awesome ninja skills by helping the 3 Foot Ninja defeat his enemies, whilst collecting the ancient Lost Scrolls of the Elders to unlock the secrets of the Elder Masters.",
+    "cover": "/images/3-foot-ninja.png",
+    "id": "3-foot-ninja",
+    "tags": [],
+    "type": "flash",
+    "source": "/swf/3_foot_ninja.swf"
   },
   {
     "title": "",
