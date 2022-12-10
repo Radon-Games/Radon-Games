@@ -56,7 +56,7 @@
     "cover": "/images/alien-hominid.png",
     "id": "alien-hominid",
     "tags": ["casual", "alien"],
-    "type": "",
+    "type": "flash",
     "source": "/swf/alien-hominid.swf"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "title": "Apple Shooter",
-    "author": "",
+    "author": "Wolf Games",
     "description": "Apple Shooter Archery Game. Shoot the apple off your friends head using a bow and arrow. But be careful to not shoot his head off!",
     "cover": "/images/apple-shooter.png",
     "id": "apple-shooter",
@@ -266,8 +266,8 @@
     "cover": "/images/fireboy-and-watergirl-forest-temple.png",
     "id": "fireboy-and-watergirl-forest-temple",
     "tags": ["casual", "multiplayer", "fireboy and watergirl"],
-    "type": "",
-    "source": ""
+    "type": "html",
+    "source": "/src/fireboy-and-watergirl-forest-temple/index.html"
   },
   {
     "title": "Flappy 2048",
@@ -276,8 +276,8 @@
     "cover": "/images/flappy-2048.png",
     "id": "flappy-2048",
     "tags": ["puzzle"],
-    "type": "",
-    "source": ""
+    "type": "html",
+    "source": "/src/flappy-2048/index.html"
   },
   {
     "title": "Flappy Bird",
@@ -482,7 +482,7 @@
   {
     "title": "Vex 5",
     "author": "Amazing Adam",
-    "description": "",
+    "description": "Surely you are very familiar to the Vex game series. Now, you can meet cute Stickman again in Vex 5. Vex 5 is the 5th platform game in the Vex series. Each level is a labyrinth of deadly devices and traps. You have to make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! To win this game, you must overcome dangerous spikes, saw blades, and a variety of other challenges. If you've played the previous games in the series, you'll be familiar with what to expect in this thrilling new installment. The goal is to finish each level by reaching the endpoint. In this game, levels are referred to as acts, and there are numerous acts to finish.",
     "cover": "/images/vex-5.png",
     "id": "vex-5",
     "tags": ["action", "arcade", "platform"],
@@ -501,7 +501,7 @@
   },
   {
     "title": "13 Days in Hell",
-    "author": "",
+    "author": "Qi Games",
     "description": "13 Days in Hell is an arcade shooter that gives you control over the chosen one, with the sole purpose of surviving an onslaught of souls in hell for 13 full days. You have to shoot and kill the souls coming at you with their axes, or they may chop you up.",
     "cover": "/images/13-days-in-hell.png",
     "id": "13-days-in-hell",
@@ -535,9 +535,109 @@
     "description": "Show off your awesome ninja skills by helping the 3 Foot Ninja defeat his enemies, whilst collecting the ancient Lost Scrolls of the Elders to unlock the secrets of the Elder Masters.",
     "cover": "/images/3-foot-ninja.png",
     "id": "3-foot-ninja",
-    "tags": [],
+    "tags": ["action"],
     "type": "flash",
     "source": "/swf/3_foot_ninja.swf"
+  },
+  {
+    "title": "50 states",
+    "author": "Unknown",
+    "description": "Do you know your 50 states? Play this fun US states game to find out - just click the blank map to answer the questions!",
+    "cover": "/images/50-states.png",
+    "id": "50-states",
+    "tags": ["guessing", "puzzle"],
+    "type": "flash",
+    "source": "/swf/50states.swf"
+  },
+  {
+    "title": "3 on 3 Hockey",
+    "author": "Wandah",
+    "description": "3-on-3 Hockey is a fast-paced and exciting hockey experience for all ages.",
+    "cover": "/images/3-on-3-hockey.png",
+    "id": "3-on-3-hockey",
+    "tags": ["sports", "hockey"],
+    "type": "flash",
+    "source": "/swf/3_on_3_hockey.swf"
+  },
+  {
+    "title": "8 Ball Pool",
+    "author": "Unknown",
+    "description": "Eight-ball is a pool billiards played on a billiard table with six pockets, cue sticks, and sixteen billiard balls: a cue ball and fifteen object balls. The object balls include seven solid-colored balls numbered 1 through 7, seven striped balls numbered 9 through 15, and the black 8 ball.",
+    "cover": "/images/8-ball-pool.png",
+    "id": "8-ball-pool",
+    "tags": ["classic", "sports"],
+    "type": "flash",
+    "source": "/swf/8BallPool.swf"
+  },
+  {
+    "title": "Bloons",
+    "author": "Ninja Kiwi",
+    "description": "Bloons Tower Defense is a series of tower defense games under the Bloons series created and produced by Ninja Kiwi. The game was initially developed as a browser game, built upon the Adobe Flash platform and released in mid 2007.",
+    "cover": "/images/bloons.png",
+    "id": "bloons",
+    "tags": ["tower", "strategy"],
+    "type": "flash",
+    "source": "/swf/Bloons.swf"
+  },
+  {
+    "title": "Falldown",
+    "author": "Danny Jugan",
+    "description": "Avoid the rising lines as you try to keep the ball from hitting the top.",
+    "cover": "/images/falldown.png",
+    "id": "falldown",
+    "tags": ["platform"],
+    "type": "flash",
+    "source": "/swf/Falldown.swf"
+  },
+  {
+    "title": "Henry Stick Breaking Into The Bank",
+    "author": "Puffballs United",
+    "description": "Henry Stickmin attempts to break into a bank, built in the middle of a desert. He stands next to a wall and wonders how to break inside.",
+    "cover": "/images/henry-stick-breaking-the-bank.png",
+    "id": "henry-stick-breaking-the-bank",
+    "tags": ["adventure", "indie"],
+    "type": "flash",
+    "source": "/swf/HenryStick_BreakingTheBank.swf"
+  },
+  {
+    "title": "Henry Stick Escaping The Prison",
+    "author": "Puffballs United",
+    "description": "Escaping the Prison is the second game in the Henry Stickmin series. It is the sequel to Breaking the Bank, and the prequel to Stealing the Diamond, and is named as Episode 1 of the Henry Stickmin story. It is one of the most popular of the series, with over 3 million plays on Newgrounds. It contains a total of 36 choices to make, which is 6 times the amount as the previous game.",
+    "cover": "/images/henry-stick-escaping-the-prison.png",
+    "id": "henry-stick-escaping-the-prison",
+    "tags": ["adventure", "indie"],
+    "type": "flash",
+    "source": "/swf/HenryStick_EscapingThePrison.swf"
+  },
+  {
+    "title": "Henry Stick Infiltrating The Airship",
+    "author": "Puffballs United",
+    "description": "Infiltrating the Airship is the fourth game in the Henry Stickmin series. It is the sequel to Stealing the Diamond, and takes place before Fleeing the Complex, and is named as Episode 4 of the Henry Stickmin story. The game has four different endings and one fake ending.",
+    "cover": "/images/henry-stick-infiltrating-the-airship.png",
+    "id": "henry-stick-infiltrating-the-airship",
+    "tags": ["adventure", "indie"],
+    "type": "flash",
+    "source": "/swf/HenryStick_InfiltratingTheAirship.swf"
+  },
+  {
+    "title": "Henry Stick Stealing the Diamond",
+    "author": "Puffballs United",
+    "description": "Stealing the Diamond is the third game in the Henry Stickmin series. It takes place after Escaping the Prison and before Infiltrating The Airship, and is considered Episode 2 of the Henry Stickmin Collection.",
+    "cover": "/images/henry-stick-stealing-diamond.png",
+    "id": "henry-stick-stealing-diamond",
+    "tags": ["adventure", "indie"],
+    "type": "flash",
+    "source": "/swf/HenryStick_StealingDiamond.swf"
+  },
+  {
+    "title": "The Impossible Quiz",
+    "author": "Splapp-Me-Do",
+    "description": "The Impossible Quiz...It's not impossible! One of the most aggravating games ever created! This game has simple graphics, suitable for all ages, especially children and families. You can experience this game on your browser because it is a flash game.",
+    "cover": "/images/the-impossible-quiz.png",
+    "id": "the-impossible-quiz",
+    "tags": ["puzzle"],
+    "type": "flash",
+    "source": "/swf/TheImpossibleQuiz.swf"
   },
   {
     "title": "",
