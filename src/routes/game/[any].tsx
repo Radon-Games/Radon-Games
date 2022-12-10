@@ -26,6 +26,7 @@ export default function Game(): JSX.Element {
 
   onMount(async () => {
     const { favorites } = await import("~/scripts/favorites");
+    await import("~/scripts/game");
 
     if (favorites.has(game.id)) {
       setIsFavorite(true);
