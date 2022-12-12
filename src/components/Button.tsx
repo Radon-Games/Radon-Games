@@ -19,7 +19,7 @@ type ButtonProps = HrefButtonProps | OnClickButtonProps;
 export default function Button(props: ButtonProps): JSX.Element {
   return (
     <a
-      class="w-max bg-sky-600 rounded-full px-5 py-4 group shadow-lg"
+      class="w-max bg-sky-600 rounded-full px-5 py-4 group shadow-lg cursor-pointer"
       href={(props as HrefButtonProps).href}
       onClick={(props as OnClickButtonProps).onClick}
       target={
