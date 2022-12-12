@@ -27,7 +27,7 @@ export default function Navbar(): JSX.Element {
             type="fa-brands"
             icon="fa-discord"
           />
-          <IconButton href="/settings" text="Settings" icon="fa-gear" />
+          <IconButton href="/options" text="Options" icon="fa-gear" />
         </div>
       </div>
     </nav>

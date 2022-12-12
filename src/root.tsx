@@ -18,12 +18,13 @@ import Footer from "~/components/Footer";
 import SEO from "~/components/SEO";
 
 export default function Root() {
-  onMount(() => {
+  onMount(async () => {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("/sw.js", {
         scope: "/~uv/"
       });
     }
+    await import("~/scripts/options");
   });
 
   return (
