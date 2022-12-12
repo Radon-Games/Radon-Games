@@ -33,7 +33,9 @@
   width: 100%;
 }
 
-input:focus { outline: none; }
+input:focus {
+  outline: none;
+}
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
@@ -50,4 +52,10 @@ input:focus { outline: none; }
 }
 ::-webkit-scrollbar-thumb:hover {
   border: 4px solid transparent;
+}
+
+/* keep game elements in the center */
+#game canvas {
+  margin: 0 auto;
+  display: block;
 }
