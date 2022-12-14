@@ -2,6 +2,7 @@ import { JSX, onMount, createSignal } from "solid-js";
 import { useLocation } from "solid-start";
 import NotFound from "../[...404]";
 import games from "~/data/games.json";
+import { xor } from "~/scripts/codec";
 
 declare global {
   interface Window {
@@ -57,11 +58,15 @@ export default function Game(): JSX.Element {
       <section class="my-10 mx-8 sm:mx-16 md:mx-20 lg:mx-32 p-5 bg-gray-800 rounded-lg shadow-2xl overflow-hidden">
         <div id="game" class="aspect-video bg-black shadow-md">
           {((): JSX.Element => {
-            if (game.type === "html") {
+            if (game.type === "html" || game.type === "proxy") {
               return (
                 <iframe
                   class="w-full h-full overflow-hidden"
-                  src={`/cdn${game.source}`}
+                  src={
+                    game.type === "html"
+                      ? `/cdn${game.source}`
+                      : `/~uv/${xor.encode(game.source)}`
+                  }
                 ></iframe>
               );
             } else if (game.type === "flash") {
@@ -78,7 +83,7 @@ export default function Game(): JSX.Element {
             }
           })()}
         </div>
-        {["html", "flash"].includes(game.type) ? (
+        {["html", "flash", "proxy"].includes(game.type) ? (
           <></>
         ) : (
           <>
