@@ -1603,8 +1603,8 @@
     "title": "Toss the Turtle",
     "author": "Foreverkul Gonzossm",
     "description": "Use cannons, bombs, and jetpacks to shoot your turtle as far as possible! Collect cash to upgrade your equipment.",
-    "cover": "/images/toss-the-turtle.swf.png",
-    "id": "toss-the-turtle.swf",
+    "cover": "/images/toss-the-turtle.png",
+    "id": "toss-the-turtle",
     "tags": ["action"],
     "type": "flash",
     "source": "/swf/Toss The Turtle.swf"
