@@ -1577,7 +1577,7 @@
     "id": "tactical-assassin",
     "tags": ["shooting", "sniper"],
     "type": "flash",
-    "source": "/swf/TacticalAssassin.swff"
+    "source": "/swf/TacticalAssassin.swf"
   },
   {
     "title": "Tactical Assassin 2",
