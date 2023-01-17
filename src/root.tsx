@@ -41,6 +41,19 @@ export default function Root() {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4519303437636969"
           crossorigin="anonymous"
         ></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-0GR0HN1RFL');
+          `}
+        </script>
       </Head>
       <Body
         class="bg-gray-900 text-gray-100 scroll-smooth"
