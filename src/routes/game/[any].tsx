@@ -50,11 +50,6 @@ export default function Game(): JSX.Element {
 
   return (
     <main class="w-full h-ful">
-      {game.type === "flash" ? (
-        <script src="/cdn/ruffle/ruffle.js"></script>
-      ) : (
-        <></>
-      )}
       <section class="my-10 mx-8 sm:mx-16 md:mx-20 lg:mx-32 p-5 bg-gray-800 rounded-lg shadow-2xl overflow-hidden">
         <div id="game" class="aspect-video bg-black shadow-md">
           {((): JSX.Element => {
