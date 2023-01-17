@@ -1,25 +1,44 @@
-import UpdateTab from "../Tab";
-import { onMount } from "solid-js";
+import { JSX } from "solid-js";
+import Button from "~/components/Button";
 
-declare var __uv$config: any;
-
-export default function Apps () {
-  onMount(() => {
-    UpdateTab();
-  });
-
-  function redirect (url) {
-    window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+declare global {
+  interface Window {
+    __uv$config: {
+      encodeUrl: (app: string) => string;
+    };
   }
+}
 
+function openApp(app: string): void {
+  location.href = window.__uv$config.encodeUrl(app);
+}
+
+export default function Apps(): JSX.Element {
   return (
-    <div class="bg-gray-900 text-gray-100">
+    <main>
       <h1 class="text-2xl text-center py-10">Apps</h1>
-
-      <p class="text-center hover:cursor-pointer hover:underline" onclick={ () => redirect("https://www.google.com/") }>Google</p>
-      <p class="text-center hover:cursor-pointer hover:underline" onclick={ () => redirect("https://geforcenow.com/") }>Geforce Now</p>
-      <p class="text-center hover:cursor-pointer hover:underline" onclick={ () => redirect("https://discord.com/") }>Discord</p>
-      <p class="text-center hover:cursor-pointer hover:underline" onclick={ () => redirect("https://www.youtube.com/") }>YouTube</p>
-    </div>
+      <section class="flex flex-col gap-5 w-full items-center justify-center">
+        <Button
+          onClick={(): void => openApp("https://www.google.com")}
+          text="Google"
+          icon="fa-globe"
+        />
+        <Button
+          onClick={(): void => openApp("https://discord.com/login")}
+          text="Discord"
+          icon="fa-globe"
+        />
+        <Button
+          onClick={(): void => openApp("https://www.nvidia.com/geforce-now")}
+          text="Geforce Now"
+          icon="fa-globe"
+        />
+        <Button
+          onClick={(): void => openApp("https://www.youtube.com")}
+          text="YouTube"
+          icon="fa-globe"
+        />
+      </section>
+    </main>
   );
 }

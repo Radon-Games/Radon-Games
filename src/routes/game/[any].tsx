@@ -1,129 +1,130 @@
+import { JSX, onMount, createSignal } from "solid-js";
+import { useLocation } from "solid-start";
 import NotFound from "../[...404]";
-import { allGames } from "../../../Games";
-import { useLocation } from "@solidjs/router";
-import { onMount, createSignal } from "solid-js";
-import UpdateTab from "../../Tab";
+import games from "~/data/games.json";
+import { xor } from "~/scripts/codec";
 
 declare global {
   interface Window {
-    EJS_player: string;
-    EJS_gameUrl: string;
+    EJS_player?: "#game";
     EJS_core: string;
-    EJS_gameName: string;
-    EJS_pathtodata: string;
+    EJS_gameUrl: string;
+    EJS_pathtodata?: "/cdn/data/";
   }
 }
 
-export default function Game (props) {
-  const [ isFavorite, setIsFavorite ] = createSignal(false);
-  onMount(() => {
-    UpdateTab();
-    let favorites;
-    try {
-      favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-    } catch {
-      favorites = [];
-    }
-    if (favorites.includes(game.route)) {
+export default function Game(): JSX.Element {
+  const location = useLocation();
+  const game = games.find(
+    (game) => game.id === location.pathname.split("/").at(-1)
+  )!;
+  if (!game) return <NotFound />;
+
+  const [isFavorite, setIsFavorite] = createSignal(false);
+  let toggleFavorite = (): void => {
+    setIsFavorite(!isFavorite());
+  };
+
+  onMount(async () => {
+    const { favorites } = await import("~/scripts/favorites");
+    await import("~/scripts/game");
+
+    if (favorites.has(game.id)) {
       setIsFavorite(true);
     }
+
+    toggleFavorite = (): void => {
+      setIsFavorite(!isFavorite());
+
+      if (isFavorite()) {
+        favorites.add(game.id);
+      } else {
+        favorites.delete(game.id);
+      }
+    };
   });
 
-  let game;
-  if (props.game) {
-    game = allGames.find(game => game.route === props.game);
-  } else {
-    const location = useLocation();
-    game = allGames.find(game => game.route === location.pathname.split("/").at(-1));
-  }
-
-  if (!game) {
-    return <NotFound />;
-  }
-
-  function fullscreen () {
-    const game = document.getElementById("gameContainer").children[0] as HTMLElement;
-    game.requestFullscreen();
-  }
-
-  function toggleFavorite () {
-    let favorites;
-    try {
-      favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-    } catch {
-      favorites = [];
-    }
-    if (favorites.includes(game.route)) {
-      favorites.splice(favorites.indexOf(game.route), 1);
-      setIsFavorite(false);
-    } else {
-      favorites.push(game.route);
-      setIsFavorite(true);
-    }
-    localStorage.setItem("favorites", JSON.stringify(favorites));
+  function enterFullscreen(): void {
+    document.getElementById("game")?.children[0].requestFullscreen();
   }
 
   return (
-    <>
-      <div class="flex justify-center w-full pb-16 text-gray-100">
-        <div class="bg-gray-800 m-3 w-[300px] sm:w-[616px] md:w-[744px] lg:w-[1000px]">
-          <div id="gameContainer" class="sm:w-[616px] sm:h-[347px] md:w-[744px] md:h-[419px] lg:w-[1000px] lg:h-[563px]">
-            <GameElement game={ game }/>
-          </div>
-          <div class="p-2">
-            <div class="float-right text-2xl m-1">
-              <i class={`${isFavorite() ? "fa-solid" : "fa-light"} fa-heart px-2 ${isFavorite() ? "text-red-600" : "text-text-100"}`} onclick={ toggleFavorite }></i>
-              <i class="fa-light fa-expand-wide px-2" onclick={ fullscreen }></i>
-            </div>
-            <h1 class="text-2xl m-2">{ game.title }</h1>
-            <p class="text-base m-2 select-none">{ game.description }</p>
-          </div>
+    <main class="w-full h-ful">
+      {game.type === "flash" ? (
+        <script src="/cdn/ruffle/ruffle.js"></script>
+      ) : (
+        <></>
+      )}
+      <section class="my-10 mx-8 sm:mx-16 md:mx-20 lg:mx-32 p-5 bg-gray-800 rounded-lg shadow-2xl overflow-hidden">
+        <div id="game" class="aspect-video bg-black shadow-md">
+          {((): JSX.Element => {
+            if (game.type === "html" || game.type === "proxy") {
+              return (
+                <iframe
+                  class="w-full h-full overflow-hidden"
+                  src={
+                    game.type === "html"
+                      ? `/cdn${game.source}`
+                      : `/~uv/${xor.encode(game.source)}`
+                  }
+                ></iframe>
+              );
+            } else if (game.type === "flash") {
+              return (
+                <>
+                  <embed
+                    src={`/cdn${game.source}`}
+                    class="w-full h-full"
+                  ></embed>
+                </>
+              );
+            } else {
+              return <></>;
+            }
+          })()}
         </div>
-      </div>
-    </>
+        {["html", "flash", "proxy"].includes(game.type) ? (
+          <></>
+        ) : (
+          <>
+            <script>{`
+              window.EJS_player = "#game";
+              window.EJS_core = "${game.type}";
+              window.EJS_gameUrl = "/cdn${game.source}";
+              window.EJS_pathtodata = "/cdn/data/";
+            `}</script>
+            <script src="/cdn/data/loader.js"></script>
+          </>
+        )}
+        <div class="flex gap-5 mt-5 float-right text-2xl pr-2">
+          <i
+            class={`${
+              isFavorite() ? "fa-solid text-red-500" : "fa-regular"
+            } fa-heart cursor-pointer`}
+            title="Favorite"
+            onClick={toggleFavorite}
+          ></i>
+          <i
+            class="fa-regular fa-expand cursor-pointer"
+            title="Fullscreen"
+            onClick={enterFullscreen}
+          ></i>
+        </div>
+        <div class="pl-2">
+          <div class="flex gap-2 mt-5 text-gray-200 font-semibold">
+            {game.tags.map((tag: string): JSX.Element => {
+              return (
+                <span class="py-1 px-2 bg-amber-500 text-xs shadow-md uppercase rounded">
+                  {tag}
+                </span>
+              );
+            })}
+          </div>
+          <h1 class="mt-2 text-2xl font-semibold">{game.title}</h1>
+          <span class="text-sm text-gray-300 font-semibold">{game.author}</span>
+          <p class="">{game.description}</p>
+        </div>
+      </section>
+    </main>
   );
-}
-
-const xor = {
-  encode(str){
-    if (!str) return str;
-    return encodeURIComponent(str.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(''));
-  },
-  decode(str){
-    if (!str) return str;
-    let [ input, ...search ] = str.split('?');
-    return decodeURIComponent(input).split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt(0) ^ 2) : char).join('') + (search.length ? '?' + search.join('?') : '');
-  },
-};
-
-function GameElement (props) {
-  const { game } = props;
-
-  if (game.gameType === "flash") {
-    return <embed id="game" src={ `/cdn${ game.source }` } class="w-full h-full"></embed>
-  } else if (game.gameType === "html") {
-    return <iframe id="game" src={ `/cdn${game.source}` } class="w-full h-full border-0"></iframe>
-  } else if (game.gameType === "proxy") {
-    return <iframe id="game" src={ "/~/" + xor.encode(game.source) } class="w-full h-full"></iframe>
-  } else {
-    onMount(() => {
-      UpdateTab();
-      window.EJS_player = "#game";
-      window.EJS_gameUrl = `/cdn${ game.source }`;
-      window.EJS_core = game.gameType;
-      window.EJS_gameName = game.title;
-      window.EJS_pathtodata = "/cdn/data/";
-
-      const script = document.createElement("script");
-      script.src = "/cdn/data/loader.js";
-      script.defer = true;
-      document.body.appendChild(script);
-    });
-
-    return (
-      <>
-        <div id="game"></div>
-      </>
-    );
-  }
 }
