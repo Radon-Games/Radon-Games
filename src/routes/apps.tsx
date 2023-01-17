@@ -10,7 +10,7 @@ declare global {
 }
 
 function openApp(app: string): void {
-  location.href = window.__uv$config.encodeUrl(app);
+  location.href = "/~uv/" + window.__uv$config.encodeUrl(app);
 }
 
 export default function Apps(): JSX.Element {
