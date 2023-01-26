@@ -15,7 +15,10 @@ export function onSubmit(event: SubmitEvent): void {
 export default function Search(): JSX.Element {
   const solidLocation = useLocation();
   const query = new URLSearchParams(solidLocation.search).get("q")!;
-  const results = fuzzysort.go<Game>(query, games as Game[], { key: "title" });
+  const results = fuzzysort.go<Game>(query, games as Game[], {
+    key: "title",
+    limit: 20
+  });
 
   return (
     <main>

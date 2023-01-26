@@ -1,12 +1,14 @@
-import { JSX } from "solid-js";
+import { JSX, For } from "solid-js";
 import games from "~/data/games.json";
 import Game from "~/types/Game";
 import { onSubmit } from "~/routes/search";
 
 export default function Games(): JSX.Element {
-  const sortedGames: Game[] = games.sort((a: Game, b: Game) =>
-    a.title.localeCompare(b.title)
-  );
+  // const sortedGames: Game[] = games.sort((a: Game, b: Game) =>
+  //   a.title.localeCompare(b.title)
+  // );
+
+  let keys = Object.keys(sortGames(games));
 
   return (
     <main>
@@ -24,7 +26,35 @@ export default function Games(): JSX.Element {
         ></input>
       </form>
 
-      <div class="px-8 sm:px-16 md:px-20 lg:px-32 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center mx-0 md:mx-32 py-5">
+        <For each={keys}>
+          {(key) => {
+            let _games = sortGames(games)[key];
+            let title =
+              key.split("")[0].toUpperCase() +
+              "-" +
+              key.split("")[1].toUpperCase();
+            if (key === "other") title = "Other";
+            return (
+              <div>
+                <h1 class="text-2xl">{title}</h1>
+                <For each={_games}>
+                  {(game: any, i) => (
+                    <>
+                      <a class="hover:underline" href={`/game/${game.route}`}>
+                        {game.title}
+                      </a>
+                      <br />
+                    </>
+                  )}
+                </For>
+              </div>
+            );
+          }}
+        </For>
+      </div>
+
+      {/* <div class="px-8 sm:px-16 md:px-20 lg:px-32 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sortedGames.map((game: Game): JSX.Element => {
           if (!game.title) return <></>;
           return (
@@ -58,7 +88,87 @@ export default function Games(): JSX.Element {
             </a>
           );
         })}
-      </div>
+      </div> */}
     </main>
   );
+}
+
+function sortGames(games: Game[]) {
+  const output: { [key: string]: Game[] } = {
+    ab: [],
+    cd: [],
+    ef: [],
+    gh: [],
+    ij: [],
+    kl: [],
+    mn: [],
+    op: [],
+    qr: [],
+    st: [],
+    uv: [],
+    wx: [],
+    yz: [],
+    other: []
+  };
+  games.sort((a, b) => (a.title > b.title ? 1 : b.title > a.title ? -1 : 0));
+  games.forEach((game) => {
+    if (!game.title) return;
+    switch (game.title.split("")[0].toLowerCase()) {
+      case "a":
+      case "b":
+        output.ab.push(game);
+        break;
+      case "c":
+      case "d":
+        output.cd.push(game);
+        break;
+      case "e":
+      case "f":
+        output.ef.push(game);
+        break;
+      case "g":
+      case "h":
+        output.gh.push(game);
+        break;
+      case "i":
+      case "j":
+        output.ij.push(game);
+        break;
+      case "k":
+      case "l":
+        output.kl.push(game);
+        break;
+      case "m":
+      case "n":
+        output.mn.push(game);
+        break;
+      case "o":
+      case "p":
+        output.op.push(game);
+        break;
+      case "q":
+      case "r":
+        output.qr.push(game);
+        break;
+      case "s":
+      case "t":
+        output.st.push(game);
+        break;
+      case "u":
+      case "v":
+        output.uv.push(game);
+        break;
+      case "w":
+      case "x":
+        output.wx.push(game);
+        break;
+      case "y":
+      case "z":
+        output.yz.push(game);
+        break;
+      default:
+        output.other.push(game);
+    }
+  });
+  return output;
 }
