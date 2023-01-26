@@ -39,9 +39,9 @@ export default function Games(): JSX.Element {
               <div>
                 <h1 class="text-2xl">{title}</h1>
                 <For each={_games}>
-                  {(game: any, i) => (
+                  {(game: Game, i) => (
                     <>
-                      <a class="hover:underline" href={`/game/${game.route}`}>
+                      <a class="hover:underline" href={`/game/${game.id}`}>
                         {game.title}
                       </a>
                       <br />
