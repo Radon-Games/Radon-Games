@@ -19,11 +19,17 @@ import SEO from "~/components/SEO";
 
 export default function Root() {
   onMount(async () => {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js", {
-        scope: "/~uv/"
-      });
+    const registrations = await navigator.serviceWorker.getRegistrations();
+    if (registrations.length <= 0) {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js", {
+          scope: "/~uv/"
+        }).then(() => {
+          location.reload();
+        });
+      }
     }
+
     await import("~/scripts/options");
   });
 
@@ -38,8 +44,11 @@ export default function Root() {
         <script src="/cdn/ruffle/ruffle.js" defer></script>
 
         {/* Google Services */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
-          crossorigin="anonymous"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
+          crossorigin="anonymous"
+        ></script>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"
