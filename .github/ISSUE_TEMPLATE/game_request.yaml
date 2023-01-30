@@ -1,0 +1,60 @@
+name: Game Request
+description: Request a new game.
+title: "[Game Request]: "
+labels:
+  - game request
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Game Name
+      description: We need to know the name in order to add it!
+      placeholder: Duck Life 4
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Game Description
+      description: Having a description for the game greatly helps when adding information.
+      placeholder: >-
+        Duck Life 4 is a duck racing game set after the ban on genetically
+        modified ducks. A year has passed since the ban on genetically modified
+        ducks and now it's up to you to defeat the world champion. Train your
+        duck team to compete in six new locations around the world.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Game URL
+      description: >-
+        We need a URL to a working version of  the game in order to make sure we
+        add the correct one.
+      placeholder: https://radon.games/game/duck-life-4-flash
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Game Type
+      description: >-
+        Knowing the game type can help us determine if the game can be added
+        quicker.
+      options:
+        - Flash
+        - Web GL
+        - Online
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Game Tags/Genres
+      description: >-
+        Having game tags greatly helps when adding information. (separated by
+        commas)
+      placeholder: Action, Arcade, Running, Flash
+    validations:
+      required: true
