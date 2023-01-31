@@ -52,11 +52,6 @@ export default function Root() {
         {/* Google Services */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          async
           src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"
         ></script>
         <script>
