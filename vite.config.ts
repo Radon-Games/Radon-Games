@@ -12,7 +12,8 @@ export default defineConfig({
         target: "http://45.89.198.7"
       },
       "^/bare": {
-        target: "http://45.89.198.7"
+        target: "http://45.89.198.7",
+        ws: true
       }
     }
   }

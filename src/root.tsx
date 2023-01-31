@@ -6,10 +6,8 @@ import {
   FileRoutes,
   Head,
   Html,
-  Meta,
   Routes,
-  Scripts,
-  Title
+  Scripts
 } from "solid-start";
 import "./root.css";
 
@@ -22,10 +20,18 @@ export default function Root() {
     const registrations = await navigator.serviceWorker.getRegistrations();
     if (registrations.length <= 0) {
       if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js", {
+            scope: "/~uv/"
+          })
+          .then(() => {
+            location.reload();
+          });
+      }
+    } else {
+      if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("/sw.js", {
           scope: "/~uv/"
-        }).then(() => {
-          location.reload();
         });
       }
     }
