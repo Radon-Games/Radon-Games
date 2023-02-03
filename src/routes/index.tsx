@@ -1,4 +1,4 @@
-import { JSX } from "solid-js";
+import { JSX, onMount } from "solid-js";
 import banner from "~/assets/banner.svg";
 import Slider from "~/components/Slider";
 import Button from "~/components/Button";
@@ -10,6 +10,15 @@ export default function Index(): JSX.Element {
   function initTilt(elm: HTMLElement) {
     VanillaTilt.init(elm);
   }
+
+  onMount(() => {
+    const ads = document.createElement("script");
+    ads.async = true;
+    ads.crossOrigin = "anonymous";
+    ads.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237";
+    document.head.appendChild(ads);
+  });
 
   return (
     <main>

@@ -42,13 +42,6 @@ export default function Game(): JSX.Element {
         favorites.delete(game.id);
       }
     };
-
-    const ads = document.createElement("script");
-    ads.async = true;
-    ads.crossOrigin = "anonymous";
-    ads.src =
-      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237";
-    document.head.appendChild(ads);
   });
 
   function enterFullscreen(): void {
