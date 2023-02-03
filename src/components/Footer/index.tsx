@@ -44,11 +44,11 @@ export default function Navbar(): JSX.Element {
         <div class="flex flex-col gap-2">
           <FooterLink
             text="Request"
-            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=game%20request&template=game_request.md"
+            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=game%20request&template=game_request.yaml"
           />
           <FooterLink
             text="Report"
-            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=bug&template=bug_report.md"
+            href="https://github.com/Radon-Games/Radon-Games/issues/new?assignees=&labels=bug&template=bug_report.yaml"
           />
           <FooterLink
             text="Patreon"
