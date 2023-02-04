@@ -1,5 +1,7 @@
 <p align="center">
-  <img width="150px" src="https://avatars.githubusercontent.com/u/107269758">
+  <kbd>
+    <img width="150px" src="https://avatars.githubusercontent.com/u/107269758">
+  </kbd>
 </p>
 
 <h1 align="center">
@@ -290,5 +292,3 @@ Doing this also requires you to change your SSL/TLS encryption mode to `Flexible
 - [fuzzysort](https://www.npmjs.com/package/fuzzysort)
 - [vanilla-tilt](https://www.npmjs.com/package/vanilla-tilt)
 - [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) (proxy)
-- [STOMP](https://github.com/sysce/tomp) (proxy)
-- [DIP](https://github.com/Dynamic-Interception-Proxy/DIP) (proxy)
