@@ -3,9 +3,6 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [solid({ ssr: false })],
-  build: {
-    assetsDir: ""
-  },
   server: {
     proxy: {
       "^/cdn": {
