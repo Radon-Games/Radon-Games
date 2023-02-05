@@ -1,6 +1,4 @@
-run = ["bash", "start.sh"]
-
-entrypoint = "start.sh"
+run = ["bash", "./scripts/replit.sh"]
 
 [nix]
 channel = "stable-22_11"

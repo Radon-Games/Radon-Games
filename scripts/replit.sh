@@ -9,8 +9,8 @@ if [ ! -d "dist" ];
 then 
 	echo -e "\nBuilding Radon Games...\n"
   npm run build
-  echo "\nRadon Games build successful\n"
+  echo -e "\nRadon Games build successful\n"
 fi
 
 echo -e "\nStarting Radon Games...\n"
-node .
+node ./scripts/server.js
