@@ -20,7 +20,6 @@ app.use("/cdn/", (req, res) => {
 app.use(express.static(__dirname + "/dist/public"));
 
 app.get("*", (req, res) => {
-  console.log(req.url);
   res.sendFile(__dirname + "/dist/public/index.html");
 });
 
