@@ -27,7 +27,13 @@ export default function Navbar(): JSX.Element {
           />
         </div>
         <span class="font-semibold">
-          <i class="fa-regular fa-code-branch"></i> v{version}
+          <a
+            class="hover:underline hover:text-amber-500 transition-all"
+            href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
+            target="_blank"
+          >
+            <i class="fa-regular fa-code-branch"></i> v{version}
+          </a>
         </span>
       </div>
       <div class="flex gap-12">

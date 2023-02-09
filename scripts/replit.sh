@@ -13,4 +13,4 @@ then
 fi
 
 echo -e "\nStarting Radon Games...\n"
-node ./scripts/server.js
+npm start
