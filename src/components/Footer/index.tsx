@@ -21,7 +21,7 @@ export default function Navbar(): JSX.Element {
           />
           <IconButton
             href="https://github.com/Radon-Games/Radon-Games"
-            text="Discord"
+            text="GitHub"
             type="fa-brands"
             icon="fa-github"
           />
