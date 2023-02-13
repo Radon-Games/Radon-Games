@@ -17,22 +17,24 @@ import SEO from "~/components/SEO";
 
 export default function Root() {
   onMount(async () => {
-    const registrations = await navigator.serviceWorker.getRegistrations();
-    if (registrations.length <= 0) {
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("/sw.js", {
+    if ("serviceWorker" in navigator) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      if (registrations.length <= 0) {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker
+            .register("/sw.js", {
+              scope: "/~uv/"
+            })
+            .then(() => {
+              location.reload();
+            });
+        }
+      } else {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("/sw.js", {
             scope: "/~uv/"
-          })
-          .then(() => {
-            location.reload();
           });
-      }
-    } else {
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js", {
-          scope: "/~uv/"
-        });
+        }
       }
     }
 
