@@ -44,7 +44,7 @@ export default function Navbar(): JSX.Element {
         </div>
         <div class="flex flex-col gap-2">
           <FooterLink text="Partners" href="/partners" />
-          <FooterLink text="Settings" href="/settings" />
+          <FooterLink text="Settings" href="/options" />
           <FooterLink text="Privacy" href="/privacy" />
         </div>
         <div class="flex flex-col gap-2">
