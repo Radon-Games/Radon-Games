@@ -46,8 +46,8 @@ export default function Root() {
       <Head>
         <SEO />
 
-        <script src="/cdn/js/uv/bundle.js" defer></script>
-        <script src="/cdn/js/uv/config.js" defer></script>
+        <script src="/uv/uv.bundle.js" defer></script>
+        <script src="/uv/uv.config.js" defer></script>
         <script src="/cdn/js/pro.fontawesome.js" defer></script>
         <script src="/cdn/ruffle/ruffle.js" defer></script>
 
