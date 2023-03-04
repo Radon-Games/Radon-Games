@@ -17,7 +17,7 @@ import SEO from "~/components/SEO";
 
 export default function Root() {
   onMount(async () => {
-    await import("~/scripts/registerSW");
+    await import("~/scripts/registerSw");
     await import("~/scripts/options");
   });
 
