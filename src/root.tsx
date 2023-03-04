@@ -17,27 +17,7 @@ import SEO from "~/components/SEO";
 
 export default function Root() {
   onMount(async () => {
-    if ("serviceWorker" in navigator) {
-      const registrations = await navigator.serviceWorker.getRegistrations();
-      if (registrations.length <= 0) {
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker
-            .register("/sw.js", {
-              scope: "/~uv/"
-            })
-            .then(() => {
-              location.reload();
-            });
-        }
-      } else {
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("/sw.js", {
-            scope: "/~uv/"
-          });
-        }
-      }
-    }
-
+    await import("~/scripts/registerSW");
     await import("~/scripts/options");
   });
 

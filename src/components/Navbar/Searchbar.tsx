@@ -7,7 +7,7 @@ export default function NavSearchbar(): JSX.Element {
       <input
         type="text"
         class="bg-transparent border border-gray-700 rounded py-1 px-2 focus:ring-none"
-        placeholder="Search"
+        placeholder="Search Games"
         name="q"
         autocomplete="off"
       />

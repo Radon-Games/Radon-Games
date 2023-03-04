@@ -22,11 +22,9 @@ export default defineConfig({
   server: {
     proxy: {
       "^/cdn": {
-        target: "http://45.89.198.7"
-      },
-      "^/bare": {
-        target: "http://45.89.198.7",
-        ws: true
+        rewrite: (path) => path.replace(/^\/cdn/, ""),
+        target: "https://cdn.radon.games",
+        changeOrigin: true
       }
     }
   }

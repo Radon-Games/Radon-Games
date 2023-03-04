@@ -4,7 +4,7 @@ import http from "node:http";
 import httpProxy from "http-proxy";
 
 const PORT = process.env.PORT || 3000;
-const CDN = process.env.CDN || "http://cdn.radon.games/";
+const CDN = process.env.CDN || "https://cdn.radon.games/";
 const __dirname = process.cwd();
 
 const httpServer = http.createServer();
@@ -13,10 +13,12 @@ const cdnProxy = httpProxy.createProxyServer();
 const app = express();
 
 app.use("/cdn/", (req, res) => {
-  req.headers["host"] = new URL(CDN).hostname;
-  cdnProxy.web(req, res, { target: CDN });
+  cdnProxy.web(req, res, { target: CDN, changeOrigin: true });
 });
 
+app.get("/uv/uv.config.js", (req, res) => {
+  res.sendFile(__dirname + "/scripts/uv/uv.config.js");
+});
 app.use(express.static(__dirname + "/dist/public"));
 
 app.get("*", (req, res) => {
