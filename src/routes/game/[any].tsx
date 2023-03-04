@@ -42,6 +42,20 @@ export default function Game(): JSX.Element {
         favorites.delete(game.id);
       }
     };
+
+    if (!["html", "flash", "proxy"].includes(game.type)) {
+      const script1 = document.createElement("script");
+      script1.innerHTML = `
+        window.EJS_player = "#game";
+        window.EJS_core = "${game.type}";
+        window.EJS_gameUrl = "/cdn${game.source}";
+        window.EJS_pathtodata = "/cdn/data/";
+      `;
+      document.body.appendChild(script1);
+      const script2 = document.createElement("script");
+      script2.src = "/cdn/data/loader.js";
+      document.body.appendChild(script2);
+    }
   });
 
   function enterFullscreen(): void {
@@ -78,19 +92,6 @@ export default function Game(): JSX.Element {
             }
           })()}
         </div>
-        {["html", "flash", "proxy"].includes(game.type) ? (
-          <></>
-        ) : (
-          <>
-            <script>{`
-              window.EJS_player = "#game";
-              window.EJS_core = "${game.type}";
-              window.EJS_gameUrl = "/cdn${game.source}";
-              window.EJS_pathtodata = "/cdn/data/";
-            `}</script>
-            <script src="/cdn/data/loader.js"></script>
-          </>
-        )}
         <div class="flex gap-5 mt-5 float-right text-2xl pr-2">
           <i
             class={`${

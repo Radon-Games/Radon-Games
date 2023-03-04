@@ -5,7 +5,7 @@ window.addEventListener("beforeunload", (e: BeforeUnloadEvent): void => {
 
 window.addEventListener("keydown", (e: KeyboardEvent): void => {
   const keysToBlock = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", " "];
-  if (keysToBlock.includes(e.key)) {
+  if (keysToBlock.includes(e.key) && !(e.target instanceof HTMLInputElement)) {
     e.preventDefault();
   }
 });
