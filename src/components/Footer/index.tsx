@@ -40,7 +40,7 @@ export default function Navbar(): JSX.Element {
         <div class="flex flex-col gap-2">
           <FooterLink text="Home" href="/" />
           <FooterLink text="Games" href="/games" />
-          <FooterLink text="Apps" href="/apps" />
+          <FooterLink text="Proxy" href="/web" />
         </div>
         <div class="flex flex-col gap-2">
           <FooterLink text="Partners" href="/partners" />

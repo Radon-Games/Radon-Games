@@ -3,6 +3,7 @@ import { useLocation } from "solid-start";
 import fuzzysort from "fuzzysort";
 import Game from "~/types/Game";
 import games from "~/data/games.json";
+import Ad from "~/components/Ad";
 
 const SPLIT_CHAR = "›";
 
@@ -35,6 +36,9 @@ export default function Search(): JSX.Element {
           class="bg-gray-900 w-96 p-2 rounded-md border-solid border-2 border-gray-800 focus:outline-none"
         ></input>
       </form>
+      <div class="w-full flex justify-center">
+        <Ad />
+      </div>
       {results.map((result) => {
         let game = result.obj;
         return (

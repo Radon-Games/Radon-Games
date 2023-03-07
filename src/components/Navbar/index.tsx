@@ -17,7 +17,7 @@ export default function Navbar(): JSX.Element {
           </a>
           <NavbarButton href="/" text="Home" icon="fa-home" />
           <NavbarButton href="/games" text="Games" icon="fa-gamepad-modern" />
-          <NavbarButton href="/proxy" text="Proxy" icon="fa-server" />
+          <NavbarButton href="/web" text="Proxy" icon="fa-server" />
         </div>
         <div class="hidden md:flex gap-5 items-center justify-center">
           <NavSearchbar />
