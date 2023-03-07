@@ -15,9 +15,6 @@ export default function SEO(): JSX.Element {
       <Meta property="og:image" content="/icons/128.png" />
       <link rel="apple-touch-icon" href="/icons/128.png" />
 
-      <Meta name="robots" content="index, follow" />
-      <Meta name="revisit-after" content="7 days" />
-
       <Meta
         name="description"
         content="An open-source unblocked games website built with simplicity in mind."
