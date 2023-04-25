@@ -52,7 +52,7 @@ export default function Index(): JSX.Element {
                   <div class="flex justify-center flex-col text-base h-full">
                     <div ref={initTilt} data-tilt data-tilt-scale="1.05">
                       <img
-                        src={feature.image}
+                        src={`${feature.image}?h=512`}
                         alt={feature.title}
                         class="rounded-xl shadow-2xl"
                       />
