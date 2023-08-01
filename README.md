@@ -1,88 +1,34 @@
-<p align="center">
-  <kbd>
-    <img width="150px" src="https://avatars.githubusercontent.com/u/107269758">
-  </kbd>
-</p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<h1 align="center">
-  Radon Games
-</h1>
+## Getting Started
 
-<p align="center">
-  An open-source unblocked games website built with simplicity in mind.
-</p>
-
-# Features
-
-- Clean and Easy to use UI
-- 300+ Games
-- Tab Cloaking / Disguise
-
-# Deployment
-
-## Quick Deployment Options
-
-Easily deploy to all your favorite platforms in just a click.
-
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Radon-Games/Radon-Games)
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/Radon-Games/Radon-Games)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template/ZXOCUM?referralCode=6_qmvT)
-[![Deploy To Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Radon-Games/Radon-Games&branch=main&name=Radon-Games)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/Radon-Games/Radon-Games)
-
-## Regular Deployment
-
-Deploy on local system or VPS.
-
-### Requirements
-
-- [NodeJS version >=18](https://nodejs.org/)
-
-```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
-npm i
-npm run build
-npm start
-```
-
-# Contributing
-
-Contributions to Radon are welcome.
-
-## Cloning
-
-```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
-npm i
-```
-
-## Starting Development Server
-
-The development server has hot module replacement for ease of development. **DO NOT USE FOR PRODUCTION.**
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-## Adding Games
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-In order to add games to Radon, you will first need to download the game files using some form of a website scraper. Once you have the game files, you will have to upload them to the [Radon-Games-Assets](https://github.com/Radon-Games/Radon-Games-Assets) in the corresponding folder. Once the games have been uploaded to the repository, you will need to edit [`src/data/games.json`](https://github.com/cohenerickson/Radon-Games/blob/main/src/data/games.json) add add an entry for the game.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Tech Stack
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- [SolidJS](https://www.solidjs.com/)
-- [Solid Start](https://start.solidjs.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Typescript](https://www.typescriptlang.org/)
+## Learn More
 
-## Libraries Used
+To learn more about Next.js, take a look at the following resources:
 
-- [express](https://www.npmjs.com/package/express)
-- [@tomphttp/bare-server-node](https://www.npmjs.com/package/@tomphttp/bare-server-node)
-- [http-proxy](https://www.npmjs.com/package/http-proxy)
-- [solid-slider](https://www.npmjs.com/package/solid-slider)
-- [fuzzysort](https://www.npmjs.com/package/fuzzysort)
-- [vanilla-tilt](https://www.npmjs.com/package/vanilla-tilt)
-- [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) (proxy)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -2,5 +2,10 @@
   "tabWidth": 2,
   "useTabs": false,
   "singleQuote": false,
-  "trailingComma": "none"
+  "endOfLine": "crlf",
+  "trailingComma": "none",
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
 }
