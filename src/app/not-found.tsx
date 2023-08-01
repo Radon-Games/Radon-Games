@@ -1,3 +1,3 @@
-export default function (): JSX.Element {
+export default function NotFound(): JSX.Element {
   return <>404</>;
 }

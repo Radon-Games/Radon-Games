@@ -1,7 +1,11 @@
 import Head from "next/head";
 import { notFound } from "next/navigation";
 
-export default function ({ params }: { params: { id: string } }): JSX.Element {
+export default function Game({
+  params
+}: {
+  params: { id: string };
+}): JSX.Element {
   if (params.id === "a") {
     return notFound();
   }

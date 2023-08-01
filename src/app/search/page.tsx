@@ -1,3 +1,3 @@
-export default function (): JSX.Element {
+export default function Search(): JSX.Element {
   return <></>;
 }

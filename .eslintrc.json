@@ -1,3 +1,21 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
+  "rules": {
+    "eqeqeq": ["error", "always"],
+    "curly": "error",
+    "quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "sort-imports": ["error"],
+    "comma-dangle": ["error", "never"],
+    "eol-last": ["error", "always"],
+    "indent": ["error", 2],
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-contradicting-classname": "error",
+    "tailwindcss/migration-from-tailwind-2": "error"
+  }
 }
