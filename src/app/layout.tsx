@@ -1,4 +1,5 @@
 import "./index.css";
+import themeData from "./themes";
 import type { Metadata } from "next";
 import NavBar from "~/components/NavBar";
 import Presence from "~/components/Presence";
@@ -32,6 +33,27 @@ export default function RootLayout({
       data-theme="default"
       className="bg-background text-text transition-colors"
     >
+      <head>
+        <style
+          dangerouslySetInnerHTML={{
+            __html: themeData
+              .map(
+                (x) =>
+                  `html[data-theme=\"${x.name}\"] {--background: ${
+                    x.background
+                  };--background-secondary: ${x.backgroundSecondary};--text: ${
+                    x.text
+                  };--text-secondary: ${x.textSecondary};--accent: ${
+                    x.accent
+                  };}html[data-theme=\"${x.name}\"] ${
+                    x.dark ? ".logo-light" : ".logo-dark"
+                  } {display: none;}`
+              )
+              .join("")
+              .replace(/\n|  /g, "")
+          }}
+        ></style>
+      </head>
       <body>
         <ThemeLoader />
         <NavBar />

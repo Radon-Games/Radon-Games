@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("./themes.css");
-
 a.expand {
   position: relative;
 }

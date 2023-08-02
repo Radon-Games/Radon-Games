@@ -1,6 +1,6 @@
 import Content from "./Content";
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import NotFound from "~/app/not-found";
 import games from "~/games.json";
 
 export type Props = {
@@ -11,7 +11,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const game = games.find((x) => x.id === params.id);
 
   if (!game) {
-    return {};
+    return {
+      title: "404 - Radon Games"
+    };
   }
 
   return {
@@ -43,7 +45,7 @@ export default function Game({ params }: Props): JSX.Element {
   const game = games.find((x) => x.id === params.id);
 
   if (!game) {
-    return notFound();
+    return <NotFound />;
   }
 
   return (

@@ -1,9 +1,9 @@
 "use client";
 
+import { searchKeyDown } from "../search/Content";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import games from "~/games.json";
-import { searchKeyDown } from "../search/Content";
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
@@ -32,7 +32,9 @@ export default function Content() {
         {alphabet.match(/.{1,2}/g)!.map((section) => {
           const sectionGames = games
             .filter((x) => section.includes(x.title.toLowerCase()[0]))
-            .sort((a, b) => (a.title > b.title ? 1 : 1));
+            .sort((a, b) =>
+              a.title > b.title ? 1 : b.title > a.title ? -1 : 0
+            );
 
           return (
             <div key={section} className="flex flex-col items-center gap-2">
