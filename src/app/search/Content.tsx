@@ -4,7 +4,9 @@ import { motion } from "framer-motion";
 
 export function searchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
   if (e.key === "Enter") {
-    if (!e.currentTarget.value) e.preventDefault();
+    if (!e.currentTarget.value) {
+      e.preventDefault();
+    }
     location.assign(`/search?q=${encodeURIComponent(e.currentTarget.value)}`);
   }
 }
