@@ -10,7 +10,6 @@
         "allowTemplateLiterals": true
       }
     ],
-    "sort-imports": ["error"],
     "comma-dangle": ["error", "never"],
     "eol-last": ["error", "always"],
     "indent": ["error", 2],

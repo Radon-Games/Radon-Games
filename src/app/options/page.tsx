@@ -2,10 +2,10 @@ import Content from "./Content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Search - Radon Games"
+  title: "Options - Radon Games"
 };
 
-export default function Search(): JSX.Element {
+export default function Options() {
   return (
     <div>
       <Content />

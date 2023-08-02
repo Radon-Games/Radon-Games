@@ -8,5 +8,8 @@
   "files.autoSaveDelay": 0,
   "css.lint.unknownAtRules": "ignore",
   "editor.linkedEditing": true,
-  "css.lint.unknownProperties": "ignore"
+  "css.lint.unknownProperties": "ignore",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
 }

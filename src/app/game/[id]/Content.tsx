@@ -1,8 +1,9 @@
 "use client";
 
+import { Props } from "./page";
 import { motion } from "framer-motion";
 
-export default function Home() {
+export default function Content({ params }: Props) {
   return (
     <motion.div
       initial={{ y: 10, opacity: 0 }}
@@ -13,7 +14,7 @@ export default function Home() {
         duration: 0.1
       }}
     >
-      Home
+      {params.id}
     </motion.div>
   );
 }

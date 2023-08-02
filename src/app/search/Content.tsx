@@ -2,7 +2,14 @@
 
 import { motion } from "framer-motion";
 
-export default function Home() {
+export function searchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+  if (e.key === "Enter") {
+    if (!e.currentTarget.value) e.preventDefault();
+    location.assign(`/search?q=${encodeURIComponent(e.currentTarget.value)}`);
+  }
+}
+
+export default function Content() {
   return (
     <motion.div
       initial={{ y: 10, opacity: 0 }}
@@ -13,7 +20,7 @@ export default function Home() {
         duration: 0.1
       }}
     >
-      Home
+      Search
     </motion.div>
   );
 }
