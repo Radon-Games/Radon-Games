@@ -2,7 +2,7 @@
 
 import Section from "./Section";
 import { metadata } from "./page";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import cloaks from "~/cloaks";
 import { updateCloak } from "~/components/CloakLoader";
 import ExternalMedia from "~/components/ExternalMedia";
@@ -12,6 +12,14 @@ import getCloakDocument, { cloakScript } from "~/util/cloakDocument";
 export default function Content() {
   const iconRef = useRef<HTMLInputElement>(null);
   const titleRef = useRef<HTMLInputElement>(null);
+
+  const [defaultIcon, setDefaultIcon] = useState<string>();
+  const [defaultTitle, setDefaultTitle] = useState<string>();
+
+  useEffect(() => {
+    setDefaultIcon(localStorage.getItem("cloakIcon") || "");
+    setDefaultTitle(localStorage.getItem("cloakTitle") || "");
+  }, []);
 
   function resetCloaking() {
     localStorage.removeItem("cloakIcon");
@@ -66,14 +74,14 @@ export default function Content() {
         <h3 className="text-center text-2xl">Manual</h3>
         <input
           ref={titleRef}
-          defaultValue={localStorage.getItem("cloakTitle") || ""}
+          defaultValue={defaultTitle}
           type="text"
           placeholder="Custom Title"
           className="rounded bg-background p-1 text-center shadow-md focus:outline-0"
         ></input>
         <input
           ref={iconRef}
-          defaultValue={localStorage.getItem("cloakIcon") || ""}
+          defaultValue={defaultIcon}
           type="text"
           placeholder="Custom Icon"
           className="rounded bg-background p-1 text-center shadow-md focus:outline-0"

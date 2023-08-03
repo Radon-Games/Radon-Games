@@ -23,7 +23,9 @@ export default function ExternalMedia(props: Props): JSX.Element {
     setResource(await getObjectURL(props.src));
   }
 
-  const { src, ...passProps } = props;
+  const { src, alt, ...passProps } = props;
 
-  return <>{resource && <Image src={resource} {...passProps}></Image>}</>;
+  return (
+    <>{resource && <Image src={resource} alt={alt} {...passProps}></Image>}</>
+  );
 }
