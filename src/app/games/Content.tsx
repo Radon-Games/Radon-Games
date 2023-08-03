@@ -1,7 +1,6 @@
 "use client";
 
 import { searchKeyDown } from "../search/Content";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import games from "~/games.json";
 
@@ -9,15 +8,7 @@ const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 export default function Content() {
   return (
-    <motion.div
-      initial={{ y: 10, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ y: 10, opacity: 0 }}
-      transition={{
-        ease: "linear",
-        duration: 0.1
-      }}
-    >
+    <>
       <div className="flex flex-col items-center gap-8 py-16">
         <h1 className="text-3xl">Games</h1>
         <input
@@ -72,6 +63,6 @@ export default function Content() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </>
   );
 }

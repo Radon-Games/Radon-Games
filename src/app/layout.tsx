@@ -1,9 +1,11 @@
 import "./index.css";
-import themeData from "./themes";
 import type { Metadata } from "next";
+import CloakLoader from "~/components/CloakLoader";
+import Footer from "~/components/Footer";
 import NavBar from "~/components/NavBar";
 import Presence from "~/components/Presence";
 import ThemeLoader from "~/components/ThemeLoader";
+import themeData from "~/themes";
 
 export const metadata: Metadata = {
   title: "Radon Games",
@@ -31,7 +33,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="default"
-      className="bg-background text-text transition-colors"
+      className="bg-background text-text accent-accent transition-colors "
     >
       <head>
         <style
@@ -39,13 +41,13 @@ export default function RootLayout({
             __html: themeData
               .map(
                 (x) =>
-                  `html[data-theme=\"${x.name}\"] {--background: ${
+                  `html[data-theme=\"${x.id}\"] {--background: ${
                     x.background
                   };--background-secondary: ${x.backgroundSecondary};--text: ${
                     x.text
                   };--text-secondary: ${x.textSecondary};--accent: ${
                     x.accent
-                  };}html[data-theme=\"${x.name}\"] ${
+                  };}html[data-theme=\"${x.id}\"] ${
                     x.dark ? ".logo-light" : ".logo-dark"
                   } {display: none;}`
               )
@@ -55,9 +57,11 @@ export default function RootLayout({
         ></style>
       </head>
       <body>
+        <CloakLoader />
         <ThemeLoader />
         <NavBar />
         <Presence>{children}</Presence>
+        <Footer />
       </body>
     </html>
   );

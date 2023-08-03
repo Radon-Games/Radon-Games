@@ -1,15 +1,18 @@
 {
-  "name": "radon-v4",
-  "version": "0.1.0",
-  "private": true,
+  "name": "radon-games",
+  "description": "An open-source unblocked games website built with simplicity in mind.",
+  "version": "4.0.0",
+  "author": "Cohen Erickson <contact@cohenerickson.com>",
+  "license": "GNU",
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"bare-server-node --port 8080\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier . --write"
   },
   "dependencies": {
+    "@tomphttp/bare-client": "^2.2.0-alpha",
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
@@ -26,7 +29,9 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@tomphttp/bare-server-node": "^2.0.1",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "concurrently": "^8.2.0",
     "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss-nesting": "^12.0.0",

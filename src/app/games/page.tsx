@@ -1,3 +1,4 @@
+import Page from "~/components/Page";
 import Content from "./Content";
 import { Metadata } from "next";
 
@@ -7,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function Games(): JSX.Element {
   return (
-    <div>
+    <Page>
       <Content />
-    </div>
+    </Page>
   );
 }

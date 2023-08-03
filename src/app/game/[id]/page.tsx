@@ -1,6 +1,7 @@
 import Content from "./Content";
 import { Metadata } from "next";
 import NotFound from "~/app/not-found";
+import Page from "~/components/Page";
 import games from "~/games.json";
 
 export type Props = {
@@ -49,8 +50,8 @@ export default function Game({ params }: Props): JSX.Element {
   }
 
   return (
-    <div>
+    <Page>
       <Content params={params} />
-    </div>
+    </Page>
   );
 }

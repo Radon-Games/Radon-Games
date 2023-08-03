@@ -15,6 +15,7 @@
     "indent": ["error", 2],
     "tailwindcss/classnames-order": "error",
     "tailwindcss/no-contradicting-classname": "error",
-    "tailwindcss/migration-from-tailwind-2": "error"
+    "tailwindcss/migration-from-tailwind-2": "error",
+    "tailwindcss/no-custom-classname": "off"
   }
 }
