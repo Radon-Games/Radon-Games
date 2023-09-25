@@ -1,38 +1,30 @@
 {
   "name": "radon-games",
-  "description": "An open-source unblocked games website built with simplicity in mind.",
-  "version": "3.3.0",
-  "author": "Cohen Erickson <contact@cohenerickson.com>",
+  "version": "4.0.0",
   "type": "module",
-  "license": "GNU",
   "scripts": {
-    "dev": "solid-start dev --host",
-    "build": "solid-start build",
-    "start": "node ./scripts/server.js"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
-    "solid-start-node": "^0.2.0",
-    "tailwindcss": "^3.2.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.8",
-    "vite-plugin-static-copy": "^0.13.0"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.5.0",
-    "@titaniumnetwork-dev/ultraviolet": "^1.0.8-beta",
-    "@tomphttp/bare-server-node": "^1.2.3",
-    "express": "^4.18.2",
-    "fuzzysort": "^2.0.3",
-    "http-proxy": "^1.18.1",
-    "solid-js": "^1.6.0",
-    "solid-slider": "^1.3.12",
-    "solid-start": "^0.2.0",
-    "vanilla-tilt": "^1.7.3"
+    "framer-motion": "^10.16.4",
+    "million": "^2.6.0",
+    "preact": "^10.17.1",
+    "preact-router": "^4.1.2",
+    "react": "npm:@preact/compat@^17.1.2",
+    "react-dom": "npm:@preact/compat@^17.1.2",
+    "react-icons": "^4.11.0"
   },
-  "engines": {
-    "node": ">=18"
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
   }
 }

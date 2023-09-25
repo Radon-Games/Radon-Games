@@ -1,30 +1,20 @@
-import solid from "solid-start/vite";
+import million from "million/compiler";
 import { defineConfig } from "vite";
-import { viteStaticCopy } from "vite-plugin-static-copy";
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 
 export default defineConfig({
-  plugins: [
-    viteStaticCopy({
-      targets: [
-        {
-          src: `${uvPath}/.`.replace(/\\/g, "/"),
-          dest: "uv"
-        },
-        {
-          src: "public/uv/uv.config.js",
-          dest: "uv"
-        }
-      ]
-    }),
-    solid({ ssr: false })
-  ],
+  plugins: [million.vite({ mode: "preact" })],
   server: {
+    headers: {
+      "Content-Security-Policy": "default-src 'self' 'unsafe-inline';"
+    },
     proxy: {
-      "^/cdn": {
+      "/cdn": {
+        target: "https://cdn.radon.games/",
+        changeOrigin: true,
         rewrite: (path) => path.replace(/^\/cdn/, ""),
-        target: "https://cdn.radon.games",
-        changeOrigin: true
+        headers: {
+          referer: "https://cdn.radon.games"
+        }
       }
     }
   }

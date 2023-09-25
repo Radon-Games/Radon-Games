@@ -1,69 +1,78 @@
-import { createSignal, JSX, onMount, Show } from "solid-js";
-import banner from "~/assets/banner.svg";
-import Slider from "~/components/Slider";
-import Button from "~/components/Button";
-import VanillaTilt from "vanilla-tilt";
-import Ad from "~/components/Ad";
+import banner from "../assets/banner.svg";
+import { GameRow } from "../components/GameRow";
+import { Image } from "../components/Image";
+import games from "../games.json";
+import { motion } from "framer-motion";
+import { PiMagnifyingGlassBold, PiQuestionBold } from "react-icons/pi";
 
-import featured, { Feature } from "~/data/featured";
-
-export default function Index(): JSX.Element {
-  function initTilt(elm: HTMLElement) {
-    VanillaTilt.init(elm);
-  }
-
-  onMount(() => {
-    const ads = document.createElement("script");
-    ads.async = true;
-    ads.crossOrigin = "anonymous";
-    ads.src =
-      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237";
-    document.head.appendChild(ads);
-  });
+export function Home() {
+  const randomGame = games[Math.floor(Math.random() * games.length)];
 
   return (
-    <main>
-      <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center px-8 sm:px-16 md:px-20 lg:px-32">
-        <img src={banner} alt="Radon Games" />
-        <p class="text-center">
+    <motion.main
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
+      class="px-8 md:px-16 lg:px-32 xl:px-48"
+    >
+      <section class="my-32 flex w-full flex-col items-center justify-center gap-5">
+        <Image src={banner} alt="Radon Games" class="h-14" />
+        <p>
           An open-source unblocked games website built with simplicity in mind.
         </p>
-        <Button text="Start Playing!" href="/games" icon="fa-gamepad-modern" />
-        <Ad />
+        <div class="flex gap-5">
+          <motion.a
+            href="/games"
+            class="flex cursor-pointer items-center gap-2 rounded-lg bg-slate-800 px-4 py-2 font-semibold shadow-lg"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 16px rgb(30 41 59)"
+            }}
+          >
+            <PiMagnifyingGlassBold />
+            Browse Games
+          </motion.a>
+          <motion.a
+            href={`/game/${randomGame.id}`}
+            class="flex cursor-pointer items-center gap-2 rounded-lg bg-indigo-800 px-4 py-2 font-semibold shadow-lg"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 16px rgb(55 48 163)",
+              transition: {
+                duration: 0.2
+              }
+            }}
+          >
+            <PiQuestionBold />
+            Pick One For Me
+          </motion.a>
+        </div>
       </section>
 
-      <section>
-        <h1 class="text-3xl text-center">Featured</h1>
-
-        <Slider>
-          {...featured.map((feature: Feature): JSX.Element => {
-            return (
-              <div class="py-5 px-8 sm:px-16 md:px-20 lg:px-32">
-                <div class="p-10 grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-800 rounded-lg shadow-lg h-full">
-                  <div class="flex justify-center flex-col text-base h-full">
-                    <h1 class="text-4xl">{feature.title}</h1>
-                    <p class="my-5">{feature.description}</p>
-                    <Button
-                      text="Play Now!"
-                      href={feature.link}
-                      icon="fa-gamepad-modern"
-                    />
-                  </div>
-                  <div class="flex justify-center flex-col text-base h-full">
-                    <div ref={initTilt} data-tilt data-tilt-scale="1.05">
-                      <img
-                        src={`${feature.image}?h=512`}
-                        alt={feature.title}
-                        class="rounded-xl shadow-2xl"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </Slider>
+      <section class="mb-5">
+        <h3 class="mb-2 text-2xl font-bold tracking-wide">Favorites</h3>
+        <GameRow games={[games[42]]} />
       </section>
-    </main>
+
+      <section class="mb-5">
+        <h3 class="mb-2 text-2xl font-bold tracking-wide">Featured</h3>
+        <GameRow games={[games[1], games[2], games[3], games[4]]} />
+      </section>
+
+      <section class="mb-5">
+        <h3 class="mb-2 text-2xl font-bold tracking-wide">Popular</h3>
+        <GameRow
+          games={[
+            games[5],
+            games[6],
+            games[7],
+            games[8],
+            games[9],
+            games[10],
+            games[11]
+          ]}
+        />
+      </section>
+    </motion.main>
   );
 }

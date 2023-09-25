@@ -7,5 +7,6 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
   "css.lint.unknownAtRules": "ignore",
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "css.lint.unknownProperties": "ignore"
 }

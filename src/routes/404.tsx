@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export function Privacy() {
+export function NotFound() {
   return (
     <motion.main
       initial={{ opacity: 0, y: 10 }}
