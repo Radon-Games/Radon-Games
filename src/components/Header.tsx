@@ -1,4 +1,4 @@
-import transparent from "../assets/transparent.svg";
+import {Transparent} from "../assets/Transparent";
 import { Image } from "./Image";
 import { motion } from "framer-motion";
 import { IconType } from "react-icons/lib";
@@ -27,7 +27,7 @@ function Link(props: { href: string; icon: IconType; text?: string }) {
       href={props.href}
       target={/^(https?:)?\/\//.test(props.href) ? "_blank" : "_self"}
       variants={item}
-      class="flex items-center gap-2 transition-colors hover:text-amber-500"
+      class="flex items-center gap-2 transition-colors hover:text-accent-primary"
     >
       <props.icon />
       {props.text ?? ""}
@@ -38,7 +38,7 @@ function Link(props: { href: string; icon: IconType; text?: string }) {
 export function Header() {
   return (
     <motion.nav
-      class="border-slate-100 flex h-16 w-full items-center justify-between border-b-2 px-8 shadow-lg md:px-16 lg:px-32 xl:px-48"
+      class="border-text-secondary flex h-16 w-full items-center justify-between border-b-2 px-8 shadow-lg md:px-16 lg:px-32 xl:px-48"
       variants={{
         hidden: { opacity: 1, y: -64 },
         visible: {
@@ -56,7 +56,7 @@ export function Header() {
     >
       <div class="flex gap-5">
         <motion.a href="/" variants={item}>
-          <Image src={transparent} class="h-6 w-auto" alt="Home" />
+          <Transparent class="h-6 w-auto" alt="Home" />
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
         <Link href="/games" icon={PiGameControllerBold} text="Games" />

@@ -15,7 +15,7 @@ export function GameCard({ game }: { game: Game }) {
           setHovered(false);
         }}
       >
-        <div class="absolute h-full w-full animate-pulse bg-slate-800"></div>
+        <div class="absolute h-full w-full animate-pulse bg-bg-secondary"></div>
         <Image
           class="absolute left-0 top-0 h-full w-full transition-all group-hover:scale-105"
           src={`/cdn${game.cover}?h=180&w=320`}
@@ -30,7 +30,7 @@ export function GameCard({ game }: { game: Game }) {
             {game.tags.map((tag) => {
               return (
                 <a
-                  class="inset-0 rounded bg-indigo-800 p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
+                  class="inset-0 rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
                   href={`/tag/${tag}`}
                 >
                   {tag}

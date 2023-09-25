@@ -10,7 +10,7 @@ export function GameRow(props: { games: Game[] }) {
   return (
     <div class="relative rounded-lg">
       <div
-        class={`absolute left-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-r from-slate-900 to-transparent text-lg ${
+        class={`absolute left-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-r from-bg-primary to-transparent text-lg ${
           isStart ? "hidden opacity-0" : "opactiy-100"
         } transition-all`}
       >
@@ -26,7 +26,7 @@ export function GameRow(props: { games: Game[] }) {
         </div>
       </div>
       <div
-        class={`absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l from-slate-900 to-transparent text-lg ${
+        class={`from-slate-900 absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l to-transparent text-lg ${
           isEnd ? "hidden opacity-0" : "opactiy-100"
         } transition-all`}
       >

@@ -14,12 +14,14 @@ import { Search } from "./routes/search";
 import { Shop } from "./routes/shop";
 import { Tag } from "./routes/tag";
 import { User } from "./routes/user";
+import { getStyle } from "./util/theme";
 import { AnimatePresence } from "framer-motion";
 import { render } from "preact";
 import { Router, Route } from "preact-router";
 
 render(
   <>
+    <style dangerouslySetInnerHTML={{ __html: getStyle() }}></style>
     <Header />
     <AnimatePresence>
       <Router>

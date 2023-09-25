@@ -1,6 +1,5 @@
-import banner from "../assets/banner.svg";
+import { Banner } from "../assets/Banner";
 import { GameRow } from "../components/GameRow";
-import { Image } from "../components/Image";
 import games from "../games.json";
 import { motion } from "framer-motion";
 import { PiMagnifyingGlassBold, PiQuestionBold } from "react-icons/pi";
@@ -16,14 +15,14 @@ export function Home() {
       class="px-8 md:px-16 lg:px-32 xl:px-48"
     >
       <section class="my-32 flex w-full flex-col items-center justify-center gap-5">
-        <Image src={banner} alt="Radon Games" class="h-14" />
+        <Banner class="h-14" />
         <p>
           An open-source unblocked games website built with simplicity in mind.
         </p>
         <div class="flex gap-5">
           <motion.a
             href="/games"
-            class="flex cursor-pointer items-center gap-2 rounded-lg bg-slate-800 px-4 py-2 font-semibold shadow-lg"
+            class="bg-bg-secondary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 font-semibold shadow-lg"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 0px 16px rgb(30 41 59)"
@@ -34,7 +33,7 @@ export function Home() {
           </motion.a>
           <motion.a
             href={`/game/${randomGame.id}`}
-            class="flex cursor-pointer items-center gap-2 rounded-lg bg-indigo-800 px-4 py-2 font-semibold shadow-lg"
+            class="bg-accent-secondary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 font-semibold shadow-lg"
             whileHover={{
               scale: 1.05,
               boxShadow: "0px 0px 16px rgb(55 48 163)",
