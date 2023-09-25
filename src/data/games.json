@@ -220,7 +220,7 @@
     "source": "/src/doodle-jump/index.html"
   },
   {
-    "title": "Duck Life 1",
+    "title": "Duck Life 1 (HTML)",
     "author": "Wix Games",
     "description": "A volcano eruption revealed an ancient cave with treasures inside. Explore the cave as a young energetic duck.  Gather coins and avoid danger as you fly through the cave. Customize your duck when you can afford it.",
     "cover": "/images/ducklife-1-html.png",
@@ -230,7 +230,7 @@
     "source": "/src/ducklife/index.html"
   },
   {
-    "title": "Duck Life 2",
+    "title": "Duck Life 2 (HTML)",
     "author": "Wix Games",
     "description": "Duck Life 2 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
     "cover": "/images/duck-life-2-flash.png",
@@ -240,7 +240,7 @@
     "source": "/src/ducklife2/index.html"
   },
   {
-    "title": "Duck Life 3",
+    "title": "Duck Life 3 (HTML)",
     "author": "Wix Games",
     "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you'll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you'll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
     "cover": "/images/duck-life-3-html.png",
@@ -250,7 +250,7 @@
     "source": "/src/ducklife3/index.html"
   },
   {
-    "title": "Duck Life 4",
+    "title": "Duck Life 4 (HTML)",
     "author": "Wix Games",
     "description": "Duck Life 4 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
     "cover": "/images/duck-life-4-html.png",
@@ -760,7 +760,7 @@
     "source": "/swf/bubbletrouble.swf"
   },
   {
-    "title": "Duck Life 1",
+    "title": "Duck Life 1 (Flash)",
     "author": "Wix Games",
     "description": "Duck Life is the first game in the Duck Life series. A tornado has struck your farm and destroyed everything. All that remains is a single duck egg. Train this duckling to peak athletic form so you can earn money to rebuild the farm.",
     "cover": "/images/duck-life-1-flash.png",
@@ -770,7 +770,7 @@
     "source": "/swf/ducklife1.swf"
   },
   {
-    "title": "Duck Life 2",
+    "title": "Duck Life 2 (Flash)",
     "author": "Wix Games",
     "description": "Duck Life 2 is a duck racing game with various training levels to improve your athletic abilities. When you've trained enough, you enter a duck ‘quadrathlon'' that puts your running, climbing, swimming, and flying skills to the test. Just another day in the life of a duck!",
     "cover": "/images/duck-life-2-flash.png",
@@ -780,7 +780,7 @@
     "source": "/swf/ducklife2.swf"
   },
   {
-    "title": "Duck Life 3",
+    "title": "Duck Life 3 (Flash)",
     "author": "Wix Games",
     "description": "Duck Life 3 is a duck racing game featuring genetically modified ducks that evolve as you progress. Choose from one of four duck breeds and evolve as you complete each league. Like the previous game, training is essential to level up and improve your abilities.",
     "cover": "/images/duck-life-3-flash.png",
@@ -790,7 +790,7 @@
     "source": "/swf/ducklife3-evolution.swf"
   },
   {
-    "title": "Duck Life 4",
+    "title": "Duck Life 4 (Flash)",
     "author": "Wix Games",
     "description": "Duck Life 4 is a duck racing game set after the ban on genetically modified ducks. A year has passed since the ban on genetically modified ducks and now it's up to you to defeat the world champion. Train your duck team to compete in six new locations around the world.",
     "cover": "/images/duck-life-4-flash.png",
