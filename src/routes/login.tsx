@@ -21,7 +21,7 @@ export function Login() {
       exit={{ opacity: 0, y: -10 }}
       class="flex flex-col items-center justify-center gap-5 px-8 py-16 md:px-16 lg:px-32 xl:px-48"
     >
-      <div>
+      <div class="w-96">
         <div class="mb-5 flex flex-col items-center gap-2">
           <Transparent class="h-8" />
           <h1 class="text-center text-2xl">Sign in to your account</h1>
