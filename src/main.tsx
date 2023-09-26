@@ -10,6 +10,7 @@ import { Preferences } from "./routes/preferences";
 import { Privacy } from "./routes/privacy";
 import { Profile } from "./routes/profile";
 import { Register } from "./routes/register";
+import { Reset } from "./routes/reset";
 import { Search } from "./routes/search";
 import { Shop } from "./routes/shop";
 import { Tag } from "./routes/tag";
@@ -37,8 +38,9 @@ render(
         {/* User System */}
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/reset" component={Reset} />
         <Route path="/profile" component={Profile} />
-        <Route path="/user/:id" component={User} />
+        <Route path="/user/:username" component={User} />
         <Route path="/shop" component={Shop} />
 
         {/* 404 */}

@@ -22,25 +22,36 @@ export function Home() {
         <div class="flex gap-5">
           <motion.a
             href="/games"
-            class="bg-bg-secondary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 font-semibold shadow-lg"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0px 0px 16px rgb(30 41 59)"
+            class="flex cursor-pointer items-center gap-2 rounded-lg bg-bg-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
+            initial={{
+              boxShadow: `0px 0px 0px rgb(30 41 59)`
             }}
+            variants={{
+              focus: {
+                scale: 1.05,
+                boxShadow: "0px 0px 16px rgb(30 41 59)"
+              }
+            }}
+            whileHover="focus"
+            whileFocus="focus"
           >
             <PiMagnifyingGlassBold />
             Browse Games
           </motion.a>
           <motion.a
             href={`/game/${randomGame.id}`}
-            class="bg-accent-secondary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 font-semibold shadow-lg"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0px 0px 16px rgb(55 48 163)",
-              transition: {
-                duration: 0.2
+            class="flex cursor-pointer items-center gap-2 rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
+            initial={{
+              boxShadow: `0px 0px 0px rgb(55 48 163)`
+            }}
+            variants={{
+              focus: {
+                scale: 1.05,
+                boxShadow: "0px 0px 16px rgb(55 48 163)"
               }
             }}
+            whileHover="focus"
+            whileFocus="focus"
           >
             <PiQuestionBold />
             Pick One For Me

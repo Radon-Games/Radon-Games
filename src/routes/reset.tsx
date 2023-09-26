@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export function User({ username }: { username: string }) {
+export function Reset() {
   return (
     <motion.main
       initial={{ opacity: 0, y: 10 }}

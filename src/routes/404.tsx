@@ -7,6 +7,8 @@ export function NotFound() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
       class="px-8 md:px-16 lg:px-32 xl:px-48"
-    ></motion.main>
+    >
+      Not Found
+    </motion.main>
   );
 }
