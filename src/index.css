@@ -10,3 +10,11 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+input.checkbox + label.checkbox {
+  @apply h-4 w-4 rounded border border-bg-secondary bg-bg-primary;
+}
+
+input.checkbox:checked + label.checkbox {
+  @apply bg-accent-secondary;
+}

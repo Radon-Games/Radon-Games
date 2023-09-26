@@ -84,6 +84,22 @@ export function Register() {
               type="password"
             />
           </div>
+          <div class="flex items-center gap-2">
+            <input
+              disabled={isLoading}
+              id="tosConfirm"
+              class="checkbox hidden"
+              type="checkbox"
+            />
+            <label class="checkbox" for="tosConfirm"></label>
+            <label class="text-sm" for="tosConfirm">
+              I agree with the{" "}
+              <a class="underline transition-colors hover:text-accent-primary">
+                Terms of Service
+              </a>
+            </label>
+          </div>
+
           <SubmitButton
             text="Register"
             loadingText="Loading..."

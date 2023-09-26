@@ -77,7 +77,7 @@ export function Header() {
             class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
             placeholder="Search"
             type="text"
-            autofill="off"
+            autocomplete="off"
           />
         </form>
         <Link

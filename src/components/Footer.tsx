@@ -10,7 +10,7 @@ import {
 export function Footer() {
   return (
     <footer class="flex justify-between gap-8 border-t-2 border-text-secondary px-8 py-16 md:px-16 lg:px-32 xl:px-48">
-      <div class="flex flex-1 flex-col items-start gap-5">
+      <div class="flex flex-1 flex-col items-start gap-5 justify-center">
         <Banner class="h-6" />
         <p class="text-xs">
           An open-source unblocked games website built with simplicity in mind.
@@ -46,11 +46,11 @@ export function Footer() {
             class="flex items-center gap-2 hover:text-accent-primary"
             aria-label="Changelog"
           >
-            <PiGitBranchBold /> v{version}
+            <PiGitBranchBold /> <span class="text-sm">v{version}</span>
           </a>
         </div>
       </div>
-      <div class="flex gap-12">
+      <div class="flex gap-12 text-sm">
         <div class="flex flex-col gap-2">
           <a href="/" class="hover:text-accent-primary">
             Home
@@ -61,31 +61,34 @@ export function Footer() {
           <a href="/search" class="hover:text-accent-primary">
             Search
           </a>
-          <a href="/privacy" class="hover:text-accent-primary">
-            Privacy
+          <a href="/preferences" class="hover:text-accent-primary">
+            Preferences
           </a>
         </div>
         <div class="flex flex-col gap-2">
           <a href="/login" class="hover:text-accent-primary">
             Login
           </a>
-          <a href="/register" class="hover:text-accent-primary">
-            Register
-          </a>
           <a href="/reset" class="hover:text-accent-primary">
             Reset
           </a>
-        </div>
-
-        <div class="flex flex-col gap-2">
           <a href="/profile" class="hover:text-accent-primary">
             Profile
           </a>
           <a href="/shop" class="hover:text-accent-primary">
             Shop
           </a>
-          <a href="/preferences" class="hover:text-accent-primary">
-            Preferences
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <a href="/register" class="hover:text-accent-primary">
+            Register
+          </a>
+          <a href="/privacy" class="hover:text-accent-primary">
+            Privacy
+          </a>
+          <a href="/terms" class="hover:text-accent-primary">
+            Terms
           </a>
         </div>
       </div>

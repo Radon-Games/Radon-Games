@@ -2,7 +2,7 @@
   "tabWidth": 2,
   "useTabs": false,
   "singleQuote": false,
-  "endOfLine": "crlf",
+  "endOfLine": "lf",
   "trailingComma": "none",
   "plugins": [
     "@trivago/prettier-plugin-sort-imports",

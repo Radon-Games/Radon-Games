@@ -14,6 +14,7 @@ import { Reset } from "./routes/reset";
 import { Search } from "./routes/search";
 import { Shop } from "./routes/shop";
 import { Tag } from "./routes/tag";
+import { Terms } from "./routes/terms";
 import { User } from "./routes/user";
 import { getStyle } from "./util/theme";
 import { AnimatePresence } from "framer-motion";
@@ -34,6 +35,7 @@ render(
         <Route path="/search" component={Search} />
         <Route path="/preferences" component={Preferences} />
         <Route path="/privacy" component={Privacy} />
+        <Route path="/terms" component={Terms} />
 
         {/* User System */}
         <Route path="/login" component={Login} />
