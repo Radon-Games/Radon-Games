@@ -1,3 +1,4 @@
+import { getTheme } from "../util/theme";
 import { motion } from "framer-motion";
 
 export function SubmitButton(props: {
@@ -6,18 +7,20 @@ export function SubmitButton(props: {
   loadingText: string;
   onClick: () => void;
 }) {
+  const { accentSecondary } = getTheme();
+
   return (
     <motion.button
       class={`flex ${
         props.loading ? "cursor-not-allowed" : "cursor-pointer"
       } mt-2 w-full items-center justify-center gap-2 rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0`}
       initial={{
-        boxShadow: `0px 0px 0px rgb(55 48 163)`
+        boxShadow: `0px 0px 0px ${accentSecondary}`
       }}
       variants={{
         focus: {
           scale: 1.05,
-          boxShadow: "0px 0px 16px rgb(55 48 163)"
+          boxShadow: `0px 0px 16px ${accentSecondary}`
         }
       }}
       whileHover="focus"

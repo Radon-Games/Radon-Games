@@ -21,7 +21,7 @@ export function GameCard({ game }: { game: Game }) {
           src={`/cdn${game.cover}?h=180&w=320`}
         />
         <div
-          class={`absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent via-black/50 to-black px-4 py-3 ${
+          class={`absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent to-bg-secondary px-4 py-3 ${
             hovered ? "opacity-100" : "opacity-0"
           } transition-all`}
         >

@@ -1,11 +1,13 @@
 import { Banner } from "../assets/Banner";
 import { GameRow } from "../components/GameRow";
 import games from "../games.json";
+import { getTheme } from "../util/theme";
 import { motion } from "framer-motion";
-import { PiMagnifyingGlassBold, PiQuestionBold } from "react-icons/pi";
+import { PiMagnifyingGlassBold, PiDiceFiveBold } from "react-icons/pi";
 
 export function Home() {
   const randomGame = games[Math.floor(Math.random() * games.length)];
+  const { bgSecondary, accentSecondary } = getTheme();
 
   return (
     <motion.main
@@ -24,12 +26,12 @@ export function Home() {
             href="/games"
             class="flex cursor-pointer items-center gap-2 rounded-lg bg-bg-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
             initial={{
-              boxShadow: `0px 0px 0px rgb(30 41 59)`
+              boxShadow: `0px 0px 0px ${bgSecondary}`
             }}
             variants={{
               focus: {
                 scale: 1.05,
-                boxShadow: "0px 0px 16px rgb(30 41 59)"
+                boxShadow: `0px 0px 16px ${bgSecondary}`
               }
             }}
             whileHover="focus"
@@ -42,18 +44,18 @@ export function Home() {
             href={`/game/${randomGame.id}`}
             class="flex cursor-pointer items-center gap-2 rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
             initial={{
-              boxShadow: `0px 0px 0px rgb(55 48 163)`
+              boxShadow: `0px 0px 0px ${accentSecondary}`
             }}
             variants={{
               focus: {
                 scale: 1.05,
-                boxShadow: "0px 0px 16px rgb(55 48 163)"
+                boxShadow: `0px 0px 16px ${accentSecondary}`
               }
             }}
             whileHover="focus"
             whileFocus="focus"
           >
-            <PiQuestionBold />
+            <PiDiceFiveBold />
             Pick One For Me
           </motion.a>
         </div>

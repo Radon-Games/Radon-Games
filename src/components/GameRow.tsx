@@ -26,7 +26,7 @@ export function GameRow(props: { games: Game[] }) {
         </div>
       </div>
       <div
-        class={`from-slate-900 absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l to-transparent text-lg ${
+        class={`absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l from-bg-primary to-transparent text-lg ${
           isEnd ? "hidden opacity-0" : "opactiy-100"
         } transition-all`}
       >
