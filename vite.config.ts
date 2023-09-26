@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     headers: {
       "Content-Security-Policy":
-        "default-src 'self' *.google-analytics.com pagead2.googlesyndication.com;style-src 'unsafe-inline';script-src 'self' 'unsafe-inline' *.googletagmanager.com pagead2.googlesyndication.com;"
+        "default-src 'self' *.google-analytics.com pagead2.googlesyndication.com;style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' *.googletagmanager.com pagead2.googlesyndication.com;"
     },
     proxy: {
       "/cdn": {

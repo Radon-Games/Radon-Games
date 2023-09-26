@@ -19,6 +19,7 @@ export function GameCard({ game }: { game: Game }) {
         <Image
           class="absolute left-0 top-0 h-full w-full transition-all group-hover:scale-105"
           src={`/cdn${game.cover}?h=180&w=320`}
+          alt={game.title}
         />
         <div
           class={`absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent to-bg-secondary px-4 py-3 ${

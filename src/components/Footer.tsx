@@ -18,19 +18,25 @@ export function Footer() {
         <div class="flex items-center gap-5">
           <a
             href="https://github.com/Radon-Games/Radon-Games"
+            target="_blank"
             class="transition-colors hover:text-accent-primary"
+            aria-label="GitHub"
           >
             <PiGithubLogoBold />
           </a>
           <a
             href="https://discord.gg/unblock"
+            target="_blank"
             class="transition-colors hover:text-accent-primary"
+            aria-label="Discord"
           >
             <PiDiscordLogoBold />
           </a>
           <a
             href="https://www.patreon.com/Radon_Games"
+            target="_blank"
             class="transition-colors hover:text-accent-primary"
+            aria-label="Patreon"
           >
             <PiPatreonLogoBold />
           </a>
@@ -38,21 +44,50 @@ export function Footer() {
             href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
             target="_blank"
             class="flex items-center gap-2 hover:text-accent-primary"
+            aria-label="Changelog"
           >
             <PiGitBranchBold /> v{version}
           </a>
         </div>
       </div>
-      <div class="flex flex-1 flex-wrap items-center justify-end gap-5">
-        <a class="hover:text-accent-primary">Home</a>
-        <a class="hover:text-accent-primary">Games</a>
-        <a class="hover:text-accent-primary">Search</a>
-        <a class="hover:text-accent-primary">Login</a>
-        <a class="hover:text-accent-primary">Register</a>
-        <a class="hover:text-accent-primary">Profile</a>
-        <a class="hover:text-accent-primary">Preferences</a>
-        <a class="hover:text-accent-primary">Shop</a>
-        <a class="hover:text-accent-primary">Privacy</a>
+      <div class="flex gap-12">
+        <div class="flex flex-col gap-2">
+          <a href="/" class="hover:text-accent-primary">
+            Home
+          </a>
+          <a href="/games" class="hover:text-accent-primary">
+            Games
+          </a>
+          <a href="/search" class="hover:text-accent-primary">
+            Search
+          </a>
+          <a href="/privacy" class="hover:text-accent-primary">
+            Privacy
+          </a>
+        </div>
+        <div class="flex flex-col gap-2">
+          <a href="/login" class="hover:text-accent-primary">
+            Login
+          </a>
+          <a href="/register" class="hover:text-accent-primary">
+            Register
+          </a>
+          <a href="/reset" class="hover:text-accent-primary">
+            Reset
+          </a>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <a href="/profile" class="hover:text-accent-primary">
+            Profile
+          </a>
+          <a href="/shop" class="hover:text-accent-primary">
+            Shop
+          </a>
+          <a href="/preferences" class="hover:text-accent-primary">
+            Preferences
+          </a>
+        </div>
       </div>
     </footer>
   );

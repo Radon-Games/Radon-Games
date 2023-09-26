@@ -21,13 +21,19 @@ const item = {
   }
 };
 
-function Link(props: { href: string; icon: IconType; text?: string }) {
+function Link(props: {
+  href: string;
+  icon: IconType;
+  text?: string;
+  label?: string;
+}) {
   return (
     <motion.a
       href={props.href}
       target={/^(https?:)?\/\//.test(props.href) ? "_blank" : "_self"}
       variants={item}
       class="flex items-center gap-2 transition-colors hover:text-accent-primary"
+      aria-label={props.label ?? props.text}
     >
       <props.icon />
       {props.text ?? ""}
@@ -55,7 +61,7 @@ export function Header() {
       animate="visible"
     >
       <div class="flex gap-5">
-        <motion.a href="/" variants={item}>
+        <motion.a href="/" variants={item} aria-label="Home">
           <Transparent class="h-6 w-auto" alt="Home" />
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
@@ -68,7 +74,7 @@ export function Header() {
           <motion.input
             name="q"
             variants={item}
-            class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-base text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
+            class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
             placeholder="Search"
             type="text"
             autofill="off"
@@ -77,8 +83,13 @@ export function Header() {
         <Link
           href="https://github.com/Radon-Games/Radon-Games"
           icon={PiGithubLogoBold}
+          label="GitHub"
         />
-        <Link href="https://discord.gg/unblock" icon={PiDiscordLogoBold} />
+        <Link
+          href="https://discord.gg/unblock"
+          icon={PiDiscordLogoBold}
+          label="Discord"
+        />
       </div>
     </motion.nav>
   );
