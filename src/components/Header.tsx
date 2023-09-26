@@ -1,5 +1,4 @@
-import {Transparent} from "../assets/Transparent";
-import { Image } from "./Image";
+import { Transparent } from "../assets/Transparent";
 import { motion } from "framer-motion";
 import { IconType } from "react-icons/lib";
 import {
@@ -7,7 +6,8 @@ import {
   PiHouseBold,
   PiUserBold,
   PiGithubLogoBold,
-  PiDiscordLogoBold
+  PiDiscordLogoBold,
+  PiShoppingBagOpenBold
 } from "react-icons/pi";
 
 const item = {
@@ -38,7 +38,7 @@ function Link(props: { href: string; icon: IconType; text?: string }) {
 export function Header() {
   return (
     <motion.nav
-      class="border-text-secondary flex h-16 w-full items-center justify-between border-b-2 px-8 shadow-lg md:px-16 lg:px-32 xl:px-48"
+      class="flex h-16 w-full items-center justify-between border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg md:px-16 lg:px-32 xl:px-48"
       variants={{
         hidden: { opacity: 1, y: -64 },
         visible: {
@@ -60,9 +60,21 @@ export function Header() {
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
         <Link href="/games" icon={PiGameControllerBold} text="Games" />
+        <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
         <Link href="/profile" icon={PiUserBold} text="Profile" />
       </div>
       <div class="flex gap-5">
+        <form method="GET" action="/search">
+          <motion.input
+            name="q"
+            variants={item}
+            id="username"
+            class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-base text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
+            placeholder="Search"
+            type="text"
+            autofill="off"
+          />
+        </form>
         <Link
           href="https://github.com/Radon-Games/Radon-Games"
           icon={PiGithubLogoBold}
