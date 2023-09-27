@@ -1,7 +1,10 @@
 {
   "name": "radon-games",
+  "description": "An open-source unblocked games website built with simplicity in mind.",
   "version": "4.0.0",
+  "author": "Cohen Erickson <cohen@radon.games>",
   "type": "module",
+  "license": "GNU v2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
