@@ -153,6 +153,10 @@ export function Privacy() {
         You can access and update your account information by logging into your
         account settings.
       </li>
+      <li class="font-normal tracking-wide">
+        You can delete all data associated with your account through the
+        account profile.
+      </li>
 
       <h3 class="mt-2 text-lg" id="5.b">
         b. Cookies:
