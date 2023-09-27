@@ -8,10 +8,24 @@ export function Login() {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
-  function handleLogin() {
+  function handleLogin(event?: SubmitEvent) {
+    if (event) event.preventDefault();
     if (isLoading) return;
     setIsLoading(true);
-    setErrorMessage("A network error occurred. Please try again later.");
+
+    const username = document.querySelector<HTMLInputElement>("#username")!;
+    const password = document.querySelector<HTMLInputElement>("#password")!;
+
+    if (!username.value || !password.value) {
+      setErrorMessage("Please fill out all fields.");
+      setIsLoading(false);
+      return;
+    }
+
+    setTimeout(() => {
+      setErrorMessage("Invalid username or password.");
+      setIsLoading(false);
+    }, 1000);
   }
 
   return (
@@ -26,7 +40,7 @@ export function Login() {
           <Transparent class="h-8" />
           <h1 class="text-center text-2xl">Sign in to your account</h1>
         </div>
-        <div class="flex flex-col gap-2">
+        <form class="flex flex-col gap-2" onSubmit={handleLogin as any}>
           <div class="flex flex-col gap-2">
             <label for="username">Username or Email</label>
             <input
@@ -63,7 +77,7 @@ export function Login() {
             onClick={handleLogin}
             loading={isLoading}
           />
-        </div>
+        </form>
 
         <div class="mt-2 flex items-center justify-center">
           <a

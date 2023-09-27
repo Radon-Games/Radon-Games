@@ -10,7 +10,7 @@ import {
 export function Footer() {
   return (
     <footer class="flex justify-between gap-8 border-t-2 border-text-secondary px-8 py-16 md:px-16 lg:px-32 xl:px-48">
-      <div class="flex flex-1 flex-col items-start gap-5 justify-center">
+      <div class="flex flex-1 flex-col items-start justify-center gap-5">
         <Banner class="h-6" />
         <p class="text-xs">
           An open-source unblocked games website built with simplicity in mind.
@@ -69,8 +69,8 @@ export function Footer() {
           <a href="/login" class="hover:text-accent-primary">
             Login
           </a>
-          <a href="/reset" class="hover:text-accent-primary">
-            Reset
+          <a href="/register" class="hover:text-accent-primary">
+            Register
           </a>
           <a href="/profile" class="hover:text-accent-primary">
             Profile
@@ -81,8 +81,8 @@ export function Footer() {
         </div>
 
         <div class="flex flex-col gap-2">
-          <a href="/register" class="hover:text-accent-primary">
-            Register
+          <a href="/reset" class="hover:text-accent-primary">
+            Reset
           </a>
           <a href="/privacy" class="hover:text-accent-primary">
             Privacy

@@ -9,11 +9,61 @@ export function Register() {
   const [verficationSent, setVerificationSent] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
-  function handleRegister() {
+  function handleRegister(event?: SubmitEvent) {
+    if (event) event.preventDefault();
     if (isLoading) return;
     setIsLoading(true);
+
+    const email = document.querySelector<HTMLInputElement>("#email")!;
+    const username = document.querySelector<HTMLInputElement>("#username")!;
+    const password = document.querySelector<HTMLInputElement>("#password")!;
+    const confPassword =
+      document.querySelector<HTMLInputElement>("#confPassword")!;
+    const tosConfirm = document.querySelector<HTMLInputElement>("#tosConfirm")!;
+
+    if (
+      !/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-]+)(\.[a-zA-Z]{2,5}){1,2}$/.test(
+        email.value
+      )
+    ) {
+      setErrorMessage("Invalid email.");
+      setIsLoading(false);
+      return;
+    }
+
+    if (username.value.length < 3 || username.value.length > 16) {
+      setErrorMessage("Username must be between 3 and 16 characters.");
+      setIsLoading(false);
+      return;
+    }
+
+    if (
+      !/(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*()_\-+=]).{8,}/.test(password.value)
+    ) {
+      setErrorMessage(
+        "Password must be at least 8 characters and contain at least one uppercase letter, number, and symbol."
+      );
+      setIsLoading(false);
+      return;
+    }
+
+    if (!password.value || password.value !== confPassword.value) {
+      setErrorMessage("Passwords do not match.");
+      setIsLoading(false);
+      return;
+    }
+
+    if (!tosConfirm.checked) {
+      setErrorMessage(
+        "You must agree to the Terms of Service and Privacy Policy."
+      );
+      setIsLoading(false);
+      return;
+    }
+
     setTimeout(() => {
-      setVerificationSent(true);
+      setErrorMessage("An unexpected error occurred.");
+      setIsLoading(false);
     }, 1000);
   }
 
@@ -39,7 +89,7 @@ export function Register() {
           <Transparent class="h-8" />
           <h1 class="text-center text-2xl">Create an account</h1>
         </div>
-        <div class="flex flex-col gap-2">
+        <form class="flex flex-col gap-2" onSubmit={handleRegister as any}>
           <div class="flex flex-col gap-2">
             <label for="email">Email</label>
             <input
@@ -93,9 +143,19 @@ export function Register() {
             />
             <label class="checkbox" for="tosConfirm"></label>
             <label class="text-sm" for="tosConfirm">
-              I agree with the{" "}
-              <a class="underline transition-colors hover:text-accent-primary">
+              I agree to the{" "}
+              <a
+                href="/terms"
+                class="underline transition-colors hover:text-accent-primary"
+              >
                 Terms of Service
+              </a>{" "}
+              and{" "}
+              <a
+                href="/privacy"
+                class="underline transition-colors hover:text-accent-primary"
+              >
+                Privacy Policy
               </a>
             </label>
           </div>
@@ -106,7 +166,7 @@ export function Register() {
             onClick={handleRegister}
             loading={isLoading}
           />
-        </div>
+        </form>
 
         <div class="mt-2 flex items-center justify-center">
           <a
