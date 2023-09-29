@@ -10,7 +10,9 @@ interface Game {
 }
 
 interface ThemeCategory {
+  /** Display name of category */
   name: string;
+  /** Category ID, used to categorize themes */
   id: string;
 }
 
