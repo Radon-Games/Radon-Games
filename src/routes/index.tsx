@@ -1,6 +1,6 @@
 import { Banner } from "../assets/Banner";
 import { GameRow } from "../components/GameRow";
-import games from "../games.json";
+import { games } from "../util/games";
 import { getTheme } from "../util/theme";
 import { motion } from "framer-motion";
 import { PiMagnifyingGlassBold, PiDiceFiveBold } from "react-icons/pi";
@@ -68,7 +68,7 @@ export function Home() {
 
       <section class="mb-5">
         <h3 class="mb-2 text-2xl font-bold tracking-wide">Featured</h3>
-        <GameRow games={[games[1], games[2], games[3], games[4]]} />
+        <GameRow games={[games[1], games[2], games[3], games[4]] as Game[]} />
       </section>
 
       <section class="mb-5">

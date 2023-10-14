@@ -1,5 +1,5 @@
 import { GameList } from "../components/GameList";
-import games from "../games.json";
+import { games } from "../util/games";
 import { motion } from "framer-motion";
 
 export function Games() {

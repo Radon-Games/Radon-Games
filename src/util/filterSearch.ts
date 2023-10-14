@@ -1,4 +1,4 @@
-import games from "../games.json";
+import { games } from "./games";
 
 const SIMILARITY_THRESHOLD = 2;
 

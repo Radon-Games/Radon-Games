@@ -12,6 +12,14 @@ export default defineConfig({
         headers: {
           referer: "https://cdn.radon.games"
         }
+      },
+      "/api": {
+        target: "http://localhost:2000/",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+        headers: {
+          referer: "https://api.radon.games"
+        }
       }
     }
   }

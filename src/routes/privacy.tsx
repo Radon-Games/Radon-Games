@@ -154,8 +154,8 @@ export function Privacy() {
         account settings.
       </li>
       <li class="font-normal tracking-wide">
-        You can delete all data associated with your account through the
-        account profile.
+        You can delete all data associated with your account through the account
+        profile.
       </li>
 
       <h3 class="mt-2 text-lg" id="5.b">

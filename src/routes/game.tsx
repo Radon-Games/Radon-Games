@@ -1,4 +1,4 @@
-import games from "../games.json";
+import { games } from "../util/games";
 import { NotFound } from "./404";
 import { motion } from "framer-motion";
 import { useState } from "preact/hooks";
@@ -14,7 +14,6 @@ export function Game(props: { id: string }) {
   const [fullscreen, setFullscreen] = useState(false);
   const [liked, setLiked] = useState(false);
   const [disliked, setDisliked] = useState(false);
-
 
   if (!game) {
     return <NotFound />;

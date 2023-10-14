@@ -1,7 +1,7 @@
-import games from "../games.json";
 import { GameList } from "../components/GameList";
-import { motion } from "framer-motion";
+import games from "../games.json";
 import { filter } from "../util/filterSearch";
+import { motion } from "framer-motion";
 
 export function Search() {
   const params = new URLSearchParams(window.location.search);
