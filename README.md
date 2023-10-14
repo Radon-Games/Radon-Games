@@ -11,7 +11,7 @@ Radon Games has a selection of over 300 games that are completely free to play! 
 ```bash
 git clone https://github.com/Radon-Games/Radon-Games.git
 cd Radon-Games
-npm ci --force
-npm run build
-npm run preview
+pnpm install
+pnpm run build
+pnpm run preview
 ```
