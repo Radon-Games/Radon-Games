@@ -1326,7 +1326,8 @@
     "cover": "/images/earthbound.png",
     "id": "earthbound",
     "tags": ["roleplay"],
-    "type": "snes",
+    "type": "emulator",
+    "emulator": "snes",
     "source": "/emulator/snes/earthbound.smc"
   },
   {
@@ -2416,7 +2417,8 @@
     "cover": "/images/super-mario-bros.png",
     "id": "super-mario-bros",
     "tags": [],
-    "type": "nes",
+    "type": "emulator",
+    "emulator": "nes",
     "source": "/emulator/nes/smb.nes"
   },
   {
@@ -2576,7 +2578,8 @@
     "cover": "/images/mario-cart-64.png",
     "id": "mario-cart-64",
     "tags": [],
-    "type": "n64",
+    "type": "emulator",
+    "emulator": "n64",
     "source": "/emulator/n64/mariokart64.z64"
   },
   {
@@ -2586,7 +2589,8 @@
     "cover": "/images/pokemon-blue.png",
     "id": "pokemon-blue",
     "tags": [],
-    "type": "gb",
+    "type": "emulator",
+    "emulator": "gb",
     "source": "/emulator/gb/pokemon-blue.gb"
   },
   {
@@ -2596,7 +2600,8 @@
     "cover": "/images/pokemon-crystal.png",
     "id": "pokemon-crystal",
     "tags": [],
-    "type": "gb",
+    "type": "emulator",
+    "emulator": "gb",
     "source": "/emulator/gb/pokemon-crystal.gbc"
   },
   {
@@ -2606,7 +2611,8 @@
     "cover": "/images/pokemon-gold.png",
     "id": "pokemon-gold",
     "tags": [],
-    "type": "gb",
+    "type": "emulator",
+    "emulator": "gb",
     "source": "/emulator/gb/pokemon-gold.gbc"
   },
   {
