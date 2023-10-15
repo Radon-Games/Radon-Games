@@ -23,7 +23,7 @@ export function GameCard({ game }: { game: Game }) {
         />
         <div
           class={`absolute inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent to-bg-secondary px-4 py-3 ${
-            hovered ? "opacity-100" : "opacity-0"
+            hovered ? "opacity-100" : "opacity-100 md:opacity-0"
           } transition-all`}
         >
           <p class="text-lg font-semibold tracking-wide">{game.title}</p>

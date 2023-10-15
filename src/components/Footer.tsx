@@ -9,7 +9,7 @@ import {
 
 export function Footer() {
   return (
-    <footer class="flex justify-between gap-8 border-t-2 border-text-secondary px-8 py-16 md:px-16 lg:px-32 xl:px-48">
+    <footer class="flex flex-col justify-between gap-8 border-t-2 border-text-secondary px-8 py-16 sm:flex-row md:px-16 lg:px-32 xl:px-48">
       <div class="flex flex-1 flex-col items-start justify-center gap-5">
         <Banner class="h-6" />
         <p class="text-xs">

@@ -9,7 +9,7 @@ export function Register() {
   const [verficationSent, setVerificationSent] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
-  function handleRegister(event?: SubmitEvent) {
+  async function handleRegister(event?: SubmitEvent) {
     if (event) event.preventDefault();
     if (isLoading) return;
     setIsLoading(true);
@@ -26,7 +26,7 @@ export function Register() {
         email.value
       )
     ) {
-      setErrorMessage("Invalid email.");
+      setErrorMessage("Invalid email address.");
       setIsLoading(false);
       return;
     }
@@ -61,10 +61,37 @@ export function Register() {
       return;
     }
 
-    setTimeout(() => {
+    try {
+      const request = await fetch("/api/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          email: email.value,
+          username: username.value,
+          password: password.value,
+          tos: tosConfirm.checked
+        })
+      });
+
+      const response = await request.json();
+
+      if (response.success) {
+        setVerificationSent(true);
+        setErrorMessage("");
+        setIsLoading(false);
+        return;
+      } else {
+        setErrorMessage(response.message);
+        setIsLoading(false);
+        return;
+      }
+    } catch {
       setErrorMessage("An unexpected error occurred.");
       setIsLoading(false);
-    }, 1000);
+      return;
+    }
   }
 
   return (

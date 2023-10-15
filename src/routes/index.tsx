@@ -17,14 +17,14 @@ export function Home() {
       class="px-8 md:px-16 lg:px-32 xl:px-48"
     >
       <section class="my-32 flex w-full flex-col items-center justify-center gap-5">
-        <Banner class="h-14" />
-        <p>
+        <Banner class="h-10 sm:h-14" />
+        <p class="text-center">
           An open-source unblocked games website built with simplicity in mind.
         </p>
         <div class="flex gap-5">
           <motion.a
             href="/games"
-            class="flex cursor-pointer items-center gap-2 rounded-lg bg-bg-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
+            class="flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-lg bg-bg-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
             initial={{
               boxShadow: `0px 0px 0px ${bgSecondary}`
             }}
@@ -42,7 +42,7 @@ export function Home() {
           </motion.a>
           <motion.a
             href={`/game/${randomGame.id}`}
-            class="flex cursor-pointer items-center gap-2 rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
+            class="flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg focus:outline-0"
             initial={{
               boxShadow: `0px 0px 0px ${accentSecondary}`
             }}

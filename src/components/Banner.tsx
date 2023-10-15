@@ -4,7 +4,7 @@ import { PiXBold } from "react-icons/pi";
 export function Banner(props: { message: string; onClose: () => void }) {
   return (
     <motion.div
-      class="fixed bottom-0 flex h-8 w-full bg-accent-secondary px-2"
+      class="fixed bottom-0 flex w-full bg-accent-secondary px-2 py-2"
       initial={{
         y: 32
       }}

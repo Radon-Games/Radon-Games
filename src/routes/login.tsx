@@ -8,7 +8,7 @@ export function Login() {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
-  function handleLogin(event?: SubmitEvent) {
+  async function handleLogin(event?: SubmitEvent) {
     if (event) event.preventDefault();
     if (isLoading) return;
     setIsLoading(true);
@@ -22,10 +22,30 @@ export function Login() {
       return;
     }
 
-    setTimeout(() => {
-      setErrorMessage("Invalid username or password.");
+    try {
+      const request = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          username: username.value,
+          password: btoa(password.value)
+        })
+      });
+
+      const response = await request.json();
+
+      if (response.success) {
+        window.location.href = "/profile";
+      } else {
+        setErrorMessage(response.message);
+        setIsLoading(false);
+      }
+    } catch {
+      setErrorMessage("An unknown error occurred.");
       setIsLoading(false);
-    }, 1000);
+    }
   }
 
   return (

@@ -2,6 +2,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import "./index.css";
 import { NotFound } from "./routes/404";
+import { Activate } from "./routes/activate";
 import { Game } from "./routes/game";
 import { Games } from "./routes/games";
 import { Home } from "./routes/index";
@@ -40,6 +41,7 @@ render(
         {/* User System */}
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/activate" component={Activate} />
         <Route path="/reset" component={Reset} />
         <Route path="/profile" component={Profile} />
         <Route path="/user/:username" component={User} />
