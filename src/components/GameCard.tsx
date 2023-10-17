@@ -18,7 +18,7 @@ export function GameCard({ game }: { game: Game }) {
         <div class="absolute h-full w-full animate-pulse bg-bg-secondary"></div>
         <Image
           class="absolute left-0 top-0 h-full w-full transition-all group-hover:scale-105"
-          src={`/cdn${game.cover}?h=180&w=320`}
+          src={`/cdn/images/${game.id}.png?h=180&w=320`}
           alt={game.title}
         />
         <div
@@ -31,7 +31,7 @@ export function GameCard({ game }: { game: Game }) {
             {game.tags.map((tag) => {
               return (
                 <a
-                  class="inset-0 rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
+                  class="inset-0 whitespace-nowrap rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
                   href={`/tag/${tag}`}
                 >
                   {tag}

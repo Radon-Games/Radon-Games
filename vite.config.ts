@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/cdn": {
-        target: "https://cdn.radon.games/",
+        target: "http://localhost:1111/",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/cdn/, ""),
         headers: {

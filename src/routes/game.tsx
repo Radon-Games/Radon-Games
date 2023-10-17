@@ -6,13 +6,18 @@ import {
   PiCornersOutBold,
   PiCornersInBold,
   PiThumbsUpBold,
-  PiThumbsDownBold
+  PiThumbsDownBold,
+  PiThumbsUpFill,
+  PiThumbsDownFill,
+  PiHeartFill,
+  PiHeartBold
 } from "react-icons/pi";
 
 export function Game(props: { id: string }) {
   const game = games.find((game) => game.id === props.id);
   const [fullscreen, setFullscreen] = useState(false);
-  const [liked, setLiked] = useState(false);
+  const [favorited, setFavorited] = useState(true);
+  const [liked, setLiked] = useState(true);
   const [disliked, setDisliked] = useState(false);
 
   if (!game) {
@@ -26,6 +31,10 @@ export function Game(props: { id: string }) {
     }
   });
 
+  window.addEventListener("fullscreenchange", () => {
+    setFullscreen(document.fullscreenElement !== null);
+  });
+
   return (
     <motion.main
       initial={{ opacity: 0, y: 10 }}
@@ -36,19 +45,21 @@ export function Game(props: { id: string }) {
       <div class="my-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
         <iframe
           id="game"
+          scrolling="no"
           class="aspect-video w-full"
-          src={`/cdn/embed/${game.type}?id=${game.id}${
-            game.type === "emulator" && `&emu=${game.emulator}`
+          src={`/cdn/${game.type}.html?id=${game.id}${
+            game.type === "emulator" ? `&emu=${game.emulator}` : ""
           }`}
         ></iframe>
         <div class="flex justify-between gap-2 p-5 pb-0">
-          <div>
-            <h1 class="text-2xl font-bold">{game.title}</h1>
-            <div>
+          <div class="flex flex-col">
+            <p class="text-sm">{game.author}</p>
+            <h1 class="mb-1 text-2xl font-bold">{game.title}</h1>
+            <div class="flex gap-2">
               {game.tags.map((tag) => {
                 return (
                   <a
-                    class="inset-0 rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
+                    class="inset-0 whitespace-nowrap rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
                     href={`/tag/${tag}`}
                   >
                     {tag}
@@ -57,11 +68,26 @@ export function Game(props: { id: string }) {
               })}
             </div>
           </div>
-          <div class="text-2xl">
-            {fullscreen ? <PiCornersInBold /> : <PiCornersOutBold />}
+          <div class="flex gap-2 text-2xl">
+            <span>{liked ? <PiThumbsUpFill /> : <PiThumbsUpBold />}</span>
+            <span>
+              {disliked ? <PiThumbsDownFill /> : <PiThumbsDownBold />}
+            </span>
+            <span>{favorited ? <PiHeartFill /> : <PiHeartBold />}</span>
+            <span
+              onClick={() => {
+                if (document.fullscreenElement) {
+                  document.exitFullscreen();
+                } else {
+                  document.getElementById("game")!.requestFullscreen();
+                }
+              }}
+            >
+              {fullscreen ? <PiCornersInBold /> : <PiCornersOutBold />}
+            </span>
           </div>
         </div>
-        <p class="p-5">{game.description}</p>
+        <p class="mb-2 px-5 py-3">{game.description}</p>
       </div>
     </motion.main>
   );
