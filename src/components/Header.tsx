@@ -3,11 +3,9 @@ import { motion } from "framer-motion";
 import { IconType } from "react-icons/lib";
 import {
   PiGameControllerBold,
-  PiHouseBold,
-  PiUserBold,
+  PiHouseBold, // PiUserBold,
   PiGithubLogoBold,
-  PiDiscordLogoBold,
-  PiShoppingBagOpenBold
+  PiDiscordLogoBold // PiShoppingBagOpenBold
 } from "react-icons/pi";
 
 const item = {
@@ -44,7 +42,7 @@ function Link(props: {
 export function Header() {
   return (
     <motion.nav
-      class="flex h-16 w-full items-center justify-between border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg md:px-16 lg:px-32 xl:px-48"
+      class="flex h-16 w-full items-center justify-center border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg sm:justify-between md:px-16 lg:px-32 xl:px-48"
       variants={{
         hidden: { opacity: 1, y: -64 },
         visible: {
@@ -66,10 +64,10 @@ export function Header() {
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
         <Link href="/games" icon={PiGameControllerBold} text="Games" />
-        <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
-        <Link href="/profile" icon={PiUserBold} text="Profile" />
+        {/* <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
+        <Link href="/profile" icon={PiUserBold} text="Profile" /> */}
       </div>
-      <div class="flex gap-5">
+      <div class="hidden gap-5 sm:flex">
         <form method="GET" action="/search">
           <motion.input
             name="q"

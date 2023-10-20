@@ -61,28 +61,29 @@ export function Footer() {
           <a href="/search" class="hover:text-accent-primary">
             Search
           </a>
-          <a href="/preferences" class="hover:text-accent-primary">
-            Preferences
-          </a>
         </div>
-        <div class="flex flex-col gap-2">
+
+        {/* <div class="flex flex-col gap-2">
           <a href="/login" class="hover:text-accent-primary">
             Login
           </a>
           <a href="/register" class="hover:text-accent-primary">
-            Register
+          Register
           </a>
           <a href="/profile" class="hover:text-accent-primary">
-            Profile
+          Profile
           </a>
           <a href="/shop" class="hover:text-accent-primary">
             Shop
           </a>
-        </div>
+        </div> */}
 
         <div class="flex flex-col gap-2">
-          <a href="/reset" class="hover:text-accent-primary">
+          {/* <a href="/reset" class="hover:text-accent-primary">
             Reset
+          </a> */}
+          <a href="/preferences" class="hover:text-accent-primary">
+            Preferences
           </a>
           <a href="/privacy" class="hover:text-accent-primary">
             Privacy

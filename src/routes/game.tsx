@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 import { useState } from "preact/hooks";
 import {
   PiCornersOutBold,
-  PiCornersInBold,
-  PiThumbsUpBold,
-  PiThumbsDownBold,
-  PiThumbsUpFill,
-  PiThumbsDownFill,
+  PiCornersInBold, // PiThumbsUpBold,
+  // PiThumbsDownBold,
+  // PiThumbsUpFill,
+  // PiThumbsDownFill,
   PiHeartFill,
   PiHeartBold
 } from "react-icons/pi";
@@ -16,12 +15,19 @@ import {
 export function Game(props: { id: string }) {
   const game = games.find((game) => game.id === props.id);
   const [fullscreen, setFullscreen] = useState(false);
-  const [favorited, setFavorited] = useState(true);
-  const [liked, setLiked] = useState(true);
-  const [disliked, setDisliked] = useState(false);
+  const [favorited, setFavorited] = useState(false);
+  // const [liked, setLiked] = useState(true);
+  // const [disliked, setDisliked] = useState(false);
 
   if (!game) {
     return <NotFound />;
+  }
+
+  const favorites = (localStorage.getItem("favorites") ?? "")
+    .split(",")
+    .filter((id) => id !== "");
+  if (favorites.includes(game.id)) {
+    setFavorited(true);
   }
 
   window.addEventListener("keypress", (e) => {
@@ -69,11 +75,30 @@ export function Game(props: { id: string }) {
             </div>
           </div>
           <div class="flex gap-2 text-2xl">
-            <span>{liked ? <PiThumbsUpFill /> : <PiThumbsUpBold />}</span>
+            {/* <span>{liked ? <PiThumbsUpFill /> : <PiThumbsUpBold />}</span>
             <span>
               {disliked ? <PiThumbsDownFill /> : <PiThumbsDownBold />}
+            </span> */}
+            <span
+              onClick={() => {
+                const favorites = (localStorage.getItem("favorites") ?? "")
+                  .split(",")
+                  .filter((id) => id !== "");
+
+                if (favorited) {
+                  favorites.splice(favorites.indexOf(game.id), 1);
+                  localStorage.setItem("favorites", favorites.join(","));
+                  setFavorited(false);
+                } else {
+                  favorites.push(game.id);
+                  localStorage.setItem("favorites", favorites.join(","));
+                  setFavorited(true);
+                }
+              }}
+              class={favorited ? "text-accent-primary" : ""}
+            >
+              {favorited ? <PiHeartFill /> : <PiHeartBold />}
             </span>
-            <span>{favorited ? <PiHeartFill /> : <PiHeartBold />}</span>
             <span
               onClick={() => {
                 if (document.fullscreenElement) {

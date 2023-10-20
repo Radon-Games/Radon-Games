@@ -9,6 +9,25 @@ export function Home() {
   const randomGame = games[Math.floor(Math.random() * games.length)];
   const { bgSecondary, accentSecondary } = getTheme();
 
+  const favorites = (localStorage.getItem("favorites") ?? "")
+    .split(",")
+    .filter((id) => id !== "")
+    .map((x) => games.find((y) => y.id === x)!)
+    .filter((x) => x !== undefined);
+
+  const featuredIds = [
+    "slope",
+    "retro-bowl",
+    "tetris",
+    "friendly-fire",
+    "moto-x3m-pool-party",
+    "economical"
+  ];
+
+  const featured = featuredIds
+    .map((x) => games.find((y) => y.id === x)!)
+    .filter((x) => x !== undefined);
+
   return (
     <motion.main
       initial={{ opacity: 0, y: 10 }}
@@ -63,15 +82,22 @@ export function Home() {
 
       <section class="mb-5">
         <h3 class="mb-2 text-2xl font-bold tracking-wide">Favorites</h3>
-        <GameRow games={[games[42]]} />
+        {favorites.length > 0 ? (
+          <GameRow games={favorites} />
+        ) : (
+          <p>
+            Click the heart next to the full screen button in order to add a
+            game to your favorites.
+          </p>
+        )}
       </section>
 
       <section class="mb-5">
         <h3 class="mb-2 text-2xl font-bold tracking-wide">Featured</h3>
-        <GameRow games={[games[1], games[2], games[3], games[4]] as Game[]} />
+        <GameRow games={featured} />
       </section>
 
-      <section class="mb-5">
+      {/* <section class="mb-5">
         <h3 class="mb-2 text-2xl font-bold tracking-wide">Popular</h3>
         <GameRow
           games={[
@@ -84,7 +110,7 @@ export function Home() {
             games[11]
           ]}
         />
-      </section>
+      </section> */}
     </motion.main>
   );
 }
