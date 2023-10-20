@@ -17,7 +17,6 @@ export function Home() {
 
   const featuredIds = [
     "slope",
-    "retro-bowl",
     "tetris",
     "friendly-fire",
     "moto-x3m-pool-party",
@@ -92,7 +91,7 @@ export function Home() {
         )}
       </section>
 
-      <section class="mb-5">
+      <section class="mb-10">
         <h3 class="mb-2 text-2xl font-bold tracking-wide">Featured</h3>
         <GameRow games={featured} />
       </section>

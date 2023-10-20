@@ -22,6 +22,11 @@ import { AnimatePresence } from "framer-motion";
 import { render } from "preact";
 import { Router, Route } from "preact-router";
 
+const title = localStorage.getItem("title")?.trim() || "Radon Games";
+document.title = title;
+const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
+document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
+
 render(
   <>
     <style dangerouslySetInnerHTML={{ __html: getStyle() }}></style>

@@ -5,7 +5,8 @@ import {
   PiGameControllerBold,
   PiHouseBold, // PiUserBold,
   PiGithubLogoBold,
-  PiDiscordLogoBold // PiShoppingBagOpenBold
+  PiDiscordLogoBold, // PiShoppingBagOpenBold
+  PiGearBold
 } from "react-icons/pi";
 
 const item = {
@@ -64,6 +65,7 @@ export function Header() {
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
         <Link href="/games" icon={PiGameControllerBold} text="Games" />
+        <Link href="/preferences" icon={PiGearBold} text="Preferences" />
         {/* <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
         <Link href="/profile" icon={PiUserBold} text="Profile" /> */}
       </div>

@@ -4,6 +4,9 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [million.vite({ mode: "preact" })],
   server: {
+    headers: {
+      "X-Frame-Options": "SAMEORIGIN"
+    },
     proxy: {
       "/cdn": {
         target: "http://localhost:1111/",
