@@ -20,7 +20,7 @@ export function Preferences() {
                 .filter((x) => x.category === category.id)
                 .map((theme) => (
                   <div
-                    class="flex cursor-pointer items-center justify-center rounded-md p-2 text-sm"
+                    class="flex cursor-pointer items-center justify-center rounded-md p-2 text-sm transition-all hover:scale-[1.01]"
                     style={`background-color: ${theme.bgPrimary}; color: ${theme.textPrimary}`}
                     onClick={() => {
                       localStorage.setItem("theme", theme.id);

@@ -9,6 +9,7 @@ import { Home } from "./routes/index";
 // import { Login } from "./routes/login";
 import { Preferences } from "./routes/preferences";
 import { Privacy } from "./routes/privacy";
+import { Proxy } from "./routes/proxy";
 // import { Profile } from "./routes/profile";
 // import { Register } from "./routes/register";
 // import { Reset } from "./routes/reset";
@@ -27,6 +28,12 @@ document.title = title;
 const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
 document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
 
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/uv/sw.js", {
+    scope: "/uv/"
+  });
+}
+
 render(
   <>
     <style dangerouslySetInnerHTML={{ __html: getStyle() }}></style>
@@ -39,12 +46,12 @@ render(
         <Route path="/tag/:id" component={Tag} />
         <Route path="/games" component={Games} />
         <Route path="/search" component={Search} />
+        <Route path="/proxy" component={Proxy} />
         <Route path="/preferences" component={Preferences} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/terms" component={Terms} />
 
         {/* User System */}
-        {/* Disabled temporarily due to legal concerns */}
         {/* <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/activate" component={Activate} />

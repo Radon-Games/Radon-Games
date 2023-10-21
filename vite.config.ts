@@ -1,8 +1,24 @@
+import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import million from "million/compiler";
 import { defineConfig } from "vite";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 export default defineConfig({
-  plugins: [million.vite({ mode: "preact" })],
+  plugins: [
+    viteStaticCopy({
+      targets: [
+        {
+          src: `${uvPath}/.`.replace(/\\/g, "/"),
+          dest: "uv"
+        },
+        {
+          src: "public/uv/uv.config.js",
+          dest: "uv"
+        }
+      ]
+    }),
+    million.vite({ mode: "preact" })
+  ],
   server: {
     headers: {
       "X-Frame-Options": "SAMEORIGIN"
