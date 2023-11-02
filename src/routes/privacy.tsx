@@ -1,109 +1,209 @@
-import { JSX } from "solid-js";
+import { motion } from "framer-motion";
 
-export default function Privacy(): JSX.Element {
+export function Privacy() {
   return (
-    <main>
-      <div class="py-10 px-8 sm:px-16 md:px-20 lg:px-32">
-        <h1 class="text-2xl">Privacy Policy</h1>
-        <br />
-        <p>
-          Your privacy is important to us. It is Radon Games' policy to respect
-          your privacy and comply with any applicable law and regulation
-          regarding any personal information we may collect about you, including
-          across our website,{" "}
-          <a target="_blank" href="https://radon.games/">
-            https://radon.games/
-          </a>
-          , and other sites we own and operate.
-        </p>
-        <br />
-        <p>
-          This policy is effective as of 27 June 2022 and was last updated on 27
-          June 2022.
-        </p>
-        <br />
-        <h1 class="text-2xl">Information We Collect</h1>
-        <br />
-        <p>
-          Information we collect includes both information you knowingly and
-          actively provide us when using or participating in any of our services
-          and promotions, and any information automatically sent by your devices
-          in the course of accessing our products and services.
-        </p>
-        <br />
-        <h1 class="text-xl">Log Data</h1>
-        <br />
-        <p>
-          When you visit our website, our servers may automatically log the
-          standard data provided by your web browser. It may include your
-          device's Internet Protocol (IP) address, your browser type and
-          version, the pages you visit, the time and date of your visit, the
-          time spent on each page, other details about your visit, and technical
-          details that occur in conjunction with any errors you may encounter.
-        </p>
-        <br />
-        <h1 class="text-xl">Collection and Use of Information</h1>
-        <br />
-        <p>
-          We may collect and use the information you provide us with as follows:
-        </p>
-        <br />
-        <ul class="pl-5 list-disc">
-          <li>
-            Contact us via email, social media, or on any similar technologies
-          </li>
-        </ul>
-        <br />
-        <h1 class="text-2xl">Children's Privacy</h1>
-        <br />
-        <p>
-          We do not aim any of our products or services directly at children
-          under the age of 13, and we do not knowingly collect personal
-          information about children under 13.
-        </p>
-        <br />
-        <h1 class="text-2xl">Use of Cookies</h1>
-        <br />
-        <p>
-          We use "cookies" to collect information about you and your activity
-          across our site. A cookie is a small piece of data that our website
-          stores on your computer, and accesses each time you visit, so we can
-          understand how you use our site. This helps us serve you content based
-          on preferences you have specified.
-        </p>
-        <br />
-        <h1 class="text-2xl">Limits of Our Policy</h1>
-        <br />
-        <p>
-          Our website may link to external sites that are not operated by us.
-          Please be aware that we have no control over the content and policies
-          of those sites, and cannot accept responsibility or liability for
-          their respective privacy practices.
-        </p>
-        <br />
-        <h1 class="text-2xl">Changes to This Policy</h1>
-        <br />
-        <p>
-          We reserve the right to change this privacy policy at any time and for
-          any reason. We will alert you about any changes by updating the date
-          of this notice. You should review this policy regularly. If you
-          continue to use our site after that date, you are agreeing to the
-          updated policy.
-        </p>
-        <br />
-        <h1 class="text-2xl">Contact Us</h1>
-        <br />
-        <p>
-          If you have any questions about this policy, please contact us at{" "}
-          <a
-            class="hover:underline"
-            target="_blank"
-            href="mailto:legal@radon.games"
-          >
-            legal@radon.games
-          </a>
-        </p>
-      </div>
-    </main>
+    <motion.main
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
+      class="flex flex-col gap-2 px-8 py-16 md:px-16 lg:px-32 xl:px-48"
+    >
+      <h1 class="text-2xl">Privacy Policy</h1>
+      <p class="font-normal tracking-wide">Last updated: September 26, 2023</p>
+      <p class="font-normal tracking-wide">
+        This Privacy Policy describes how Radon Games ("we," "us," or "our")
+        collects, uses, and discloses information, including personal
+        information, that you provide to us or that we collect when you visit
+        our website. By accessing or using our website, you consent to the
+        practices described in this Privacy Policy.
+      </p>
+
+      <h2 class="mt-8 text-xl" id="1">
+        1. Information We Collect
+      </h2>
+      <p class="font-normal tracking-wide">
+        We may collect various types of information, including but not limited
+        to:
+      </p>
+
+      <h3 class="mt-2 text-lg" id="1.a">
+        a. Information Provided by the User:
+      </h3>
+      <li class="font-normal tracking-wide">
+        Personal Information: We may collect your name, email address, username,
+        and passwords when you create an account or interact with our website's
+        features.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="1.b">
+        b. Usage Analytics:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We collect information about your usage of our website, including your
+        IP address, browser type, operating system, and pages visited. We use
+        cookies and similar technologies for this purpose.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="1.c">
+        c. Google Analytics and AdSense:
+      </h3>
+      <li class="font-normal tracking-wide">
+        Our website uses Google Analytics and Google AdSense, which may collect
+        data about your interactions with our website, including browsing
+        behavior and demographic information. This data is collected by Google
+        and is subject to Google's Privacy Policy. You can review Google's
+        privacy policy at{" "}
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          class="underline transition-all hover:text-accent-primary"
+        >
+          Google Privacy Policy
+        </a>
+        .
+      </li>
+
+      <h2 class="mt-8 text-xl" id="2">
+        2. How We Use Your Information
+      </h2>
+      <p class="font-normal tracking-wide">
+        We use the collected information for the following purposes:
+      </p>
+
+      <h3 class="mt-2 text-lg" id="2.a">
+        a. To Provide and Improve Our Services:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We use your information to operate, maintain, and improve our website,
+        services, and user experience.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="2.b">
+        b. Communication:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We may use your email address to communicate with you, provide updates
+        about our services, and respond to your inquiries.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="2.c">
+        c. Personalization:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We may use information, including usage analytics, to personalize your
+        experience and provide you with relevant content and advertisements.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="2.d">
+        d. Legal Compliance:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We may use your information as necessary to comply with legal
+        obligations or protect our rights and interests.
+      </li>
+
+      <h2 class="mt-8 text-xl" id="3">
+        3. Sharing of Information
+      </h2>
+      <p class="t font-normal tracking-wide">
+        We do not sell or rent your personal information to third parties.
+        However, we may share your information under the following
+        circumstances:
+      </p>
+
+      <h3 class="mt-2 text-lg" id="3.a">
+        a. Service Providers:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We may share your information with trusted service providers who assist
+        us in operating our website, such as hosting, analytics, and marketing
+        services.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="3.b">
+        b. Legal Requirements:
+      </h3>
+      <li class="font-normal tracking-wide">
+        We may disclose your information to comply with legal obligations,
+        respond to requests from law enforcement, or protect our rights and
+        interests.
+      </li>
+
+      <h2 class="mt-8 text-xl" id="4">
+        4. Security
+      </h2>
+      <p class="font-normal tracking-wide">
+        We take reasonable measures to protect your information from
+        unauthorized access, use, disclosure, or alteration. However, no method
+        of transmission over the internet or electronic storage is completely
+        secure, and we cannot guarantee its absolute security.
+      </p>
+
+      <h2 class="mt-8 text-xl" id="5">
+        5. Your Choices
+      </h2>
+      <p class="font-normal tracking-wide">
+        You can control certain aspects of your information:
+      </p>
+
+      <h3 class="mt-2 text-lg" id="5.a">
+        a. Account Information:
+      </h3>
+      <li class="font-normal tracking-wide">
+        You can access and update your account information by logging into your
+        account settings.
+      </li>
+      <li class="font-normal tracking-wide">
+        You can delete all data associated with your account through the account
+        profile.
+      </li>
+
+      <h3 class="mt-2 text-lg" id="5.b">
+        b. Cookies:
+      </h3>
+      <li class="font-normal tracking-wide">
+        You can manage your cookie preferences through your browser settings.
+      </li>
+
+      <h2 class="mt-8 text-xl" id="6">
+        6. Children's Privacy
+      </h2>
+      <p class="font-normal tracking-wide">
+        Our website is not directed to individuals under the age of 13, and we
+        do not knowingly collect personal information from children under 13
+        years of age.
+      </p>
+
+      <h3 class="mt-8 text-xl" id="7">
+        7. Changes to this Privacy Policy
+      </h3>
+      <p class="font-normal tracking-wide">
+        We may update this Privacy Policy to reflect changes in our practices or
+        for other operational, legal, or regulatory reasons. We will notify you
+        of any material changes by posting the updated Privacy Policy on our
+        website.
+      </p>
+
+      <h2 class="mt-8 text-xl" id="8">
+        8. Contact Us
+      </h2>
+      <p class="font-normal tracking-wide">
+        If you have any questions or concerns about our Privacy Policy or our
+        data practices, please contact us at{" "}
+        <a
+          href="mailto:contact@radon.games"
+          target="_blank"
+          class="underline transition-all hover:text-accent-primary"
+        >
+          contact@radon.games
+        </a>
+        .
+      </p>
+      <p class="font-normal tracking-wide">
+        By using our website, you agree to the terms of this Privacy Policy. If
+        you do not agree with this Privacy Policy, please do not use our
+        website.
+      </p>
+    </motion.main>
   );
 }

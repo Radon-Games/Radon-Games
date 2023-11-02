@@ -1,7 +1,0 @@
-run = ["bash", "./scripts/replit.sh"]
-
-[nix]
-channel = "stable-22_11"
-
-[packager]
-language = "bash"
