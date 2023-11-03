@@ -8,6 +8,10 @@ const categories = [
     id: "catppuccin"
   },
   {
+    name: "Proxies",
+    id: "proxies"
+  },
+  {
     name: "People",
     id: "people"
   }
@@ -90,6 +94,83 @@ const themes = [
     textSecondary: "#ccc5b9",
     accentPrimary: "#e65a45",
     accentSecondary: "#e65a45"
+  },
+  {
+    name: "Nebelung",
+    category: "people",
+    id: "nebelung",
+    bgPrimary: "#dabc9a",
+    bgSecondary: "#b18a5d",
+    textPrimary: "#190f05",
+    textSecondary: "#190f05",
+    accentPrimary: "#ff7100",
+    accentSecondary: "#ff7100"
+  },
+  {
+    name: "Cobalt",
+    category: "proxies",
+    id: "cobalt",
+    bgPrimary: "#030303",
+    bgSecondary: "#09283e",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#1c7ec4",
+    accentSecondary: "#09283e"
+  },
+  {
+    name: "Metallic",
+    category: "proxies",
+    id: "metallic",
+    bgPrimary: "#171717",
+    bgSecondary: "#004953",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#004953",
+    accentSecondary: "#004953"
+  },
+  {
+    name: "Tsunami",
+    category: "proxies",
+    id: "tsunami",
+    bgPrimary: "#121212",
+    bgSecondary: "#2493ff",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#2493ff",
+    accentSecondary: "#2493ff"
+  },
+  {
+    name: "3kh0",
+    category: "proxies",
+    id: "echo",
+    bgPrimary: "#1c1c1c",
+    bgSecondary: "#4caf50",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#4caf50",
+    accentSecondary: "#4caf50"
+  },
+  {
+    name: "Molten",
+    category: "default",
+    id: "molten",
+    bgPrimary: "#030303",
+    bgSecondary: "#ff3d3d",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#ff6868",
+    accentSecondary: "#ff6868"
+  },
+  {
+    name: "Pod",
+    category: "default",
+    id: "pod",
+    bgPrimary: "#161616",
+    bgSecondary: "#ffb703",
+    textPrimary: "white",
+    textSecondary: "white",
+    accentPrimary: "#ffb703",
+    accentSecondary: "#ffb703"
   }
 ] as Theme[];
 
