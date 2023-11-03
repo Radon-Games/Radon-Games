@@ -171,17 +171,6 @@ const themes = [
     textSecondary: "white",
     accentPrimary: "#ffb703",
     accentSecondary: "#ffb703"
-  },
-  {
-    name: "Chango Games",
-    category: "default",
-    id: "chango",
-    bgPrimary: "#2a0f1d",
-    bgSecondary: "#3b1e32",
-    textPrimary: "#f1f5f9",
-    textSecondary: "#e2e8f0",
-    accentPrimary: "hotpink",
-    accentSecondary: "hotpink"
   }
 ] as Theme[];
 
