@@ -360,6 +360,14 @@
     "type": "html"
   },
   {
+    "title": "Vex 6",
+    "author": "Amazing Adam",
+    "description": "Vex 6 is an awesome online game where you need to make an exceptional effort to pass all obstacles including cannons, spinning spikes, razors, and others to succeed.",
+    "id": "vex-6",
+    "tags": ["action", "arcade", "platform"],
+    "type": "html"
+  },
+  {
     "title": "Rolling Sky",
     "author": "Cheetah Games",
     "description": "Rolling Sky is the best musical skill game of all time. You are a ball rolling over a track with tons of hazards to make you fall. You have to be super fast, precise and accurate to dodge all the barriers, holes and laser beams that are shot in your direction. Use the music to keep your rhythm while swinging from left to right to get the power-ups you need to finish the levels. This is seriously the most challenging game you can find online.",
@@ -546,7 +554,7 @@
   {
     "title": "Bloons Tower Defense 4",
     "author": "Ninja Kiwi",
-    "description": "",
+    "description": "Bloons Tower Defense 4 is a classic tower defense game initially released in Flash. Defend the path by placing various defenses tactically around the map. Upgrade them and unlock more as you get further through the game.",
     "id": "bloons-tower-defense-4",
     "tags": ["tower", "strategy"],
     "type": "flash"
@@ -636,6 +644,14 @@
     "author": "Light Bringer Games",
     "description": "You're a penguin, you learned how to fly... but then icebergs stopped you and crushed your dreams. Now you're back for revenge!",
     "id": "learn-to-fly-2",
+    "tags": ["casual", "penguin"],
+    "type": "flash"
+  },
+  {
+    "title": "Learn to Fly 3",
+    "author": "Light Bringer Games",
+    "description": "In the 3rd and final chapter of the Learn to Fly trilogy, your accomplished penguin pilot is off to explore the final frontier. Gameplay builds on the success of the previous games in the series, with new features and improvements that add even more depth and challenges. Now, customize and upgrade your own rocket ship, which you'll use to fly higher and further than your penguin pal ever imagined before.",
+    "id": "learn-to-fly-3",
     "tags": ["casual", "penguin"],
     "type": "flash"
   },
@@ -1886,7 +1902,7 @@
     "author": "",
     "description": "Ultimate Flash Sonic is a sonic fangame made in Adobe Flash. It was created by Dennis-Gid and it was uploaded to Newgrounds on Febuary 21, 2004.",
     "id": "ultimate-flash-sonic",
-    "tags": [],
+    "tags": ["sonic"],
     "type": "flash"
   },
   {
@@ -1923,8 +1939,8 @@
     "emulator": "n64"
   },
   {
-    "title": "Pokemon Blue",
-    "author": "",
+    "title": "Pokémon Blue",
+    "author": "Nintendo",
     "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
     "id": "pokemon-blue",
     "tags": ["pokemon"],
@@ -1932,8 +1948,8 @@
     "emulator": "gb"
   },
   {
-    "title": "Pokemon Crystal",
-    "author": "",
+    "title": "Pokémon Crystal",
+    "author": "Nintendo",
     "description": "Originally released for the Game Boy™ Color system in 2000, the Pokémon™ Crystal game added several new features to the Pokémon franchise. For the first time, players could choose a female or male character, Pokémon battles featured animation, and more. And now, this Virtual Console release invites you to explore the Johto region again—or for the first time.",
     "id": "pokemon-crystal",
     "tags": ["pokemon"],
@@ -1941,8 +1957,8 @@
     "emulator": "gb"
   },
   {
-    "title": "Pokemon Gold",
-    "author": "",
+    "title": "Pokémon Gold",
+    "author": "Nintendo",
     "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
     "id": "pokemon-gold",
     "tags": ["pokemon"],
@@ -1950,8 +1966,8 @@
     "emulator": "gb"
   },
   {
-    "title": "Pokemon Red",
-    "author": "",
+    "title": "Pokémon Red",
+    "author": "Nintendo",
     "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
     "id": "pokemon-red",
     "tags": ["pokemon"],
@@ -1959,8 +1975,8 @@
     "emulator": "gb"
   },
   {
-    "title": "Pokemon Silver",
-    "author": "",
+    "title": "Pokémon Silver",
+    "author": "Nintendo",
     "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
     "id": "pokemon-silver",
     "tags": ["pokemon"],
@@ -1968,8 +1984,8 @@
     "emulator": "gb"
   },
   {
-    "title": "Pokemon Emerald",
-    "author": "",
+    "title": "Pokémon Emerald",
+    "author": "Nintendo",
     "description": "Pokémon Emerald Version takes Trainers back to the land of Hoenn for an expanded adventure, this time against both Team Magma and Team Aqua! Pokémon Emerald also features an even more exciting storyline featuring the Legendary Rayquaza.",
     "id": "pokemon-emerald",
     "tags": ["pokemon"],
@@ -1977,8 +1993,8 @@
     "emulator": "gba"
   },
   {
-    "title": "Pokemon Fire Red",
-    "author": "",
+    "title": "Pokémon Fire Red",
+    "author": "Nintendo",
     "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
     "id": "pokemon-fire-red",
     "tags": ["pokemon"],
@@ -1986,8 +2002,8 @@
     "emulator": "gba"
   },
   {
-    "title": "Pokemon Leaf Green",
-    "author": "",
+    "title": "Pokémon Leaf Green",
+    "author": "Nintendo",
     "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
     "id": "pokemon-leaf-green",
     "tags": ["pokemon"],
@@ -1995,8 +2011,8 @@
     "emulator": "gba"
   },
   {
-    "title": "Pokemon Ruby",
-    "author": "",
+    "title": "Pokémon Ruby",
+    "author": "Nintendo",
     "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
     "id": "pokemon-ruby",
     "tags": ["pokemon"],
@@ -2004,13 +2020,31 @@
     "emulator": "gba"
   },
   {
-    "title": "Pokemon Sapphire",
-    "author": "",
+    "title": "Pokémon Sapphire",
+    "author": "Nintendo",
     "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
     "id": "pokemon-sapphire",
     "tags": ["pokemon"],
     "type": "emulator",
     "emulator": "gba"
+  },
+  {
+    "title": "Pokémon HeartGold",
+    "author": "Nintendo",
+    "description": "Pokémon HeartGold is a 2009 remakes of the 1999 Game Boy Color role-playing video game Pokémon Gold, also including features from Pokémon Crystal. The games are part of the fourth generation of the Pokémon video game series, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. In commemoration of the 10th anniversary of Gold and Silver, the game was released in Japan on September 12, 2009, and were later released in other regions during March 2010.",
+    "id": "pokemon-heartgold",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "nds"
+  },
+  {
+    "title": "Pokémon SoulSilver",
+    "author": "Nintendo",
+    "description": "Pokémon SoulSilver is a 2009 remakes of the 1999 Game Boy Color role-playing video game Pokémon Silver, also including features from Pokémon Crystal. The games are part of the fourth generation of the Pokémon video game series, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. In commemoration of the 10th anniversary of Gold and Silver, the game was released in Japan on September 12, 2009, and were later released in other regions during March 2010.",
+    "id": "pokemon-soulsilver",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "nds"
   },
   {
     "title": "Basketball Stars",
@@ -2119,7 +2153,7 @@
     "author": "",
     "description": "Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.",
     "id": "sonic-1",
-    "tags": [],
+    "tags": ["sonic"],
     "type": "emulator",
     "emulator": "segaMD"
   },
@@ -2128,7 +2162,7 @@
     "author": "",
     "description": "Sonic the Hedgehog 2 is a 1992 platform game developed and published by Sega for the Sega Genesis. It follows Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg.",
     "id": "sonic-2",
-    "tags": [],
+    "tags": ["sonic"],
     "type": "emulator",
     "emulator": "segaMD"
   },
@@ -2137,7 +2171,7 @@
     "author": "",
     "description": "Dr. Eggman's (AKA Dr. Robotnik's) Death Egg was once again blasted by Sonic, crash-landing on the peak of a volcano on the Floating Island. Dr. Eggman is still at large, and Sonic can't allow him to get his hands on the Master Emerald and repair the Death Egg.",
     "id": "sonic-3",
-    "tags": [],
+    "tags": ["sonic"],
     "type": "emulator",
     "emulator": "segaMD"
   },
@@ -2276,5 +2310,143 @@
     "id": "google-gnome",
     "tags": ["google"],
     "type": "html"
+  },
+  {
+    "title": "Papa's Bakeria",
+    "author": "Flipline Studios",
+    "description": "It's time to bake delicious pies in Papa's Bakeria. It's another part of the Papa Louie restaurant management series.",
+    "id": "papas-bakeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Burgeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Burgeria is another game in the Papa Louie cooking game series. In this game, you have to be in charge of a burger restaurant. Take orders and prepare the best burgers for customers.",
+    "id": "papas-burgeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Cheeseria",
+    "author": "Flipline Studios",
+    "description": "Papa's Cheeseria is a brand new part of the Papa Louie restaurant management game series. In this game, you have to take orders and prepare the best cheese sandwiches!",
+    "id": "papas-cheeseria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Cupcakeria",
+    "author": "Flipline Studios",
+    "description": "Papa Louie is back in Papa's Cupcakeria! In this part, you have to run the sweet shop for Papa Louie. Take orders, bake delicious cupcakes, and satisfy the customers.",
+    "id": "papas-cupcakeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Donuteria",
+    "author": "Flipline Studios",
+    "description": "Papa's Donuteria is a great part of the Papa Louie game series. It is available online for free without Flash. This time you have to prepare the best donuts in town.",
+    "id": "papas-donuteria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Freezeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Freezeria is a cooking game where players take the role of either Alberto or Penny and take charge of the dessert shop for Papa Louie.",
+    "id": "papas-freezeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Hot Doggeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Hot Doggeria is a restaurant management game where you have to manage a hot dog restaurant for Papa Louie. Serve the best hot dogs to satisfy the customers.",
+    "id": "papas-hot-doggeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pancakeria",
+    "author": "Flipline Studios",
+    "description": "Welcome to Papa's Pancakeria. It's a fantastic part of the Papa Louie series. In this game, you can play as either Cooper or Prudence and make delicious pancakes for customers.",
+    "id": "papas-pancakeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pastaria",
+    "author": "Flipline Studios",
+    "description": "Papa's Pastaria is the ultimate cooking game of the popular Papa's series, this time you will have the time to manage a pasta restaurant. Papa Pastria throws players in the heart of Italy for a wedding jet ticket. The first new point, you can now make changes to your character. Get your first customers and prepare the best of some delicious spaghetti, pasta, or gnocchi Bolognese and alla Carbonara. Papa's Pastaria is a restaurant game that gives you excellent time management and shows off your cooking ability.",
+    "id": "papas-pastaria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pizzeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Pizzeria is a fantastic game in the Papa's game series. In this game, Papa Louie is away on vacation and you have to manage the pizza restaurant for him. Take orders, add toppings, bake pizzas, and serve the customers.",
+    "id": "papas-pizzeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Scooperia",
+    "author": "Flipline Studios",
+    "description": "Papa's Scooperia is an exciting part of the Papa Louie game series where you have to manage an ice cream shop, bake cookies, prepare ice cream, and make the customers happy.",
+    "id": "papas-scooperia",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Sushiria",
+    "author": "Flipline Studios",
+    "description": "Papa's Sushiria game takes place in Sakura Bay where you have to prepare the most delectable sushi for customers. It's the thirteenth installment in the Papa Louie game series.",
+    "id": "papas-sushiria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Taco Mia",
+    "author": "Flipline Studios",
+    "description": "Papa's Taco Mia is a fun cooking game that will awaken your taste buds. In this game you play as a Mexican Chef. Your mission is to serve your customers in the best way and not miss their tacos. A best time management game to enjoy without downloading.",
+    "id": "papas-taco-mia",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Wingeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Wingeria is the sixth part in the Papa Louie game series where you have to make tons of chicken wings and things to satisfy the customers to Papa's Wingeria restaurant.",
+    "id": "papas-wingeria",
+    "tags": ["papas"],
+    "type": "flash"
+  },
+  {
+    "title": "Versus Umbra",
+    "author": "Arkuni",
+    "description": "Versus Umbra is a 2D shooter video game developed by Arkuni in Adobe Flash and released in 2011. In the game, you control a playable character and shoot all foes. The game features lots of weapons and a perk system.",
+    "id": "versus-umbra",
+    "tags": ["action", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sonic Advance",
+    "author": "Sonic Team",
+    "description": "Sonic Advance is a side-scrolling platform game reminiscent of the original Sonic the Hedgehog games released for the Sega Genesis.",
+    "id": "sonic-advance",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Sonic Advance 2",
+    "author": "Sonic Team",
+    "description": "Sonic Advance 2 is a 2002 side-scrolling platform video game developed by Dimps for the Game Boy Advance.",
+    "id": "sonic-advance-2",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "gba"
   }
 ]
