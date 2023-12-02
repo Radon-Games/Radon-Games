@@ -61,6 +61,13 @@ export function Footer() {
           <a href="/search" class="hover:text-accent-primary">
             Search
           </a>
+          <a
+            target="_blank"
+            href="https://discord.gg/t3d7wDA9WY"
+            class="hover:text-accent-primary"
+          >
+            Request
+          </a>
         </div>
 
         {/* <div class="flex flex-col gap-2">

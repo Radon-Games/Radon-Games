@@ -11,8 +11,6 @@ import { Preferences } from "./routes/preferences";
 import { Privacy } from "./routes/privacy";
 import { Proxy } from "./routes/proxy";
 // import { Profile } from "./routes/profile";
-// import { Register } from "./routes/register";
-// import { Reset } from "./routes/reset";
 import { Search } from "./routes/search";
 // import { Shop } from "./routes/shop";
 import { Tag } from "./routes/tag";
