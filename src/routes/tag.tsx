@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 
 export function Tag(props: { id: string }) {
   const taggedGames = games.filter((game) => game.tags.includes(props.id));
+  if (props.id === "uncategorized") {
+    taggedGames.push(...games.filter((game) => game.tags.length === 0));
+  }
 
   if (taggedGames.length === 0) {
     return <NotFound />;

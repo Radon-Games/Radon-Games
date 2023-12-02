@@ -28,7 +28,7 @@ export function GameCard({ game }: { game: Game }) {
         >
           <p class="text-lg font-semibold tracking-wide">{game.title}</p>
           <div class="flex gap-2">
-            {game.tags.map((tag) => {
+            {(game.tags.length ? game.tags : ["uncategorized"]).map((tag) => {
               return (
                 <a
                   class="inset-0 whitespace-nowrap rounded bg-accent-secondary p-1 text-xs font-bold uppercase tracking-wide transition-all hover:scale-110"
