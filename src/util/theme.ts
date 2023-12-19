@@ -19,7 +19,7 @@ export function getStyle(): string {
 
 export function updateTheme(): void {
   document.documentElement.dataset.theme =
-    localStorage.getItem("theme") ?? "dark";
+    localStorage.getItem("theme") ?? getDefaultTheme();
 }
 
 updateTheme();
@@ -32,6 +32,18 @@ export function setTheme(id: string): void {
 
 export function getTheme(): Theme {
   return themes.find(
-    (x) => x.id === (localStorage.getItem("theme") ?? "dark")
+    (x) => x.id === (localStorage.getItem("theme") ?? getDefaultTheme())
   )!;
+}
+
+function getDefaultTheme(): string {
+  const date = new Date();
+  const month = date.getMonth();
+  const day = date.getDate();
+
+  if (month === 11 && day >= 20 && day <= 25) {
+    return "christmas";
+  }
+
+  return "dark";
 }

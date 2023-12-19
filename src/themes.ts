@@ -14,6 +14,10 @@ const categories = [
   {
     name: "People",
     id: "people"
+  },
+  {
+    name: "Holiday",
+    id: "holiday"
   }
 ] as ThemeCategory[];
 
@@ -171,6 +175,17 @@ const themes = [
     textSecondary: "white",
     accentPrimary: "#ffb703",
     accentSecondary: "#ffb703"
+  },
+  {
+    name: "Christmas",
+    category: "holiday",
+    id: "christmas",
+    bgPrimary: "#031C0E",
+    bgSecondary: "#0A522A",
+    textPrimary: "#ffffff",
+    textSecondary: "#ffffff",
+    accentPrimary: "#F24343",
+    accentSecondary: "#C1B613"
   }
 ] as Theme[];
 
