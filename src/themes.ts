@@ -156,7 +156,7 @@ const themes = [
   },
   {
     name: "Molten",
-    category: "default",
+    category: "proxies",
     id: "molten",
     bgPrimary: "#030303",
     bgSecondary: "#ff3d3d",
