@@ -4,7 +4,7 @@ export function getStyle(): string {
   return `${themes
     .map((theme) => {
       return `
-      html[data-theme="${theme.id}"] {
+      [data-theme="${theme.id}"] {
         --bg-primary: ${theme.bgPrimary};
         --bg-secondary: ${theme.bgSecondary};
         --text-primary: ${theme.textPrimary};
