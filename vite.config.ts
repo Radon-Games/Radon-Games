@@ -25,7 +25,7 @@ export default defineConfig({
     },
     proxy: {
       "/cdn": {
-        target: "http://localhost:1111/",
+        target: "https://cdn.radon.games",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/cdn/, ""),
         headers: {
@@ -33,7 +33,7 @@ export default defineConfig({
         }
       },
       "/api": {
-        target: "http://localhost:2222/",
+        target: "https://api.radon.games",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
         headers: {

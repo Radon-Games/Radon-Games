@@ -8,6 +8,9 @@ dependencies:
   '@titaniumnetwork-dev/ultraviolet':
     specifier: ^2.0.0
     version: 2.0.0
+  '@tomphttp/bare-client':
+    specifier: 2.2.0-alpha
+    version: 2.2.0-alpha
   framer-motion:
     specifier: ^10.16.4
     version: 10.16.4(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -678,6 +681,10 @@ packages:
 
   /@tomphttp/bare-client@2.1.0:
     resolution: {integrity: sha512-0s2g3bpKAxwk7sOsfewpngLF+2lQrS0mxnga+6qIzKCoYdOKd5+Lm3lkEDHO0cWIEqMbgRZB2wjW1+NQ2XbGWA==}
+    dev: false
+
+  /@tomphttp/bare-client@2.2.0-alpha:
+    resolution: {integrity: sha512-xhcflOpwr92tkpp8SoDhB3nK3LHMBIjx+vgow37XobQew2k0/mXSxmaU7BsDFpOIa1CcLCEsR8gWn0v7Cy9+7Q==}
     dev: false
 
   /@trivago/prettier-plugin-sort-imports@4.2.0(prettier@3.0.3):
