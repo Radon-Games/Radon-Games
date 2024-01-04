@@ -1,6 +1,5 @@
 import { Banner } from "../assets/Banner";
 import { Transparent } from "../assets/Transparent";
-import { Favicon } from "../components/Favicon";
 import { AnimatePresence, motion, Reorder } from "framer-motion";
 import { useEffect, useState } from "preact/hooks";
 import {
@@ -209,11 +208,10 @@ export function Proxy() {
                   }}
                 >
                   <img
-                    src={tab.favicon}
+                    src={`https://www.google.com/s2/favicons?domain=${tab.url}`}
                     class="h-5 w-5"
                     draggable={false}
                   ></img>
-                  {/* <Favicon tabId={tab.id} tabs={tabs} /> */}
                   <span class="hidden flex-1 truncate whitespace-nowrap text-text-primary sm:block">
                     {tab.title}
                   </span>
