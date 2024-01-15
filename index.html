@@ -43,15 +43,6 @@
 
       gtag("config", "G-0GR0HN1RFL");
     </script>
-    <script>
-      if (location.pathname !== "/proxy") {
-        navigator.serviceWorker.getRegistrations().then((registrations) => {
-          for (let registration of registrations) {
-            registration.unregister();
-          }
-        });
-      }
-    </script>
 
     <script src="/uv/uv.bundle.js" defer></script>
     <script src="/uv/uv.config.js" defer></script>
