@@ -1,0 +1,117 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model GameRequest {
+  id           String   @id @default(cuid())
+  messageId    String   @unique
+  createdAt    DateTime @default(now())
+  name         String
+  description  String   @db.Text
+  owner        User     @relation("owner", fields: [ownerId], references: [id])
+  ownerId      String
+  status       Int      @default(0)
+}
+
+model User {
+  id           String        @id
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  tokens       Token[]
+  profile      Profile       @relation(fields: [id], references: [id])
+  links        Link[]
+  plays        Play[]
+  likes        Game[]        @relation("likes")
+  numLikes     Int           @default(0)
+  dislikes     Game[]        @relation("dislikes")
+  numDislikes  Int           @default(0)
+  requests     GameRequest[] @relation("owner")
+  numRequests  Int           @default(0)
+  linkLimit    Int           @default(3)
+  settings     String        @db.Text
+  permissions  String        @db.Text
+}
+
+model Token {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  tokenHash String   @db.Text
+}
+
+model Profile {
+  id           String   @id
+  username     String   @unique
+  displayName  String   @db.Text
+  avatar       String   @db.Text
+  playTokens   Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  favorites    Game[]   @relation("favorited")
+  numFavorites Int      @default(0)
+  numPlays     Int      @default(0)
+  User         User?
+}
+
+model Game {
+  id           String    @id @default(cuid())
+  slug         String    @unique
+  title        String
+  author       String    @db.Text
+  description  String    @db.Text
+  tags         Tag[]
+  type         String
+  plays        Play[]
+  numPlays     Int       @default(0)
+  likes        User[]    @relation("likes")
+  numLikes     Int       @default(0)
+  dislikes     User[]    @relation("dislikes")
+  numDislikes  Int       @default(0)
+  favorited    Profile[] @relation("favorited")
+  numFavorited Int       @default(0)
+  emulator     String?
+}
+
+model Tag {
+  id       String @id @default(cuid())
+  slug     String @unique
+  name     String
+  games    Game[]
+  numGames Int    @default(0)
+}
+
+model Play {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  game      Game     @relation(fields: [gameId], references: [id])
+  gameId    String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+}
+
+model Link {
+  id         String       @id @default(cuid())
+  host       String
+  category   LinkCategory @relation(fields: [categoryId], references: [id])
+  categoryId String
+  createdAt  DateTime     @default(now())
+  users      User[]
+}
+
+model LinkCategory {
+  id        String   @id @default(cuid())
+  name      String
+  links     Link[]
+  numLinks  Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

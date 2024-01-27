@@ -1,98 +1,134 @@
-import { Transparent } from "../assets/Transparent";
-import { motion } from "framer-motion";
-import { IconType } from "react-icons/lib";
+import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
 import {
-  PiGameControllerBold,
-  PiHouseBold, // PiUserBold,
-  PiGithubLogoBold,
-  PiDiscordLogoBold, // PiShoppingBagOpenBold
-  PiGearBold,
-  PiDetectiveBold
+  PiList,
+  PiX,
+  PiDotOutlineFill,
+  PiGithubLogo,
+  PiDiscordLogo,
+  PiPatreonLogo
 } from "react-icons/pi";
+import { Icon } from "~/assets/Icon";
 
-const item = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.3
-    }
-  }
-};
+export function Header(): React.JSX.Element {
+  const [isExpanded, setIsExpanded] = React.useState(false);
 
-function Link(props: {
-  href: string;
-  icon: IconType;
-  text?: string;
-  label?: string;
-}) {
   return (
-    <motion.a
-      href={props.href}
-      target={/^(https?:)?\/\//.test(props.href) ? "_blank" : "_self"}
-      variants={item}
-      class="flex items-center gap-2 transition-colors hover:text-accent-primary"
-      aria-label={props.label ?? props.text}
-    >
-      <props.icon />
-      {props.text ?? ""}
-    </motion.a>
-  );
-}
-
-export function Header() {
-  return (
-    <motion.nav
-      class="flex h-16 w-full items-center justify-center border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg sm:justify-between md:px-16 lg:px-32 xl:px-48"
-      variants={{
-        hidden: { opacity: 1, y: -64 },
-        visible: {
-          opacity: 1,
-          y: 0,
-          transition: {
-            delayChildren: 0.3,
-            staggerChildren: 0.2,
-            duration: 0.2
-          }
-        }
-      }}
-      initial="hidden"
-      animate="visible"
-    >
-      <div class="flex gap-5">
-        <motion.a href="/" variants={item} aria-label="Home">
-          <Transparent class="h-6 w-auto" alt="Home" />
-        </motion.a>
-        <Link href="/" icon={PiHouseBold} text="Home" />
-        <Link href="/games" icon={PiGameControllerBold} text="Games" />
-        <Link href="/proxy" icon={PiDetectiveBold} text="Proxy" />
-        {/* <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
-        <Link href="/profile" icon={PiUserBold} text="Profile" /> */}
-      </div>
-      <div class="hidden gap-5 sm:flex">
-        <form method="GET" action="/search">
-          <motion.input
-            name="q"
-            variants={item}
-            class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
-            placeholder="Search"
-            type="text"
-            autocomplete="off"
-          />
-        </form>
-        <Link href="/preferences" icon={PiGearBold} label="Preferences" />
-        <Link
-          href="https://github.com/Radon-Games/Radon-Games"
-          icon={PiGithubLogoBold}
-          label="GitHub"
-        />
-        <Link
-          href="https://discord.gg/unblock"
-          icon={PiDiscordLogoBold}
-          label="Discord"
-        />
-      </div>
-    </motion.nav>
+    <section>
+      <nav className="flex h-16 w-screen items-center justify-between border-b-2 border-text-primary px-6">
+        <Icon className="h-6" />
+        <button
+          aria-label="Expand Navigation"
+          className="block p-2 sm:hidden"
+          onClick={() => {
+            setIsExpanded(true);
+          }}
+        >
+          <PiList className="text-xl" />
+        </button>
+      </nav>
+      <AnimatePresence mode="wait">
+        {isExpanded ? (
+          <motion.div
+            initial={{
+              opacity: 0
+            }}
+            animate={{
+              opacity: 1
+            }}
+            exit={{
+              opacity: 0
+            }}
+            key="modal"
+            className="fixed right-0 top-0 h-screen w-full bg-black bg-opacity-25"
+            onClick={() => {
+              setIsExpanded(false);
+            }}
+          >
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: "80%" }}
+              exit={{ width: 0 }}
+              className="fixed right-0 top-0 h-full text-nowrap bg-bg-secondary"
+              onClick={(event) => {
+                event.stopPropagation();
+              }}
+            >
+              <div className="flex h-full flex-col">
+                <div className="flex h-16 w-full items-center justify-between px-6">
+                  <div className="flex items-center gap-4">
+                    <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-bg-primary">
+                      <Icon className="h-5" />
+                    </div>
+                    <span className="text-sm">Guest User</span>
+                  </div>
+                  <button
+                    aria-label="Collapse Navigation"
+                    className="p-2"
+                    onClick={() => {
+                      setIsExpanded(false);
+                    }}
+                  >
+                    <PiX className="text-xl" />
+                  </button>
+                </div>
+                <div className="flex flex-1 flex-col">
+                  <div className="flex flex-1 flex-col items-end gap-2 p-10 text-lg">
+                    <a href="/">Home</a>
+                    <a href="/games">Games</a>
+                    <a href="/proxy">Proxy</a>
+                    <a href="/shop">Shop</a>
+                    <a href="/profile">Profile</a>
+                    <a href="/leaderboard">Leaderboard</a>
+                    <a href="/login">Login/out</a>
+                    <a href="/request">Requests</a>
+                    <a href="/trending">Trending</a>
+                    <a href="/settings">Settings</a>
+                    <a href="/game-developers">Game Developers</a>
+                  </div>
+                  <div className="flex justify-between p-4">
+                    <span className="flex items-center gap-1">
+                      <a
+                        target="_blank"
+                        aria-label="Discord"
+                        href="//discord.gg/unblock"
+                        rel="noreferrer"
+                      >
+                        <PiDiscordLogo className="text-xl transition-colors hover:text-accent-primary" />
+                      </a>
+                      <PiDotOutlineFill />
+                      <a
+                        target="_blank"
+                        aria-label="GitHub"
+                        href="//github.com/Radon-Games/"
+                        rel="noreferrer"
+                      >
+                        <PiGithubLogo className="text-xl transition-colors hover:text-accent-primary" />
+                      </a>
+                      <PiDotOutlineFill />
+                      <a
+                        target="_blank"
+                        aria-label="Patreon"
+                        href="//patreon.com/Radon_Games/"
+                        rel="noreferrer"
+                      >
+                        <PiPatreonLogo className="text-xl transition-colors hover:text-accent-primary" />
+                      </a>
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <a href="/privacy">Privacy</a>
+                      <PiDotOutlineFill />
+                      <a href="/terms">Terms</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        ) : (
+          <></>
+        )}
+      </AnimatePresence>
+    </section>
   );
 }

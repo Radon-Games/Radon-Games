@@ -1,33 +1,37 @@
-<p align="center">
-  <kbd>
-    <img width="100px" src="https://avatars.githubusercontent.com/u/107269758">
-  </kbd>
-</p>
+# Welcome to Remix!
 
-<h1 align="center">
-  Radon Games
-</h1>
+- [Remix Docs](https://remix.run/docs)
 
-<p align="center">
-  An open-source unblocked games website built with simplicity in mind.
-</p>
-  
-- 📈 Play from our **rapidly growing** selection of games
-- 🏫 **Unblock websites** with our built in web proxy
-- 🫣 **Hide from teachers** using the tab cloak setting
+## Development
 
-### Installation
+From your terminal:
 
-```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
-pnpm install
-pnpm run build
-pnpm run preview
+```sh
+npm run dev
 ```
 
-### Where to get help
+This starts your app in development mode, rebuilding assets on file changes.
 
-For questions and suggestions please join our [Discord server](https://discord.gg/C2fbK35Rhg)
+## Deployment
 
-For any website/game issues please create a new GitHub issue
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then run the app in production mode:
+
+```sh
+npm start
+```
+
+Now you'll need to pick a host to deploy it to.
+
+### DIY
+
+If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+
+Make sure to deploy the output of `remix build`
+
+- `dist/`
