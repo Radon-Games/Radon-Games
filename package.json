@@ -2,34 +2,46 @@
   "name": "radon-games",
   "version": "5.0.0",
   "description": "An open-source unblocked games website built with the user first.",
-  "private": true,
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "remix-serve ./dist/index.js",
+    "start": "remix-serve ./dist/server/index.js",
     "typecheck": "tsc",
     "format": "prettier --write .",
     "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "5.8.1",
+    "@radon-games/unityloader": "^1.0.0",
     "@remix-run/css-bundle": "^2.5.1",
     "@remix-run/node": "^2.5.1",
     "@remix-run/react": "^2.5.1",
     "@remix-run/serve": "^2.5.1",
+    "@ruffle-rs/ruffle": "0.1.0-nightly.2024.1.28",
+    "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
+    "bcrypt": "^5.1.1",
+    "cookie": "^0.6.0",
     "discord.js": "^14.14.1",
     "framer-motion": "^11.0.3",
+    "fuzzy-search": "^3.2.1",
     "isbot": "^4.1.0",
+    "mime-types": "^2.1.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "remix-utils": "^7.5.0",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.5.1",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie": "^0.6.0",
+    "@types/fuzzy-search": "^2.1.5",
+    "@types/mime-types": "^2.1.4",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
@@ -41,13 +53,20 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.33",
     "prettier": "^3.2.4",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "prisma": "5.8.1",
+    "react-unity-webgl": "^9.5.0",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vite": "^5.0.12",
+    "vite-plugin-node-polyfills": "^0.19.0",
+    "vite-plugin-static-copy": "^1.0.1",
+    "vite-tsconfig-paths": "^4.3.1"
   },
   "engines": {
     "node": ">=18.0.0"
   }
 }
+

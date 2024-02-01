@@ -1,5 +1,3 @@
-import type { Config } from "tailwindcss";
-
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -12,8 +10,9 @@ export default {
       "text-primary": "var(--text-primary)",
       "text-secondary": "var(--text-secondary)",
       "accent-primary": "var(--accent-primary)",
-      "accent-secondary": "var(--accent-secondary)"
+      "accent-secondary": "var(--accent-secondary)",
+      "error": "var(--error)"
     }
   },
   plugins: []
-} satisfies Config;
+};
