@@ -1,7 +1,5 @@
-import { buttons } from "../buttons";
 import { client } from "../client";
 import { commands } from "../commands";
-import { modals } from "../modals";
 import { ActivityType, Events } from "discord.js";
 
 const activities = [
@@ -34,18 +32,6 @@ export function bindReadyEvent(): void {
       await client.application?.commands.create(command);
 
       client.commands.set(command.name, handle);
-    }
-
-    for (const file of modals) {
-      const { id, handle } = file;
-
-      client.modals.set(id, handle);
-    }
-
-    for (const file of buttons) {
-      const { name, handle } = file;
-
-      client.buttons.set(name, handle);
     }
 
     console.log(`Logged in as ${client.user?.tag}`);

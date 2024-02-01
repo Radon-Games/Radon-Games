@@ -1,3 +1,5 @@
+import client from "..";
+import { message } from "../messages/generatingCode";
 import { createMessage } from "../messages/loginCode";
 import {
   ChatInputApplicationCommandData,
@@ -18,7 +20,32 @@ export async function handle(
     | MessageContextMenuCommandInteraction
     | UserContextMenuCommandInteraction
 ) {
+  await interaction.reply(message);
+
   const code = generateCode(interaction.user.id);
 
-  await interaction.reply(createMessage(code));
+  const user = await client.prisma.user.findUnique({
+    where: {
+      id: interaction.user.id
+    }
+  });
+
+  if (!user) {
+    await client.prisma.profile.create({
+      data: {
+        id: interaction.user.id,
+        username: interaction.user.username,
+        displayName: interaction.user.displayName,
+        avatar: interaction.user.avatarURL() ?? "",
+        user: {
+          create: {
+            settings: "",
+            permissions: ""
+          }
+        }
+      }
+    });
+  }
+
+  await interaction.editReply(createMessage(code));
 }
