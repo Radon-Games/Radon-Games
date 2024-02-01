@@ -1,7 +1,11 @@
+import { getProfileFromToken } from "./util/auth";
 import { pageview } from "./util/gtag";
 import { cssBundleHref } from "@remix-run/css-bundle";
-import type { LinksFunction } from "@remix-run/node";
-import type { HeadersFunction } from "@remix-run/node";
+import type {
+  HeadersFunction,
+  LinksFunction,
+  LoaderFunctionArgs
+} from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -9,25 +13,50 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  json,
+  useLoaderData,
   useLocation
 } from "@remix-run/react";
+import { parse } from "cookie";
 import { useEffect } from "react";
-import stylesheet from "~/tailwind.css";
+import { ExternalScripts } from "remix-utils/external-scripts";
+import "~/tailwind.css";
 
 export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
-  { rel: "stylesheet", href: stylesheet }
+  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : [])
 ];
 
 export const headers: HeadersFunction = () => ({
   "X-Frame-Options": "SAMEORIGIN"
 });
 
+export async function loader({ request }: LoaderFunctionArgs) {
+  const profile = await getProfileFromToken(
+    parse(request.headers.get("Cookie") ?? "").token ?? ""
+  );
+
+  return json({
+    env: {
+      GTAG: process.env.GTAG!,
+      ADSENSE: process.env.ADSENSE!
+    },
+    profile
+  });
+}
+
+declare global {
+  interface Window {
+    __profile: ReturnType<typeof useLoaderData<typeof loader>>["profile"];
+  }
+}
+
 export default function App() {
   const location = useLocation();
+  const { env, profile } = useLoaderData<typeof loader>();
 
   useEffect(() => {
-    pageview(location.pathname);
+    window.__profile = profile;
+    pageview(location.pathname, env.GTAG);
   }, [location]);
 
   return (
@@ -35,10 +64,7 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-8517735295733237"
-        ></meta>
+        <meta name="google-adsense-account" content={env.ADSENSE}></meta>
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/icons/128.png" />
@@ -56,12 +82,12 @@ export default function App() {
         {/* BUG: This breaks hydration */}
         {/* <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${env.ADSENSE}`}
           crossOrigin="anonymous"
         ></script> */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"
+          src={`https://www.googletagmanager.com/gtag/js?id=${env.GTAG}`}
         />
         <script
           async
@@ -71,7 +97,7 @@ export default function App() {
               function gtag(){dataLayer.push(arguments);}
               gtag("js", new Date());
 
-              gtag("config", "G-0GR0HN1RFL", {
+              gtag("config", "${env.GTAG}", {
                 page_path: window.location.pathname,
               });
             `
@@ -83,6 +109,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <ExternalScripts />
       </body>
     </html>
   );
