@@ -9,7 +9,6 @@ import bcrypt from "bcrypt";
 import { parse } from "cookie";
 import { useState } from "react";
 import { Icon } from "~/assets/Icon";
-import { Header } from "~/components/Header";
 import { Modal } from "~/components/Modal";
 import { db } from "~/util/db";
 import { generateToken } from "~/util/generateToken";
@@ -66,7 +65,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
     );
   }
 
-  return redirect("/profile");
+  return json({ isLoggedIn: true });
 }
 
 export async function action({ request }: ActionFunctionArgs) {
@@ -116,7 +115,6 @@ export default function Login() {
 
   return (
     <>
-      <Header />
       <main className="flex h-full w-full items-center justify-center p-16">
         <div className="flex flex-col items-center justify-center gap-3 rounded-md bg-bg-secondary px-14 py-12 shadow-lg">
           <Icon className="h-8" />
@@ -136,7 +134,7 @@ export default function Login() {
                     setModalOpen(true);
                   }}
                 >
-                  What's This?
+                  Whats This?
                 </button>
               </div>
               <input
@@ -175,6 +173,7 @@ export default function Login() {
               <a
                 href="https://discord.gg/C2fbK35Rhg"
                 target="_blank"
+                rel="noreferrer"
                 className="text-accent-primary underline"
               >
                 Discord Server
@@ -189,8 +188,9 @@ export default function Login() {
             </li>
           </ol>
           <p>
-            This will link your Discord profile with Radon's servers so that we
-            can save your settings, favorites, and give you exclusive perks.
+            This will link your Discord profile with Radon&apos;s servers so
+            that we can save your settings, favorites, and give you exclusive
+            perks.
           </p>
           <p className="text-sm italic">
             <span className="text-error">*</span> By logging in or signing up,

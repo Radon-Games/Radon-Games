@@ -1,6 +1,5 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
-import { Header } from "~/components/Header";
 import { db } from "~/util/db";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
@@ -61,11 +60,5 @@ export default function Game() {
 
   if (!game) return <div>Game not found</div>;
 
-  return (
-    <>
-      <Header />
-
-      {game.title}
-    </>
-  );
+  return <>{game.title}</>;
 }

@@ -1,9 +1,8 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
-import { Header } from "~/components/Header";
 import { db } from "~/util/db";
 
-export async function loader({ params, request }: LoaderFunctionArgs) {
+export async function loader({ params }: LoaderFunctionArgs) {
   if (!params.id) return json({ profile: null }, { status: 404 });
 
   const profile = await db.profile.findUnique({
@@ -39,11 +38,5 @@ export default function Game() {
 
   if (!profile) return <div>Profile not found</div>;
 
-  return (
-    <>
-      <Header />
-
-      {profile.displayName}
-    </>
-  );
+  return <>{profile.displayName}</>;
 }

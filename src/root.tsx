@@ -1,3 +1,4 @@
+import { Header } from "./components/Header";
 import { getProfileFromToken } from "./util/auth";
 import { pageview } from "./util/gtag";
 import { cssBundleHref } from "@remix-run/css-bundle";
@@ -53,6 +54,7 @@ declare global {
 export default function App() {
   const location = useLocation();
   const { env, profile } = useLoaderData<typeof loader>();
+  const { pathname } = useLocation();
 
   useEffect(() => {
     window.__profile = profile;
@@ -104,7 +106,8 @@ export default function App() {
           }}
         />
       </head>
-      <body className="scroll-smooth bg-bg-primary text-text-primary">
+      <body className="scroll-smooth bg-bg-primary font-medium text-text-primary">
+        {!pathname.startsWith("/iframe") && <Header />}
         <Outlet />
         <ScrollRestoration />
         <Scripts />
