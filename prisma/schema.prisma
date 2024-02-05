@@ -95,8 +95,8 @@ model Play {
   createdAt DateTime @default(now())
   game      Game     @relation(fields: [gameId], references: [id])
   gameId    String
-  user      User     @relation(fields: [userId], references: [id])
-  userId    String
+  user      User?    @relation(fields: [userId], references: [id])
+  userId    String?
 }
 
 model Link {

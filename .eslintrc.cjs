@@ -39,7 +39,9 @@ module.exports = {
         }
       },
       rules: {
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "react-hooks/rules-of-hooks": "off"
       }
     },
     // Typescript

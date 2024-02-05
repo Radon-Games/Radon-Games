@@ -20,6 +20,7 @@ export default defineConfig({
         process: true
       },
       exclude: [
+        // Exclude everyting except for the process global
         "_stream_duplex",
         "_stream_passthrough",
         "_stream_readable",
@@ -91,6 +92,7 @@ export default defineConfig({
     tsconfigPaths()
   ],
   optimizeDeps: {
+    // Exclude bcrypt from being bundled
     exclude: ["bcrypt"]
   },
   server: {

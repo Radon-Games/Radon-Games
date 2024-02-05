@@ -2,3 +2,5 @@ node_modules/
 .cache/
 dist/
 .env
+public/sw.js
+public/sw.js.map
