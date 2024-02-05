@@ -39,7 +39,7 @@ function NavLink(props: NavLinkProps): JSX.Element {
         className="group flex w-max items-center gap-2"
       >
         <props.icon className="text-xl transition-colors group-hover:text-accent-primary" />
-        {props.label}
+        <span className="group-hover:underline">{props.label}</span>
       </a>
     );
   } else if (props.label) {
@@ -72,6 +72,24 @@ function NavLink(props: NavLinkProps): JSX.Element {
   return <></>;
 }
 
+function AvatarImage({
+  profile
+}: {
+  profile: NonNullable<Window["__profile"]>;
+}): JSX.Element {
+  return (
+    <div
+      className="h-full w-full"
+      style={{
+        backgroundImage: `url(${profile.avatar})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}
+    ></div>
+  );
+}
+
 export function Header(): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
   const [profile, setProfile] = useState<Window["__profile"]>(null);
@@ -91,22 +109,65 @@ export function Header(): JSX.Element {
 
   return (
     <section>
-      <nav className="flex h-16 w-screen items-center justify-between border-b-2 border-text-primary px-6">
+      <nav className="flex h-16 w-screen items-center justify-between border-b-2 border-text-primary px-6 pl-6 md:pl-16 lg:pl-32 xl:pl-48">
         <div className="flex items-center gap-5">
           <a href="/" aria-label="Return Home">
             <Icon className="h-6" />
           </a>
+          <div className="hidden items-center gap-5 sm:flex">
+            <NavLink
+              href="/"
+              label="Home"
+              accesibilityLabel="Return Home"
+              icon={PiHouse}
+            />
+            <NavLink
+              href="/games"
+              label="Games"
+              accesibilityLabel="View All Games"
+              icon={PiGameController}
+            />
+            <NavLink
+              href="/proxy"
+              label="Proxy"
+              accesibilityLabel="Explore the Web Freely"
+              icon={PiDetective}
+            />
+            <NavLink
+              href="/shop"
+              label="Shop"
+              accesibilityLabel="View Available Items"
+              icon={PiBag}
+            />
+          </div>
         </div>
 
         <div className="flex items-center gap-5">
+          <div className="hidden gap-5 md:flex lg:pr-[3.25rem] xl:pr-[7.25rem]">
+            <form method="GET" action="/search">
+              <input
+                name="q"
+                className="rounded-md border-2 border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
+                placeholder="Search Games"
+                type="text"
+                autoComplete="off"
+              />
+            </form>
+          </div>
           <button
             aria-label="Expand Navigation"
-            className="block p-2"
+            className="block h-7 w-7"
             onClick={() => {
               setIsExpanded(true);
             }}
           >
-            <PiList className="text-xl" />
+            {profile ? (
+              <div className="h-full w-full rounded-full bg-bg-secondary">
+                <AvatarImage profile={profile} />
+              </div>
+            ) : (
+              <PiList className="text-xl" />
+            )}
           </button>
         </div>
       </nav>
@@ -123,7 +184,7 @@ export function Header(): JSX.Element {
               opacity: 0
             }}
             key="sidebar"
-            className="fixed right-0 top-0 h-screen w-full bg-black bg-opacity-25"
+            className="fixed right-0 top-0 z-50 h-screen w-full bg-black bg-opacity-25"
             onClick={() => {
               setIsExpanded(false);
             }}
@@ -147,15 +208,7 @@ export function Header(): JSX.Element {
                         className="flex items-center gap-4"
                       >
                         <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-bg-primary">
-                          <div
-                            className="h-full w-full"
-                            style={{
-                              backgroundImage: `url(${profile.avatar})`,
-                              backgroundSize: "cover",
-                              backgroundPosition: "center",
-                              backgroundRepeat: "no-repeat"
-                            }}
-                          ></div>
+                          <AvatarImage profile={profile} />
                         </div>
                         <div className="flex flex-col">
                           <span className="text-sm font-medium">
@@ -259,7 +312,7 @@ export function Header(): JSX.Element {
                       <span className="flex items-center gap-1">
                         <NavLink
                           accesibilityLabel="Discord"
-                          href="//discord.gg/unblock"
+                          href="//discord.gg/C2fbK35Rhg"
                           icon={PiDiscordLogo}
                         />
                         <PiDotOutlineFill />

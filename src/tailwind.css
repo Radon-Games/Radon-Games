@@ -15,3 +15,16 @@
 code {
   @apply rounded-md bg-black bg-opacity-50 p-1;
 }
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+main {
+  @apply px-6 md:px-16 lg:px-32 xl:px-48;
+}

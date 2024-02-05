@@ -11,7 +11,7 @@ export default {
       "text-secondary": "var(--text-secondary)",
       "accent-primary": "var(--accent-primary)",
       "accent-secondary": "var(--accent-secondary)",
-      "error": "var(--error)"
+      error: "var(--error)"
     }
   },
   plugins: []
