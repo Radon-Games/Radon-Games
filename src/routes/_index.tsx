@@ -1,5 +1,7 @@
+import { description } from "../../package.json";
 import { json, type MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
+import { useEffect, useState } from "react";
 import { PiDiceFive, PiMagnifyingGlass } from "react-icons/pi";
 import { Banner } from "~/assets/Banner";
 import { Carousel } from "~/components/Carousel";
@@ -64,14 +66,26 @@ export async function loader() {
 
 export default function Index() {
   const { popularGames, randomGame } = useLoaderData<typeof loader>();
+  const [profile, setProfile] = useState<Window["__profile"]>(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (window.__profile) {
+        setProfile(window.__profile);
+        clearInterval(interval);
+      }
+    }, 500);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
-    <main className="px-8 md:px-16 lg:px-32 xl:px-48">
+    <main className="flex flex-col px-8 md:px-16 lg:px-32 xl:px-48">
       <section className="my-32 flex w-full flex-col items-center justify-center gap-5">
         <Banner className="h-10 sm:h-14" />
-        <p className="text-center">
-          An open-source unblocked games website built with the user first.
-        </p>
+        <p className="text-center">{description}</p>
         <div className="flex gap-5">
           <a
             href="/games"
@@ -89,6 +103,13 @@ export default function Index() {
           </a>
         </div>
       </section>
+      {profile && (
+        <section className="mb-10">
+          <h3 className="mb-2 text-2xl font-bold tracking-wide">Favorited</h3>
+          {/* @ts-expect-error */}
+          <Carousel games={profile.favorites} />
+        </section>
+      )}
       <section className="mb-10">
         <h3 className="mb-2 text-2xl font-bold tracking-wide">Popular</h3>
         <Carousel games={popularGames} />

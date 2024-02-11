@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { getProfileFromToken } from "./util/auth";
 import { pageview } from "./util/gtag";
@@ -33,7 +34,14 @@ export const headers: HeadersFunction = () => ({
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const profile = await getProfileFromToken(
-    parse(request.headers.get("Cookie") ?? "").token ?? ""
+    parse(request.headers.get("Cookie") ?? "").token ?? "",
+    {
+      favorites: {
+        include: {
+          tags: true
+        }
+      }
+    }
   );
 
   return json({
@@ -72,6 +80,7 @@ export default function App() {
         <link rel="apple-touch-icon" href="/icons/128.png" />
 
         <meta name="theme-color" content="#f59e0b" />
+        <link rel="manifest" href="/manifest.json" />
 
         <meta
           name="keywords"
@@ -109,6 +118,7 @@ export default function App() {
       <body className="scroll-smooth bg-bg-primary font-medium text-text-primary">
         {!pathname.startsWith("/iframe") && <Header />}
         <Outlet />
+        {!pathname.startsWith("/iframe") && <Footer />}
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

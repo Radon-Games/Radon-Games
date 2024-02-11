@@ -109,7 +109,7 @@ export function Header(): JSX.Element {
 
   return (
     <section>
-      <nav className="flex h-16 w-screen items-center justify-between border-b-2 border-text-primary px-6 pl-6 md:pl-16 lg:pl-32 xl:pl-48">
+      <nav className="flex h-16 w-full items-center justify-between border-b-2 border-text-primary px-6 pl-6 md:pl-16 lg:pl-32 xl:pl-48">
         <div className="flex items-center gap-5">
           <a href="/" aria-label="Return Home">
             <Icon className="h-6" />

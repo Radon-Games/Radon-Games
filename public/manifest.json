@@ -1,0 +1,9 @@
+{
+  "name": "Radon Games",
+  "short_name": "Radon",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "description": "An open-source unblocked games website built with the user first.",
+  "icons": []
+}

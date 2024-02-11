@@ -1,4 +1,6 @@
 import { db } from "./db";
+import { Prisma } from "@prisma/client";
+import { DefaultArgs } from "@prisma/client/runtime/library";
 import bcrypt from "bcrypt";
 
 export async function getUserFromToken(tokenString: string) {
@@ -31,7 +33,10 @@ export async function getUserFromToken(tokenString: string) {
   return user;
 }
 
-export async function getProfileFromToken(tokenString: string) {
+export async function getProfileFromToken(
+  tokenString: string,
+  include: Prisma.ProfileInclude = {}
+) {
   const [tokenId, token] = tokenString.split(".");
 
   if (!tokenId || !token) {
@@ -58,6 +63,7 @@ export async function getProfileFromToken(tokenString: string) {
   return await db.profile.findUnique({
     where: {
       id: userId
-    }
+    },
+    include
   });
 }
