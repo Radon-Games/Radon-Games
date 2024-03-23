@@ -1,14 +1,25 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
+import { parse } from "cookie";
+import { getProfileFromToken } from "~/util/auth";
 import { db } from "~/util/db";
 
-export async function loader({ params }: LoaderFunctionArgs) {
-  if (!params.id) return json({ profile: null }, { status: 404 });
+export async function loader({ params, request }: LoaderFunctionArgs) {
+  const include = { favorites: true };
 
-  const profile = await db.profile.findUnique({
-    where: { id: params.id },
-    include: { favorites: true }
-  });
+  let profile;
+
+  if (params.id) {
+    profile = await db.profile.findUnique({
+      where: { id: params.id },
+      include
+    });
+  } else {
+    profile = await getProfileFromToken(
+      parse(request.headers.get("Cookie") ?? "").token ?? "",
+      include
+    );
+  }
 
   if (!profile) return json({ profile: null }, { status: 404 });
 
