@@ -11,7 +11,8 @@
     "start": "remix-serve ./dist/server/index.js",
     "typecheck": "tsc",
     "format": "prisma format && prettier --write .",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "migrateData": "tsx ./src/util/migrateData.ts"
   },
   "dependencies": {
     "@prisma/client": "5.8.1",
@@ -71,3 +72,4 @@
     "node": ">=18.0.0"
   }
 }
+

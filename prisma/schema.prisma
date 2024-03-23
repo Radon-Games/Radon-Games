@@ -27,7 +27,6 @@ model User {
   updatedAt   DateTime      @updatedAt
   tokens      Token[]
   profile     Profile       @relation(fields: [id], references: [id])
-  links       Link[]
   plays       Play[]
   likes       Game[]        @relation("likes")
   numLikes    Int           @default(0)
@@ -55,6 +54,7 @@ model Profile {
   displayName  String   @db.Text
   avatar       String   @db.Text
   playTokens   Int      @default(0)
+  lastToken    DateTime
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
   favorites    Game[]   @relation("favorited")
@@ -97,22 +97,4 @@ model Play {
   gameId    String
   user      User?    @relation(fields: [userId], references: [id])
   userId    String?
-}
-
-model Link {
-  id         String       @id @default(cuid())
-  host       String
-  category   LinkCategory @relation(fields: [categoryId], references: [id])
-  categoryId String
-  createdAt  DateTime     @default(now())
-  users      User[]
-}
-
-model LinkCategory {
-  id        String   @id @default(cuid())
-  name      String
-  links     Link[]
-  numLinks  Int      @default(0)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
 }
