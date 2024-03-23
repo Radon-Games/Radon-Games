@@ -7,7 +7,7 @@ import {
 import { Form, useActionData, useLoaderData } from "@remix-run/react";
 import bcrypt from "bcrypt";
 import { parse } from "cookie";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Icon } from "~/assets/Icon";
 import { Modal } from "~/components/Modal";
 import { db } from "~/util/db";
@@ -97,21 +97,32 @@ export async function action({ request }: ActionFunctionArgs) {
     }
   });
 
-  return redirect("/profile", {
-    headers: {
-      "Set-Cookie": `token=${dbToken.id}.${token.token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${token.expiresAt.getTime() - Date.now()}`
+  return json(
+    { error: null },
+    {
+      status: 301,
+      headers: {
+        Location: "/profile",
+        "Set-Cookie": `token=${dbToken.id}.${token.token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${token.expiresAt.getTime() - Date.now()}`
+      }
     }
-  });
+  );
 }
 
 export default function Login() {
   const { isLoggedIn } = useLoaderData<typeof loader>();
-  const { error } = useActionData<typeof action>() ?? {};
+  const actionData =
+    useActionData<typeof action>() ?? ({} as { error: string | null });
   const [modalOpen, setModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   if (isLoggedIn) {
     return redirect("/profile");
   }
+
+  useEffect(() => {
+    setIsLoading(false);
+  }, [actionData]);
 
   return (
     <>
@@ -123,6 +134,7 @@ export default function Login() {
             action="/login"
             method="POST"
             className="flex flex-col items-center justify-center gap-3"
+            onSubmit={() => setIsLoading(true)}
           >
             <div className="flex flex-col gap-2">
               <div className="flex items-center justify-between text-sm font-medium">
@@ -145,17 +157,46 @@ export default function Login() {
                 autoCorrect="false"
                 autoCapitalize="false"
                 placeholder="Login Code"
-                className={`rounded-md border bg-transparent px-3 py-1.5 focus:outline-none ${error ? "border-error" : "border-text-secondary"}`}
+                className={`rounded-md border bg-transparent px-3 py-1.5 focus:outline-none ${actionData.error ? "border-error" : "border-text-secondary"}`}
               />
-              {error && (
-                <span className="text-sm font-medium text-error">{error}</span>
+              {actionData.error && (
+                <span className="text-sm font-medium text-error">
+                  {actionData.error}
+                </span>
               )}
             </div>
             <button
               type="submit"
-              className="w-full rounded-md bg-accent-secondary px-3 py-1.5 shadow-xl"
+              className={`flex w-full items-center justify-center rounded-md bg-accent-secondary px-3 py-1.5 shadow-xl ${isLoading && "cursor-not-allowed"}`}
+              disabled={isLoading}
             >
-              Login
+              {isLoading ? (
+                <>
+                  <svg
+                    className="-ml-1 mr-3 h-5 w-5 animate-spin text-text-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                    ></circle>
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    ></path>
+                  </svg>
+                  Loading...
+                </>
+              ) : (
+                "Login"
+              )}
             </button>
           </Form>
         </div>
