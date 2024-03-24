@@ -1,5 +1,6 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
+import { NotFound } from "~/components/NotFound";
 import { db } from "~/util/db";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
@@ -58,7 +59,10 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 export default function Game() {
   const { game } = useLoaderData<typeof loader>();
 
-  if (!game) return <div>Game not found</div>;
+  if (!game)
+    return (
+      <NotFound message="We weren't able to find a game that matches your request. Maybe try searching for it?" />
+    );
 
   return <>{game.title}</>;
 }

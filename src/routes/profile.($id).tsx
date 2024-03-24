@@ -1,6 +1,7 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { parse } from "cookie";
+import { NotFound } from "~/components/NotFound";
 import { getProfileFromToken } from "~/util/auth";
 import { db } from "~/util/db";
 
@@ -47,7 +48,10 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 export default function Game() {
   const { profile } = useLoaderData<typeof loader>();
 
-  if (!profile) return <div>Profile not found</div>;
+  if (!profile)
+    return (
+      <NotFound message="We weren't able to find a profile that matches your request. Maybe a typo?" />
+    );
 
   return <>{profile.displayName}</>;
 }
