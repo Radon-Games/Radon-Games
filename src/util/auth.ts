@@ -2,7 +2,37 @@ import { db } from "./db";
 import { Prisma } from "@prisma/client";
 import bcrypt from "bcrypt";
 
-export async function getUserFromToken(tokenString: string) {
+export async function getUserIdFromToken(tokenString: string) {
+  const [tokenId, token] = tokenString.split(".");
+
+  if (!tokenId || !token) {
+    return null;
+  }
+
+  const { tokenHash, userId } =
+    (await db.token.findUnique({
+      where: {
+        id: tokenId
+      }
+    })) ?? {};
+
+  if (!tokenHash || !userId) {
+    return null;
+  }
+
+  const isValid = await bcrypt.compare(token, tokenHash);
+
+  if (!isValid) {
+    return null;
+  }
+
+  return userId;
+}
+
+export async function getUserFromToken(
+  tokenString: string,
+  include: Prisma.UserInclude = {}
+) {
   const [tokenId, token] = tokenString.split(".");
 
   if (!tokenId || !token) {
@@ -15,7 +45,9 @@ export async function getUserFromToken(tokenString: string) {
         id: tokenId
       },
       include: {
-        user: true
+        user: {
+          include
+        }
       }
     })) ?? {};
 

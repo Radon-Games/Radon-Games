@@ -25,6 +25,7 @@
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
     "bcrypt": "^5.1.1",
     "cookie": "^0.6.0",
+    "dayjs": "^1.11.10",
     "discord.js": "^14.14.1",
     "framer-motion": "^11.0.3",
     "fuzzy-search": "^3.2.1",
@@ -72,4 +73,3 @@
     "node": ">=18.0.0"
   }
 }
-

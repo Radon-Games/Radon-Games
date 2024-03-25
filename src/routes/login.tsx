@@ -121,7 +121,9 @@ export default function Login() {
   }
 
   useEffect(() => {
-    setIsLoading(false);
+    if (actionData.error) {
+      setIsLoading(false);
+    }
   }, [actionData]);
 
   return (

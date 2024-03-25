@@ -35,6 +35,9 @@ dependencies:
   cookie:
     specifier: ^0.6.0
     version: 0.6.0
+  dayjs:
+    specifier: ^1.11.10
+    version: 1.11.10
   discord.js:
     specifier: ^14.14.1
     version: 14.14.1
@@ -3055,6 +3058,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.9
     dev: true
+
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
+    dev: false
 
   /debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -7890,3 +7897,9 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
+
+  github.com/Radon-Games/EmulatorJS/81b1305457964eb38798ac1367586cb1b30bee94:
+    resolution: {tarball: https://codeload.github.com/Radon-Games/EmulatorJS/tar.gz/81b1305457964eb38798ac1367586cb1b30bee94}
+    name: '@radon-games/emulatorjs'
+    version: 4.0.11
+    dev: false

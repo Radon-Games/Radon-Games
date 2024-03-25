@@ -72,14 +72,14 @@ function NavLink(props: NavLinkProps): JSX.Element {
   return <></>;
 }
 
-function AvatarImage({
+export function AvatarImage({
   profile
 }: {
   profile: NonNullable<Window["__profile"]>;
 }): JSX.Element {
   return (
     <div
-      className="h-full w-full"
+      className="aspect-square h-full"
       style={{
         backgroundImage: `url(${profile.avatar})`,
         backgroundSize: "cover",
