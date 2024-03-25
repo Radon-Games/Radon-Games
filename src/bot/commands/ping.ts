@@ -1,8 +1,6 @@
 import {
   ChatInputApplicationCommandData,
-  ChatInputCommandInteraction,
-  MessageContextMenuCommandInteraction,
-  UserContextMenuCommandInteraction
+  ChatInputCommandInteraction
 } from "discord.js";
 
 export const command: ChatInputApplicationCommandData = {
@@ -10,11 +8,6 @@ export const command: ChatInputApplicationCommandData = {
   description: "Replies with Pong!"
 };
 
-export async function handle(
-  interaction:
-    | ChatInputCommandInteraction
-    | MessageContextMenuCommandInteraction
-    | UserContextMenuCommandInteraction
-) {
+export async function handle(interaction: ChatInputCommandInteraction) {
   await interaction.reply("Pong!");
 }

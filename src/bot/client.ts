@@ -3,19 +3,14 @@ import {
   CacheType,
   ChatInputCommandInteraction,
   Client,
-  GatewayIntentBits,
-  MessageContextMenuCommandInteraction,
-  UserContextMenuCommandInteraction
+  GatewayIntentBits
 } from "discord.js";
 
 export type ClientWithCommands = Client<true> & {
   commands: Map<
     string,
     (
-      interaction:
-        | ChatInputCommandInteraction<CacheType>
-        | MessageContextMenuCommandInteraction<CacheType>
-        | UserContextMenuCommandInteraction<CacheType>
+      interaction: ChatInputCommandInteraction<CacheType>
     ) => Promise<void> | void
   >;
   prisma: PrismaClient;
