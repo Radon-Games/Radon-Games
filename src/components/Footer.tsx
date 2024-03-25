@@ -17,6 +17,7 @@ export function Footer() {
           <a
             href="https://github.com/Radon-Games/Radon-Games"
             target="_blank"
+            rel="noreferrer"
             className="transition-colors hover:text-accent-primary"
             aria-label="GitHub"
           >
@@ -25,6 +26,7 @@ export function Footer() {
           <a
             href="https://discord.gg/unblock"
             target="_blank"
+            rel="noreferrer"
             className="transition-colors hover:text-accent-primary"
             aria-label="Discord"
           >
@@ -33,6 +35,7 @@ export function Footer() {
           <a
             href="https://www.patreon.com/Radon_Games"
             target="_blank"
+            rel="noreferrer"
             className="transition-colors hover:text-accent-primary"
             aria-label="Patreon"
           >
@@ -41,6 +44,7 @@ export function Footer() {
           <a
             href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
             target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-2 hover:text-accent-primary"
             aria-label="Changelog"
           >
@@ -60,8 +64,9 @@ export function Footer() {
             Search
           </a>
           <a
-            target="_blank"
             href="https://discord.gg/t3d7wDA9WY"
+            target="_blank"
+            rel="noreferrer"
             className="hover:text-accent-primary"
           >
             Request

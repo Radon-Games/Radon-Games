@@ -17,8 +17,8 @@ export default function Terms() {
       </h2>
       <div className="mb-3 flex flex-col gap-2">
         <span className="font-normal tracking-wide">
-          These Terms of Service ("Terms") outline the terms and conditions
-          governing your use of Radon Games ("we," "us," or "our") and its
+          These Terms of Service (&quot;Terms&quot;) outline the terms and conditions
+          governing your use of Radon Games (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) and its
           services. By using this service, you agree that you are agreeing to
           all of the terms and conditions written below and the{" "}
           <a
@@ -97,6 +97,7 @@ export default function Terms() {
           <a
             href="https://www.wipo.int/treaties/en/ip/berne/"
             target="_blank"
+            rel="noreferrer"
             className="transtion-all underline hover:text-accent-primary"
           >
             Berne Convention
@@ -146,7 +147,7 @@ export default function Terms() {
       </h2>
       <div className="mb-3 flex flex-col gap-2">
         <span className="font-normal tracking-wide">
-          This service is provided "as is" and we do not warrant that it will be
+          This service is provided &quot;as is&quot; and we do not warrant that it will be
           available at all times or that it will be completely free of bugs or
           errors.
         </span>
@@ -178,7 +179,7 @@ export default function Terms() {
       <div className="mb-3 flex flex-col gap-2">
         <span className="font-normal tracking-wide">
           You agree to indemnify and hold us harmless from any claim or demand,
-          including reasonable attorneys' fees, made by any third party due to
+          including reasonable attorneys&apos; fees, made by any third party due to
           or arising out of your use of this service, your violation of these
           terms, or your violation of any rights of another party.
         </span>
@@ -194,6 +195,7 @@ export default function Terms() {
           <a
             href="mailto:disputes@radon.games"
             target="_blank"
+            rel="noreferrer"
             className="underline transition-all hover:text-accent-primary"
           >
             disputes@radon.games

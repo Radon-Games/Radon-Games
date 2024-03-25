@@ -1,6 +1,5 @@
 import { db } from "./db";
 import { Prisma } from "@prisma/client";
-import { DefaultArgs } from "@prisma/client/runtime/library";
 import bcrypt from "bcrypt";
 
 export async function getUserFromToken(tokenString: string) {

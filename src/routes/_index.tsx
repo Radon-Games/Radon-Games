@@ -66,7 +66,7 @@ export default function Index() {
       {profile && (
         <section className="mb-10">
           <h3 className="mb-2 text-2xl font-bold tracking-wide">Favorited</h3>
-          {/* @ts-expect-error */}
+          {/* @ts-expect-error - TODO: fix the types here */}
           <Carousel games={profile.favorites} />
         </section>
       )}

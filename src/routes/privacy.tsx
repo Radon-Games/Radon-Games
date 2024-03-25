@@ -13,11 +13,11 @@ export default function Privacy() {
         Last updated: September 26, 2023
       </p>
       <p className="font-normal tracking-wide">
-        This Privacy Policy describes how Radon Games ("we," "us," or "our")
-        collects, uses, and discloses information, including personal
-        information, that you provide to us or that we collect when you visit
-        our website. By accessing or using our website, you consent to the
-        practices described in this Privacy Policy.
+        This Privacy Policy describes how Radon Games (&quot;we,&quot;
+        &quot;us,&quot; or &quot;our&quot;) collects, uses, and discloses
+        information, including personal information, that you provide to us or
+        that we collect when you visit our website. By accessing or using our
+        website, you consent to the practices described in this Privacy Policy.
       </p>
 
       <h2 className="mt-8 text-xl" id="1">
@@ -33,8 +33,8 @@ export default function Privacy() {
       </h3>
       <li className="font-normal tracking-wide">
         Personal Information: We may collect your name, email address, username,
-        and passwords when you create an account or interact with our website's
-        features.
+        and passwords when you create an account or interact with our
+        website&apos;s features.
       </li>
 
       <h3 className="mt-2 text-lg" id="1.b">
@@ -53,11 +53,12 @@ export default function Privacy() {
         Our website uses Google Analytics and Google AdSense, which may collect
         data about your interactions with our website, including browsing
         behavior and demographic information. This data is collected by Google
-        and is subject to Google's Privacy Policy. You can review Google's
-        privacy policy at{" "}
+        and is subject to Google&apos;s Privacy Policy. You can review
+        Google&apos;s privacy policy at{" "}
         <a
           href="https://policies.google.com/privacy"
           target="_blank"
+          rel="noreferrer"
           className="underline transition-all hover:text-accent-primary"
         >
           Google Privacy Policy
@@ -168,7 +169,7 @@ export default function Privacy() {
       </li>
 
       <h2 className="mt-8 text-xl" id="6">
-        6. Children's Privacy
+        6. Children&quot;s Privacy
       </h2>
       <p className="font-normal tracking-wide">
         Our website is not directed to individuals under the age of 13, and we
@@ -195,6 +196,7 @@ export default function Privacy() {
         <a
           href="mailto:contact@radon.games"
           target="_blank"
+          rel="noreferrer"
           className="underline transition-all hover:text-accent-primary"
         >
           contact@radon.games
