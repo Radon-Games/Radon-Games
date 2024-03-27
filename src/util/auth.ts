@@ -25,18 +25,22 @@ class Cipher {
   }
 
   decrypt(data: string) {
-    const decipher = createDecipheriv(this.algorithm, this.key, this.iv);
+    try {
+      const decipher = createDecipheriv(this.algorithm, this.key, this.iv);
 
-    return (
-      decipher.update(atob(data), "binary", "utf8") + decipher.final("utf8")
-    );
+      return (
+        decipher.update(atob(data), "binary", "utf8") + decipher.final("utf8")
+      );
+    } catch {
+      return null;
+    }
   }
 }
 
 const cipher = new Cipher(
   "aes-256-cbc",
-  process.env.CIPHER_KEY || randomBytes(256).toString("hex"),
-  process.env.CIPHER_IV || randomBytes(16).toString("hex")
+  process.env.ENCRYPTION_KEY!,
+  process.env.ENCRYPTION_IV!
 );
 
 export async function isAuthenticated(tokenString: string): Promise<boolean> {
