@@ -34,7 +34,7 @@ export default function Index() {
         setProfile(window.__profile);
         clearInterval(interval);
       }
-    }, 500);
+    }, 50);
 
     return () => {
       clearInterval(interval);
@@ -43,7 +43,7 @@ export default function Index() {
 
   return (
     <main className="flex flex-col px-8 md:px-16 lg:px-32 xl:px-48">
-      <section className="my-32 flex w-full flex-col items-center justify-center gap-5">
+      <section className="flex w-full flex-col items-center justify-center gap-5 py-32">
         <Banner className="h-10 sm:h-14" />
         <p className="text-center">{description}</p>
         <div className="flex gap-5">
@@ -56,7 +56,7 @@ export default function Index() {
           </a>
           <a
             href={`/game/${randomGame}`}
-            className="flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg transition-all hover:scale-105 hover:shadow-[0px_0px_16px_var(--bg-secondary)] focus:outline-0"
+            className="flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg transition-all hover:scale-105 hover:shadow-[0px_0px_16px_var(--accent-secondary)] focus:outline-0"
           >
             <PiDiceFive />
             Pick One For Me
@@ -65,7 +65,9 @@ export default function Index() {
       </section>
       {profile && (
         <section className="mb-10">
-          <h3 className="mb-2 text-2xl font-bold tracking-wide">Favorited</h3>
+          <h3 className="mb-2 text-2xl font-bold tracking-wide">
+            Favorited Games
+          </h3>
           {/* @ts-expect-error - TODO: fix the types here */}
           <Carousel games={profile.favorites} />
         </section>
