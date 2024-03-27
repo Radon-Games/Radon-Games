@@ -23,7 +23,7 @@ export async function handle(interaction: ChatInputCommandInteraction) {
   const nickname =
     (interaction.member instanceof GuildMember
       ? interaction.member.nickname
-      : interaction.member.nick) || interaction.user.username;
+      : interaction.member.nick) || interaction.user.displayName;
 
   await client.prisma.profile.upsert({
     where: {

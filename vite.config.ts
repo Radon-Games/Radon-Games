@@ -2,7 +2,6 @@ import { unstable_vitePlugin as remix } from "@remix-run/dev";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import path from "path";
 import { defineConfig } from "vite";
-import { nodePolyfills } from "vite-plugin-node-polyfills";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import tsconfigPaths from "vite-tsconfig-paths";
 
@@ -15,54 +14,6 @@ export default defineConfig({
     outDir: "./dist"
   },
   plugins: [
-    nodePolyfills({
-      globals: {
-        process: true
-      },
-      exclude: [
-        // Exclude everyting except for the process global
-        "_stream_duplex",
-        "_stream_passthrough",
-        "_stream_readable",
-        "_stream_transform",
-        "_stream_writable",
-        "assert",
-        "buffer",
-        "child_process",
-        "cluster",
-        "console",
-        "constants",
-        "crypto",
-        "dgram",
-        "dns",
-        "domain",
-        "events",
-        "fs",
-        "http",
-        "http2",
-        "https",
-        "module",
-        "net",
-        "os",
-        "path",
-        "process",
-        "punycode",
-        "querystring",
-        "readline",
-        "repl",
-        "stream",
-        "string_decoder",
-        "sys",
-        "timers",
-        "timers/promises",
-        "tls",
-        "tty",
-        "url",
-        "util",
-        "vm",
-        "zlib"
-      ]
-    }),
     viteStaticCopy({
       targets: [
         {

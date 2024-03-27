@@ -45,7 +45,7 @@ model Token {
   expiresAt DateTime
   user      User     @relation(fields: [userId], references: [id])
   userId    String
-  tokenHash String   @db.Text
+  encToken  String   @db.Text
 }
 
 model Profile {

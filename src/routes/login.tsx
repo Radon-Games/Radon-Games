@@ -5,13 +5,12 @@ import {
   redirect
 } from "@remix-run/node";
 import { Form, useActionData, useLoaderData } from "@remix-run/react";
-import bcrypt from "bcrypt";
 import { parse } from "cookie";
 import { useEffect, useState } from "react";
 import { Icon } from "~/assets/Icon";
 import { Modal } from "~/components/Modal";
+import { isAuthenticated, generateToken } from "~/util/auth";
 import { db } from "~/util/db";
-import { generateToken } from "~/util/generateToken";
 import { verifyCode } from "~/util/loginCodes";
 
 export async function loader({ request }: LoaderFunctionArgs) {
@@ -21,51 +20,18 @@ export async function loader({ request }: LoaderFunctionArgs) {
     return json({ isLoggedIn: false });
   }
 
-  const [id, token] = cookie.split(".");
-
-  if (!id || !token) {
-    return json(
-      { isLoggedIn: false },
-      {
-        headers: {
-          "Set-Cookie": `token=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0`
-        }
-      }
-    );
+  if (await isAuthenticated(cookie)) {
+    return json({ isLoggedIn: true });
   }
 
-  const { tokenHash } =
-    (await db.token.findUnique({
-      where: {
-        id
+  return json(
+    { isLoggedIn: false },
+    {
+      headers: {
+        "Set-Cookie": `token=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0`
       }
-    })) ?? {};
-
-  if (!tokenHash) {
-    return json(
-      { isLoggedIn: false },
-      {
-        headers: {
-          "Set-Cookie": `token=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0`
-        }
-      }
-    );
-  }
-
-  const valid = await bcrypt.compare(token, tokenHash);
-
-  if (!valid) {
-    return json(
-      { isLoggedIn: false },
-      {
-        headers: {
-          "Set-Cookie": `token=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0`
-        }
-      }
-    );
-  }
-
-  return json({ isLoggedIn: true });
+    }
+  );
 }
 
 export async function action({ request }: ActionFunctionArgs) {
@@ -87,7 +53,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
   const dbToken = await db.token.create({
     data: {
-      tokenHash: token.hash,
+      encToken: token.encrypted,
       expiresAt: token.expiresAt,
       user: {
         connect: {

@@ -23,7 +23,6 @@
     "@remix-run/serve": "^2.5.1",
     "@ruffle-rs/ruffle": "0.1.0-nightly.2024.1.28",
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
-    "bcrypt": "^5.1.1",
     "cookie": "^0.6.0",
     "dayjs": "^1.11.10",
     "discord.js": "^14.14.1",
@@ -39,7 +38,6 @@
   "devDependencies": {
     "@remix-run/dev": "^2.5.1",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "@types/bcrypt": "^5.0.2",
     "@types/cookie": "^0.6.0",
     "@types/fuzzy-search": "^2.1.5",
     "@types/mime-types": "^2.1.4",
@@ -65,7 +63,6 @@
     "tsx": "^4.7.0",
     "typescript": "^5.1.6",
     "vite": "^5.0.12",
-    "vite-plugin-node-polyfills": "^0.19.0",
     "vite-plugin-static-copy": "^1.0.1",
     "vite-tsconfig-paths": "^4.3.1"
   },
