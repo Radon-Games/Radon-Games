@@ -5,12 +5,24 @@ type Collection = (Game & {
   tags: Tag[];
 })[];
 
+// Cache game data to reduce database queries and improve performance (probably a better way to do this but idc)
 export let popularGames: Collection = [];
 export let hotGames: Collection = [];
 export let bestGames: Collection = [];
+export let allGames = await db.game.findMany({
+  orderBy: {
+    title: "asc"
+  },
+  include: {
+    tags: true
+  }
+});
 
 export async function updateFeaturedGames() {
-  const allGames = await db.game.findMany({
+  allGames = await db.game.findMany({
+    orderBy: {
+      title: "asc"
+    },
     include: {
       tags: true
     }
@@ -25,7 +37,8 @@ export async function updateFeaturedGames() {
 
 updateFeaturedGames();
 
-setInterval(updateFeaturedGames, 1000 * 60 * 60 * 24);
+// Update the cache every x minutes to keep the data fresh
+setInterval(updateFeaturedGames, Number(process.env.CACHE_REFRESH) ?? 60000);
 
 async function getViews(count: number) {
   return await db.play.findMany({

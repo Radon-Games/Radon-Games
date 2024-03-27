@@ -2,23 +2,13 @@ import { json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { useEffect, useState } from "react";
 import { PiDiceFive } from "react-icons/pi";
-import { Banner } from "~/assets/Banner";
 import { Icon } from "~/assets/Icon";
 import { Carousel } from "~/components/Carousel";
 import { GameCard } from "~/components/GameCard";
-import { db } from "~/util/db";
-import { bestGames, hotGames, popularGames } from "~/util/featured";
+import { bestGames, hotGames, popularGames, allGames } from "~/util/games";
 
 export async function loader() {
-  const allGames = await db.game.findMany({
-    orderBy: {
-      title: "asc"
-    },
-    include: {
-      tags: true
-    }
-  });
-
+  // Pass data through loader as to not include it in the client bundle
   return json({
     popularGames,
     hotGames,

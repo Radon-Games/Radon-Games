@@ -5,16 +5,14 @@ import { useEffect, useState } from "react";
 import { PiDiceFive, PiMagnifyingGlass } from "react-icons/pi";
 import { Banner } from "~/assets/Banner";
 import { Carousel } from "~/components/Carousel";
-import { db } from "~/util/db";
-import { popularGames, hotGames, bestGames } from "~/util/featured";
+import { popularGames, hotGames, bestGames, allGames } from "~/util/games";
 
 export const meta: MetaFunction = () => {
   return [{ title: "Home | Radon Games", "og:title": "Home | Radon Games" }];
 };
 
 export async function loader() {
-  const allGames = await db.game.findMany();
-
+  // Pass data through loader as to not include it in the client bundle
   return json({
     popularGames,
     hotGames,

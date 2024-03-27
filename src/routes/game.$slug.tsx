@@ -1,16 +1,14 @@
 import { LoaderFunctionArgs, MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { NotFound } from "~/components/NotFound";
-import { db } from "~/util/db";
+import { allGames } from "~/util/games";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
   const { origin } = new URL(request.url);
 
   if (!params.slug) return json({ game: null, origin }, { status: 404 });
 
-  const game = await db.game.findUnique({
-    where: { slug: params.slug }
-  });
+  const game = await allGames.find((game) => game.slug === params.slug);
 
   if (!game) return json({ game: null, origin }, { status: 404 });
 
