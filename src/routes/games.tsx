@@ -40,7 +40,7 @@ export default function Games() {
       <section className="flex w-full flex-col items-center justify-center gap-5 pb-32">
         <Icon className="h-10 sm:h-14" />
         <p className="text-center">
-          Browse from Radon's selection of {allGames.length} games!
+          Browse from Radon&apos;s selection of {allGames.length} games!
         </p>
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-5">
           <form method="GET" action="/search">
@@ -101,7 +101,7 @@ export default function Games() {
         </div>
         <div className="grid grid-cols-1 items-center justify-center gap-5 md:grid-cols-2 min-[1216px]:grid-cols-3">
           {allGames.map((game) => {
-            return <GameCard game={game} />;
+            return <GameCard game={game} key={game.slug} />;
           })}
         </div>
       </section>
