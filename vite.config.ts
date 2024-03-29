@@ -1,3 +1,4 @@
+import { dataPath } from "@radon-games/emulatorjs";
 import { unstable_vitePlugin as remix } from "@remix-run/dev";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import path from "path";
@@ -30,6 +31,11 @@ export default defineConfig({
         {
           src: `${unityPath}/*.js`.replace(/\\/g, "/"),
           dest: "unity",
+          overwrite: false
+        },
+        {
+          src: `${dataPath}/*`.replace(/\\/g, "/"),
+          dest: "emulator",
           overwrite: false
         }
       ]

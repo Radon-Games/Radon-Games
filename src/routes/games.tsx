@@ -13,12 +13,13 @@ export async function loader() {
     popularGames,
     hotGames,
     bestGames,
-    allGames
+    allGames,
+    randomGame: allGames[Math.floor(Math.random() * allGames.length)]?.slug
   });
 }
 
 export default function Games() {
-  const { popularGames, hotGames, bestGames, allGames } =
+  const { popularGames, hotGames, bestGames, allGames, randomGame } =
     useLoaderData<typeof loader>();
   const [profile, setProfile] = useState<Window["__profile"]>(null);
 
@@ -53,7 +54,7 @@ export default function Games() {
             />
           </form>
           <a
-            href={`/game/${allGames[Math.floor(Math.random() * allGames.length)].slug}`}
+            href={`/game/${randomGame}`}
             className="flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-lg bg-accent-secondary px-4 py-2 font-semibold shadow-lg transition-all hover:scale-105 hover:shadow-[0px_0px_16px_var(--accent-secondary)] focus:outline-0"
           >
             <PiDiceFive />

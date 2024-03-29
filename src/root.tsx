@@ -40,7 +40,9 @@ export async function loader({ request }: LoaderFunctionArgs) {
         include: {
           tags: true
         }
-      }
+      },
+      likes: true,
+      dislikes: true
     }
   );
 

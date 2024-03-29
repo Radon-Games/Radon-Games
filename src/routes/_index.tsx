@@ -17,7 +17,7 @@ export async function loader() {
     popularGames,
     hotGames,
     bestGames,
-    randomGame: allGames[Math.floor(Math.random() * allGames.length)].slug
+    randomGame: allGames[Math.floor(Math.random() * allGames.length)]?.slug
   });
 }
 

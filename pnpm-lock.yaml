@@ -8,6 +8,9 @@ dependencies:
   '@prisma/client':
     specifier: 5.8.1
     version: 5.8.1(prisma@5.8.1)
+  '@radon-games/emulatorjs':
+    specifier: github:Radon-Games/EmulatorJS
+    version: github.com/Radon-Games/EmulatorJS/4befdc8ec062b84c123a2d542b71a3cde35837a8
   '@radon-games/unityloader':
     specifier: ^1.0.0
     version: 1.0.0
@@ -24,8 +27,8 @@ dependencies:
     specifier: ^2.5.1
     version: 2.5.1(typescript@5.3.3)
   '@ruffle-rs/ruffle':
-    specifier: 0.1.0-nightly.2024.1.28
-    version: 0.1.0-nightly.2024.1.28
+    specifier: '*'
+    version: 0.1.0-nightly.2024.3.28
   '@titaniumnetwork-dev/ultraviolet':
     specifier: ^2.0.0
     version: 2.0.0
@@ -1805,8 +1808,8 @@ packages:
     dev: true
     optional: true
 
-  /@ruffle-rs/ruffle@0.1.0-nightly.2024.1.28:
-    resolution: {integrity: sha512-FzgMV/YTyEWc+S2FNyhe5mrO6+XFDZ7CjfieHzahb0Ax50eH7A7Qvy9bCS4OHVqiynLKa8fK/TyxcHcBsT3Kgg==}
+  /@ruffle-rs/ruffle@0.1.0-nightly.2024.3.28:
+    resolution: {integrity: sha512-1i2+uYb1muir/JxTRqx2884ZSv2vP4p16+mV9m0B0OFKKORouR6jAFYF+wBhwPudiEotOEvn5baprFpA9apAUQ==}
     dev: false
 
   /@sapphire/async-queue@1.5.2:
@@ -7248,3 +7251,9 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
+
+  github.com/Radon-Games/EmulatorJS/4befdc8ec062b84c123a2d542b71a3cde35837a8:
+    resolution: {tarball: https://codeload.github.com/Radon-Games/EmulatorJS/tar.gz/4befdc8ec062b84c123a2d542b71a3cde35837a8}
+    name: '@radon-games/emulatorjs'
+    version: 4.0.12
+    dev: false
