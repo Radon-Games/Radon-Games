@@ -28,10 +28,6 @@ model User {
   tokens      Token[]
   profile     Profile       @relation(fields: [id], references: [id])
   plays       Play[]
-  likes       Game[]        @relation("likes")
-  numLikes    Int           @default(0)
-  dislikes    Game[]        @relation("dislikes")
-  numDislikes Int           @default(0)
   requests    GameRequest[] @relation("owner")
   numRequests Int           @default(0)
   linkLimit   Int           @default(3)
@@ -58,7 +54,8 @@ model Profile {
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
   favorites    Game[]   @relation("favorited")
-  numFavorites Int      @default(0)
+  likes        Game[]   @relation("likes")
+  dislikes     Game[]   @relation("dislikes")
   numPlays     Int      @default(0)
   user         User?
   private      Boolean  @default(false)
@@ -74,9 +71,9 @@ model Game {
   type         String
   plays        Play[]
   numPlays     Int       @default(0)
-  likes        User[]    @relation("likes")
+  likes        Profile[] @relation("likes")
   numLikes     Int       @default(0)
-  dislikes     User[]    @relation("dislikes")
+  dislikes     Profile[] @relation("dislikes")
   numDislikes  Int       @default(0)
   favorited    Profile[] @relation("favorited")
   numFavorited Int       @default(0)

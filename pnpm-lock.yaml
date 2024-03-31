@@ -12,7 +12,7 @@ dependencies:
     specifier: github:Radon-Games/EmulatorJS
     version: github.com/Radon-Games/EmulatorJS/4befdc8ec062b84c123a2d542b71a3cde35837a8
   '@radon-games/unityloader':
-    specifier: ^1.0.0
+    specifier: '*'
     version: 1.0.0
   '@remix-run/css-bundle':
     specifier: ^2.5.1
