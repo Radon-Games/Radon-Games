@@ -3,7 +3,7 @@ version: '3'
 services:
   randon_games:
     build: .
-    container_name: "randon_games"
+    container_name: "radon_games"
     ports:
       - target: 4173
         published: 4173
