@@ -1,7 +1,7 @@
 import { games } from "../util/games";
 import { NotFound } from "./404";
 import { motion } from "framer-motion";
-import { useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import {
   PiCornersOutBold,
   PiCornersInBold, // PiThumbsUpBold,
@@ -41,14 +41,31 @@ export function Game(props: { id: string }) {
     setFullscreen(document.fullscreenElement !== null);
   });
 
+  useEffect(() => {
+    // setTimeout(() => {
+      // @ts-ignore
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    // }, 5000);
+  }, []);
+
   return (
     <motion.main
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      class="flex justify-center px-8 md:px-16 lg:px-32 xl:px-48"
+      class="flex flex-col justify-center px-8 md:px-16 lg:px-32 xl:px-48"
     >
-      <div class="my-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
+      <div class="m-8 ml-auto mr-auto block w-full">
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-8517735295733237"
+          data-ad-slot="9539351850"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </div>
+      <div class="mb-16 mt-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
         <iframe
           id="game"
           scrolling="no"
