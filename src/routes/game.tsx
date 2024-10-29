@@ -43,9 +43,11 @@ export function Game(props: { id: string }) {
 
   useEffect(() => {
     // setTimeout(() => {
-      // @ts-ignore
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    // }, 5000);
+    // @ts-ignore
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    // @ts-ignore
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    // }, 1000);
   }, []);
 
   return (
@@ -55,17 +57,21 @@ export function Game(props: { id: string }) {
       exit={{ opacity: 0, y: -10 }}
       class="flex flex-col justify-center px-8 md:px-16 lg:px-32 xl:px-48"
     >
-      <div class="m-8 ml-auto mr-auto block w-full">
+      <div className="lg min-h-32 relative my-16 w-full bg-bg-secondary shadow-md">
+        <div className="absolute flex h-full w-full items-center justify-center">
+          Please consider turning off your Ad Blocker to support Radon Games
+        </div>
         <ins
-          class="adsbygoogle"
-          style="display:block"
+          key="abovegame"
+          className="adsbygoogle"
+          style={{ display: "block" }}
           data-ad-client="ca-pub-8517735295733237"
           data-ad-slot="9539351850"
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
       </div>
-      <div class="mb-16 mt-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
+      <div class="flex w-full flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
         <iframe
           id="game"
           scrolling="no"
@@ -130,6 +136,20 @@ export function Game(props: { id: string }) {
           </div>
         </div>
         <p class="mb-2 px-5 py-3">{game.description}</p>
+      </div>
+      <div className="lg min-h-32 relative my-16 w-full bg-bg-secondary shadow-md">
+        <div className="absolute flex h-full w-full items-center justify-center">
+          Please consider turning off your Ad Blocker to support Radon Games
+        </div>
+        <ins
+          key="abovegame"
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-8517735295733237"
+          data-ad-slot="9539351850"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
       </div>
     </motion.main>
   );
