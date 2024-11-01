@@ -302,7 +302,7 @@ export function Header(): JSX.Element {
                         icon={PiGear}
                       />
                       <NavLink
-                        href="/game-developers"
+                        href="/developers"
                         label="Game Developers"
                         accesibilityLabel="Get Your Game Out There"
                         icon={PiCode}

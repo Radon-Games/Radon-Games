@@ -10,7 +10,6 @@ import type {
 } from "@remix-run/node";
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
@@ -92,12 +91,6 @@ export default function App() {
         <Meta />
         <Links />
 
-        {/* BUG: This breaks hydration */}
-        {/* <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${env.ADSENSE}`}
-          crossOrigin="anonymous"
-        ></script> */}
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${env.GTAG}`}
@@ -118,12 +111,11 @@ export default function App() {
         />
       </head>
       <body className="scroll-smooth bg-bg-primary font-medium text-text-primary">
-        {!pathname.startsWith("/iframe") && <Header />}
+        {!/^\/(iframe|developer)/.test(pathname) && <Header />}
         <Outlet />
-        {!pathname.startsWith("/iframe") && <Footer />}
+        {!/^\/(iframe|developer)/.test(pathname) && <Footer />}
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
         <ExternalScripts />
       </body>
     </html>

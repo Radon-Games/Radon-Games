@@ -61,11 +61,21 @@ model Profile {
   private      Boolean  @default(false)
 }
 
+model Publisher {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  games       Game[]
+  numGames    Int      @default(0)
+}
+
 model Game {
   id           String    @id @default(cuid())
   slug         String    @unique
   title        String
   author       String    @db.Text
+  publisherId  String?
+  publisher    Publisher? @relation(fields: [publisherId], references: [id])
   description  String    @db.Text
   tags         Tag[]
   type         String

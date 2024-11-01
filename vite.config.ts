@@ -1,5 +1,5 @@
 import { dataPath } from "@radon-games/emulatorjs";
-import { unstable_vitePlugin as remix } from "@remix-run/dev";
+import { vitePlugin as remix } from "@remix-run/dev";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import path from "path";
 import { defineConfig } from "vite";
@@ -21,7 +21,9 @@ export default defineConfig({
           // .replace fixes weird paths on Windows
           src: `${uvPath}/uv.*.js`.replace(/\\/g, "/"),
           dest: "uv",
-          overwrite: false
+          overwrite: false,
+          rename: (name, extension) =>
+            `${name}.${extension}`.replace(/uv\./, "")
         },
         {
           src: `${rufflePath}/*.{js,wasm}`.replace(/\\/g, "/"),
@@ -42,9 +44,8 @@ export default defineConfig({
     }),
     remix({
       appDirectory: "src",
-      serverBuildDirectory: "dist/server",
       serverBuildFile: "index.js",
-      assetsBuildDirectory: "dist/client"
+      buildDirectory: "dist"
     }),
     tsconfigPaths()
   ],

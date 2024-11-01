@@ -5,7 +5,7 @@ import {
   MetaFunction,
   json
 } from "@remix-run/node";
-import { Form, useLoaderData } from "@remix-run/react";
+import { Form, useLoaderData, useLocation } from "@remix-run/react";
 import { parse } from "cookie";
 import { useEffect, useState } from "react";
 import {
@@ -17,6 +17,7 @@ import {
   PiHeart,
   PiCornersOut
 } from "react-icons/pi";
+import Ad from "~/components/Ad";
 import { NotFound } from "~/components/NotFound";
 import { getProfileFromToken } from "~/util/auth";
 import { db } from "~/util/db";
@@ -208,6 +209,7 @@ export default function Game() {
   const [favorited, setFavorited] = useState(false);
   const [profile, setProfile] = useState<Window["__profile"]>(null);
   const { game } = useLoaderData<typeof loader>();
+  const location = useLocation();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -248,7 +250,13 @@ export default function Game() {
 
   return (
     <main>
-      <div className="my-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
+      <div className="lg relative my-16 min-h-32 w-full bg-bg-secondary shadow-md">
+        <div className="absolute flex h-full w-full items-center justify-center">
+          Please consider turning off your Ad Blocker to support Radon Games
+        </div>
+        <Ad slot="9539351850" />
+      </div>
+      <div className="my-16 flex w-full flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
         <iframe
           id="game"
           scrolling="no"
@@ -375,6 +383,12 @@ export default function Game() {
           </div>
         </div>
         <p className="mb-2 px-5 py-3">{game.description}</p>
+      </div>
+      <div className="lg relative my-16 min-h-32 w-full bg-bg-secondary shadow-md">
+        <div className="absolute flex h-full w-full items-center justify-center">
+          Please consider turning off your Ad Blocker to support Radon Games
+        </div>
+        <Ad slot="9539351850" />
       </div>
     </main>
   );

@@ -1,11 +1,6 @@
 import { db } from "./db";
 import { Prisma } from "@prisma/client";
-import {
-  randomBytes,
-  createHash,
-  createCipheriv,
-  createDecipheriv
-} from "crypto";
+import { randomBytes, createHash, createCipheriv, createDecipheriv } from "crypto";
 
 class Cipher {
   algorithm: string;
