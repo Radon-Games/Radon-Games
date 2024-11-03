@@ -15,7 +15,7 @@ importers:
         specifier: github:Radon-Games/EmulatorJS
         version: https://codeload.github.com/Radon-Games/EmulatorJS/tar.gz/4befdc8ec062b84c123a2d542b71a3cde35837a8
       '@radon-games/unityloader':
-        specifier: ^1.0.0
+        specifier: '*'
         version: 1.0.0
       '@remix-run/css-bundle':
         specifier: ^2.12.1
@@ -30,8 +30,8 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1(typescript@5.6.3)
       '@ruffle-rs/ruffle':
-        specifier: 0.1.0-nightly.2024.10.11
-        version: 0.1.0-nightly.2024.10.11
+        specifier: '*'
+        version: 0.1.0-nightly.2024.11.3
       '@titaniumnetwork-dev/ultraviolet':
         specifier: ^2.0.0
         version: 2.0.0
@@ -1224,8 +1224,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@ruffle-rs/ruffle@0.1.0-nightly.2024.10.11':
-    resolution: {integrity: sha512-hiXKlLL5umkR21qRETlJOdVtzlxforX6Ay4pEyzu9YcxtPoy5YA9J/7JC+LvDzYQ+pVgpiPvgDD+gsvSGZjnSg==}
+  '@ruffle-rs/ruffle@0.1.0-nightly.2024.11.3':
+    resolution: {integrity: sha512-5phYw9fFhe8fLpGJLOtRG9719LTVqRF4BJrNum3JtJ5YK6v7I5WOqpMWGXNlplfm1Abf+gY/lr5W73w5258GEA==}
 
   '@sapphire/async-queue@1.5.3':
     resolution: {integrity: sha512-x7zadcfJGxFka1Q3f8gCts1F0xMwCKbZweM85xECGI0hBTeIZJGGCrHgLggihBoprlQ/hBmDR5LKfIPqnmHM3w==}
@@ -5231,7 +5231,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@ruffle-rs/ruffle@0.1.0-nightly.2024.10.11': {}
+  '@ruffle-rs/ruffle@0.1.0-nightly.2024.11.3': {}
 
   '@sapphire/async-queue@1.5.3': {}
 
