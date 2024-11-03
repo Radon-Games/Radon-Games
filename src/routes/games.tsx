@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { PiDiceFive } from "react-icons/pi";
 import { Icon } from "~/assets/Icon";
 import { Carousel } from "~/components/Carousel";
-import { GameCard } from "~/components/GameCard";
+import GameList from "~/components/GameList";
 import { bestGames, hotGames, popularGames, allGames } from "~/util/games";
 
 export async function loader() {
@@ -100,11 +100,7 @@ export default function Games() {
             />
           </form>
         </div>
-        <div className="grid grid-cols-1 items-center justify-center gap-5 md:grid-cols-2 min-[1216px]:grid-cols-3">
-          {allGames.map((game) => {
-            return <GameCard game={game} key={game.slug} />;
-          })}
-        </div>
+        <GameList games={allGames} />
       </section>
     </main>
   );

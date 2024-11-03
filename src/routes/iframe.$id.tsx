@@ -65,13 +65,15 @@ export const handle: ExternalScriptsHandle<LoaderData> = {
       } else if (game.type === "flash") {
         return [
           {
-            src: "/ruffle/ruffle.js"
+            src: "/ruffle/ruffle.js",
+            preload: true
           }
         ];
       } else if (game.type === "unity") {
         return [
           {
-            src: "/unity/UnityLoader.js"
+            src: "/unity/UnityLoader.js",
+            preload: true
           }
         ];
       }
@@ -303,7 +305,7 @@ export default function Iframe(): JSX.Element {
       </div>
       <div className={`h-full w-full ${!errored && "hidden"}`}>
         <div className="flex h-full w-full flex-col items-center justify-center gap-5">
-          <img alt="Radon Games" src="logo.png" className="w-10" />
+          <Icon className="w-10" />
           <p>An error occurred.</p>
           <button
             className="cursor-pointer underline"

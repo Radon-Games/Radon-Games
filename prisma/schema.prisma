@@ -45,48 +45,48 @@ model Token {
 }
 
 model Profile {
-  id           String   @id
-  username     String   @unique
-  displayName  String   @db.Text
-  avatar       String   @db.Text
-  playTokens   Int      @default(1)
-  lastToken    DateTime @default(now())
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
-  favorites    Game[]   @relation("favorited")
-  likes        Game[]   @relation("likes")
-  dislikes     Game[]   @relation("dislikes")
-  numPlays     Int      @default(0)
-  user         User?
-  private      Boolean  @default(false)
+  id          String   @id
+  username    String   @unique
+  displayName String   @db.Text
+  avatar      String   @db.Text
+  playTokens  Int      @default(1)
+  lastToken   DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  favorites   Game[]   @relation("favorited")
+  likes       Game[]   @relation("likes")
+  dislikes    Game[]   @relation("dislikes")
+  numPlays    Int      @default(0)
+  user        User?
+  private     Boolean  @default(false)
 }
 
 model Publisher {
-  id          String   @id @default(cuid())
+  id          String @id @default(cuid())
   name        String
-  description String   @db.Text
+  description String @db.Text
   games       Game[]
-  numGames    Int      @default(0)
+  numGames    Int    @default(0)
 }
 
 model Game {
-  id           String    @id @default(cuid())
-  slug         String    @unique
+  id           String     @id @default(cuid())
+  slug         String     @unique
   title        String
-  author       String    @db.Text
+  author       String     @db.Text
   publisherId  String?
   publisher    Publisher? @relation(fields: [publisherId], references: [id])
-  description  String    @db.Text
+  description  String     @db.Text
   tags         Tag[]
   type         String
   plays        Play[]
-  numPlays     Int       @default(0)
-  likes        Profile[] @relation("likes")
-  numLikes     Int       @default(0)
-  dislikes     Profile[] @relation("dislikes")
-  numDislikes  Int       @default(0)
-  favorited    Profile[] @relation("favorited")
-  numFavorited Int       @default(0)
+  numPlays     Int        @default(0)
+  likes        Profile[]  @relation("likes")
+  numLikes     Int        @default(0)
+  dislikes     Profile[]  @relation("dislikes")
+  numDislikes  Int        @default(0)
+  favorited    Profile[]  @relation("favorited")
+  numFavorited Int        @default(0)
   emulator     String?
 }
 

@@ -5,7 +5,7 @@ import {
   MetaFunction,
   json
 } from "@remix-run/node";
-import { Form, useLoaderData, useLocation } from "@remix-run/react";
+import { Form, useLoaderData } from "@remix-run/react";
 import { parse } from "cookie";
 import { useEffect, useState } from "react";
 import {
@@ -59,7 +59,7 @@ export async function action({ params, request }: ActionFunctionArgs) {
     (favoritedGame) => favoritedGame.id === game?.id
   );
 
-  let update: Prisma.GameUpdateArgs = {
+  const update: Prisma.GameUpdateArgs = {
     where: {
       slug: params.slug!
     },
@@ -209,7 +209,6 @@ export default function Game() {
   const [favorited, setFavorited] = useState(false);
   const [profile, setProfile] = useState<Window["__profile"]>(null);
   const { game } = useLoaderData<typeof loader>();
-  const location = useLocation();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -250,15 +249,16 @@ export default function Game() {
 
   return (
     <main>
-      <div className="lg relative my-16 min-h-32 w-full bg-bg-secondary shadow-md">
-        <div className="absolute flex h-full w-full items-center justify-center">
-          Please consider turning off your Ad Blocker to support Radon Games
-        </div>
+      <div className="my-16 min-h-32 w-full">
         <Ad slot="9539351850" />
       </div>
       <div className="my-16 flex w-full flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg">
         <iframe
           id="game"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+          allowFullScreen={true}
+          allow="autoplay 'self'; camera 'none'; encrypted-media 'self'; geolocation 'none'; microphone 'none'; midi 'none'; payment 'none'; xr-spatial-tracking 'none';"
+          title={game.title}
           scrolling="no"
           className="aspect-video w-full"
           src={`/iframe/${game.id}`}
@@ -384,10 +384,7 @@ export default function Game() {
         </div>
         <p className="mb-2 px-5 py-3">{game.description}</p>
       </div>
-      <div className="lg relative my-16 min-h-32 w-full bg-bg-secondary shadow-md">
-        <div className="absolute flex h-full w-full items-center justify-center">
-          Please consider turning off your Ad Blocker to support Radon Games
-        </div>
+      <div className="my-16 min-h-32 w-full">
         <Ad slot="9539351850" />
       </div>
     </main>

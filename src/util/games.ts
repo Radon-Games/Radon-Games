@@ -30,8 +30,8 @@ async function updateCache() {
 
 updateCache();
 
-// Update the cache every x minutes to keep the data fresh
-setInterval(updateCache, 60000);
+// Update the cache every x ms to keep the data fresh
+setInterval(updateCache, 15000);
 
 async function getViews(count: number) {
   return await db.play.findMany({

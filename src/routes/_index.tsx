@@ -4,6 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 import { useEffect, useState } from "react";
 import { PiDiceFive, PiMagnifyingGlass } from "react-icons/pi";
 import { Banner } from "~/assets/Banner";
+import Ad from "~/components/Ad";
 import { Carousel } from "~/components/Carousel";
 import { popularGames, hotGames, bestGames, allGames } from "~/util/games";
 
@@ -41,7 +42,7 @@ export default function Index() {
 
   return (
     <main className="flex flex-col px-8 md:px-16 lg:px-32 xl:px-48">
-      <section className="flex w-full flex-col items-center justify-center gap-5 py-32">
+      <section className="flex w-full flex-col items-center justify-center gap-5 pb-16 pt-32">
         <Banner className="h-10 sm:h-14" />
         <p className="text-center">{description}</p>
         <div className="flex gap-5">
@@ -61,6 +62,9 @@ export default function Index() {
           </a>
         </div>
       </section>
+      <div className="mb-16 min-h-32 w-full">
+        <Ad slot="9539351850" />
+      </div>
       {profile && (
         <section className="mb-10">
           <h3 className="mb-2 text-2xl font-bold tracking-wide">
