@@ -186,8 +186,7 @@ export function Proxy() {
           onReorder={(newTabs: Tab[]) => {
             setTabs(newTabs);
           }}
-          values={tabs}
-          // @ts-expect-error
+          values={tabs.valueOf()}
           className="scrollbar-none flex w-full flex-1 flex-col items-center gap-2 overflow-y-scroll p-2 transition-none sm:p-4"
         >
           <AnimatePresence>
