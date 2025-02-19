@@ -19,6 +19,12 @@ export type Tab = {
   url: string;
 };
 
+declare global {
+  interface Window {
+    BareMux: any;
+  }
+}
+
 export function Proxy() {
   const [tabs, setTabs] = useState<Tab[]>([]);
   const [activeTab, setActiveTab] = useState<number>(
@@ -197,7 +203,7 @@ export function Proxy() {
                   transition={{
                     duration: 0.1
                   }}
-                  class={`flex aspect-square h-10 w-10 items-center justify-center rounded p-2 text-sm sm:w-full sm:justify-normal sm:gap-2 ${
+                  className={`flex aspect-square h-10 w-10 items-center justify-center rounded p-2 text-sm sm:w-full sm:justify-normal sm:gap-2 ${
                     tab.id === activeTab
                       ? "bg-accent-secondary"
                       : "bg-bg-secondary"

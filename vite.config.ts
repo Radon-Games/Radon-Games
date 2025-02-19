@@ -1,4 +1,6 @@
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
+import { libcurlPath } from "@mercuryworkshop/libcurl-transport";
+import { server as wisp } from '@mercuryworkshop/wisp-js/server';
+import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
 import million from "million/compiler";
 import { defineConfig } from "vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
@@ -8,15 +10,27 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: `${uvPath}/.`.replace(/\\/g, "/"),
-          dest: "uv"
+          src: `${libcurlPath}/**/*`.replace(/\\/g, "/"),
+          dest: "libcurl",
+          overwrite: false
         },
         {
-          src: "public/uv/uv.config.js",
-          dest: "uv"
+          src: `${baremuxPath}/**/*`.replace(/\\/g, "/"),
+          dest: "baremux",
+          overwrite: false
         }
       ]
     }),
+    {
+      name: 'vite-wisp-server',
+      configureServer(server) {
+        server.httpServer?.on('upgrade', (req, socket, head) =>
+          req.url?.startsWith('/wisp')
+            ? wisp.routeRequest(req, socket, head)
+            : undefined,
+        );
+      },
+    },
     million.vite({ mode: "preact" })
   ],
   server: {

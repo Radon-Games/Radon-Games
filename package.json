@@ -1,7 +1,7 @@
 {
   "name": "radon-games",
   "description": "An open-source unblocked games website built with simplicity in mind.",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "author": "Cohen Erickson <cohen@radon.games>",
   "type": "module",
   "license": "GNU v2",
@@ -12,8 +12,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
-    "@tomphttp/bare-client": "2.2.0-alpha",
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/libcurl-transport": "^1.4.0",
+    "@mercuryworkshop/wisp-js": "^0.3.3",
     "framer-motion": "^10.16.4",
     "million": "^2.6.0",
     "preact": "^10.17.1",
@@ -30,8 +31,8 @@
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
     "tailwindcss": "^3.3.3",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.5",
-    "vite-plugin-static-copy": "^0.17.0"
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "vite-plugin-static-copy": "^2.2.0"
   }
 }

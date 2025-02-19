@@ -25,6 +25,14 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/uv/sw.js", {
     // @ts-ignore
     scope: __uv$config.prefix
+  }).then(async () => {
+    const connection = new window.BareMux.BareMuxConnection("/baremux/worker.js");
+    await connection.setTransport("/libcurl/index.mjs", [
+      {
+        wisp: `${location.protocol.replace("http", "ws")}//${location.hostname}:${location.port}/wisp/`
+      }
+    ]);
+    console.log('SW Registered');
   });
 }
 
