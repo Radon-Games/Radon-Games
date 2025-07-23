@@ -12,9 +12,27 @@ import { Search } from "./routes/search";
 import { Tag } from "./routes/tag";
 import { Terms } from "./routes/terms";
 import { getStyle } from "./util/theme";
+//@ts-ignore
+import { BareMuxConnection } from "@mercuryworkshop/bare-mux";
 import { AnimatePresence } from "framer-motion";
 import { render } from "preact";
 import { Router, Route } from "preact-router";
+
+declare global {
+  interface Window {
+    Connection: BareMuxConnection;
+    scram: {
+      init: () => Promise<ServiceWorkerRegistration>;
+      // fix
+      createFrame: (frame?: HTMLIFrameElement) => void;
+      encodeUrl: (url: string | URL) => string;
+      decodeUrl: (url: string | URL) => string;
+      saveConfig: () => void;
+      //fix
+      modifyConfig: () => void;
+    };
+  }
+}
 
 const title = localStorage.getItem("title")?.trim() || "Radon Games";
 document.title = title;
@@ -22,10 +40,29 @@ const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
 document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/uv/sw.js", {
-    // @ts-ignore
-    scope: __uv$config.prefix
-  });
+  if (window.scram) {
+    navigator.serviceWorker
+      .register("/sw.js", {
+        scope: "/"
+      })
+      .then(() => {
+        console.log(`Registered SW`);
+      });
+    navigator.serviceWorker.ready.then(() => {
+      const connection = new BareMuxConnection("/baremux/worker.js");
+      window.Connection = connection;
+
+      connection.setTransport("/epoxy/index.mjs", [
+        {
+          wisp:
+            location.protocol === "http:"
+              ? `ws://${location.host}/w/`
+              : `wss://${location.host}/w/`
+        }
+      ]);
+      console.log(`Set transport to epoxy`);
+    });
+  }
 }
 
 render(

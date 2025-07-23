@@ -44,11 +44,28 @@
       gtag("config", "G-0GR0HN1RFL");
     </script>
 
-    <script src="/uv/uv.bundle.js" defer></script>
-    <script src="/uv/uv.config.js" defer></script>
+    <script src="/scram/scramjet.all.js"></script>
   </head>
   <body class="scroll-smooth bg-bg-primary font-medium text-text-primary">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const { ScramjetController } = $scramjetLoadController();
+      const scramjet = new ScramjetController({
+        prefix: "/~/sj/",
+        files: {
+          wasm: "/scram/scramjet.wasm.wasm",
+          all: "/scram/scramjet.all.js",
+          sync: "/scram/scramjet.sync.js"
+        },
+        flags: {
+          rewriterLogs: false,
+          naiiveRewriter: false,
+          scramitize: false
+        }
+      });
+      scramjet.init();
+      window.scram = scramjet;
+    </script>
   </body>
 </html>

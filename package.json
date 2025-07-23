@@ -4,34 +4,43 @@
   "version": "4.2.0",
   "author": "Cohen Erickson <cohen@radon.games>",
   "type": "module",
-  "license": "GNU v2",
+  "license": "AGPL-3.0",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "concurrently -n \"vite,server\" \"vite\" \"pnpm tsx server.ts\"",
     "build": "tsc && vite build",
     "pretty": "prettier --write .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.27",
+    "@mercuryworkshop/libcurl-transport": "^1.5.0",
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
     "@tomphttp/bare-client": "2.2.0-alpha",
+    "concurrently": "^9.2.0",
+    "fastify": "^5.4.0",
     "framer-motion": "^10.16.4",
     "million": "^2.6.0",
     "preact": "^10.17.1",
     "preact-router": "^4.1.2",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "wisp-server-node": "^1.1.7"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/node": "^24.1.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
     "tailwindcss": "^3.3.3",
+    "tsx": "^4.20.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.5",
     "vite-plugin-static-copy": "^0.17.0"
   }
 }
+

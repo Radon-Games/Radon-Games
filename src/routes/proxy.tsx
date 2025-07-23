@@ -44,7 +44,7 @@ export function Proxy() {
   function addFrame(tab: Tab) {
     const iframe = document.createElement("iframe");
     // @ts-ignore
-    iframe.src = __uv$config.prefix + __uv$config.encodeUrl(tab.url);
+    iframe.src = scram.encodeUrl(tab.url);
     iframe.id = tab.id.toString();
     iframe.className = "w-full flex-1";
     document.getElementById("frames")!.appendChild(iframe);
@@ -82,7 +82,7 @@ export function Proxy() {
 
     const iframe = document.getElementById(id.toString()) as HTMLIFrameElement;
     // @ts-ignore
-    iframe.src = __uv$config.prefix + __uv$config.encodeUrl(url);
+    iframe.src = scram.encodeUrl(url);
 
     const index = tabs.findIndex((x) => x.id === id);
 
@@ -123,14 +123,17 @@ export function Proxy() {
     ) as HTMLIFrameElement;
 
     let interval = setInterval(() => {
-      if (!iframe) return;
-
+      if (!iframe || !iframe.contentWindow) return;
+      if (iframe.contentWindow.location.href === "about:blank") return;
       const title = iframe.contentDocument!.title;
+      console.log(iframe.contentWindow!.location);
       // @ts-ignore
-      const url = __uv$config.decodeUrl(
-        // @ts-ignore
-        iframe.contentWindow!.location.pathname.replace(__uv$config.prefix, "")
+      const url = scram.decodeUrl(
+        location.origin +
+          // @ts-ignore
+          iframe.contentWindow!.location.pathname
       );
+      console.log(url);
       const favicon =
         iframe.contentDocument!.querySelector<HTMLLinkElement>(
           "link[rel='shortcut icon'], link[rel='icon']"
