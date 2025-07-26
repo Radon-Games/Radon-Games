@@ -52,7 +52,7 @@ if ("serviceWorker" in navigator) {
       const connection = new BareMuxConnection("/baremux/worker.js");
       window.Connection = connection;
 
-      connection.setTransport("/epoxy/index.mjs", [
+      connection.setTransport("/libcurl/index.mjs", [
         {
           wisp:
             location.protocol === "http:"
