@@ -1,8 +1,13 @@
 import { JSXInternal } from "preact/src/jsx";
 
-export function Image(props: JSXInternal.HTMLAttributes<HTMLImageElement>) {
-  function observe(elm: any) {
-    if (elm && elm instanceof HTMLImageElement) {
+interface Props extends JSXInternal.HTMLAttributes<HTMLImageElement> {
+  src: string;
+  alt: string;
+}
+
+export function Image(props: Props) {
+  function observe(elm: HTMLImageElement | null) {
+    if (elm) {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {

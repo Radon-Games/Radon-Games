@@ -1,6 +1,14 @@
+
+
+
 import { JSXInternal } from "preact/src/jsx";
 
-export function Transparent(props: JSXInternal.SVGAttributes<SVGSVGElement>) {
+interface Props extends JSXInternal.SVGAttributes<SVGSVGElement> {
+  alt?: string; // Not used by SVGs, but we'll fake it
+  class?: string;
+}
+
+export function Transparent(props: Props) {
   return (
     <svg style={props.style} class={props.class} viewBox="0 0 275.87 200.46">
       <path
