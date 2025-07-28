@@ -34,11 +34,11 @@ declare global {
   }
 }
 
-const title = localStorage.getItem("title")?.trim() || "Radon Games";
-document.title = title;
-const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
-document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
-
+// const title = localStorage.getItem("title")?.trim() || "Radon Games";
+// document.title = title;
+// const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
+// document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
+//
 if ("serviceWorker" in navigator) {
   if (window.scram) {
     navigator.serviceWorker
