@@ -1,8 +1,10 @@
-import { themes } from "../themes";
+import preferences from "../preferences";
+
+const themes: Theme[] = preferences.themes;
 
 export function getStyle(): string {
   return `${themes
-    .map((theme) => {
+    .map((theme: Theme) => {
       return `
       [data-theme="${theme.id}"] {
         --bg-primary: ${theme.bgPrimary};
@@ -32,7 +34,7 @@ export function setTheme(id: string): void {
 
 export function getTheme(): Theme {
   return themes.find(
-    (x) => x.id === (localStorage.getItem("theme") ?? getDefaultTheme())
+    (x: Theme) => x.id === (localStorage.getItem("theme") ?? getDefaultTheme())
   )!;
 }
 

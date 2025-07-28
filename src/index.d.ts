@@ -1,3 +1,5 @@
+declare module "react";
+
 type Game = {
   title: string;
   author: string;
