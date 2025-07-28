@@ -1,18 +1,34 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import preferences from "../preferences";
 
+function PreferenceInput({
+	field
+}: {
+	field: { key: string; label: string; defaultValue: string };
+}) {
+	const [value, setValue] = useState(
+		preferences.manager.getPreference(field.key, field.defaultValue)
+	);
+
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+		setValue(e.target.value);
+		preferences.manager.handlePreferenceChange(field.key, e.target.value);
+	};
+
+	return (
+		<div className="flex flex-col items-center gap-2">
+			<span>{field.label}</span>
+			<input
+				className="rounded-md border border-text-secondary bg-bg-secondary px-2 py-1 text-sm focus:outline-0"
+				value={value}
+				onChange={handleChange}
+			/>
+		</div>
+	);
+}
+
 export function Preferences() {
-	const [themes, setThemes] = useState<any[]>([]);
-	const [categories, setCategories] = useState<any[]>([]);
-	const [sections, setSections] = useState<any[]>([]);
-
-	useEffect(() => {
-		setThemes(preferences.themes);
-		setCategories(preferences.categories);
-		setSections(preferences.sections);
-	}, []);
-
 	return (
 		<motion.main
 			initial={{ opacity: 0, y: 10 }}
@@ -23,14 +39,14 @@ export function Preferences() {
 			<section className="rounded-md bg-bg-secondary p-5">
 				<h1 className="text-center text-lg">Themes</h1>
 				<div className="flex flex-col gap-2">
-					{categories.map((category: any) => (
-						<>
+					{preferences.categories.map((category: any) => (
+						<div key={category.id}>
 							<span className="text-sm">{category.name}</span>
-
-							{themes
+							{preferences.themes
 								.filter((x: any) => x.category === category.id)
 								.map((theme: any) => (
 									<div
+										key={theme.id}
 										className="flex cursor-pointer items-center justify-center rounded-md p-2 text-sm transition-all hover:scale-[1.01]"
 										style={{
 											backgroundColor: theme.bgPrimary,
@@ -41,19 +57,21 @@ export function Preferences() {
 												"theme",
 												theme.id
 											);
-											document.documentElement.dataset.theme =
-												theme.id;
+											if (typeof document !== "undefined") {
+												document.documentElement.dataset.theme =
+													theme.id;
+											}
 										}}
 									>
 										{theme.name}
 									</div>
 								))}
-						</>
+						</div>
 					))}
 				</div>
 			</section>
 
-			{sections.map((section: any) => (
+			{preferences.sections.map((section: any) => (
 				<section
 					key={section.title}
 					className="rounded-md bg-bg-secondary p-5"
@@ -62,25 +80,7 @@ export function Preferences() {
 
 					<div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-16">
 						{section.fields.map((field: any) => (
-							<div
-								key={field.key}
-								className="flex flex-col items-center gap-2"
-							>
-								<span>{field.label}</span>
-								<input
-									className="rounded-md border border-text-secondary bg-bg-secondary px-2 py-1 text-sm focus:outline-0"
-									onChange={(e) =>
-										preferences.manager.handlePreferenceChange(
-											field.key,
-											e.target.value
-										)
-									}
-									value={preferences.manager.getPreference(
-										field.key,
-										field.defaultValue
-									)}
-								/>
-							</div>
+							<PreferenceInput field={field} key={field.key} />
 						))}
 					</div>
 				</section>
