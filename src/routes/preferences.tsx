@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState } from "preact/hooks";
 import preferences from "../preferences";
 
 function PreferenceInput({
@@ -11,7 +11,7 @@ function PreferenceInput({
 		preferences.manager.getPreference(field.key, field.defaultValue)
 	);
 
-	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+	const handleChange = (e: any) => {
 		setValue(e.target.value);
 		preferences.manager.handlePreferenceChange(field.key, e.target.value);
 	};
@@ -22,7 +22,7 @@ function PreferenceInput({
 			<input
 				className="rounded-md border border-text-secondary bg-bg-secondary px-2 py-1 text-sm focus:outline-0"
 				value={value}
-				onChange={handleChange}
+				onInput={handleChange}
 			/>
 		</div>
 	);
