@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
   <head>
     <link rel="icon" href="/favicon.ico" />
@@ -56,13 +56,13 @@
         files: {
           wasm: "/scram/scramjet.wasm.wasm",
           all: "/scram/scramjet.all.js",
-          sync: "/scram/scramjet.sync.js"
+          sync: "/scram/scramjet.sync.js",
         },
         flags: {
           rewriterLogs: false,
           naiiveRewriter: false,
-          scramitize: false
-        }
+          scramitize: false,
+        },
       });
       scramjet.init();
       window.scram = scramjet;

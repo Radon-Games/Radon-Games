@@ -1,11 +1,12 @@
 import { Transparent } from "../assets/Transparent";
-import { motion } from "framer-motion";
-import { IconType } from "react-icons/lib";
+import { useMatch } from "@tanstack/react-router";
+import { motion } from "motion/react";
+import type { IconType } from "react-icons/lib";
 import {
   PiGameControllerBold,
-  PiHouseBold, // PiUserBold,
+  PiHouseBold,
   PiGithubLogoBold,
-  PiDiscordLogoBold, // PiShoppingBagOpenBold
+  PiDiscordLogoBold,
   PiGearBold,
   PiDetectiveBold
 } from "react-icons/pi";
@@ -32,7 +33,7 @@ function Link(props: {
       href={props.href}
       target={/^(https?:)?\/\//.test(props.href) ? "_blank" : "_self"}
       variants={item}
-      class="flex items-center gap-2 transition-colors hover:text-accent-primary"
+      className="flex items-center gap-2 transition-colors hover:text-accent-primary"
       aria-label={props.label ?? props.text}
     >
       <props.icon />
@@ -42,9 +43,13 @@ function Link(props: {
 }
 
 export function Header() {
+  const isProxy = useMatch({ from: "/proxy", shouldThrow: false });
+
+  if (isProxy) return null;
+
   return (
     <motion.nav
-      class="flex h-16 w-full items-center justify-center border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg sm:justify-between md:px-16 lg:px-32 xl:px-48"
+      className="flex h-16 w-full items-center justify-center border-b-2 border-text-secondary bg-bg-primary px-8 shadow-lg sm:justify-between md:px-16 lg:px-32 xl:px-48"
       variants={{
         hidden: { opacity: 1, y: -64 },
         visible: {
@@ -60,25 +65,22 @@ export function Header() {
       initial="hidden"
       animate="visible"
     >
-      <div class="flex gap-5">
+      <div className="flex gap-5">
         <motion.a href="/" variants={item} aria-label="Home">
-          <Transparent class="h-6 w-auto" alt="Home" />
+          <Transparent className="h-6 w-auto" />
         </motion.a>
         <Link href="/" icon={PiHouseBold} text="Home" />
         <Link href="/games" icon={PiGameControllerBold} text="Games" />
         <Link href="/proxy" icon={PiDetectiveBold} text="Proxy" />
-        {/* <Link href="/shop" icon={PiShoppingBagOpenBold} text="Shop" />
-        <Link href="/profile" icon={PiUserBold} text="Profile" /> */}
       </div>
-      <div class="hidden gap-5 sm:flex">
+      <div className="hidden gap-5 sm:flex">
         <form method="GET" action="/search">
           <motion.input
             name="q"
             variants={item}
-            class="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
+            className="rounded-md border border-bg-secondary bg-transparent px-2 py-1 text-sm font-normal shadow outline-accent-secondary ring-accent-primary transition-all focus:outline-0 focus:ring-2"
             placeholder="Search"
             type="text"
-            autocomplete="off"
           />
         </form>
         <Link href="/preferences" icon={PiGearBold} label="Preferences" />

@@ -1,6 +1,7 @@
-import { JSXInternal } from "preact/src/jsx";
+import React from "react";
 
-export function Image(props: JSXInternal.HTMLAttributes<HTMLImageElement>) {
+export function Image(props: React.ImgHTMLAttributes<HTMLImageElement>) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function observe(elm: any) {
     if (elm && elm instanceof HTMLImageElement) {
       const observer = new IntersectionObserver((entries) => {
@@ -20,7 +21,7 @@ export function Image(props: JSXInternal.HTMLAttributes<HTMLImageElement>) {
   return (
     <img
       data-src={props.src}
-      class={props.class}
+      className={props.className}
       alt={props.alt}
       ref={observe}
     />

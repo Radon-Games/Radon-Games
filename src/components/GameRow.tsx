@@ -1,5 +1,5 @@
 import { GameCard } from "./GameCard";
-import { useState } from "preact/hooks";
+import { useState } from "react";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 
 export function GameRow(props: { games: Game[] }) {
@@ -8,14 +8,14 @@ export function GameRow(props: { games: Game[] }) {
   const [isEnd, setIsEnd] = useState(false);
 
   return (
-    <div class="relative rounded-lg">
+    <div className="relative rounded-lg">
       <div
-        class={`absolute left-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-r from-bg-primary to-transparent text-lg ${
+        className={`absolute left-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-r from-bg-primary to-transparent text-lg ${
           isStart ? "hidden opacity-0" : "opactiy-100"
         } transition-all`}
       >
         <div
-          class="cursor-pointer"
+          className="cursor-pointer"
           onClick={() => {
             if (elm) {
               elm.scrollLeft -= elm.offsetWidth;
@@ -26,12 +26,12 @@ export function GameRow(props: { games: Game[] }) {
         </div>
       </div>
       <div
-        class={`absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l from-bg-primary to-transparent text-lg ${
+        className={`absolute right-0 z-[1] flex h-full w-16 items-center justify-center bg-gradient-to-l from-bg-primary to-transparent text-lg ${
           isEnd ? "hidden opacity-0" : "opactiy-100"
         } transition-all`}
       >
         <div
-          class="cursor-pointer"
+          className="cursor-pointer"
           onClick={() => {
             if (elm) {
               elm.scrollLeft += elm.offsetWidth;
@@ -42,7 +42,7 @@ export function GameRow(props: { games: Game[] }) {
         </div>
       </div>
       <div
-        class="scrollbar-none relative flex h-fit w-full flex-row items-center justify-start gap-5 overflow-x-scroll scroll-smooth"
+        className="scrollbar-none relative flex h-fit w-full flex-row items-center justify-start gap-5 overflow-x-scroll scroll-smooth"
         ref={(elm) => {
           if (elm) {
             setElm(elm);
@@ -57,8 +57,8 @@ export function GameRow(props: { games: Game[] }) {
           }
         }}
       >
-        {props.games.map((game) => (
-          <div className="col-4">
+        {props.games.map((game, i) => (
+          <div className="col-4" key={i}>
             <GameCard game={game} />
           </div>
         ))}

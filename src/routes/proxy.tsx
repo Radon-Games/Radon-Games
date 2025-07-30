@@ -1,15 +1,16 @@
 import { Banner } from "../assets/Banner";
 import { Transparent } from "../assets/Transparent";
-import { AnimatePresence, motion, Reorder } from "framer-motion";
-import { useEffect, useState } from "preact/hooks";
+import { createFileRoute } from "@tanstack/react-router";
+import { AnimatePresence, motion, Reorder } from "motion/react";
+import { useEffect, useState } from "react";
 import {
-  FiX,
-  FiPlus,
   FiArrowLeft,
   FiArrowRight,
-  FiRotateCw,
   FiExternalLink,
-  FiMaximize
+  FiMaximize,
+  FiPlus,
+  FiRotateCw,
+  FiX
 } from "react-icons/fi";
 
 export type Tab = {
@@ -19,18 +20,22 @@ export type Tab = {
   url: string;
 };
 
-export function Proxy() {
+export const Route = createFileRoute("/proxy")({
+  component: RouteComponent
+});
+
+function RouteComponent() {
   const [tabs, setTabs] = useState<Tab[]>([]);
   const [activeTab, setActiveTab] = useState<number>(
     Number(localStorage.getItem("activeTab")!) || 0
   );
   const [inputValue, setInputValue] = useState<string | null>(null);
-
+  console.log("REF: ", document.referrer);
   function addTab(url: string): number {
     const tab = {
       id: Math.floor(Math.random() * 1000000),
       title: url,
-      favicon: "https://www.google.com/favicon.ico",
+      favicon: "https://www.google.com/s2/favicons?domain=duckduckgo.com",
       url
     };
     setTabs([...tabs, tab]);
@@ -43,7 +48,7 @@ export function Proxy() {
 
   function addFrame(tab: Tab) {
     const iframe = document.createElement("iframe");
-    // @ts-ignore
+    // @ts-expect-error scram
     iframe.src = scram.encodeUrl(tab.url);
     iframe.id = tab.id.toString();
     iframe.className = "w-full flex-1";
@@ -75,13 +80,13 @@ export function Proxy() {
     } else if (/^.+\..+/.test(query)) {
       url = `https://${query}`;
     } else {
-      url = `https://www.google.com/search?q=${query}`;
+      url = `https://duckduckgo.com/?q=${query}`;
     }
 
     tab.url = url;
 
     const iframe = document.getElementById(id.toString()) as HTMLIFrameElement;
-    // @ts-ignore
+    //@ts-expect-error scram
     iframe.src = scram.encodeUrl(url);
 
     const index = tabs.findIndex((x) => x.id === id);
@@ -96,15 +101,17 @@ export function Proxy() {
       for (const tab of tabs) {
         addFrame(tab);
       }
-    } catch {}
+    } catch {
+      // Ignore
+    }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("tabs", JSON.stringify(tabs));
-    localStorage.setItem("activeTab", activeTab.toString());
-
     if (tabs.length === 0) {
-      addTab("https://www.google.com");
+      // if i dont do this we get a weird libcurl error about not loading the wasm
+      setTimeout(() => {
+        addTab("https://duckduckgo.com/");
+      }, 200);
     }
 
     const iframes = document.querySelectorAll("iframe");
@@ -122,18 +129,14 @@ export function Proxy() {
       activeTab.toString()
     ) as HTMLIFrameElement;
 
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
       if (!iframe || !iframe.contentWindow) return;
       if (iframe.contentWindow.location.href === "about:blank") return;
       const title = iframe.contentDocument!.title;
-      console.log(iframe.contentWindow!.location);
-      // @ts-ignore
+      // @ts-expect-error scram
       const url = scram.decodeUrl(
-        location.origin +
-          // @ts-ignore
-          iframe.contentWindow!.location.pathname
+        location.origin + iframe.contentWindow!.location.pathname
       );
-      console.log(url);
       const favicon =
         iframe.contentDocument!.querySelector<HTMLLinkElement>(
           "link[rel='shortcut icon'], link[rel='icon']"
@@ -168,13 +171,13 @@ export function Proxy() {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      class="flex h-full w-full select-none"
+      className="flex h-full w-full select-none"
     >
-      <div class="flex h-full w-16 flex-col border-r-2 border-bg-secondary bg-bg-primary transition-all sm:w-64">
-        <div class="flex h-16 w-full items-center justify-center border-b-2 border-bg-secondary">
+      <div className="flex h-full w-16 flex-col border-r-2 border-bg-secondary bg-bg-primary transition-all sm:w-64">
+        <div className="flex h-16 w-full items-center justify-center border-b-2 border-bg-secondary">
           <a href="/">
-            <Banner class="hidden h-6 sm:block" />
-            <Transparent class="block h-6 sm:hidden" />
+            <Banner className="hidden h-6 sm:block" />
+            <Transparent className="block h-6 sm:hidden" />
           </a>
         </div>
         <Reorder.Group
@@ -183,7 +186,7 @@ export function Proxy() {
           onReorder={(newTabs: Tab[]) => {
             setTabs(newTabs);
           }}
-          values={tabs.valueOf()}
+          values={tabs}
           className="scrollbar-none flex w-full flex-1 flex-col items-center gap-2 overflow-y-scroll p-2 transition-none sm:p-4"
         >
           <AnimatePresence>
@@ -200,7 +203,7 @@ export function Proxy() {
                   transition={{
                     duration: 0.1
                   }}
-                  class={`flex aspect-square h-10 w-10 items-center justify-center rounded p-2 text-sm sm:w-full sm:justify-normal sm:gap-2 ${
+                  className={`flex aspect-square h-10 w-10 items-center justify-center rounded p-2 text-sm sm:w-full sm:justify-normal sm:gap-2 ${
                     tab.id === activeTab
                       ? "bg-accent-secondary"
                       : "bg-bg-secondary"
@@ -212,16 +215,16 @@ export function Proxy() {
                 >
                   <img
                     src={`https://www.google.com/s2/favicons?domain=${tab.url}`}
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     draggable={false}
                   ></img>
-                  <span class="hidden flex-1 truncate whitespace-nowrap text-text-primary sm:block">
+                  <span className="hidden flex-1 truncate whitespace-nowrap text-text-primary sm:block">
                     {tab.title}
                   </span>
                   <div
-                    class="hidden sm:block"
+                    className="hidden sm:block"
                     onClick={(e) => {
-                      e.stopImmediatePropagation();
+                      e.stopPropagation();
                       removeTab(tab.id);
                     }}
                   >
@@ -232,19 +235,19 @@ export function Proxy() {
             })}
           </AnimatePresence>
         </Reorder.Group>
-        <div class="flex h-16 w-full items-center justify-end border-t-2 border-bg-secondary p-4 text-xl">
+        <div className="flex h-16 w-full items-center justify-end border-t-2 border-bg-secondary p-4 text-xl">
           <div
-            class="rounded bg-bg-secondary p-2"
+            className="rounded bg-bg-secondary p-2"
             onClick={() => {
-              addTab("https://www.google.com");
+              addTab("https://duckduckgo.com");
             }}
           >
             <FiPlus />
           </div>
         </div>
       </div>
-      <div class="flex flex-1 flex-col bg-white" id="frames">
-        <div class="flex h-16 w-full items-center justify-center gap-2 bg-bg-secondary p-3">
+      <div className="flex flex-1 flex-col bg-white" id="frames">
+        <div className="flex h-16 w-full items-center justify-center gap-2 bg-bg-secondary p-3">
           <div
             onClick={() => {
               (
@@ -253,7 +256,7 @@ export function Proxy() {
                 ) as HTMLIFrameElement
               ).contentWindow!.history.back();
             }}
-            class="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
+            className="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
           >
             <FiArrowLeft />
           </div>
@@ -265,7 +268,7 @@ export function Proxy() {
                 ) as HTMLIFrameElement
               ).contentWindow!.history.forward();
             }}
-            class="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
+            className="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
           >
             <FiArrowRight />
           </div>
@@ -277,13 +280,17 @@ export function Proxy() {
                 ) as HTMLIFrameElement
               ).contentWindow!.location.reload();
             }}
-            class="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
+            className="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
           >
             <FiRotateCw />
           </div>
           <input
-            class="h-full flex-1 rounded bg-bg-primary px-3 py-2 font-medium shadow focus:outline-0"
-            value={inputValue ?? tabs.find((x) => x.id === activeTab)?.url}
+            className="h-full flex-1 rounded bg-bg-primary px-3 py-2 font-medium shadow focus:outline-0"
+            value={
+              inputValue !== null
+                ? inputValue
+                : tabs.find((x) => x.id === activeTab)?.url || ""
+            }
             onInput={(e) => {
               setInputValue(e.currentTarget.value);
             }}
@@ -301,7 +308,7 @@ export function Proxy() {
                 .getElementById(activeTab.toString())!
                 .requestFullscreen();
             }}
-            class="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
+            className="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
           >
             <FiMaximize />
           </div>
@@ -315,7 +322,7 @@ export function Proxy() {
                 ).contentWindow!.location.href
               );
             }}
-            class="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
+            className="flex aspect-square h-full cursor-pointer items-center justify-center rounded text-lg transition-all duration-[50] hover:bg-bg-primary hover:shadow"
           >
             <FiExternalLink />
           </div>
@@ -324,3 +331,4 @@ export function Proxy() {
     </motion.main>
   );
 }
+
