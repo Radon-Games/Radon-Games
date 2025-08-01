@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+input.checkbox + label.checkbox {
+  @apply h-4 w-4 rounded border border-bg-secondary bg-bg-primary;
+}
+
+input.checkbox:checked {
+  + label.checkbox {
+    @apply bg-accent-secondary;
+  }
+
+  + label.checkbox::before {
+    @apply block h-4 w-4 bg-text-primary;
+    content: "\s";
+    -webkit-mask-image: url(check.svg);
+    mask-image: url(check.svg);
+  }
+}
