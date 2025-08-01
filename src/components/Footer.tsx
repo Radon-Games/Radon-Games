@@ -1,5 +1,6 @@
 import { version } from "../../package.json";
 import { Banner } from "../assets/Banner";
+import { useMatch } from "@tanstack/react-router";
 import {
   PiGitBranchBold,
   PiGithubLogoBold,
@@ -8,6 +9,9 @@ import {
 } from "react-icons/pi";
 
 export function Footer() {
+  const isProxy = useMatch({ from: "/proxy", shouldThrow: false });
+
+  if (isProxy) return null;
   return (
     <footer className="flex flex-col justify-between gap-8 border-t-2 border-text-secondary px-8 py-16 sm:flex-row md:px-16 lg:px-32 xl:px-48">
       <div className="flex flex-1 flex-col items-start justify-center gap-5">

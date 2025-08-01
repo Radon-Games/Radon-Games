@@ -3,7 +3,7 @@ import { createServer } from "http";
 import fastify from "fastify";
 import fastifyStatic from "@fastify/static";
 import fastifyProxy from "@fastify/http-proxy";
-import wisp from "wisp-server-node";
+import { server as wisp } from "@mercuryworkshop/wisp-js/server"
 import path from "path";
 import fs from "fs";
 
@@ -11,12 +11,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const isDev = process.env.NODE_ENV !== "production";
 
+wisp.options.allow_udp_streams = false;
 
 const serverFactory = (handler) => {
     return createServer()
         .on("request", (req, res) => handler(req, res))
         .on("upgrade", (req, socket, head) => {
-            //@ts-expect-error weird types
             wisp.routeRequest(req, socket, head);
         });
 };

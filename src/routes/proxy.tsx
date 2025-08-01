@@ -30,7 +30,7 @@ function RouteComponent() {
     Number(localStorage.getItem("activeTab")!) || 0
   );
   const [inputValue, setInputValue] = useState<string | null>(null);
-  console.log("REF: ", document.referrer);
+  // console.log("REF: ", document.referrer);
   function addTab(url: string): number {
     const tab = {
       id: Math.floor(Math.random() * 1000000),
