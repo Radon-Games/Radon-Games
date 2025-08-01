@@ -1,7 +1,9 @@
 {
   "name": "radongames",
+  "author": "Cohen Erickson <cohen@radon.games>",
   "private": true,
-  "version": "0.0.0",
+  "version": "4.3.0",
+  "license": "AGPL-3.0",
   "type": "module",
   "scripts": {
     "dev": "concurrently -n \"vite,server\" \"vite\" \"pnpm tsx server.ts\"",
