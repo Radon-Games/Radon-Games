@@ -1,7 +1,7 @@
 import { Banner } from "../assets/Banner";
 import { GameRow } from "../components/GameRow";
-import { games } from "../util/games";
 import { getTheme } from "../util/theme";
+import { useQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { PiMagnifyingGlassBold, PiDiceFiveBold } from "react-icons/pi";
@@ -10,13 +10,22 @@ export const Route = createFileRoute("/")({
   component: Home
 });
 export function Home() {
-  const randomGame = games[Math.floor(Math.random() * games.length)];
+  const { data } = useQuery({
+    queryKey: ["games"],
+    queryFn: async () => {
+      return fetch("/games.json").then((res) => res.json());
+    }
+  });
+
+  if (!data) return null;
+
+  const randomGame = data[Math.floor(Math.random() * data.length)];
   const { bgSecondary, accentSecondary } = getTheme();
 
   const favorites = (localStorage.getItem("favorites") ?? "")
     .split(",")
     .filter((id) => id !== "")
-    .map((x) => games.find((y) => y.id === x)!)
+    .map((x) => data.find((y) => y.id === x)!)
     .filter((x) => x !== undefined);
 
   const featuredIds = [
@@ -28,7 +37,7 @@ export function Home() {
   ];
 
   const featured = featuredIds
-    .map((x) => games.find((y) => y.id === x)!)
+    .map((x) => data.find((y) => y.id === x)!)
     .filter((x) => x !== undefined);
 
   return (
@@ -102,3 +111,4 @@ export function Home() {
     </motion.main>
   );
 }
+

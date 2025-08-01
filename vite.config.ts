@@ -64,5 +64,14 @@ export default defineConfig({
         ws: true,
       },
     }
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          icons: ["react-icons"],
+        }
+      }
+    }
   }
 })

@@ -108,6 +108,7 @@ function RouteComponent() {
 
   useEffect(() => {
     if (tabs.length === 0) {
+      //TODO: Find better solution
       // if i dont do this we get a weird libcurl error about not loading the wasm
       setTimeout(() => {
         addTab("https://duckduckgo.com/");

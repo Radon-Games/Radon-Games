@@ -10,6 +10,7 @@ export function GameCard({ game }: { game: Game }) {
     <Link
       to="/game/$gameid"
       params={{ gameid: game.id }}
+      preload="intent"
       className="group cursor-pointer"
       onClick={() => navigate({ to: `/game/${game.id}` })}
       onMouseEnter={() => setHovered(true)}
