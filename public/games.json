@@ -1,0 +1,2452 @@
+[
+  {
+    "title": "Achilles",
+    "author": "Ben Olding",
+    "description": "Hack and slash your way through 15 stages of greek warriors.",
+    "id": "achilles",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Age of War",
+    "author": "Louissi",
+    "description": "Take control of 16 different units and 15 different turrets to defend your base and destroy your enemy. In this game, you start at the cavern men's age, then evolve! There is a total of 5 ages, each with its units and turrets. I hope you have fun with this game! Sooo many hours of hard work.",
+    "id": "age-of-war",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Avalanche",
+    "author": "The Game Homepage",
+    "description": "Avalanche is a fun little game where try to avoid falling objects as you jump higher and higher! Are you a towelette, or maybe a marshmallow? Whatever the case, there are huge, square bolts to dodge. Can you avoid this avalanche?",
+    "id": "avalanche",
+    "tags": ["action", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Avatar Arena",
+    "author": "Nickelodeon",
+    "description": "Your objective in this great fighting flash game is to create your own character, challenge the worlds best benders and defeat them.",
+    "id": "avatar-arena",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Achievement Unlocked",
+    "author": "Jmtb02",
+    "description": "Who needs gameplay when you have ACHIEVEMENTS? Don't worry about beating levels, finding ways t' kill enemies, or beating the final boss… there are none. Focus solely on your ultimate destiny… doing random tasks that have nothing to do with anything. Metagame yourself with ease! Self-satisfaction never felt so… artificial!",
+    "id": "achievement-unlocked",
+    "tags": ["action", "arcade", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Alien Hominid",
+    "author": "Tom Fulp and Dan Paladin",
+    "description": "Your aircraft has crash landed on planet Earth, and the FBI is out to get you! Time to take them out!",
+    "id": "alien-hominid",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Amberial",
+    "author": "Oddgoo",
+    "description": "Many puzzling levels of bouncing a ball around and trying to touch the end orb to progress.",
+    "id": "amberial",
+    "tags": ["platformer", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Arkanoid",
+    "author": "Taito Games",
+    "description": "Arkanoid is a game similar to break out where you move the paddle to hit the ball.",
+    "id": "arkanoid",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Asteroids",
+    "author": "Atari",
+    "description": "Control the spaceship to destroy asteroids and flying saucers in this classic arcade multidirectional shooter video game by Atari®. Be careful not to collide with the asteroids that are all around you, and avoid counter-fire from the saucers.",
+    "id": "asteroids",
+    "tags": ["arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Axis Football League",
+    "author": "Axis Games, Inc.",
+    "description": "The first, great online football game. Choose from 14 teams and lead your team to victory.",
+    "id": "axis-football-league",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "2048",
+    "author": "Gabriele Cirulli",
+    "description": "Swipe to move the tiles, when two tiles with the same number touch, they merge into one. When a 2048 tile is created, the player wins.",
+    "id": "2048",
+    "tags": ["puzzle"],
+    "type": "html"
+  },
+  {
+    "title": "Agario Minigame",
+    "author": "Matheus Valadares",
+    "description": "Agario is a fun addicting MMO game in which you have to eat or be eaten while you strive to dominate the World of colorful cells. The game has just 2 simple rules to follow: 1) you only can consume targets that are smaller than you and you should match their color to evolve yourself, 2) you must give larger objects a wide berth or you will die. Start moving through the grid and try to catch all the tiny blurs of color. Eat and grow, split and multiply and rule the world.",
+    "id": "agario-minigame",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Astray",
+    "author": "Aegon Games Ltd",
+    "description": "Astray is a first-person horror/puzzle game set in an abandoned museum based on unusual cultures, legends, and supernatural themes; but something more sinister lurks beneath the surface.",
+    "id": "astray",
+    "tags": ["adventure", "horror", "puzzle"],
+    "type": "html"
+  },
+  {
+    "title": "Break Lock",
+    "author": "maxwellito",
+    "description": "A hybrid of Mastermind and the Android pattern lock. A game you will love to hate. Empty circle means correct location but wrong order. Full circle means correct location in correct order. You are aiming for four full circles.",
+    "id": "break-lock",
+    "tags": ["puzzle"],
+    "type": "html"
+  },
+  {
+    "title": "The Chroma Incident",
+    "author": "Rybar",
+    "description": "The Achromats have taken the worlds color offline! Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse. Huge thanks to Herebefrogs for naming the game!",
+    "id": "the-chroma-incident",
+    "tags": ["shooter", "action"],
+    "type": "html"
+  },
+  {
+    "title": "Cookie Clicker",
+    "author": "Julien Orteil",
+    "description": "Cookie Clicker is an incremental game created by French programmer Julien Orteil Thiennot in 2013. The user initially clicks on a big cookie on the screen, earning a single cookie per click.",
+    "id": "cookie-clicker",
+    "tags": ["idle"],
+    "type": "html"
+  },
+  {
+    "title": "Cube Field",
+    "author": "YoArcade",
+    "description": "Cubefield is a simple but addictive game, there are only two controls - left and right. Use the arrow keys on your keyboard to guide your ship through an endless field of ominous looking coloured cubes - if you hit one, it's game over.",
+    "id": "cube-field",
+    "tags": ["arcade"],
+    "type": "html"
+  },
+  {
+    "title": "Dinosaur",
+    "author": "Chrome UX Team",
+    "description": "The Dinosaur Game is a browser game developed by Google and built into the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex across a side-scrolling landscape, avoiding obstacles to achieve a higher score.",
+    "id": "dinosaur",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Doodle Jump",
+    "author": "Croatian studio",
+    "description": "How high can you go? A fun and simple game about an alien with a jetpack trying to jump as high as possible",
+    "id": "doodle-jump",
+    "tags": ["platformer"],
+    "type": "html"
+  },
+  {
+    "title": "Duck Life 1",
+    "author": "Wix Games",
+    "description": "A volcano eruption revealed an ancient cave with treasures inside. Explore the cave as a young energetic duck.  Gather coins and avoid danger as you fly through the cave. Customize your duck when you can afford it.",
+    "id": "duck-life-1",
+    "tags": ["action", "arcade"],
+    "type": "unity"
+  },
+  {
+    "title": "Duck Life 2",
+    "author": "Wix Games",
+    "description": "Duck Life 2 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "id": "duck-life-2",
+    "tags": ["action", "arcade"],
+    "type": "unity"
+  },
+  {
+    "title": "Duck Life 3",
+    "author": "Wix Games",
+    "description": "Duck Life 3 is here. In this new Duck Life Game you will have to help your Duck evolve to give him the best Duck Life possible. In the beginning you'll need to pick which type of Duck you want. The choices are Athletic Type, Swimming Type, Flying Type, or Strength Type. You will have to play around with them to see which type is your favorite. Below you'll find some pictures from DuckLife 3. You can see the different type of ducks to choose from and the first stage of evolution. DuckLife 3 is the newest Game in the DuckLife series.",
+    "id": "duck-life-3",
+    "tags": ["action", "arcade"],
+    "type": "unity"
+  },
+  {
+    "title": "Duck Life 4",
+    "author": "Wix Games",
+    "description": "Duck Life 4 is a fun game for kids of all ages! Train the duck to be a champion racer so that it can win back the farm. Run, swim, and fly to become the leader of the flock!",
+    "id": "duck-life-4",
+    "tags": ["action", "arcade"],
+    "type": "unity"
+  },
+  {
+    "title": "Fireboy and Watergirl Forest Temple",
+    "author": "Oslo Albet",
+    "description": "Help Fireboy and Watergirl through the forest temple tunnels and reach the exit doors in this fun arcade platform!",
+    "id": "fireboy-and-watergirl-forest-temple",
+    "tags": ["adventure"],
+    "type": "html"
+  },
+  {
+    "title": "Flappy 2048",
+    "author": "Abbasinasab",
+    "description": "Jump through the tiles and get to 2048!",
+    "id": "flappy-2048",
+    "tags": ["puzzle"],
+    "type": "html"
+  },
+  {
+    "title": "Flappy Bird",
+    "author": "Dong Nguyen",
+    "description": "Flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
+    "id": "flappy-bird",
+    "tags": ["arcade"],
+    "type": "html"
+  },
+  {
+    "title": "Friendly Fire",
+    "author": "Eduard But, Benjamin Jung, Markus Over, Matthias Wetter, Nico Hülscher, Nils Kreutzer, Ranjit Mevius, and Klaus Reimer",
+    "description": "Friendly Fire is a 2d platform adventure game with handcrafted pixel art, an original soundtrack and lots of love put into the creation of the characters and dialogues.",
+    "id": "friendly-fire",
+    "tags": ["platformer", "indie", "adventure"],
+    "type": "html"
+  },
+  {
+    "title": "Geometry Dash",
+    "author": "griffpatch",
+    "description": "Geometry Dash is developed by Sweden-based developer Robert Topala. The game has 21 levels currently with different types of difficulty. Players can enjoy 3 levels of the game: Stereo Madness, Back on track, and Polargeist. Each one has its own difficulty and a list of best scores.",
+    "id": "geometry-dash",
+    "tags": ["rhythm", "platformer", "arcade"],
+    "type": "html"
+  },
+  {
+    "title": "Gopher Kart",
+    "author": "Jamilet Zelaya",
+    "description": "Created by Jamilet Zelaya with very little help from Erick Zelaya.",
+    "id": "gopher-kart",
+    "tags": ["driving", "indie"],
+    "type": "html"
+  },
+  {
+    "title": "HexGL",
+    "author": "Thibaut Despoulain",
+    "description": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
+    "id": "hexgl",
+    "tags": ["driving"],
+    "type": "html"
+  },
+  {
+    "title": "Hextris",
+    "author": "Logan Engstrom",
+    "description": "An addictive puzzle game inspired by Tetris.",
+    "id": "hextris",
+    "tags": ["puzzle", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Madalin Cars Multiplayer",
+    "author": "Madalin Stanciu",
+    "description": "Madalin Cars Multiplayer is an epic online car driving game in the hugely popular Madalin Cars series. Choose from a range of different sports cars and customize them to your liking. You can change the color and drive settings of your car to give yourself a truly personalized ride! Once you have chosen your vehicle, you can join the online game and enter the immense desert landscape!",
+    "id": "madalin-cars-multiplayer",
+    "tags": ["driving"],
+    "type": "unity"
+  },
+  {
+    "title": "Minecraft",
+    "author": "Markus Persson",
+    "description": "Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds. The game's two main modes are Survival and Creative. In Survival, players must find their own building supplies and food. They also interact with blocklike mobs, or moving creatures.",
+    "id": "minecraft",
+    "tags": ["adventure"],
+    "type": "html"
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "author": "Microsoft",
+    "description": "Microsoft Flight Simulator is a series of amateur flight simulator programs for Microsoft Windows operating systems, and earlier for MS-DOS and Classic Mac OS. It is one of the longest-running, best-known, and most comprehensive home flight simulator programs on the market.",
+    "id": "microsoft-flight-simulator",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Pacman",
+    "author": "Bandai Namco Entertainment",
+    "description": "Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment. Entries have been developed by a wide array of other video game companies, including Midway Games, Atari and Mass Media, Inc..",
+    "id": "pacman-html",
+    "tags": ["arcade", "action"],
+    "type": "html"
+  },
+  {
+    "title": "Radius Raid",
+    "author": "Jack Rugile",
+    "description": "Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you. The game features 13 enemy types, 5 powerups, parallax backgrounds, retro sound effects, and locally stored stats.",
+    "id": "radius-raid",
+    "tags": ["shooter"],
+    "type": "html"
+  },
+  {
+    "title": "Retro Bowl",
+    "author": "New Star Games",
+    "description": "Retro Bowl is an American football video game developed by New Star Games for the iOS and Android operating systems. A browser version is also available on some websites. The game was released in January 2020 and due to its exposure on the website TikTok it massively increased in popularity in late 2021.",
+    "id": "retro-bowl",
+    "tags": ["sports"],
+    "type": "html"
+  },
+  {
+    "title": "Run 3",
+    "author": "Joseph Cloutier",
+    "description": "Run 3 is an exciting running game where you run, jump through an endless tunnel in space. Pass all challenges of hundred levels without falling into space.",
+    "id": "run-3",
+    "tags": ["skill"],
+    "type": "html"
+  },
+  {
+    "title": "Slope",
+    "author": "Rob Kay",
+    "description": "Slope game is a fantastic speed run game where you can drive a ball rolling on tons of slopes and obstacles. See how far you can go in this endless course.",
+    "id": "slope",
+    "tags": ["skill"],
+    "type": "unity"
+  },
+  {
+    "title": "Super Mario 64",
+    "author": "Nintendo",
+    "description": "Super Mario 64 is a 1996 platform game for the Nintendo 64, developed by Nintendo EAD and published by Nintendo. The first Super Mario game to feature 3D gameplay, it features freedom of movement within a large open world based on polygons, combined with traditional Mario gameplay, visual style, and characters.",
+    "id": "sm64",
+    "tags": ["platformer", "fight", "adventure"],
+    "type": "html"
+  },
+  {
+    "title": "Space Invaders",
+    "author": "Taito",
+    "description": "Space Invaders is a Japanese shooting video game released in 1978 by Taito. It was developed by Tomohiro Nishikado, who was inspired by other media: Breakout, The War of the Worlds, and Star Wars.",
+    "id": "space-invaders",
+    "tags": ["arcade", "shooter"],
+    "type": "html"
+  },
+  {
+    "title": "Tank Trouble",
+    "author": "Mads Purup",
+    "description": "Tank Trouble is an online tank game where you drive in a maze and shoot missiles at your enemies. Tank Trouble pits you against clever army generals in mazelike battlefields. In Solo mode, you will face Laika, a master of war. You can also challenge a friend or two in multiplayer warfare.",
+    "id": "tank-trouble",
+    "tags": ["action"],
+    "type": "html"
+  },
+  {
+    "title": "Vex 3",
+    "author": "Amazing Adam",
+    "description": "Vex 3 is a fascinating game. Your task is to Take Vex through the levels by running, jumping, sliding and swimming while avoiding dangerous obstacles.",
+    "id": "vex-3",
+    "tags": ["action", "arcade", "platformer"],
+    "type": "html"
+  },
+  {
+    "title": "Vex 4",
+    "author": "Amazing Adam",
+    "description": "VEX 4 takes Vex to the next level! This fast paced stickman game puts your skills to the test. Run, jump, slide, swim and avoid obstacles, VEX 4 has it all.",
+    "id": "vex-4",
+    "tags": ["action", "arcade", "platformer"],
+    "type": "html"
+  },
+  {
+    "title": "Vex 5",
+    "author": "Amazing Adam",
+    "description": "Surely you are very familiar to the Vex game series. Now, you can meet cute Stickman again in Vex 5. Vex 5 is the 5th platform game in the Vex series. Each level is a labyrinth of deadly devices and traps. You have to make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! To win this game, you must overcome dangerous spikes, saw blades, and a variety of other challenges. If you've played the previous games in the series, you'll be familiar with what to expect in this thrilling new installment. The goal is to finish each level by reaching the endpoint. In this game, levels are referred to as acts, and there are numerous acts to finish.",
+    "id": "vex-5",
+    "tags": ["action", "arcade", "platformer"],
+    "type": "html"
+  },
+  {
+    "title": "Vex 6",
+    "author": "Amazing Adam",
+    "description": "Vex 6 is an awesome online game where you need to make an exceptional effort to pass all obstacles including cannons, spinning spikes, razors, and others to succeed.",
+    "id": "vex-6",
+    "tags": ["action", "arcade", "platformer"],
+    "type": "html"
+  },
+  {
+    "title": "Rolling Sky",
+    "author": "Cheetah Games",
+    "description": "Rolling Sky is the best musical skill game of all time. You are a ball rolling over a track with tons of hazards to make you fall. You have to be super fast, precise and accurate to dodge all the barriers, holes and laser beams that are shot in your direction. Use the music to keep your rhythm while swinging from left to right to get the power-ups you need to finish the levels. This is seriously the most challenging game you can find online.",
+    "id": "rolling-sky",
+    "tags": ["platformer", "driving"],
+    "type": "html"
+  },
+  {
+    "title": "13 Days in Hell",
+    "author": "Qi Games",
+    "description": "13 Days in Hell is an arcade shooter that gives you control over the chosen one, with the sole purpose of surviving an onslaught of souls in hell for 13 full days. You have to shoot and kill the souls coming at you with their axes, or they may chop you up.",
+    "id": "13-days-in-hell",
+    "tags": ["arcade", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "3D Car Driver",
+    "author": "Flash Game Studio",
+    "description": "A semi-3D racing game that goes faaast, avoid some things, collect some things, same old...",
+    "id": "3d-car-driver",
+    "tags": ["driving"],
+    "type": "flash"
+  },
+  {
+    "title": "3 Foot Ninja",
+    "author": "Denni Ames",
+    "description": "Show off your awesome ninja skills by helping the 3 Foot Ninja defeat his enemies, whilst collecting the ancient Lost Scrolls of the Elders to unlock the secrets of the Elder Masters.",
+    "id": "3-foot-ninja",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "3 on 3 Hockey",
+    "author": "Wandah",
+    "description": "3-on-3 Hockey is a fast-paced and exciting hockey experience for all ages.",
+    "id": "3-on-3-hockey",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "8 Ball Pool",
+    "author": "Unknown",
+    "description": "Eight-ball is a pool billiards played on a billiard table with six pockets, cue sticks, and sixteen billiard balls: a cue ball and fifteen object balls. The object balls include seven solid-colored balls numbered 1 through 7, seven striped balls numbered 9 through 15, and the black 8 ball.",
+    "id": "8-ball-pool",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Bloons",
+    "author": "Ninja Kiwi",
+    "description": "Bloons Tower Defense is a series of tower defense games under the Bloons series created and produced by Ninja Kiwi. The game was initially developed as a browser game, built upon the Adobe Flash platform and released in mid 2007.",
+    "id": "bloons",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Falldown",
+    "author": "Danny Jugan",
+    "description": "Avoid the rising lines as you try to keep the ball from hitting the top.",
+    "id": "falldown",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Henry Stick Breaking Into The Bank",
+    "author": "Puffballs United",
+    "description": "Henry Stickmin attempts to break into a bank, built in the middle of a desert. He stands next to a wall and wonders how to break inside.",
+    "id": "henry-stick-breaking-the-bank",
+    "tags": ["adventure", "indie"],
+    "type": "flash"
+  },
+  {
+    "title": "Henry Stick Escaping The Prison",
+    "author": "Puffballs United",
+    "description": "Escaping the Prison is the second game in the Henry Stickmin series. It is the sequel to Breaking the Bank, and the prequel to Stealing the Diamond, and is named as Episode 1 of the Henry Stickmin story. It is one of the most popular of the series, with over 3 million plays on Newgrounds. It contains a total of 36 choices to make, which is 6 times the amount as the previous game.",
+    "id": "henry-stick-escaping-the-prison",
+    "tags": ["adventure", "indie"],
+    "type": "flash"
+  },
+  {
+    "title": "Henry Stick Infiltrating The Airship",
+    "author": "Puffballs United",
+    "description": "Infiltrating the Airship is the fourth game in the Henry Stickmin series. It is the sequel to Stealing the Diamond, and takes place before Fleeing the Complex, and is named as Episode 4 of the Henry Stickmin story. The game has four different endings and one fake ending.",
+    "id": "henry-stick-infiltrating-the-airship",
+    "tags": ["adventure", "indie"],
+    "type": "flash"
+  },
+  {
+    "title": "Henry Stick Stealing the Diamond",
+    "author": "Puffballs United",
+    "description": "Stealing the Diamond is the third game in the Henry Stickmin series. It takes place after Escaping the Prison and before Infiltrating The Airship, and is considered Episode 2 of the Henry Stickmin Collection.",
+    "id": "henry-stick-stealing-diamond",
+    "tags": ["adventure", "indie"],
+    "type": "flash"
+  },
+  {
+    "title": "The Impossible Quiz",
+    "author": "Splapp-Me-Do",
+    "description": "The Impossible Quiz...It's not impossible! One of the most aggravating games ever created! This game has simple graphics, suitable for all ages, especially children and families. You can experience this game on your browser because it is a flash game.",
+    "id": "the-impossible-quiz",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Worlds Hardest Game",
+    "author": "Snubby Land",
+    "description": "The World's Hardest Game speaks for itself, when we say it is the hardest game we aren't kidding! If you have played World's Hardest Game before, you know how difficult the game can be. You will need to be quick and decisive with your movements, and have a strategy going into each level. Lucky for you, we have some helpful tips and tricks that will help you whether you are experienced or a complete beginner.",
+    "id": "worlds-hardest-game",
+    "tags": ["puzzle", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Acid Bunny 2",
+    "author": "SeethingSwarm",
+    "description": "Acid Bunny is back! This time all the action takes place on the beach, the ocean and in the jungle as well as another Down Below level.",
+    "id": "acid-bunny-2",
+    "tags": ["adventure", "action", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Acid Bunny",
+    "author": "SeethingSwarm",
+    "description": "Ooh no! Acid Bunny had a flashback and accidentally killed one of his friends. Help him patch up the friendship finding all body parts, a needle, and lots of thread. Along the way wipe out acid spying opponents using carrots and other aids.",
+    "id": "acid-bunny",
+    "tags": ["adventure", "action", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Bejeweled",
+    "author": "PopCap Games",
+    "description": "Bejeweled is a series of tile-matching puzzle video games created by PopCap Games. Bejeweled was released initially for browsers in 2001",
+    "id": "bejeweled",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Bike Mania (flash)",
+    "author": "Ace Viral",
+    "description": "Ride your bike through the bumpy and challenging tracks. Do not hit the ground and show your skill! Release Date. April 2007 (Flash). January 2020 (HTML5).",
+    "id": "bike-mania-flash",
+    "tags": ["sports", "driving"],
+    "type": "flash"
+  },
+  {
+    "title": "Bike Mania",
+    "author": "Ace Viral",
+    "description": "Ride your bike through the bumpy and challenging tracks. Do not hit the ground and show your skill! Release Date. April 2007 (Flash). January 2020 (HTML5).",
+    "id": "bike-mania",
+    "tags": ["sports", "driving"],
+    "type": "html"
+  },
+  {
+    "title": "Bike Mania 2",
+    "author": "Ace Viral",
+    "description": "Second Bike Mania is a great online game. You will again have to show how you can deal with difficult terrain. Just play online, no download.",
+    "id": "bike-mania-2",
+    "tags": ["sports", "driving"],
+    "type": "flash"
+  },
+  {
+    "title": "Binding of Isaac",
+    "author": "Edmund McMillen and Florian Himsl",
+    "description": "The Binding of Isaac is a roguelike video game designed by independent developers Edmund McMillen and Florian Himsl. It was released in 2011 for Microsoft Windows, then ported to OS X, and Linux. The game's title and plot are inspired by the Biblical story of the Binding of Isaac.",
+    "id": "binding-of-isaac",
+    "tags": ["indie", "adventure", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Blobink 2",
+    "author": "Unknown",
+    "description": "Someone has stolen all the colours. Give everything it's own colour back and beat the big boss.",
+    "id": "blobink-2",
+    "tags": ["art"],
+    "type": "flash"
+  },
+  {
+    "title": "Bloons Tower Defense 2",
+    "author": "Ninja Kiwi",
+    "description": "Bloons Tower Defense 2 is a popular tower defense game originally released in Flash by Ninja Kiwi. Strategically place your defenses, upgrade your units, and stop all balloons from passing through.",
+    "id": "bloons-tower-defense-2",
+    "tags": ["action", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Bloons Tower Defense 4",
+    "author": "Ninja Kiwi",
+    "description": "Bloons Tower Defense 4 is a classic tower defense game initially released in Flash. Defend the path by placing various defenses tactically around the map. Upgrade them and unlock more as you get further through the game.",
+    "id": "bloons-tower-defense-4",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Duck Life 1 (Flash)",
+    "author": "Wix Games",
+    "description": "Duck Life is the first game in the Duck Life series. A tornado has struck your farm and destroyed everything. All that remains is a single duck egg. Train this duckling to peak athletic form so you can earn money to rebuild the farm.",
+    "id": "duck-life-1-flash",
+    "tags": ["action", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Duck Life 2 (Flash)",
+    "author": "Wix Games",
+    "description": "Duck Life 2 is a duck racing game with various training levels to improve your athletic abilities. When you've trained enough, you enter a duck ‘quadrathlon'' that puts your running, climbing, swimming, and flying skills to the test. Just another day in the life of a duck!",
+    "id": "duck-life-2-flash",
+    "tags": ["action", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Duck Life 3 (Flash)",
+    "author": "Wix Games",
+    "description": "Duck Life 3 is a duck racing game featuring genetically modified ducks that evolve as you progress. Choose from one of four duck breeds and evolve as you complete each league. Like the previous game, training is essential to level up and improve your abilities.",
+    "id": "duck-life-3-flash",
+    "tags": ["action", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Duck Life 4 (Flash)",
+    "author": "Wix Games",
+    "description": "Duck Life 4 is a duck racing game set after the ban on genetically modified ducks. A year has passed since the ban on genetically modified ducks and now it's up to you to defeat the world champion. Train your duck team to compete in six new locations around the world.",
+    "id": "duck-life-4-flash",
+    "tags": ["action", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Falldown 2",
+    "author": "Unknown",
+    "description": "Play Fall Down 2 flash game. Fall Down 2 is a Skill game to play free online. Controls: Use your mouse to play As a comment we let you know that Fall Down 2 game is one of the best skill games and a lot of fun is waiting for you playing Fall Down 2 online game, the game that many players have chosen it as their favorite, make your comparision and we hope you enjoy it. Remember that we offer you the best, funniest and the biggest collection of games in the world to play online.",
+    "id": "falldown-2",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Fancy Pants Adventure",
+    "author": "Borne Games",
+    "description": "Fancy Pants Adventures is a series of free side-scrolling Flash games created by American developer Brad Borne. Four worlds have been released so far. World 1 was released on March 14, 2006 and World 2 was released on January 9, 2008.",
+    "id": "fancy-pants-adventure",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Fancy Pants Adventure 2",
+    "author": "Borne Games",
+    "description": "The Fancy Pants Adventures: World 2 is an epic adventure platformer created by Brad Borne. In the first chapter of this legendary series, you will embark on a perilous journey to find your kidnapped sister. Run through dense forests, underwater caverns, and pirate ships while you stomp, kick and slash your enemies with 40 melee weapons. Explore the enchanting maps to find secrets, hidden levels, achievements, costumes, and much more! It's hard not to be amazed by the stunning hand-drawn artwork, satisfying animations, and the good sense of humor in Fancy Pants Adventures. Go ahead, put on your fancy pants and get to work!",
+    "id": "fancy-pants-adventure-2",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Gun Mayhem 2",
+    "author": "Kevin Gu",
+    "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!",
+    "id": "gun-mayhem-2",
+    "tags": ["shooter", "action", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Gun Mayhem",
+    "author": "Kevin Gu",
+    "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!",
+    "id": "gun-mayhem",
+    "tags": ["shooter", "action", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Learn to Fly 1",
+    "author": "Light Bringer Games",
+    "description": "Launch the penguin as far as you can, can you get all the upgrades? If you like this game, make sure to also play Learn to Fly Idle and Learn to Fly 3, the most recent editions!",
+    "id": "learn-to-fly-1",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Learn to Fly 2",
+    "author": "Light Bringer Games",
+    "description": "You're a penguin, you learned how to fly... but then icebergs stopped you and crushed your dreams. Now you're back for revenge!",
+    "id": "learn-to-fly-2",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Learn to Fly 3",
+    "author": "Light Bringer Games",
+    "description": "In the 3rd and final chapter of the Learn to Fly trilogy, your accomplished penguin pilot is off to explore the final frontier. Gameplay builds on the success of the previous games in the series, with new features and improvements that add even more depth and challenges. Now, customize and upgrade your own rocket ship, which you'll use to fly higher and further than your penguin pal ever imagined before.",
+    "id": "learn-to-fly-3",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Motherload",
+    "author": "XGen Studios",
+    "description": "Use your digger to excavate as much ore as possible. Use the money you earn to upgrade your digger and move deeper and deeper underground, to unearth the mysteries from below.",
+    "id": "motherload",
+    "tags": ["dig"],
+    "type": "flash"
+  },
+  {
+    "title": "PacMan",
+    "author": "Namco",
+    "description": "Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment. Entries have been developed by a wide array of other video game companies, including Midway Games, Atari and Mass Media, Inc..",
+    "id": "pacman",
+    "tags": ["arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Snake",
+    "author": "Unknown",
+    "description": "Snake is a video game genre where the player maneuvers a growing line that becomes a primary obstacle to itself. The concept originated in the 1976 two-player arcade game Blockade from Gremlin Industries, and the ease of implementation has led to hundreds of versions for many platforms.",
+    "id": "snake",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Super Mario Flash",
+    "author": "Pouetpu",
+    "description": "Super Mario Flash 1 is waiting for your action! Explore all levels. This is the most beautiful and most complete Super Mario clone all Mario games we have on our site. You have the choice of Mario or Luigi and can explore all parts of the world thereafter. This game also has a 'Level Editor', wilt thou not always make your own Mario World before? Here you have chance! If you have done a world you can share it with other people. Luigi or his brother to go with the arrow keys and shoot with the spacebar.",
+    "id": "super-mario-flash",
+    "tags": ["mario", "platformer", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Super Mario Flash 2",
+    "author": "Pouetpu",
+    "description": "The graphics have been improved in this sequel. Choose between Mario or Luigi, complete all the stages and head to the castle to save Princess Peach. Beware of your poweful enemies!",
+    "id": "super-mario-flash-2",
+    "tags": ["mario", "platformer", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Tetris",
+    "author": "Alexey Pajitnov",
+    "description": "Tetris is a puzzle video game created by Soviet software engineer Alexey Pajitnov in 1984. It has been published by several companies for multiple platforms, most prominently during a dispute over the appropriation of the rights in the late 1980s.",
+    "id": "tetris",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "The Last Stand Union City",
+    "author": "ConArtists",
+    "description": "Union City, also known as The Dead Zone, is a fictional metropolitan city featured in The Last Stand 2, The Last Stand: Union City, and The Last Stand: Dead Zone. It is also briefly mentioned in The Last Stand. Pre-outbreak, it had a population of 350,148, [n 1] the largest in the state.",
+    "id": "the-last-stand-union-city",
+    "tags": ["zombie", "shooter", "action", "adventure"],
+    "type": "flash"
+  },
+  {
+    "title": "Worlds Hardest Game 2",
+    "author": "Snubby Land",
+    "description": "World's Hardest Game 2 is the second episode of the self-proclaimed world's hardest game series! Hone your reflexes and accuracy as you try to move your little block to the end of each stage without touching the obstacles. Doing so will bring you back to the start so you can try again. The difficulty goes up after every stage, so keep your focus and see how far you can get in the World's Hardest Game 2.",
+    "id": "worlds-hardest-game-2",
+    "tags": ["puzzle", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Zombocalypse",
+    "author": "IronZilla",
+    "description": "Zombocalypse is an awesome zombie blasting 2D game in which fight waves and waves of undead. You might have known this game for a long time and we saved it from perdition along with a flash player. Thanks to this extension, you can continue to play it as long as you like.",
+    "id": "zombocalypse",
+    "tags": ["zombie", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Zombocalypse 2",
+    "author": "IronZilla",
+    "description": "Zombocalypse is an awesome zombie blasting 2D game in which fight waves and waves of undead. You might have known this game for a long time and we saved it from perdition along with a flash player. Thanks to this extension, you can continue to play it as long as you like.",
+    "id": "zombocalypse-2",
+    "tags": ["zombie", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Canyon Defense",
+    "author": "Miniclip",
+    "description": "Canyon Defense is an epic tower defense game in which you must attempt to defend your own base in the middle of a desert canyon. You must line the walls of the canyon with defensive towers in order to repel the invading troops.",
+    "id": "canyon-defense",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Copter",
+    "author": "SeeThru",
+    "description": "Copter game is a flash game for one player where you fly a helicopter through a maze of obstacles. This version is the most popular of helicopter game, being very easy to operate and required almost no skills at all. ... Copter game is played using just one button, the left button of your mouse.",
+    "id": "copter",
+    "tags": ["skill"],
+    "type": "flash"
+  },
+  {
+    "title": "Donkey Kong",
+    "author": "Nintendo",
+    "description": "Donkey Kong is a video game series created by Shigeru Miyamoto. It follows the adventures of an ape named Donkey Kong and his clan of other apes and monkeys. The franchise primarily consists of platform games, originally single-screen action puzzle games and later side-scrolling platformers.",
+    "id": "donkey-kong",
+    "tags": ["platformer", "action", "adventure", "puzzle", "driving"],
+    "type": "flash"
+  },
+  {
+    "title": "Draw Play",
+    "author": "Paul Brown",
+    "description": "A draw play, or simply draw for short, is a type of American football play. The draw is a running play disguised as a passing play. It is the opposite of a play-action pass, which is a passing play disguised as a running play. The play is often used in long yardage situations.",
+    "id": "draw-play",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Draw Play 2",
+    "author": "Paul Brown",
+    "description": "Draw-Play 2 is the sequel to the hugely popular and fun Draw-Play. In this follow-up, the gameplay remains the same - you must help your character through a series of levels by drawing them a path to walk on! In this title, even more, challenges and levels await and you must once again test your drawing skills and logic.",
+    "id": "draw-play-2",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "The Beard",
+    "author": "Tom Fulp",
+    "description": "This game is all about Tom Fulp's commitment to not shave his face until his next console game, Castle Crashers, is completed. It's a ridiculously over-the-top arcade boss battle that is well worth your time. We hope you enjoy it and discover the secret character!",
+    "id": "the-beard",
+    "tags": ["arcade", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Choose Your Weapon 2",
+    "author": "Mommy's Best Games",
+    "description": "Swing and jump in this platformer as you pick the right weapon to kill the enemies on each level.",
+    "id": "choose-your-weapon-2",
+    "tags": ["platformer", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Clear Vision",
+    "author": "Eldring Games AB",
+    "description": "Clear Vision is a free sniper game. Between assassination jobs, learn the dark truth about this stick dude's past. It's not pretty. But he does have a nice apartment! This is a stick sniper masterpiece where you take on the role of an assassin who has lead a hard life full of cold blood and hot women. It's a dark world when you're an assassin for hire and even though he may be the best there is at what he does, that doesn't mean what he does is very nice! Use basic sniper mechanics to delve into the questionable past of this hitman as you rack up a kill count and blast your way through his story. This is a story based stick sniper shooter which brings the duo-tone world of hyper-violent stick games to life through its deep characterization, and complex storytelling. You'll be introduced to characters you might not like but you will definitely understand. You will be forced to question your own morals and ethics as you stare down the barrel of a gun and into the yawning chasm of imperfect humans. Stick games are a staple of the casual gaming industry. They have been around longer than any of us and will probably be around a lot longer than any of us. Clear Vision is a step above the rest. It is truly one of the greatest stick sniper games available.",
+    "id": "clear-vision",
+    "tags": ["action", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Clear Vision Elite",
+    "author": "Eldring Games AB",
+    "description": "Clear Vision Elite is a free stick-sniper game. Clear Vision is back! This time with a kitchen, a computer, an office, and all sorts of things that aren't sniping --which is the point of the game. But, don't be confused, this is a sniper game. You'll have to click through lists, and go through different rooms and get all wrapped up in a plot line but at the end of all that after you bought your ammo and checked a name off a list and cleaned your kitchen or whatever: You will finally get to do some sniping! And it is worth it. The physics, the puzzles, the stick men, the aiming. It all comes together with your choice of guns and ammo to create a truly immersive sniper experience. Is it revenge, are you trying to save the world? Are you doing it just for the money? Only those who read through the multiple screens at the beginning of the game will know for sure. This is an exciting sniper adventure where you take on the underground gangs of the world and dish out justice from behind the business end of a smoking gun. Ready, aim, fun!",
+    "id": "clear-vision-elite",
+    "tags": ["action", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Crazy Taxi",
+    "author": "Hitmaker",
+    "description": "Petrol heads unite in this crash and burn style of driving game. Crazy Taxi Game is an online crazy driving complete with the crazy cabbie, the colored cars, the long desert highways, and the freaky car jumping. If you love the car chases in Taxi 2, play taxi driver man and recreate the riveting speed runs as you rush to beat the time. Hurry up and pump in the adrenaline to switch to the open lanes at the perfect time before they cut you off. Pound those keyboard arrow keys to accelerate forward and pass the cars blocking you ahead and keeping you from crossing the crucial time lines. Your quick thinking will be the deciding factor to garner the top spots in the scoring list. Each checkpoint you make adds up an additional time which means more asphalt to run. Failing to reach a checkpoint when the time runs out will mean that your mission is over. That s why failure is not an option for the speed freaks. There s not much need to decelerate, instead you must accelerate all you can! What are you waiting for? Pay the fare, and do the run of your life with Crazy Taxi Game.",
+    "id": "crazy-taxi",
+    "tags": ["driving", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Cursor 10",
+    "author": "Nekogames",
+    "description": "Use your 10 cursors to reach the 16th floor. As your previous lives are replayed, try to cooperate with yourself to reach the goal.",
+    "id": "cursor-10",
+    "tags": ["puzzle", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Dad N' Me",
+    "author": "Tom Fulp and Dan Paladin",
+    "description": "Dad n' Me is a brawler/ fighting game created by Tom Fulp and Dan Paladin, creators of Alien Hominid,in 2005. It is seen by many as the game which popularized flash games, as for its time it was unique as it was very advanced in a genre that was seen by some as primitive.",
+    "id": "dad-n-me",
+    "tags": ["fight", "action"],
+    "type": "flash"
+  },
+  {
+    "title": "Dental Adventure",
+    "author": "Unknown",
+    "description": "Always wanted to be a dentist? Well, even if you have not, you'll have lots of fun drilling teeth, filling cavities, and using your dental skills to solve lots of dental dilemmas. Hit the road with Glenn Martin, DDS and family and travel cross-country to 8 destinations, meeting new people and their mouths",
+    "id": "dental-adventure",
+    "tags": ["simulation"],
+    "type": "flash"
+  },
+  {
+    "title": "Duck Hunt",
+    "author": "Nintendo",
+    "description": "Duck Hunt is a fantastic arcade game that takes inspiration from the original classic available on Nintendo game systems. You must shoot the moving ducks down with your mouse and see how many points you can score.",
+    "id": "duck-hunt",
+    "tags": ["shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "DX Hockey",
+    "author": "Unknown",
+    "description": "What about a relaxed game of table hockey? DX Hockey is an air hockey game with different style, more bonus features and nice graphics. In this mouse driven air hockey game you have to beat your computer opponent, also collect those extra items! Use the mouse to move the puck in your area and try to accumulate seven points to proceed to the next level. Get all bonus items to have an advantage. Collect passwords and use them to continue to different game levels. There is total of 8 levels in this cool air hockey game called DX Hockey. Can you finish them all?",
+    "id": "dx-hockey",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Bloxors",
+    "author": "Damien Clarke",
+    "description": "Get the block to fall into the square hole to progress to the next level…",
+    "id": "bloxors",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Bullet Bill 2",
+    "author": "Psy City",
+    "description": "Take a turn with the bullets of Super Mario Brothers. These bullets take flight and it's your job to see them safely to the end. Can you kill the goombas on the way?",
+    "id": "bullet-bill-2",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Bullet Bill 3",
+    "author": "Psy City",
+    "description": "Smash your way through 54 exciting levels, or make your own with new level creation tools!",
+    "id": "bullet-bill-3",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Bullet Bill",
+    "author": "Psy City",
+    "description": "Use the arrow keys to move this bullet around the Mushroom Kingdom. Dodge the obstacles and get the highest score!",
+    "id": "bullet-bill",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Burger Tycoon",
+    "author": "Molleindustria",
+    "description": "Welcome back on the land where you always get to have the best time of your life, dearest friends, because on our site games-kids.com you will find nothing but the best and most exciting games, and we truly hope that you're willing to join us today within these great adventures as well as you did in all of them. Today's following game is called Burger Tycoon, and it's quite a thinking and management type of game, in which you'll have to run a very successful, yet hard business. We say that it's hard to keep a burger tycoon running, because you need to take care of so many things, such as your own crops you will use for the cows, the factory itself, the board of directors and other departments, and your restaurant of course. We know that you kids are going to do a wonderful job today, in Burger Tycoon, and we wish you guys good luck and we hope you'll have a blast!",
+    "id": "burger-tycoon",
+    "tags": ["simulation", "food"],
+    "type": "flash"
+  },
+  {
+    "title": "Boxhead 2",
+    "author": "Sean Cooper",
+    "description": "Lock and load your favorite item, take on the whole world in slo mode or tag in a friend to blast away at the competition back to back like in your favorite action movie. The choice is yours! ... You'll be going toe to toe with other players from around the world.",
+    "id": "boxhead-2",
+    "tags": ["zombie", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Electric Man",
+    "author": "Damien Clarke",
+    "description": "Electric Man is an awesome stickman fighter Flash game in which you must fight against a range of opponents using a variety of different punch and kick combos. Before you enter the game, you can choose the name and color of your stickman, and also the difficulty level (easy, normal or pro). Once you have chosen your character you can then complete a tutorial that shows you the basic game mechanics and move sets.",
+    "id": "electric-man",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Excite Bike",
+    "author": "Nintendo",
+    "description": "Excitebike is a motocross racing video game developed and published by Nintendo. In Japan, it was released for the Famicom in 1984 and then ported to arcades as Vs. Excitebike for the Nintendo Vs. System later the same year.",
+    "id": "excite-bike",
+    "tags": ["driving", "sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Feudalism 2",
+    "author": "Vitaly",
+    "description": "Feudalism 2 is a free fighter game. As they say, the world isn't going to conquer itself. In Feudalism 2, that's your job. In this strategy game with a helping of RPG fixings, select a character, bolster your army with a little gold, and then start conquering. ... Prove just how effective a little bit of feudalism can be.",
+    "id": "feudalism-2",
+    "tags": ["adventure", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Flood Runner 3",
+    "author": "Benrad",
+    "description": "Introducing the third instalment of Flood Runner! The aim is still to run and jump from one platform to the next to escape the wave that's hot on your heels. Flood Runner 3 has improved graphics and the game itself is a little less tricky than the previous episodes. If you fall into the water or lava, perform a QTE to survive and rejoin the race.",
+    "id": "flood-runner-3",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Flood Runner 4",
+    "author": "Benrad",
+    "description": "Flood Runner 4 is an endless runner game. Run from flood and giant monsters. Avoid challenging obstacles and try to survive as long as possible. Have Fun!",
+    "id": "flood-runner-4",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Flood Runner 2",
+    "author": "Benrad",
+    "description": "A huge wave is chasing you fast. Your goal is to beat the incoming flood by running fast and using the springs for big bounces and jump on the ramps for a boost. The surfboard will only save your life once. Run for your life and don't let the tsunami get you.",
+    "id": "flood-runner-2",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Earthbound",
+    "author": "Ape Inc",
+    "description": "EarthBound, released in Japan as Mother 2: Gīgu no Gyakushū, is a role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it was first released in Japan in August 1994, and in North America in June 1995. As Ness and his party of four, Paula, Jeff and Poo, the player travels the world to collect melodies from eight Sanctuaries in order to defeat the universal cosmic destroyer Giygas.",
+    "id": "earthbound",
+    "tags": [],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "Effing Worms",
+    "author": "Effing Game",
+    "description": "Effing Worms is a free stick game. Don't you wish you were a giant worm? Dig fast tunnels, and surprise hippies, cops, cows and pedestrians from below! Feed the beast, baby!",
+    "id": "effing-worms",
+    "tags": ["dig"],
+    "type": "flash"
+  },
+  {
+    "title": "Fat Ninja",
+    "author": "FreeOnlineGames",
+    "description": "Who says a Fat Ninja can't be just as good as a skinny ninja? Well, many people are saying that, but you are here to play the role of one in a brand new action-adventure fighting game with ninjas offered to you free of charge on our website, where despite being overweight, you and your avatar will give it your best to kick ass and defeat all the enemies, just like any shinobi would honor their mission by doing!",
+    "id": "fat-ninja",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Feudalism",
+    "author": "Vitaly",
+    "description": "Feudalism is an open world battle game in which you need to manage your soldiers and expand your power.",
+    "id": "feudalism",
+    "tags": ["adventure", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Flashcraft",
+    "author": "phantasmagor",
+    "description": "If you are looking for exciting adventures and a lot of fun, then this game is for you! Flash Craft was created by a team of professionals, so that you fully enjoy the easy controls, impeccable interface and an exciting game. There are Survival and Creative modes, day and night, weather changes and seasons.",
+    "id": "flashcraft",
+    "tags": ["action", "fight", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Free Rider 2",
+    "author": "Pete",
+    "description": "Free Rider 2 is the second episode of Free Rider, a bike riding game with a DIY track-drawing feature.",
+    "id": "free-rider-2",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Frogger",
+    "author": "Konami",
+    "description": "Frogger is a 1981 arcade action game developed by Konami and manufactured by Sega. In North America, it was released by Sega/Gremlin. The object of the game is to direct frogs to their homes one by one by crossing a busy road and navigating a river full of hazards.",
+    "id": "frogger",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Grow RPG",
+    "author": "eyezmaze",
+    "description": "Grow RPG is a cool turn based RPG game in which you must build up your kingdom and fight against the evil demon who is trying to destroy your world. Each turn you must place an object in your world such as a tree, a house, some stone, a chest or water for example.",
+    "id": "grow-rpg",
+    "tags": ["shooter", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Gods Playing Field",
+    "author": "CrazyMonkeyGames",
+    "description": "God's Playing Field is a free strategy game. You decide who lives and dies. If you've ever wanted a chance to play God, this is it.",
+    "id": "gods-playing-field",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Grid Lock",
+    "author": "Sam Schwartz",
+    "description": "Locked up blocks on the grid. Is there anything more we can explain to you?",
+    "id": "grid-lock",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo",
+    "author": "SeethingSwarm",
+    "description": "Hobo is the first instalment of this fun fighting game. You take control of a hobo and must fight your way through the streets! Don't let anyone boss you around or mistreat you - if they try to then use your super strength to punch and kick them into oblivion! Your hobo has a range of different fighting moves so try to use them all to defeat your enemies.",
+    "id": "hobo",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Indestructo Tank",
+    "author": "Tony",
+    "description": "As the pilot of an indestructable tank, you have certain responsibilities - Kicking Butt! Use the enemies weapons against them as you catapult yourself through the air and destroy the enemy air force!",
+    "id": "indestructo-tank",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Line Rider 2",
+    "author": "Bostjan Cadez",
+    "description": "Line Rider 2 is an awesome drawing game in which you must create a path for our awesome rider to slide along! Use the pencil tool to draw lines - you can choose different types of lines such as an acceleration line and a checkpoint. Use your imagination to crate weird and wonderful tracks and let your creativity run riot. ",
+    "id": "line-rider-2",
+    "tags": ["art"],
+    "type": "flash"
+  },
+  {
+    "title": "Mario Revived",
+    "author": "Nintendo",
+    "description": "Super Mario Revived is a upcoming exploration and 3-D platformer created by Nintendo for the Nintendo Spectrum, the Nintendo Switch, and the 3DS (in a non-HD style). It is a nostalgia game, with old enemies and obstacles and new features mixed in along with it.. It is said to be the longest platformer in history of Mario.",
+    "id": "mario-revived",
+    "tags": ["mario", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Max Dirt Bike 1",
+    "author": "Max Games",
+    "description": "Max Dirt Bike is the ultimate balance game. All you're going to need to remember if you wanna succeed in the fast-paced, highly competitive world of internet dirt biking is this: rev, charge, balance & brake. There isn't a hill you can't climb, a slope you can't overcome or a valley you won't dominate if you master the art of revving up, balancing on the brink, charging the hills and braking when the situation requires it. Max Dirt Bike is a smart physics action game that puts your dexterity and puzzle muscles to the test. If you want to end each level by fading into the darkness and disappearing to thee great leaderboard in the sky, then this is the. game you've been waiting for. The first, best, and most played dirt bike game with such a cool background!",
+    "id": "max-dirt-bike-1",
+    "tags": ["driving", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Monopoly",
+    "author": "Hasbro",
+    "description": "Monopoly is a real-estate board game for two to eight players. The player's goal is to remain financially solvent while forcing opponents into bankruptcy by buying and developing pieces of property. Bankruptcy results in elimination from the game. The last player remaining on the board is the winner.",
+    "id": "monopoly",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "N",
+    "author": "Metanet Software",
+    "description": "In N, the player controls a ninja who navigates tile-based levels while simultaneously avoiding hazards, collecting gold, and eventually opening an exit door which completes the level.",
+    "id": "n",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Parachute",
+    "author": "Homevision",
+    "description": "Parachute is a video game released in 1983 by Homevision for the Atari 2600. The game puts the player in the role of parachutist who is falling gently from the sky. In order to land safely, the player must evade aeroplanes, helicopters, birds and hot-air balloons.",
+    "id": "parachute",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Portal",
+    "author": "We Create Stuff",
+    "description": "Portal: The Flash Version includes over 40 challenging, portals thinking levels, which features almost every feature the real game does, in 2d - energy balls, cubes, turrets and even the famous crusher from the trailer. The game also includes a console to mess around with after finishing the game, or just being frustrated by thinking with portals!",
+    "id": "portal",
+    "tags": ["puzzle", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Prince of War",
+    "author": "Flashgem",
+    "description": "Prince of War is an action packed war game where you are tasked to defeat the orcs to keep your supply line running. Defeat all of the orcs they throw at you to improve your forces' morale. Your kingdom is yours to save!",
+    "id": "prince-of-war",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Prince of War 2",
+    "author": "Flashgem",
+    "description": "23 years after Prince of War, the sequel starts in the midst of civil unrest in the nation of Veidar. The duchy of Valis is rising against the kingdom with Duke Dunkeld leading the enemy armies. However, behind the enemy lines lurks something dark and evil...",
+    "id": "prince-of-war-2",
+    "tags": ["action", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Raft Wars",
+    "author": "Martijn Kunst",
+    "description": "Raft Wars is a fun, level-based shooting game created by Martijn Kunst, where you and your brother Simon will need to defend your treasure from enemies of all kinds!",
+    "id": "raft-wars",
+    "tags": ["shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Staggy the Boy Scout Slayer 2",
+    "author": "Unknown",
+    "description": "The boy scouts must die. This knight knows the scouts evil ways, and you must help cut away the freckled masses.",
+    "id": "staggy-the-boy-scout-slayer-2",
+    "tags": ["action", "adventure"],
+    "type": "flash"
+  },
+  {
+    "title": "Stick War",
+    "author": "Jason Whitham ",
+    "description": "Stick War is a classic strategy war game featuring stick figures. This original title was released in 2009 in Flash, and is now available to play in your web browser through Ruffle. Wage war through several nations and bring peace to the continent through a fun, action-packed campaign!",
+    "id": "stick-war",
+    "tags": ["strategy", "fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Storm the House 2",
+    "author": "Ivory",
+    "description": "Storm The House 2 is a sequel to Storm the House. Enjoy!",
+    "id": "storm-the-house-2",
+    "tags": ["shooter", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Tactical Assassin",
+    "author": "Simon Hason",
+    "description": "Tactical Assassin is a mission based sniping game that puts your cunning and accuracy to the test. Every level, you are given different targets to assassinate to clear your mission. You will need to make your clients happy so make sure to time and sequence your shots perfectly. Become the best sniper with Tactical Assassin!",
+    "id": "tactical-assassin",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Tactical Assassin 2",
+    "author": "Simon Hason",
+    "description": "Tactical Assassin 2 is a game in which you play as a sniper in the shadows. You'll be given different targets to eliminate, and you'll all do them while hidden away from the enemy. You're also not just some sniper, you have your own morals and codes, and that includes a very important rule - killing innocent people is not an option.",
+    "id": "tactical-assassin-2",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "The Unfair Platformer",
+    "author": "Eggy",
+    "description": "The Unfair Platformer is a funny and unique platformer game with a lot of traps in it. Stay careful and aware or you'll die.",
+    "id": "the-unfair-platformer",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Toss the Turtle",
+    "author": "Foreverkul Gonzossm",
+    "description": "Use cannons, bombs, and jetpacks to shoot your turtle as far as possible! Collect cash to upgrade your equipment.",
+    "id": "toss-the-turtle",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Zelda",
+    "author": "Shigeru Miyamoto and Takashi Tezuka",
+    "description": "The Legend of Zelda is a high fantasy action-adventure video game franchise created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, although some portable installments and re-releases have been outsourced to Capcom, Vanpool, and Grezzo.",
+    "id": "zelda",
+    "tags": ["action", "adventure"],
+    "type": "flash"
+  },
+  {
+    "title": "Armor RPG Experiment",
+    "author": "EviLudy",
+    "description": "Power up your attack, magic, and defense, and clash against your evil opponent to win experience and items.",
+    "id": "armor-rpg-experiment",
+    "tags": ["adventure", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Galaga",
+    "author": "Namco",
+    "description": "Galaga is a 1981 fixed shooter arcade video game developed and published by Namco. In North America, it was released by Midway Manufacturing. It is the sequel to Galaxian, Namco's first major video game hit in arcades.",
+    "id": "galaga",
+    "tags": ["shooter", "arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Geo Land RPG",
+    "author": "SPIRIT6666",
+    "description": "A fun RPG game with travel between 2 dimensions in order to save the world from an unknown enemy.",
+    "id": "geo-land-rpg",
+    "tags": ["adventure", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Grid 16",
+    "author": "John",
+    "description": "Tons of small games, each getting harder and harder as time speeds up. Survive as long as you can in the grid.",
+    "id": "grid-16",
+    "tags": ["puzzle", "strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Grow Island",
+    "author": "On Nakayama",
+    "description": "Grow Island is an episode of Grow series in which you need to place the correct items in order to develop your island fully.",
+    "id": "grow-island",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Gun Blood",
+    "author": "Wolf Games",
+    "description": "This town isn't big enough for the two of us, so draw! If you have ever wanted to be a part of a western duel, then look no further than Gunblood! Choose from one of ten wild west characters and attempt to outshoot your opponents! Nine rounds of intense, reaction based duels await you in this visceral game! After every successful duel, you are met with another, more challenging opponent and your odds of survival greatly decrease! Can you win every duel and prove that you are the best shot in town?",
+    "id": "gun-blood",
+    "tags": ["shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Hell Cops",
+    "author": "Game Top",
+    "description": "You're a cop on a mission to kill. Run over everyone and everything to get to the end of each level. If you crash, you fail. If you don't kill right, you fail.",
+    "id": "hell-cops",
+    "tags": ["driving"],
+    "type": "flash"
+  },
+  {
+    "title": "Hexxagon",
+    "author": "Argo Games",
+    "description": "Play Hexxagon online for free! A highly addictive, radioactive and hexagonal board game based on Ataxx.",
+    "id": "hexxagon",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo 4: Total War",
+    "author": "SeethingSwarm",
+    "description": "This time our beloved Hobo takes on the whole army. He is a wanted menace and everyone wants him dead. Prepare for total war, Hobo style!",
+    "id": "hobo-4-total-war",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo 5: Space Brawls",
+    "author": "SeethingSwarm",
+    "description": "Hobo 5 is a game where you play as a hobo who tries to escape from the alien's abduction. Fight with the aliens by kicking and punching them!",
+    "id": "hobo-5-space-brawls",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo 6: Hell",
+    "author": "SeethingSwarm",
+    "description": "Hobo 6 is subtitled Hell, and that is what you can expect in this game. Hobo has left earth for hell and is now facing demons and Satan himself. Arrow keys to move, A to punch and pick up objects, S for kicks and other things. Have fun!",
+    "id": "hobo-6-hell",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo 7: Heaven",
+    "author": "SeethingSwarm",
+    "description": "No lazy hobos allowed in Heaven! Hobo must kick and punch his way in, pulling off combos with the keyboard for disgusting special moves.",
+    "id": "hobo-7-heaven",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo 3: Wanted",
+    "author": "SeethingSwarm",
+    "description": "Hobo 3 continues with the story line where Hobo is a wanted fugitive after escaping from prison, and the government wants him dead or alive.",
+    "id": "hobo-3-wanted",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Hobo Prison Brawl",
+    "author": "SeethingSwarm",
+    "description": "Hobo Prison Brawl is an action game that lets you play as a hobo prison inmate who has had enough of the place, and is now ready to beat the living daylights out of everyone so he can escape! Beat up other prisoners and prison guards as you try to leave, while also learning new combos to give them everyone even more pain and punishment.",
+    "id": "hobo-prison-brawl",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Impossible Quiz Book",
+    "author": "Splapp-Me-Do",
+    "description": "The Impossible Quiz Book is a quiz-centered game that gives you a ton of questions to answer. There's a little twist though, not everything is as simple as they seem. Some of the questions will need some out-of-context answers, and you'll need to think through them. You'll be using all the information shown on-screen (not just the multiple choices they give you), which means you might need to check the interface for buttons you can press, or a keyboard key you might need to hit to get to the next question.",
+    "id": "impossible-quiz-book",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Indestructo Tank 2",
+    "author": "Tony",
+    "description": "Indestructo Tank is back for even more blasts, ready for some more Indestructo-Fun? Take on the Role of IndestructoTank pilot Dirk Danger and play through all new game modes!",
+    "id": "indestructo-tank-2",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Interactive Buddy 2",
+    "author": "shock-value",
+    "description": "The sequel to Interactive Buddy! Interact with the buddy using many new items and weapons!",
+    "id": "interactive-buddy-2",
+    "tags": ["simulation"],
+    "type": "flash"
+  },
+  {
+    "title": "Internet RPG",
+    "author": "slackor",
+    "description": "While you were off training at Ninja-camp an evil force called 'the Internet' invaded your world. Almost everyone in your village was killed in it's wake. As the only surviving Ninja it's up to YOU to find a way into the portal and destory the Internet once and for all.",
+    "id": "internet-rpg",
+    "tags": ["shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Kung Fu Remix 2",
+    "author": "ironclaw",
+    "description": "Kung Fu Remix classic game. A remake of the NES classic.",
+    "id": "kung-fu-remix-2",
+    "tags": ["fight"],
+    "type": "flash"
+  },
+  {
+    "title": "Line Game Orange",
+    "author": "ArcadePanic",
+    "description": "In this game, you have to guide this orange line. It needs to reach its destination which is a green spot. There are many obstacles on the way. Make sure that you help it from the start to the end. This orange line is very sensitive so you have to take care of it. It is time to have some fun!",
+    "id": "line-game-orange",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Mario Combat",
+    "author": "D-SuN",
+    "description": "Your Super Mario! What does that mean? It means you gotta go kick Bowsers butt! And that's exactly what your going to do!",
+    "id": "mario-combat",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Mini Putt",
+    "author": "Unknown",
+    "description": "Place the golf balls and hit them skillfully in various tricky golf courses.",
+    "id": "mini-putt",
+    "tags": ["sports"],
+    "type": "flash"
+  },
+  {
+    "title": "Only Level",
+    "author": "Jmtb02",
+    "description": "This Is The Only Level is a simple fun game where you must find a way to go to the finish point with a different twist in each level.",
+    "id": "only-level",
+    "tags": ["arcade", "platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "PacXon",
+    "author": "Toru Iwatani",
+    "description": "Pacxon is an addicting arcade game, based on the classic Pacman game, Pac xon will keep you challenged for hours.",
+    "id": "pacxon",
+    "tags": ["arcade"],
+    "type": "flash"
+  },
+  {
+    "title": "Pandemic 1",
+    "author": "Unknown",
+    "description": "Evolve, Infect, Kill! Pandemic is a game where you get to evolve you own biological virus and wipe out mankind!",
+    "id": "pandemic-1",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Pandemic 2",
+    "author": "Unknown",
+    "description": "Pandemic 2 is a free game about the spread of a dangerous pandemic in the modern age. This is a strategy game about the danger and threat of an aggressive virus as it slowly spreads its way across the globe. By playing as the virus instead of as medics, researchers, or other members of the medical and scientific communities you will see the mechanisms by which a virus may spread. This is a casual game with simple mechanics that allow for deep meaningful choices on behalf of the player. As the game continues your objective will be to spread your virus as far, as wide, and as fat as you possibly can. As your virus evolves you'll gain experience points. With these experience points, you will be able to purchases upgrades. You can choose from a lit of different symptoms which all have their own ways of helping the virus spread. This is a casual time-management game so you'll have to upgrade and then wait and see if your disease is progressing before your time limit. As time passes, you'll gain evolution points which is what you can use to purchase upgrades.",
+    "id": "pandemic-2",
+    "tags": ["strategy"],
+    "type": "flash"
+  },
+  {
+    "title": "Parking Mania",
+    "author": "Mobirate",
+    "description": "Use the arrow keys to steer and drive the car forward and backward. The goal is to park the car in the parking space. Just don't crash into anything!",
+    "id": "parking-mania",
+    "tags": ["puzzle"],
+    "type": "flash"
+  },
+  {
+    "title": "Powerpuff Girls Zombgone",
+    "author": "Craig McCracken",
+    "description": "Help remove barriers standing in the way of these girls.",
+    "id": "powerpuff-girls-zombgone",
+    "tags": ["action"],
+    "type": "flash"
+  },
+  {
+    "title": "Raft Wars 2",
+    "author": "Martijn Kunst",
+    "description": "Raft Wars 2 is an action-packed shooting game created by Martijn Kunst as the sequel to the hit game Raft Wars. Simon and his brother return from a well-deserved holiday only to find a water park on top of where they've hidden their buried treasure.",
+    "id": "raft-wars-2",
+    "tags": ["shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Real Estate Tycoon",
+    "author": "Unknown",
+    "description": "Real Estate Tycoon is playable online as an HTML5 game.",
+    "id": "real-estate-tycoon",
+    "tags": ["idle"],
+    "type": "flash"
+  },
+  {
+    "title": "Red Shift",
+    "author": "CrazyMonkeyGames",
+    "description": "Level up your ship and take on the enemy!",
+    "id": "red-shift",
+    "tags": ["action", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Robot Unicorn Attack",
+    "author": "",
+    "description": "",
+    "id": "robot-unicorn-attack",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads 1",
+    "author": "Pyrozen",
+    "description": "Sift Heads is a stickman sniper game to eliminate the enemies and complete the objectives in each level.",
+    "id": "sift-heads-1",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads 2",
+    "author": "PopBrain",
+    "description": "Sift Heads 2 is a shooting game where you need to kill the targets as fast as possible to access new missions.",
+    "id": "sift-heads-2",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads 3",
+    "author": "PopBrain",
+    "description": "Sift Heads 3 is a fighting game where you play as Vinnie, that needs to kill and shoot the enemies.",
+    "id": "sift-heads-3",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads 4",
+    "author": "PopBrain",
+    "description": "Sift Heads 4 is a shooting game where you must kill the targets to complete each mission.",
+    "id": "sift-heads-4",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads 5",
+    "author": "PopBrain",
+    "description": "Sift Heads 5 is an action-shooting game where you must kill the enemies to solve and complete intense missions.",
+    "id": "sift-heads-5",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sift Heads World",
+    "author": "Pyrozen",
+    "description": "Return to the Sift Heads series in Sift heads World Act 1 (Deadly Newcomer). This stickman game allows you to choose from three different assassins – Kiro, Vinnie, or Shorty; each assassin has a different skillset and weapons. Kiro for example wields a samurai sword and owns a custom motorbike. Once you have chosen your character you can progress with the story and watch the opening cut scene.",
+    "id": "sift-heads-world",
+    "tags": ["shooter", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sim Web 2.0 Company",
+    "author": "",
+    "description": "",
+    "id": "sim-web-2-0-company",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Skull Kid",
+    "author": "",
+    "description": "",
+    "id": "skull-kid",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Sky Wire",
+    "author": "",
+    "description": "",
+    "id": "sky-wire",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Spider Man",
+    "author": "",
+    "description": "",
+    "id": "spider-man",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Sprinter",
+    "author": "",
+    "description": "",
+    "id": "sprinter",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Stick RPG",
+    "author": "",
+    "description": "",
+    "id": "stick-rpg",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Submachine 1",
+    "author": "",
+    "description": "",
+    "id": "submachine-1",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Submachine 2",
+    "author": "",
+    "description": "",
+    "id": "submachine-2",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Submachine 3",
+    "author": "",
+    "description": "",
+    "id": "submachine-3",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Super Smash Flash",
+    "author": "",
+    "description": "",
+    "id": "super-smash-flash",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Super Mario 63",
+    "author": "",
+    "description": "",
+    "id": "super-mario-63",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Treasure Seas ",
+    "author": "",
+    "description": "",
+    "id": "treasure-seas",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Tron",
+    "author": "",
+    "description": "",
+    "id": "tron",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Tsunami Fighter",
+    "author": "",
+    "description": "",
+    "id": "tsunami-fighter",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Use Boxmen",
+    "author": "",
+    "description": "",
+    "id": "use-boxmen",
+    "tags": ["platformer"],
+    "type": "flash"
+  },
+  {
+    "title": "Warfare 1944",
+    "author": "",
+    "description": "",
+    "id": "warfare-1944",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Kitten Cannon",
+    "author": "",
+    "description": "",
+    "id": "kitten-cannon",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Moto X3M",
+    "author": "",
+    "description": "",
+    "id": "moto-x3m",
+    "tags": ["driving", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Moto X3M Winter",
+    "author": "",
+    "description": "",
+    "id": "moto-x3m-winter",
+    "tags": ["driving", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Moto X3M Spooky Land",
+    "author": "",
+    "description": "",
+    "id": "moto-x3m-spooky-land",
+    "tags": ["driving", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Moto X3M Pool Party",
+    "author": "",
+    "description": "",
+    "id": "moto-x3m-pool-party",
+    "tags": ["driving", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Hill Racing",
+    "author": "",
+    "description": "",
+    "id": "hill-racing",
+    "tags": ["driving"],
+    "type": "html"
+  },
+  {
+    "title": "Running Bot Xmas Gifts",
+    "author": "",
+    "description": "",
+    "id": "running-bot-xmas-gifts",
+    "tags": ["skill"],
+    "type": "html"
+  },
+  {
+    "title": "Russian Taz Driving 2",
+    "author": "G55.CO",
+    "description": "",
+    "id": "russian-taz-driving-2",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "Slope 2",
+    "author": "",
+    "description": "",
+    "id": "slope-2",
+    "tags": ["skill"],
+    "type": "unity"
+  },
+  {
+    "title": "Game Inside a Game",
+    "author": "Sam Hogan",
+    "description": "",
+    "id": "game-inside-a-game",
+    "tags": ["platformer", "strategy", "puzzle"],
+    "type": "unity"
+  },
+  {
+    "title": "Zombotron",
+    "author": "",
+    "description": "",
+    "id": "zombotron",
+    "tags": ["zombie"],
+    "type": "html"
+  },
+  {
+    "title": "Zombotron 2",
+    "author": "",
+    "description": "",
+    "id": "zombotron-2",
+    "tags": ["zombie"],
+    "type": "html"
+  },
+  {
+    "title": "Zombotron 2 Time Machine",
+    "author": "",
+    "description": "",
+    "id": "zombotron-2-time-machine",
+    "tags": ["zombie"],
+    "type": "html"
+  },
+  {
+    "title": "Donut Boy",
+    "author": "Damon",
+    "description": "The Dough-Nutter 4000 has malfunctioned! It's up to you, Donut Boy, to rescue the employees and donuts that were scattered around town from the resulting explosion.",
+    "id": "donut-boy",
+    "tags": ["indie"],
+    "type": "html"
+  },
+  {
+    "title": "Henry Stick Fleeing The Complex",
+    "author": "",
+    "description": "",
+    "id": "henry-stick-fleeing-the-complex",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "A Dance of Fire and Ice",
+    "author": "",
+    "description": "A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium. Press on every beat of the music to move in a line. Every pattern has its own rhythm to it. It can get difficult. This game is purely based on rhythm, so use your ears more than your sight.",
+    "id": "a-dance-of-fire-and-ice",
+    "tags": ["rhythm"],
+    "type": "unity"
+  },
+  {
+    "title": "Superhot",
+    "author": "",
+    "description": "No regenerating health bars. No conveniently placed ammo drops. It's just you, outnumbered and outgunned, grabbing weapons off fallen enemies to shoot, slice, and maneuver through a hurricane of slow-motion bullets.",
+    "id": "superhot",
+    "tags": ["shooter"],
+    "type": "unity"
+  },
+  {
+    "title": "Wordle",
+    "author": "",
+    "description": "Wordle is a web-based word game developed by Welsh-born software engineer Josh Wardle. Players have six attempts to guess a five-letter word; feedback is given for each guess, in the form of colored tiles, indicating when letters match or occupy the correct position. This tweak has no limit to how many games you can play!",
+    "id": "wordle",
+    "tags": ["strategy", "skill"],
+    "type": "html"
+  },
+  {
+    "title": "Getaway Shootout",
+    "author": "",
+    "description": "Race on top of a moving train in Getaway Shootout and be the first to grab 3 getaways. Compete against computer AI or with a friend in 2 player mode to prove who is the best. There are many weapons and power-ups you can collect throughout the map use it wisely to to gain an upper hand over your opponents.",
+    "id": "getaway-shootout",
+    "tags": ["shooter"],
+    "type": "unity"
+  },
+  {
+    "title": "Google Solitaire",
+    "author": "Google",
+    "description": "Patience, card solitaire or just solitaire, is a genre of card games that can be played by a single player. Patience games can also be played in a head-to-head fashion with the winner selected by a scoring scheme.",
+    "id": "google-solitaire",
+    "tags": ["google"],
+    "type": "html"
+  },
+  {
+    "title": "Rooftop Snipers",
+    "author": "",
+    "description": "Rooftop Snipers is a chaotic two button local multiplayer game. Challenge your friends side by side or play the computer. Shoot your opponent off the map to win.",
+    "id": "rooftop-snipers",
+    "tags": ["shooter"],
+    "type": "unity"
+  },
+  {
+    "title": "Tube Jumpers",
+    "author": "Michael Eichler",
+    "description": "Tube Jumpers is local multiplayer game with your friends packed with action. The last one to stay on the tubes wins. Watch out for miscellaneous objects while watching your back from other players.",
+    "id": "tube-jumpers",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "Super Mario Bros",
+    "author": "",
+    "description": "Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo. It was designed by Shigeru Miyamoto and Gunpei Yokoi, Nintendo's chief engineer. Italian plumber Mario and his twin brother Luigi exterminate creatures emerging from the sewers by knocking them upside-down and kicking them away.",
+    "id": "super-mario-bros",
+    "tags": ["mario"],
+    "type": "emulator",
+    "emulator": "nes"
+  },
+  {
+    "title": "A Dark Room",
+    "author": "",
+    "description": "A Dark Room is a minimalist text-based adventure RPG game right in your browser! How far will you go, player?",
+    "id": "a-dark-room",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Align 4",
+    "author": "",
+    "description": "Align 4 is a two-player connection board game just like Connect 4, in which the players choose a color and then take turns dropping colored discs into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. The first player can always win by playing the right moves.",
+    "id": "align-4",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Colorun",
+    "author": "",
+    "description": "COLORON is a fun and well-designed platformer. The goal is to match the color of the tower to the bouncing ball. Keep it going for as long as you can, just don't get mad.",
+    "id": "colorun",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Drift Hunters",
+    "author": "Illia Kaminetskyi",
+    "description": "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars. These points earn you money, that you can spend to upgrade your current car or buy a new one. The game stands out because of its realistic drifting physics and its various driving environments.",
+    "id": "drift-hunters",
+    "tags": ["driving"],
+    "type": "unity"
+  },
+  {
+    "title": "Economical",
+    "author": "baba_s",
+    "description": "2D puzzle action game where saving coins is important! Aiming for a goal using items. Make a way with blocks. Break a block with a hammer. But you need coins.",
+    "id": "economical",
+    "tags": ["platformer", "indie"],
+    "type": "unity"
+  },
+  {
+    "title": "Economical 2",
+    "author": "baba_s",
+    "description": "Version 2 of the 2D puzzle action game where saving coins is important! Aiming for a goal using items. Make a way with blocks. Break a block with a hammer. But you need coins.",
+    "id": "economical-2",
+    "tags": ["platformer", "indie"],
+    "type": "unity"
+  },
+  {
+    "title": "Geometry Dash Remastered",
+    "author": "",
+    "description": "Welcome all to Geometry Dash Remastered, and, well, you already know the game. But this is more, this is 5 new levels you can't find anywhere else, this is ... REMASTERED (I'm totally serious).",
+    "id": "geometry-dash-remastered",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Google Snake",
+    "author": "Google",
+    "description": "How long can you last before your tail becomes your dinner? Take the challenge and eat all those apples! Be careful not to hit the wall!",
+    "id": "google-snake",
+    "tags": ["google", "strategy"],
+    "type": "html"
+  },
+  {
+    "title": "Hacker Typer",
+    "author": "",
+    "description": "",
+    "id": "hacker-typer",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Madalin Stunt Cars 2",
+    "author": "",
+    "description": "Welcome to the expansive open world of Madalin Stunt Cars 2. Pick your car and drift, drag and race your way through three massive fully explorable maps. Jump behind the wheel of the hottest supercars on the planet, race through cities and execute trick stunts with the sensational Madalin Stunt Cars 2. Pick a Huracan, LaFerrari, Pagani or Veneno and tear up the streets. Compete in multiplayer arenas with other MSC2 gamers.",
+    "id": "madalin-stunt-cars-2",
+    "tags": ["driving"],
+    "type": "unity"
+  },
+  {
+    "title": "Tactical Assassin 3",
+    "author": "",
+    "description": "Tactical Assassin 3 is a sniper game that lets you play as a war sniper, which means you have a hand in the win or loss of your fight. You're given all the tools you'll need to take out the most valuable targets in the field, so make sure to take a deep breath before pulling that trigger.",
+    "id": "tactical-assassin-3",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Ultimate Flash Sonic",
+    "author": "",
+    "description": "Ultimate Flash Sonic is a sonic fangame made in Adobe Flash. It was created by Dennis-Gid and it was uploaded to Newgrounds on Febuary 21, 2004.",
+    "id": "ultimate-flash-sonic",
+    "tags": ["sonic"],
+    "type": "flash"
+  },
+  {
+    "title": "Sniper Assassin 4",
+    "author": "",
+    "description": "This is a job that requires finesse and nerves of steel. Lives are at stake here, people! Just don't kill the innocent",
+    "id": "sniper-assassin-4",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Tunnel Rush",
+    "author": "Royale Gamers",
+    "description": "Tunnel Rush Unblocked is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush to dodge barriers using just your wits and your keyboard. In the game, the ball will keep rolling forward, there will be unknown obstacles in front of us, we need to control the ball to get the tunnel! Just dodge the obstacles by dodging the diamonds in the middle. Now let's take the challenge together! Wanna test your reaction speed? Play Tunnel Rush online now and push your skills to the limit. There's only one way to show those barriers who's boss, so play Tunnel Rush on Poki to show off those ultra-sharp reactions.",
+    "id": "tunnel-rush",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "Basket Random",
+    "author": "",
+    "description": "The random series continues with Basket Random! Basketball is here with its most funny and random way. In Basket Random game, try to score a basket by using only one key with different variations from each other! Changing fields, changing players and changing balls do not surprise you! You can be the best of them all. You can play Basket Random game either against CPU or against a friend in 2 player gaming mode! The one who reaches 5 score first, wins the game. Have Fun!",
+    "id": "basket-random",
+    "tags": ["sports"],
+    "type": "html"
+  },
+  {
+    "title": "Mario Kart 64",
+    "author": "",
+    "description": "Mario Kart 64 is a 1996 kart racing video game developed and published by Nintendo for the Nintendo 64. The game is the second entry in the Mario Kart series and is the successor to Super Mario Kart for the Super Nintendo Entertainment System.",
+    "id": "mario-cart-64",
+    "tags": ["mario"],
+    "type": "emulator",
+    "emulator": "n64"
+  },
+  {
+    "title": "Pokémon Blue",
+    "author": "Nintendo",
+    "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
+    "id": "pokemon-blue",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gb"
+  },
+  {
+    "title": "Pokémon Crystal",
+    "author": "Nintendo",
+    "description": "Originally released for the Game Boy™ Color system in 2000, the Pokémon™ Crystal game added several new features to the Pokémon franchise. For the first time, players could choose a female or male character, Pokémon battles featured animation, and more. And now, this Virtual Console release invites you to explore the Johto region again—or for the first time.",
+    "id": "pokemon-crystal",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gb"
+  },
+  {
+    "title": "Pokémon Gold",
+    "author": "Nintendo",
+    "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
+    "id": "pokemon-gold",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gb"
+  },
+  {
+    "title": "Pokémon Red",
+    "author": "Nintendo",
+    "description": "Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.",
+    "id": "pokemon-red",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gb"
+  },
+  {
+    "title": "Pokémon Silver",
+    "author": "Nintendo",
+    "description": "Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!",
+    "id": "pokemon-silver",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gb"
+  },
+  {
+    "title": "Pokémon Emerald",
+    "author": "Nintendo",
+    "description": "Pokémon Emerald Version takes Trainers back to the land of Hoenn for an expanded adventure, this time against both Team Magma and Team Aqua! Pokémon Emerald also features an even more exciting storyline featuring the Legendary Rayquaza.",
+    "id": "pokemon-emerald",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Pokémon Fire Red",
+    "author": "Nintendo",
+    "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
+    "id": "pokemon-fire-red",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Pokémon Leaf Green",
+    "author": "Nintendo",
+    "description": "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.",
+    "id": "pokemon-leaf-green",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Pokémon Ruby",
+    "author": "Nintendo",
+    "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
+    "id": "pokemon-ruby",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Pokémon Sapphire",
+    "author": "Nintendo",
+    "description": "Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...",
+    "id": "pokemon-sapphire",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Pokémon HeartGold",
+    "author": "Nintendo",
+    "description": "Pokémon HeartGold is a 2009 remakes of the 1999 Game Boy Color role-playing video game Pokémon Gold, also including features from Pokémon Crystal. The games are part of the fourth generation of the Pokémon video game series, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. In commemoration of the 10th anniversary of Gold and Silver, the game was released in Japan on September 12, 2009, and were later released in other regions during March 2010.",
+    "id": "pokemon-heartgold",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "nds"
+  },
+  {
+    "title": "Pokémon SoulSilver",
+    "author": "Nintendo",
+    "description": "Pokémon SoulSilver is a 2009 remakes of the 1999 Game Boy Color role-playing video game Pokémon Silver, also including features from Pokémon Crystal. The games are part of the fourth generation of the Pokémon video game series, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. In commemoration of the 10th anniversary of Gold and Silver, the game was released in Japan on September 12, 2009, and were later released in other regions during March 2010.",
+    "id": "pokemon-soulsilver",
+    "tags": ["pokemon"],
+    "type": "emulator",
+    "emulator": "nds"
+  },
+  {
+    "title": "Basketball Stars",
+    "author": "",
+    "description": "Basketball Stars is a 2-player basketball game created by Madpuffers. You can play solo or with a friend as a variety of legendary basketball players. Shoot basketball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars!",
+    "id": "basketball-stars",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Minesweeper",
+    "author": "",
+    "description": "Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field.",
+    "id": "minesweeper",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Sans Fight",
+    "author": "",
+    "description": "Undertale Sans Fight Clone; 'do you wanna have a bad time? 'cause if you visit this page... you are REALLY not going to like what happens next.'",
+    "id": "sans-fight",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "There is no Game",
+    "author": "",
+    "description": "There is no game. There is nothing to do. Do not click or tap anywhere. Really. DO NOT CLICK OR TAP ANYWHERE. Do not laugh as there is nothing to laugh about.",
+    "id": "there-is-no-game",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Unfair Dyne",
+    "author": "",
+    "description": "Break the word in half and add 'UN' to each part. Undyne fight, but harder.",
+    "id": "unfair-dyne",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Volley Gosh",
+    "author": "LDJam46",
+    "description": "Volley Gosh is a bright and happy ball game where you must try keep your 'volley gosh ball' in the air for as long as possible. Watch out for the increasing challenge and surprises that abound on the joyful beach while you get your next high score!",
+    "id": "volley-gosh",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "NBA Jam",
+    "author": "",
+    "description": "NBA Jam is a classic arcade basketball game developed and published back in 1993 and is the first entry to the NBA Jam series. The game features 2 on 2 basketball match off and is one of the first sports games to feature real and digitized NBA-licensed teams and players!",
+    "id": "nba-jam",
+    "tags": ["sports"],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "NBA Jam Tournament Edition",
+    "author": "",
+    "description": "NBA Jam Tournament Edition is the second game in the basketball arcade series created by Midway. The game features two-on-two fast paced matches with real life NBA players from the 1993-1994 seasons. The game has over 120 NBA athletes plus more than 40 hidden characters to unlock.",
+    "id": "nba-jam-tournament-edition",
+    "tags": ["sports"],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "NBA Jam 2K20",
+    "author": "",
+    "description": "NBA Jam 2K20: Tournament Edition is a ROM hack of the game NBA Jam: Tournament Edition for the Super Nintendo Entertainment System (SNES). This hack did not change the core aspects, as well as most game mechanics, of the game, and instead worked on updating its player and team roster to match the 2019-2020 NBA season.",
+    "id": "nba-jam-2k20",
+    "tags": ["sports"],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "Donkey Kong Country",
+    "author": "",
+    "description": "Donkey Kong Country is a side-scrolling platform game in which the player must complete 40 levels to recover the Kongs' banana hoard, which has been stolen by the crocodilian Kremlings.",
+    "id": "donkey-kong-country",
+    "tags": [],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "Super Mario Allstars + Super Mario World",
+    "author": "",
+    "description": "Super Mario All-Stars + Super Mario World is a compilation title for the Super Nintendo Entertainment System. It includes all the games from Super Mario All-Stars, as well as Super Mario World. It was released in December 1994 in North America, 1995 in Europe, and was never released in Japan.",
+    "id": "super-mario-allstars--super-mario-world",
+    "tags": ["mario"],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "Street Fighter 2",
+    "author": "",
+    "description": "Street Fighter II: The World Warrior is a competitive fighting game originally released for the arcades in 1991. It is the second entry in the Street Fighter series and the arcade sequel to the original Street Fighter released in 1987. It was Capcom's fourteenth title that ran on the CP System arcade hardware. Street Fighter II improved upon the many concepts introduced in the first game, including the use of command-based special moves and a six-button configuration, while offering players a selection of multiple playable characters, each with their own unique fighting style.",
+    "id": "street-fighter-2",
+    "tags": [],
+    "type": "emulator",
+    "emulator": "snes"
+  },
+  {
+    "title": "Sonic 1",
+    "author": "",
+    "description": "Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.",
+    "id": "sonic-1",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "segaMD"
+  },
+  {
+    "title": "Sonic 2",
+    "author": "",
+    "description": "Sonic the Hedgehog 2 is a 1992 platform game developed and published by Sega for the Sega Genesis. It follows Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg.",
+    "id": "sonic-2",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "segaMD"
+  },
+  {
+    "title": "Sonic 3 & Knuckles",
+    "author": "",
+    "description": "Dr. Eggman's (AKA Dr. Robotnik's) Death Egg was once again blasted by Sonic, crash-landing on the peak of a volcano on the Floating Island. Dr. Eggman is still at large, and Sonic can't allow him to get his hands on the Master Emerald and repair the Death Egg.",
+    "id": "sonic-3",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "segaMD"
+  },
+  {
+    "title": "Meat Boy",
+    "author": "",
+    "description": "This is NOT Super Meat Boy! Its simply the flash prototype that Super Meat Boy was based off of. SMB, will play very differently and is 100% new.. what im saying is if you even slightly enjoy the prototype, you will LOVE SMB! For more info on Super Meat Boy check out supermeatboy.com",
+    "id": "meat-boy",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Shift",
+    "author": "",
+    "description": "Is the floor the roof? Is the roof the floor? And whats with that in game timer? Find the answers to all the above questions and more in this original puzzle platformer!",
+    "id": "shift",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Shift 2",
+    "author": "",
+    "description": "The sequel to The Shift! Is the floor the roof? Is the roof the floor? And whats with that in game timer? Find the answers to all the above questions and more in this original puzzle platformer, part 2!",
+    "id": "shift-2",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Unfair Mario",
+    "author": "",
+    "description": "It is Super Mario, again. Our beloved little fellow is inviting you to travel alongside him throughout the Unfair Mario game. You will find yourself in the classic arcade game, but this time, with a little twist. Some traps will be trickier, and some obstacles harder to overcome. But you will survive it, will you not?",
+    "id": "unfair-mario",
+    "tags": ["mario"],
+    "type": "flash"
+  },
+  {
+    "title": "Soccer Random",
+    "author": "",
+    "description": "Soccer Random is one of the most fun sports games. The game's objective is to score a goal using only one key with different variations!",
+    "id": "soccer-random",
+    "tags": ["sports"],
+    "type": "html"
+  },
+  {
+    "title": "Volley Random",
+    "author": "",
+    "description": "The fun random game series continues with Volley Random. There is a Volleyball experience unlike any before. With fun ragdoll physics and a variety of variations, each match will be different. The playing court, ball and players may change. The important thing is to be able to get score under all conditions. ",
+    "id": "volley-random",
+    "tags": ["sports"],
+    "type": "html"
+  },
+  {
+    "title": "Boxing Random",
+    "author": "",
+    "description": "The new version of the random game series that you love to play continues with Boxing Random. Again, changing conditions occur in every round. Sometimes the boxing field changes and sometimes the boxers. Adapt to every random feature and hit accurately. When you get the rocket punch, balance and send it to the opponent's head. This way you can knock out the opponent without getting close! The one who reaches 5 score first, wins the game!",
+    "id": "boxing-random",
+    "tags": ["sports"],
+    "type": "html"
+  },
+  {
+    "title": "Madness Accelerant",
+    "author": "",
+    "description": "Madness Accelerant is a fast-paced action game to beat the enemies and escape the beast monster. This game is a playable remake of Krinkel's Madness Consternation.",
+    "id": "madness-accelerant",
+    "tags": [],
+    "type": "flash"
+  },
+  {
+    "title": "Mind Games for 2 Player",
+    "author": "",
+    "description": "We collected some brain and board games that you can play as two player in a single game. We are presenting you eight brain / table game which are played by everyone fondly. You can play Chess, Tic Tac Toe, Checkers, Ludo, Connect 4, Snake and Ladders, Mancala and Math games in game box for free! If you cannot decide on which game you want to play, you can give a chance to spin the “Spin” to let it pick a game for you.",
+    "id": "mind-games-for-2-player",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "Uno",
+    "author": "",
+    "description": "The classic popular game UNO can be played online in the browser. You can play the game locally or online multiplayer. You can enter the lobbies in the online section. Face up to 3 CPU-controlled opponents. Match cards by color or number, play action cards to mix the game up and be the first to get rid of all cards. Also, do not forget to press the 1 button when you have only one card left!",
+    "id": "uno",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Flakboy",
+    "author": "",
+    "description": "Wanna try out some awesome new weapons? Of course you do. Get blastin'!",
+    "id": "flakboy",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Gun Knight",
+    "author": "Evan Samuel",
+    "description": "A roguelike heavily inspired by Gungeon and Binding of Isaac, you play a Knight whose quest is to venture into a nearby dungeon.",
+    "id": "gun-knight",
+    "tags": ["arcade"],
+    "type": "html"
+  },
+  {
+    "title": "Ludo Online",
+    "author": "Gametion Technologies",
+    "description": "Ludo King is an Indian free-to-play mobile game application developed by Indian studio Gametion Technologies Pvt Ltd, based in Mumbai, India. Gametion is owned by Vikash Jaiswal. It is developed on the Unity game engine and is available on Android, iOS, Kindle, Windows Phone and Microsoft Windows platforms.",
+    "id": "ludo-online",
+    "tags": [],
+    "type": "unity"
+  },
+  {
+    "title": "Time Shooter 2",
+    "author": "GoGoMan",
+    "description": "",
+    "id": "time-shooter-2",
+    "tags": ["shooter"],
+    "type": "unity"
+  },
+  {
+    "title": "Celeste",
+    "author": "Matt Thorson",
+    "description": "Celeste is a 2018 platform game developed and published by indie studio Maddy Makes Games. The player controls Madeline, a young woman with anxiety and depression who aims to climb Celeste Mountain. During her climb, she encounters several characters, including a personification of her self-doubt known as Badeline, who attempts to stop her from climbing the mountain.",
+    "id": "celeste",
+    "tags": [],
+    "type": "html"
+  },
+  {
+    "title": "Fire Truck Dash",
+    "author": "",
+    "description": "",
+    "id": "fire-truck-dash",
+    "tags": ["driving"],
+    "type": "html"
+  },
+  {
+    "title": "Google Gnome",
+    "author": "Google",
+    "description": "Use your trusty catapult (or trebuchet to be precise) to launch your clay gnomes into the farthest reaches of your garden. The farther your gnome travels, the more flowers you plant the more points you earn!",
+    "id": "google-gnome",
+    "tags": ["google"],
+    "type": "html"
+  },
+  {
+    "title": "Papa's Bakeria",
+    "author": "Flipline Studios",
+    "description": "It's time to bake delicious pies in Papa's Bakeria. It's another part of the Papa Louie restaurant management series.",
+    "id": "papas-bakeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Burgeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Burgeria is another game in the Papa Louie cooking game series. In this game, you have to be in charge of a burger restaurant. Take orders and prepare the best burgers for customers.",
+    "id": "papas-burgeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Cheeseria",
+    "author": "Flipline Studios",
+    "description": "Papa's Cheeseria is a brand new part of the Papa Louie restaurant management game series. In this game, you have to take orders and prepare the best cheese sandwiches!",
+    "id": "papas-cheeseria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Cupcakeria",
+    "author": "Flipline Studios",
+    "description": "Papa Louie is back in Papa's Cupcakeria! In this part, you have to run the sweet shop for Papa Louie. Take orders, bake delicious cupcakes, and satisfy the customers.",
+    "id": "papas-cupcakeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Donuteria",
+    "author": "Flipline Studios",
+    "description": "Papa's Donuteria is a great part of the Papa Louie game series. It is available online for free without Flash. This time you have to prepare the best donuts in town.",
+    "id": "papas-donuteria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Freezeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Freezeria is a cooking game where players take the role of either Alberto or Penny and take charge of the dessert shop for Papa Louie.",
+    "id": "papas-freezeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Hot Doggeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Hot Doggeria is a restaurant management game where you have to manage a hot dog restaurant for Papa Louie. Serve the best hot dogs to satisfy the customers.",
+    "id": "papas-hot-doggeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pancakeria",
+    "author": "Flipline Studios",
+    "description": "Welcome to Papa's Pancakeria. It's a fantastic part of the Papa Louie series. In this game, you can play as either Cooper or Prudence and make delicious pancakes for customers.",
+    "id": "papas-pancakeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pastaria",
+    "author": "Flipline Studios",
+    "description": "Papa's Pastaria is the ultimate cooking game of the popular Papa's series, this time you will have the time to manage a pasta restaurant. Papa Pastria throws players in the heart of Italy for a wedding jet ticket. The first new point, you can now make changes to your character. Get your first customers and prepare the best of some delicious spaghetti, pasta, or gnocchi Bolognese and alla Carbonara. Papa's Pastaria is a restaurant game that gives you excellent time management and shows off your cooking ability.",
+    "id": "papas-pastaria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Pizzeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Pizzeria is a fantastic game in the Papa's game series. In this game, Papa Louie is away on vacation and you have to manage the pizza restaurant for him. Take orders, add toppings, bake pizzas, and serve the customers.",
+    "id": "papas-pizzeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Scooperia",
+    "author": "Flipline Studios",
+    "description": "Papa's Scooperia is an exciting part of the Papa Louie game series where you have to manage an ice cream shop, bake cookies, prepare ice cream, and make the customers happy.",
+    "id": "papas-scooperia",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Sushiria",
+    "author": "Flipline Studios",
+    "description": "Papa's Sushiria game takes place in Sakura Bay where you have to prepare the most delectable sushi for customers. It's the thirteenth installment in the Papa Louie game series.",
+    "id": "papas-sushiria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Taco Mia",
+    "author": "Flipline Studios",
+    "description": "Papa's Taco Mia is a fun cooking game that will awaken your taste buds. In this game you play as a Mexican Chef. Your mission is to serve your customers in the best way and not miss their tacos. A best time management game to enjoy without downloading.",
+    "id": "papas-taco-mia",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Papa's Wingeria",
+    "author": "Flipline Studios",
+    "description": "Papa's Wingeria is the sixth part in the Papa Louie game series where you have to make tons of chicken wings and things to satisfy the customers to Papa's Wingeria restaurant.",
+    "id": "papas-wingeria",
+    "tags": ["food"],
+    "type": "flash"
+  },
+  {
+    "title": "Versus Umbra",
+    "author": "Arkuni",
+    "description": "Versus Umbra is a 2D shooter video game developed by Arkuni in Adobe Flash and released in 2011. In the game, you control a playable character and shoot all foes. The game features lots of weapons and a perk system.",
+    "id": "versus-umbra",
+    "tags": ["action", "shooter"],
+    "type": "flash"
+  },
+  {
+    "title": "Sonic Advance",
+    "author": "Sonic Team",
+    "description": "Sonic Advance is a side-scrolling platform game reminiscent of the original Sonic the Hedgehog games released for the Sega Genesis.",
+    "id": "sonic-advance",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "gba"
+  },
+  {
+    "title": "Sonic Advance 2",
+    "author": "Sonic Team",
+    "description": "Sonic Advance 2 is a 2002 side-scrolling platform video game developed by Dimps for the Game Boy Advance.",
+    "id": "sonic-advance-2",
+    "tags": ["sonic"],
+    "type": "emulator",
+    "emulator": "gba"
+  }
+]
